@@ -1,0 +1,2290 @@
+#HELPS
+
+0 SPELL_ARMOR~
+Syntax: {Ccast armor{x {c<character>{x
+Group {GProtective{x
+
+This spell creates magical armor that surrounds you.
+~
+
+0 SPELL_ACID_BLAST~
+Syntax: {Ccast 'acid blast'{x {c<victim>{x
+Group {GCombat{x
+
+This spell creates a magical bolt of pure acid.  Although not nearly as
+powerful as some of the more destructive spells, it is a staple attack spell
+in most arcane spellcasters library.
+~
+
+0 SPELL_CALL_LIGHTNING~
+Syntax: {Ccast 'call lightning'{x
+Group {GWeather{x
+
+This spell works only out of doors, and only when the weather is bad.
+It calls down lightning bolts from the heavens.
+
+
+~
+
+0 SPELL_CHANGE_SEX~
+Syntax: cast {C'change sex'{x {c<victim>{x
+Group {GMaladictions{x
+
+This spell temporarily changes the sex of the victim.
+~
+
+0 SPELL_CHARM_PERSON~
+Syntax: {Ccast 'charm person'{x {c<victim>{x
+Group {GBeguiling{x
+
+This spell, if successful, causes the victim to follow you and to take orders
+from you.  Use {CORDER{x to order your charmed followers.
+
+You are responsible for the actions of your followers.  Conversely, other
+people who attack your followers will be penalized as if they attacked you.
+~
+
+0 SPELL_CONTINUAL_LIGHT~
+Syntax: {Ccast 'continual light'{x
+Syntax: {Ccast 'continual light'{x {c<object>{x
+Group {GCreation{x
+
+This spell creates a ball of light, which you can hold as a light source.
+The ball of light will last indefinitely. It may also be used on an object
+to give it an enchanted glow.
+~
+
+0 SPELL_CREATE_FOOD~
+Syntax: {Ccast 'create food'{x
+Group {GCreation{x
+
+By using this spell, the caster is able to magically create simple
+foods for consumption.  These food products are bland in design
+and offer only the basic requirements to sate your hunger, however
+it does allow you to spend a much longer time away from a city or
+town during adventures and quests.
+
+The most common food items created are as follows:
+
+A Magic Mushroom, Hero sandwich and a Nuked TV dinner.
+~
+
+0 SPELL_CREATE_SPRING~
+Syntax {Ccast 'create spring'{x
+Group {GCreation{x
+
+ This spell calls forth a bubbling spring to provide water for yourself
+and your companions.  Used in much the same way as a fountain, it is however
+very short lived and quickly dries up.  
+~
+
+0 SPELL_CREATE_WATER~
+Syntax: {Ccast 'create water'{x {c<drink-container>{x
+Group {GCreation{x
+
+This spell draws upon the moisture contained in the air
+that you breath to replenish a drinking container with clear, 
+clean water.
+~
+
+0 SPELL_CURE_LIGHT SPELL_CURE_SERIOUS SPELL_CURE_CRITICAL SPELL_HEAL~
+Syntax: {Ccast 'cure light'{c    <target>{x
+Syntax: {Ccast 'cure serious'{c  <target>{x
+Syntax: {Ccast 'cure critical'{c <target>{x
+Syntax: {Ccast 'heal'         {c <target>{x
+Group {GHealing{x
+
+Healing spells are the primary tools of a cleric or priest.  Although they
+are capable fighters in a combat situation, they rely on their deity given
+powers and the strength of thier faith to win the day.
+
+The following spells are listed above in the order of potency and strength.
+
+Casting any of these spells will mend torn flesh, repair broken bones and
+return health to the target.
+~
+
+0 SPELL_DETECT_HIDDEN~
+{wSyntax: {Ccast 'detect hidden'{x
+Group {GDetection{x
+{x
+{wThis spell enables the caster to detect hidden creatures.
+~
+
+0 SPELL_DETECT_INVIS~
+Syntax: {Ccast 'detect invis'{x
+Group {GDetection{x
+
+This spell enables the caster to detect invisible objects and characters.
+
+~
+
+0 SPELL_DETECT_MAGIC~
+Syntax: {Ccast 'detect magic'{x
+Group {GDetection{x
+
+This spell enables the caster to detect the aura that surrounds all
+items and objects that have been touched by magic.
+~
+
+0 SPELL_DETECT_POISON~
+Syntax: cast {C'detect poison'{c <object>{x
+Group {GDetection{x
+
+This spell enables the caster to detect the presence of poison
+in food or drink.
+~
+
+0 SPELL_ENCHANT_WEAPON~
+Syntax: {Ccast 'enchant weapon'{c <weapon>{x
+Group {GEnchantment{x
+
+This spell magically enchants a weapon, increasing its to-hit and to-dam
+bonuses by one or two points.  Multiple enchants may be cast, but as the
+weapon grows more and more powerful, it is more likely to be drained or
+destroyed by the magic.  Also, every successful enchant increases the level
+of the weapon by one...and there is no turning back.
+~
+
+-1 SPELL_ENCHANT_ARMOR~
+Syntax: {Ccast 'enchant armor'{c <armor type>{x
+Group {GEnchantment{x
+
+The enchant armor spell imbues armor with powerful protective magics. It is
+not nearly as reliable as enchant weapon, being far more prone to destructive
+effects.  Each succesful enchant increases the plus of the armor by 1 or 2
+points, and raises its level by one.
+~
+
+0 SPELL_FAERIE_FIRE~
+{CSyntax: cast 'faerie fire' {c<target>{x
+Group {GWeather{x
+{x
+The fire of the Faeries has long been known to weaken 
+enemy resistances.  The fire surrounds your enemy and deteriorates 
+its armor, making it more subjectable to damage for a certain while.
+~
+
+0 SPELL_IDENTIFY~
+{wSyntax: {Ccast identify {c<object>{x
+Group {GDetection{x
+
+This spell allows the caster to learn the function of a given item
+or device. 
+~
+
+0 SPELL_INFRAVISION~
+Syntax: {Ccast infravision{c <character>{x
+Group {GEnhancement{x
+
+This spell enables the target character to see warm-blooded creatures even
+while in the dark, and exits of a room as well.
+~
+
+0 SPELL_INVIS SPELL_MASS_INVIS SPELL_INVISIBLITY~
+Syntax: {Ccast 'invisibility'{c <character>{x
+Syntax: {Ccast 'invisibility'{c <object>{x
+Syntax: {Ccast 'mass invis'{x
+Group {GIllusion{x
+
+By use of this spell, the caster is able to bend visible light around
+themselves, others and or objects.  Each such casting will if successful
+hide the target from normal view.  The following conditions apply when
+this spell is cast:
+
+The {CINVIS{x spell makes the target character invisible.  Invisible characters
+will become visible when they attack. It may also be cast on an object
+to render the object invisible.
+
+The {CMASS INVIS{x spell makes all characters in the caster's group invisible,
+including the caster.
+~
+
+0 SPELL_KNOW_ALIGNMENT~
+Syntax: {Ccast 'know alignment'{c <character>{x
+Group {GDetection{x
+
+This spell reveals the alignment of the target character.
+
+~
+
+0 SPELL_LOCATE_OBJECT~
+Syntax: {Ccast 'locate object'{c <name>{x
+Group {GDetection{x
+
+This spell reveals the location of all locatable objects with the given name.
+~
+
+0 SPELL_POISON~
+{wSyntax: {Ccast poison {c<victim>{x
+{wSyntax: {Ccast poison {c<object>{x
+Group {GMaladictions{x
+
+This spell reduces the strength of the victim by two, as well as reducing the
+victim's regeneration rate. It may also be used to poison food, drink, or
+a weapon in a fashion similar to envenom ('help envenom'), but with 
+drastically reduced effectiveness.
+~
+
+0 SPELL_SLEEP~
+Syntax {Ccast sleep{x {c<victim>{x
+Group {GBeguiling{x
+
+When this spell is cast, the victim is placed in a comatose slumber. 
+While asleep, s/he is vulnerable to maladiction spells and looses the
+ability to defend themselves properly.  An attack against the person under
+the affects of this spell will negate the slumber and allow them to defend
+themselves against further attacks.
+~
+
+0 SPELL_VENTRILOQUATE~
+Syntax: {Ccast ventriloquate{c <speaker> <message>{x
+Group {GIllusion{x
+
+This spell throws your voice, making it appear that some other object or
+character in the room is saying your message.  Victims who make their saving
+throw will know that someone is using ventriloquism, but not who.  Victims who
+fail their saving throw will think that the object or character really did say
+your message.
+
+~
+
+0 SKILL_PHASE~
+A skill allowing the user to pahse out of existance making them immune to 
+physical damage for a brief period of time.
+~
+
+0 EXOTIC WEAPONS WEAPON WEAPONSMASTER WEAPONMASTER SKILL_AXE SKILL_DAGGER SKILL_FLAIL SKILL_MACE SKILL_POLEARM SKILL_SPEAR SKILL_SWORD SKILL_WHIP~
+{wEach weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon.  The weaponsmaster group
+provides talent in all weapons (save exotics), from chair legs to halberds.
+If the character has the parry skill as well, he can parry incoming attacks.
+The chance of parrying is best if the character in question is skilled at 
+both his weapon and his opponent's.
+
+The weapon skills consist of the following:
+
+{Cweaponsmaster{x       skill group of all weapons listed below (save exotic weaponry)
+{Caxe{x                 the use of axes, ranging from hand to great (but not halberds)
+{Cdagger{x              the use of knives and daggers, and other stabbing weapons
+{Cflail{x               skill in ball-and-chain type weapons
+{Cmace{x                this skill includes clubs and hammers as well as maces
+{Cpolearm{x             the use of pole weapons (except spears), including halberds
+{Cspear{w               this skill covers spears and a few staves
+{Csword{x               the warrior's standby, from rapier to claymore
+{Cwhip{x                the use of whips, chains, and bullwhips
+{Cexotic{x              the use of strange magical weapons
+{x
+The exotic skill cannot be purchased, and is dependent solely upon level.
+ 
+{CNote: {wSome staves fall under polearm and some fall under spear.
+~
+
+0 SKILL_SHIELD_BLOCK~
+Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield.  Only the thief, warrior, ranger, paladin and assassin
+classes may learn shield block. Beware, flails ignore shield blocking
+attempts, and whips have an easier time getting around them.  Axes may split
+shields in two.
+                                                    
+~
+
+0 SKILL_BASH BASH~
+Syntax: {Cbash{x {c<target>{x
+
+The bash skill is a warrior talent, a brute-force attack designed to knock
+your foe to his knees.  Its success depends on many factors, including the
+bash rating, your weight, and the size of your opponent.  Bashing a dragon
+is not generally a wise idea.
+
+~
+
+0 SKILL_ENHANCED_DAMAGE~
+This skill is often learned and mastered by warriors and thieves.  Used during
+combat, it enables the attacker to inflict more damage upon his or her enemies
+
+Although it is not unheard of for other classes to gain mastery in this skill,
+it often comes after years of training and sacrifice.
+Enhanced damage is checked for with each hit, although with a low skill,
+the chance of receiving a bonus  is very low indeed.
+~
+
+0 SKILL_PARRY~
+If at first you fail to dodge, block it.  Parry is useful for deflecting
+attacks and is successful more often than dodge.  Parry requires a weapon
+for full success, the hand-to-hand skill may also be used, but results in
+reduced damage instead of no damage.  The best chance of parrying occurs
+when the defender is skilled in both his own and the opponent's weapon
+type.
+
+~
+
+0 SKILL_RESCUE~
+A friend in need is a friend indeed.  And when in combat, a warrior
+with the rescue skill is just the friend you need.  Rescue allows you
+to intercede in combat, protecting weaker characters from bodily harm.
+Hopefully the favor will be returned.  Success in rescuing depends on
+the skill rating, as well as a comparison of level, dexterity, and
+speed between the character and the target. 
+(note: you rescue a friend, not the monster).
+
+~
+
+0 RECALL SKILL_RECALL~
+Syntax: RECALL
+Syntax: /
+
+RECALL prays to the god Pelor for miraculous transportation from
+where you are back to the temple in your hometown.  / is a synonym
+for RECALL.
+
+If you RECALL during combat, you will lose experience (more than for
+fleeing), and you will have a chance of failing (again, more than for
+fleeing). RECALL costs half of your movement points.
+
+RECALL doesn't work in certain god-forsaken rooms.  Characters afflicted by
+a curse may not recall at all.
+~
+
+0 SKILL_BUTCHER BUTCHER~
+Syntax: {Cbutcher corpse{x
+
+Butcher is a gruesome and bloody skill.  Butcher allows you to carve corpses into 
+steaks which you can save and eat whenever you choose.
+~
+
+0 SKILL_DIRT SKILL_DIRT_KICKING DIRT DIRTKICKING~
+Syntax: {Cdirt{x {c<creature or mob>{x 
+
+Considered by some to be a cowardly skill, {CDIRT KICKING{x gives the clever
+combatant a chance to blind his opponent by casting dirt into his eyes.
+The blindness does not last long, but can provide an edge in combat.
+Dexterity helps in hitting or avoiding a {CDIRT KICK{x.
+
+~
+
+0 SKILL_SECOND_ATTACK~
+Training in second attack allows the character a chance at additional
+strikes in combat, however, a 100% second attack skill does NOT guarantee
+2 attacks every round.
+
+This skill is automatic once it is trained beyond 1% however at a low rank, this
+skill has very little chance of success.
+~
+
+0 SKILL_HAND_TO_HAND~
+Hand to hand combat is a rare skill. Learning this style of fighting gives
+the player a weapon even when disarmed -- his or her bare hands. Trained
+hand to hand experts are far more effective than many swordsmen.
+~
+
+0 SKILL_FAST_HEALING~
+The fast healing skill improves wound healing rates, whether walking,
+resting, or sleeping. It represents knowledge of healing herbs or just
+general toughness and stamina.  Fast healing is checked every tick, and
+it is possible for it to fail.
+~
+
+0 SKILL_KICK~
+Syntax: {Ckick{c <target>{x
+
+Kicking allows the adventurer to receive an extra attack in combat, a
+powerful kick. However, a failed kick may throw an unwary fighter off
+balance.  If a player becomes a master at this skill, he/she will be
+able to do more damage with the roundhouse attack.
+
+~
+
+0 SKILL_HIDE SKILL_SNEAK HIDE SNEAK~
+Syntax: {Chide{x
+Syntax: {Csneak{x
+
+{CHIDE{x and {CSNEAK{x are similar skills, both related to remaining undetected.
+
+Hide has a very high chance of success, but only works for as long as the
+character remains stationary. 
+
+Sneak may be used when moving (including to sneak by monsters), but has a
+lower chance of success.
+~
+
+0 SKILL_DISARM DISARM~
+Syntax: {Cdisarm{x
+
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when
+you are skilled in both your own and your opponent's weapon.
+
+{RNote{x: This skill can only be used if you are currently engaged in
+{R    {x  combat.
+{x
+{YCheck out {CHelp Cat_Combat {Yfor more Combat related helps.{x
+~
+
+1 SKILL_THIRD SKILL_THIRD_ATTACK~
+Training in third attack allows the character a chance at an additional
+strike in a combat, and increases the chance of a second attack as well.
+A perfect third attack skill of 100% does NOT assure three attacks per
+round. 
+
+This skill is automatic once it is trained beyond 1% however at a low rank, this
+skill has very little chance of success.
+~
+
+0 SKILL_DODGE~
+In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honors this tradition, by improving
+the character's natural agility to the point where many blows will miss
+the target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.
+
+~
+
+0 SKILL_HAGGLE HAGGLING~
+Haggling is an indispensable skill to the trader.  It allows a character to
+match wits with a merchant, seeking to get a better price for merchandise,
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrainined adventurer had best 
+guard his treasure closely.  Thieves are natural masters at haggling, 
+although other classes may learn it as well.
+~
+
+0 SKILL_PEEK~
+The peek skill is useful for seeing what a player or monster is carrying,
+the better to use the steal command with.  More intelligent characters are
+harder to peek at.  All characters may learn peek, but thieves are the most
+common practicioners.
+~
+
+0 SKILL_TRIP TRIP~
+Syntax: {Ctrip{x {c<character>{x
+Syntax: {Ctrip{x 
+
+Trip is a somewhat dastardly attack, and involves using any one of a
+number of methods to bring your opponent down to the ground. Tripping
+large monsters is generally not a good idea, and agile ones will find
+the attack easy to avoid.  Thieves and warriors may learn trip.
+~
+
+0 SKILL_MEDITATION~
+{wThis skill is similar to fast healing, but relies on the concentration and
+mantras to increase mana recovery when the character is sleeping or resting.
+Thieves and warriors, with their troubled minds and violent attitudes, have
+much trouble learning to meditate.
+~
+
+0 SKILL_BERSERK BERSERK~
+Syntax: {Cberserk{x
+
+Only powerful warriors can master berserking, the ability to enter insane
+rage in combat. Its effects are not altogether unlike the frenzy spell --
+a huge surge of combat prowess, coupled with a disregard for personal
+safety.  Berserking warriors are more resistant to the effects of magic.
+~
+
+0 SKILL_LORE LORE~
+Syntax: {Clore <object>{x
+
+Lore is a general skill, consisting of knowledge of myths and legends. Use
+of the lore skill gives a chance of obtaining information on an object,
+concerning its power and uses.  It also may occasionally increase the value
+of an object, because more will be known about its worth.  All classes may
+learn lore, although thieves are best at it, and warriors find it very hard
+to use.
+~
+
+0 SKILL_PICK_LOCK~
+Lock picking is one of the prime skills of thieves and assassins,
+allowing them to gain access to many secured areas.  Lock picking
+chances are improved by intelligence, and hindered by the difficulty
+of the lock. 
+~
+
+0 SKILL_COUNTER~
+This skill enables you to turn the attack of your enemy back on him.
+
+~
+
+0 SKILL_CRITICAL_STRIKE~
+Critical strike is a skill, that when learned, will increase the fighter's
+chance of delivering a death blow to the victim.  This is a straight 2% chance
+of killing the mob in one hit.
+
+If the percent chance fails, critical strike will still increase the amount
+of damage that is dealt from the attack.
+~
+
+0 SKILL_CIRCLE CIRCLE~
+Circle is the ability to get behind your opponent in a fight and attack
+them from behind.  Only assassins and ninjas have the discipline to learn
+this advanced technique.  There is also a slight chance that your victim
+will die instantly from the trauma.  
+~
+
+0 SKILL_STEAL~
+Syntax: {CSTEAL COINS {c<character>{x
+Syntax: {CSTEAL {c<object> <character>{x
+
+STEAL attempts to steal coins or an object from a character. There are
+penalties for using STEAL on other players. In order to STEAL successfully,
+you must practice the appropriate skill.
+~
+
+0 SPELL_MAGIC_MISSLE SPELL_MAGIC_MISSILE~
+Syntax:  {C'magic missile' {c<target>{x
+Group {GCombat{x
+ 
+Use of the magic missile spell creates up to five missiles of magical energy
+that dart forth from the wizard's fingertip and unerringly strike their target
+~
+
+0 SPELL_CAUSE_LIGHT SPELL_CAUSE_SERIOUS SPELL_CAUSE_CRITICAL SPELL_HARM~
+Syntax: {Ccast 'cause light'{c    <target>{x
+Syntax: {Ccast 'cause serious'{c  <target>{x
+Syntax: {Ccast 'cause critical'{c <target>{x
+Syntax: {Ccast 'harm'          {c <target>{x
+Group {GHarmful{x
+
+The same power granted to a cleric or a priest to heal wounds
+can also be used to harm his or her enemies.  The spells contained
+within this spell group are often used by those who worship the many
+darker powers of Thera to bring great pain and suffering to those that
+oppose their will.
+~
+
+0 SPELL_CURE_BLINDNESS SPELL_CURE_DISEASE SPELL_CURE_POISON~
+Syntax:  {C'cure blindness'{c <target>{x
+Syntax:  {C'cure disease'  {c <target>{x
+Syntax:  {C'cure poison'   {c <target>{x
+Group {GCurative{x
+ 
+Curative magic is often used to remove harmful spell-like affects
+that attack the senses and or the body directly.  Disease, blindness and
+poison are all classic examples of spells that affect the target in a
+harmful manner.  Curative magic can be used to counter these effects.
+
+The success rate of these spells is determined by the level of the caster
+who cast the spell you are trying to remove verse your level for reasons
+of removal of said effects.
+~
+
+0 SPELL_FAERIE_FOG~
+Syntax:  {C'faerie fog'{c <target>{x
+Group {GWeather{x
+ 
+This spell enables the caster to outline one or more objects or creatures with a 
+pale glowing light. This will make the target easier to hit, since it is now 
+clearly visible. 
+~
+
+0 SPELL_BURNING_HANDS~
+Syntax:  {Ccast 'burning hands'{x {c<target>{x
+Group {GAttack{x
+ 
+Once cast, a fan of flame shoots from the wizard's touching thumbs and 
+outstretched hands. The fan reaches three feet forward from the thumbs, and 
+extends 60 degrees to the right and left, gradually shortening until the fan 
+slopes into the wrists 
+~
+
+0 SPELL_REFRESH~
+Syntax: {Ccast refresh{c <target>{x
+Group {GHealing{x
+ 
+When this spell is cast, it restores valuable energy and endurace to the
+target in the form of movement points.  The once weary character will find
+that his or her body feels like brand new and although this spell can not
+heal a character of damage suffered from wounds, it often strengthens their
+resolve to press onward.
+~
+
+0 SPELL_PROTECTION_EVIL SPELL_PROTECTION_GOOD~
+Syntax:  {C'protection evil'{c <target>{x 
+Syntax:  {C'protection good'{c <target>{x
+Group {GProtective{x
+ 
+When this spell is cast, it creates a magical barrier around the recipient at a 
+distance of 1 foot. The barrier moves with the recipient and has a major effect:
+All attacks made by evil or evilly enchanted creatures in case of protection 
+evil, or good in case of protection good against the protected creature receive 
+a penalty on it's attacks.
+~
+
+0 SPELL_SHOCKING_GRASP~
+Syntax:  {C'shocking grasp'{c <target>{x
+Group {GCombat{x
+ 
+This spell does damage to a target. When the wizard casts shocking grasp, he 
+develops a powerful electrical charge that gives a jolt to the creature touched. 
+~
+
+0 SPELL_DISPEL_GOOD SPELL_DISPEL_EVIL~
+Syntax: {Ccast 'dispel evil' {c<victim>{x
+Syntax: {Ccast 'dispel good' {c<victim>{x
+Group {GAttack{x
+
+{CDISPEL GOOD{x brings forth evil energies that inflict horrific torment on the
+pure of heart.  Good-aligned characters use this dark magic at their peril.
+
+{CDISPEL EVIL{x invokes the wrath of heaven on an evil victim. It can be very
+dangerous for casters who are not pure of heart.
+~
+
+0 SPELL_BLESS~
+Syntax:  {Ccast bless{x {c<target>{x 
+Group {GBenedictions{x
+ 
+This spell improves the to-hit roll and saving throw versus spell of the
+target character by 1 for every 8 levels of the caster. It may also be
+cast on an object to temporarily bless it (blessed weapons, for example,
+are more effective against demonic beings).
+~
+
+0 SPELL_EARTHQUAKE~
+Syntax {Ccast earthquake{c <targets>{x
+Group {GAttack{x
+
+When this spell is cast, a local tremor of fairly high strength rips the
+ground.  The shock is over in one round.  The earthquake affects all
+terrain, vegetation, structures, and creatures in its area of effect.
+
+This spell inflicts damage on every enemy character in the room.
+Beware that other characters who are not yet fighting may attack
+you as a result!
+~
+
+0 SPELL_BLINDNESS~
+Syntax:  {Ccast blindness{x {c<target>{x
+Group {GMaladictions{x
+ 
+"To strike your opponent you need to see your opponent" - ancient saying. 
+
+With this spell you take away your foe's ability to see, thus making him 
+more or less helpless.
+~
+
+0 SPELL_FLOATING_DISC~
+Syntax {Ccast 'floating disk'{x
+Group {GCreation{x
+ 
+This useful spell creates a floating disc field of force which follows
+the caster around, allowing him or her to pile treasure high with no fear
+of weight penalties.  It lasts no more than twice the casters level in
+hours, and usually less.  It can hold 10 pounds per level of the caster,
+with a maximum of five pounds per item.  The spell requires an open float
+location on the character, and the only way to remove the disc is to die
+or allow it to run out of energy
+~
+
+0 SPELL_FIREPROOF~
+Syntax {Ccast fireproof{c <target>{x
+Group {GEnchantment{x and {GProtective{x
+ 
+The fireproof spell creates a short-lived protective aura around an object,
+to protect it from the harmful effects of acid and flame.  Items protected
+by this spell are not harmed by acid, fire, or the heat metal spell.
+Although inexpensive to use, the spell's short duration makes it impractical
+for protecting large numbers of objects.
+~
+
+0 SPELL_PLAGUE~
+Syntax {Ccast plague{c <target>{x
+Group {GMaladictions{x
+ 
+The plague spell infests the target with a magical disease of great
+virulence, sapping its strength and causing horrific suffering, possibly
+leading to death. It is a risky spell to use, as the contagion can spread
+like wildfire if the victim makes it to a populated area. Most players
+announce if they have plague before returning to recall in order to warn
+other players, who will then have a chance of leaving the area and avoiding
+contracting the plague as well. You need the 'cure disease' spell to cure
+the plague.
+~
+
+0 SPELL_CURSE~
+{wSyntax: {Ccast 'curse' {c<character>{x
+Group {GMaladictions{x
+
+This spell reduces the character's to-hit roll and save versus spells.
+It also renders the character unclean in the eyes of MOTA and unable
+to RECALL. Curse may be used to fill equipment with evil power, allowing
+(for example) weapons to do more damage to particularly holy opponents.
+~
+
+0 SPELL_WEAKEN~
+{wSyntax: {Ccast weaken {c<victim>{x
+Group {GMaladictions{x
+
+When this spell is cast, it saps the strength of the victim and reduces
+the target's strength attribute by two points for the duration of the spell.
+~
+
+0 SPELL_CALM~
+Syntax: {Ccast 'calm'{x
+Group {GBeguiling{x, {GBenedictions{x
+
+One of the most useful and often overlooked abilities of a spellcaster is
+the calm spell, which can put an end to all violence in a room.  Calmed
+creatures will not attack of their own volition, and are at a disadvantage
+in combat as long as the spell soothes their minds.  The more violence 
+activity there is in a room, the harder the spell, and it is all or nothing --
+either all combat in the room is ended (with the exception of those who
+are immune to magic) or none is.
+~
+
+0 SPELL_COLOUR_SPRAY~
+{wSyntax: {Ccast 'colour spray'   {c<victim>{x
+Group {GCombat{x
+
+Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing
+colors to spring forth from his hand. Blind or unseeing creatures are not 
+affected by the spell.
+
+Creatures affected by this spell are struck unconscious or are blinded.
+~
+
+0 SPELL_GIANT_STRENGTH~
+Syntax: {Ccast 'giant strength'{c <target>{x
+Group {GEnhancement{x
+
+When this spell is cast, it magically grants the target greater strength.
+
+Useful in a combat situation, where greater strength also means more
+damage to your enemies however this spell is also useful when you wish to
+attempt to lift or carry something that is beyond your normal strength.
+
+{RNote{x: This increase to the STR attribute is only temporary.
+~
+
+0 CONTROL CONTROL_WEATHER~
+Syntax: {C'control weather' worse{x
+Syntax: {C'control weather' better{x
+Group: {GWeather{x
+
+This spell allows a caster to create better or worse weather conditions, mainly 
+in conjunction with the 'call lightning' spell. The caster can either turn the 
+weather better or worse then current conditions.
+~
+
+0 SPELL_FLY~
+Syntax {Ccast fly{c <target>{x
+Group {GLesser Transportation{x and{G Transportation{x
+
+With the use of this spell, you can grant the power of non-winged
+flight to yourself or another.  While flying, you can travel over
+bodies of water or other terrain that requires an alternate mode
+of transportation.
+~
+
+0 SPELL_REMOVE_CURSE~
+Syntax {Ccast 'remove curse' {c<target> <item>{x
+Group {GBenedictions{x
+
+Upon casting this spell, the priest is usually able to remove a curse on an 
+object, on a person, or in the form of some undesired sending or evil presence. 
+
+Note that the remove curse spell does not remove the curse from a cursed shield, 
+weapon, or suit of armor, for example, although the spell typically enables the 
+person afflicted with any such cursed item to get rid of it. Certain special 
+curses may not be countered by this spell, or may be countered only by a caster 
+of a certain level or more.
+~
+
+0 SPELL_SUMMON~
+{wSyntax: {Ccast summon {w<character>
+Group {GTransportation{x
+{x
+This spell summons a character from anywhere else in the world into your room.
+Characters who are fighting may not be summoned
+
+{RNote:{x The summon spell only works on targets of a lower level and
+{x     {x targets who are not immune to summoning.
+~
+
+0 SPELL_ENERGY_DRAIN~
+{wSyntax: {Ccast 'energy drain' {c<victim>{x
+Group {GMaladictions{x
+
+This spell saps the experience points, hit points, mana, and
+movement points of its target.  The caster however only gains hit points
+from the vitim.  The higher the level of the spell, the more damage it does.
+~
+
+0 SPELL_HEAT_METAL~
+Syntax {Cheat metal{c <target>{x
+Group {GAttack{x
+
+By means of the heat metal spell, the caster is able to make ferrous
+metal (iron, iron alloys, steel) extremely hot.  This magical heating of the
+metal forces the target to drop the items affected.  
+~
+
+0 SPELL_CREATE_ROSE CREATE_ROSE~
+Syntax {Ccast 'create rose'{x
+Group {GCreation{x
+
+This simple creation spell allows the caster to bring into existance a beautiful
+{Rr{ro{Rs{re{w.  Although some feel this spell is worthless, it is useful when
+the caster wishes to show affection towards another or favor.
+~
+
+0 SPELL_ADRENALINE~
+Syntax: {Ccast adrenaline{x {c<target>{x
+Group {GNature{x
+
+This spell adds a bonus to a player's to-hit and to-damage rolls by giving the
+character a boost in his her adrenaline levels.  The side affect of this spell
+is a penalty to armor class, making the recipient somewhat easier to hit while in
+combat.
+~
+
+0 SPELL_FIREBALL~
+{wSyntax: {Ccast 'fireball' {c<victim>{x
+Group {GCombat{x
+
+This spell inflicts direct magical damage on the victim and is a vital
+part of the mage's arsenal of magics. The higher the level of the spell,
+the more damage it causes.
+~
+
+0 SPELL_FRENZY~
+Syntax {Ccast frenzy{c <target>{x
+Group {GBenedictions{x
+
+The frenzy spell fills the target with righteous fury, greatly increasing
+his or her attack skill and damaging capacity.  Unfortunately, this divine
+wrath is coupled with a tendency to ignore threats to personal safety,
+making the character easier to hit.  Frenzy provides immunity to the calm
+spell (see {C'help spell_calm'{x), and may only be used on those of the
+caster's alignment.  
+~
+
+0 SPELL_FLAMESTRIKE~
+Syntax {Ccast flamestrike{c <target>{x
+Group {GAttack{x
+
+When this spell is cast, the caster calls down a vertical column of fire
+that strikes the exact spot indicated by the caster.  The higher level the
+caster is, the more damage is inflicted per use.  
+~
+
+0 SPELL_GATE~
+{wSyntax: {Ccast gate {c<mob or character>{x
+Group {GTransportation{x
+
+{wThe gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set.  Tribe members
+may be gated to.
+~
+
+0 SPELL_HASTE~
+{wSyntax: {Ccast 'haste' {x<target>{x
+Group {GEnhancement{x
+{x
+{wThe haste spell increases the speed and agility of the recipient, allowing
+an extra attack (or even a backstab) in combat, and improving evasive
+abilities in combat.  However, it produces a great strain on the system,
+such that recuperative abilities are halved.  Haste is capable of negating
+the slow spell. (see {C'help slow'{x).
+~
+
+0 SPELL_DISPEL_MAGIC SPELL_CANCELLATION~
+Syntax: {Ccast 'dispel magic'{c <character>{x
+{x        {Ccast 'cancellation'{c <character>{x
+Group {GProtective{x
+
+Both of these spells remove magical affects from the target.  Dispel magic
+has a reduced chance of working, and is considered an attack spell. Cancel-
+lation can only be used on allies, but is much more effective and does not
+provoke attack.  Unfortunately, these spells do not discriminate between
+harmful and benign spells.
+
+The chance of dispelling is based on the level of the spell. Permanent
+spells (such as mobile sanctuary) are much harder to remove.  Not all
+spells may be dispelled, notable examples are poison and plague, which
+must be cured.
+~
+
+0 SPELL_SANCTUARY~
+{wSyntax: {Ccast sanctuary  {c<character>{x
+Group {GProtective{x
+{x
+{wThe Sanctuary spell reduces the damage taken by the character from any attack
+by one half.
+~
+
+0 SPELL_SLOW~
+{wSyntax: {Ccast 'slow' {c<target>{x
+Group {GMaladictions{x
+{x
+Despite popular mythology, slow is not the opposite of haste, but is a spell
+with its own unique set of effects.  When cast on an unfortunate victim,
+it slows its movement, making it easier to hit and reducing its rate of 
+attack.   The affect of slow also doubles movement costs, prevents fleeing,
+and increases the rate the victim regains mana.
+~
+
+0 SPELL_GAS_BREATH SPELL_ACID_BREATH SPELL_FROST_BREATH SPELL_FIRE_BREATH SPELL_LIGHTNING_BREATH~
+Syntax: {Ccast 'gas breath'{x       {c<area affect>{x
+Syntax: {Ccast 'acid breath'{x      {c<victim>{x
+Syntax: {Ccast 'frost breath'{x     {c<victim>{x
+Syntax: {Ccast 'fire breath'{x      {c<victim>{x
+Syntax: {Ccast 'lightning breath'{x {c<victim>{x
+Group {GDraconian{x
+
+These spells allow the caster to breath forth the breath of a dragon.
+Acid and Lightning damage one victim whereas Gas, Frost, and Fire damages
+everyone in the room.  Fire and Frost can break objects, and Acid can
+damage armor.  These spells are listed in order of power, with Gas Breath
+doing the least damage and Lightning Breath doing the most
+
+~
+
+0 SPELL_SMOKE_SCREEN~
+Syntax {Ccast 'smoke screen'{x
+Group {GIllusion{x and {GInfernosphere{x
+
+By use of this spell, the caster is able to cloak themselves in a
+vision impairing screen of smoke.  This defensive spell makes the
+caster harder to see and hit in combat.
+~
+
+0 SPELL_CHAIN_LIGHTNING~
+{wSyntax : {Ccast 'chain lightning' {c<target>{x
+Group {GCombat{x
+
+Chain lightning is a deadly spell, producing a powerful bolt of lightning
+that arcs from target to target within the room, until its force is
+fully expended.  Allies of the caster may be hit by this spell even if they
+are members of a dynasty or group, while the caster himself will not be struck
+unless no other viable target remains.  Chain lightning is most effective
+when used on groups of creatures.
+~
+
+0 SPELL_TELEPORT~
+{wSyntax: {Ccast teleport{x
+Group {GTransportation{x
+
+{wThis spell takes you from your current location to a random location somewhere
+in the world.
+~
+
+0 SPELL_PASS_DOOR~
+Syntax {Ccast 'pass door'{x
+Group {GLesser Transportation{x and {GTransportation{x
+
+When cast, this spell allows the caster to transform his or her
+body into a wraith like form and pass through solid doors without
+hinderance.
+~
+
+0 SPELL_PORTAL~
+Syntax: {Ccast 'portal' {c<target>{x
+Group {GTransportation{x
+{x
+The portal spell is similar to gate, but creates a lasting one-way portal
+to the target creature, instead of transporting the caster.  Portals are
+entered using 'enter' or 'go' command, as in 'go portal'.  Portals cannot
+be made to certain destinations, nor used to escape from gate-proof rooms.
+Portal requires a special source of power to be used, unfortunately the
+secret of this material component has been lost...
+ 
+Immortals can target a room vnum to open a portal without targetting a mobile
+or player. This will override any room restrictions as well.
+ 
+~
+
+0 SPELL_HOLY_WORD~
+Syntax: {Ccast 'holy word' {c<target>{x
+Group {GBenedictions{x
+{x
+Holy word involves the invocation of the full power of a cleric's god, with
+disasterous effects upon the enemies of the priest coupled with powerful
+blessings on the priest's allies.  All creatures of like alignment in the
+room are blessed and filled with righteous divine wrath, while those of
+opposite morals (or both good and evil in the case of neutral priests)
+are struck down by holy (or unholy might) and cursed.  The cleric suffers
+greatly from the strain of this spell, being left unable to move and 
+drained of vitality.  Experience loss is no longer associated with the spell.
+~
+
+0 SPELL_DEMONFIRE~
+Syntax {Ccast demonfire{c <target>{x
+Group {GAttack{x
+
+Demonfire is a spell of blackest evil and as such can only be used by
+those who follow the paths of darkness.  It conjures forth demonic spirits
+to inflict terrible wounds on the enemies of the caster.
+~
+
+0 SPELL_NEXUS~
+Syntax: {Ccast 'nexus' {c<target>{x
+Group {GTransportation{x
+{x
+This spell is virtually identical to portal (see '{Chelp portal{w'), with the
+only difference being that while portal creates a one-way gate, a nexus 
+spell makes a two-sided gate.  It also lasts longer than the lower-powered
+portal spell.  Both spells require an additional power source, the secret
+of which has been lost...
+ 
+Immortals can target room vnums. This will over ride room restrictions and
+allow immortals not to target a mobile or player.
+ 
+~
+
+0 SPELL_STONE_MELD~
+Syntax: {Ccast 'stone meld'{x
+Group {GNature{x
+
+Stone meld is a clerical spell similar to the mage's stone skin. It causes
+the character's skin to meld with stone providing a form of armor protection.
+~
+
+0 SPELL_STONESKIN SPELL_STONE_SKIN~
+Syntax: {Ccast 'stone skin'{x
+Group {GProtective{x
+
+This spell protects the caster by decreasing (improving) the caster's
+AC or Armor Class. 
+~
+
+0 SPELL_MASS_HEALING~
+Syntax: cast {C'mass healing'{x
+Group {GHealing{x
+
+The mass healing spell, as its name might suggest, performs a healing
+spell on all players in the room.  It also throws in a refresh spell for
+good measure.
+~
+
+0 SPELL_RAY_THRUTH~
+Syntax: {Ccast 'ray of truth' {c<target>{x
+Group {GAttack{x
+
+Ray of truth opens a portal to the planes of positive energy, bringing
+forth a beam of light of sufficient purity to harm or or annihilate the
+servants of evil.  It cannot harm the pure of heart, and will turn and
+strike casters who are tainted by evil
+~
+
+0 SPELL_DETECT_GOOD~
+Syntax: {Ccast 'detect good'
+{wGroup {GDetection{x
+{x 
+This spell enables the caster to detect good characters, which will
+reveal a characteristic golden aura.
+~
+
+0 blank_record~
+~
+
+0 SPELL_ACID_RAIN SPELL_ICE_RAIN SPELL_FIRE_RAIN SPELL_ICE_STORM SPELL_FIRE_STORM SPELL_ACID_STORM~
+Syntax: {Ccast 'acid rain'     {c<target>{x
+Syntax: {Ccast 'ice rain'      {c<target>{x
+Syntax: {Ccast 'ice storm'     {c<target>{x
+Syntax: {Ccast 'fire storm'    {c<target>{x
+Syntax: {Ccast 'acid storm'    {c<target>{x
+Group {GRain{x
+
+When cast, these spells call upon the awesome might of the natural
+forces of the weather to beat down upon your foes without mercy.
+
+Downpours of {Ga{gc{Gi{gd{x rain and the fierce power of the  conjured
+{Rf{Yi{Rr{re{x storm are but a few spells that devastate all that dare
+to oppose you.
+~
+
+0 SPELL_MUDSKIN SPELL_MOSS_SKIN SPELL_BARKSKIN SPELL_STEELSKIN SPELL_EMERALDSKIN SPELL_RUBYSKIN SPELL_DIAMONDSKIN~
+Syntax: {Ccast 'mud skin'     {c<target>{x
+Syntax: {Ccast 'moss skin'    {c<target>{x
+Syntax: {Ccast 'bark skin'    {c<target>{x
+Syntax: {Ccast 'steel skin'   {c<target>{x
+Syntax: {Ccast 'emerald skin' {c<target>{x
+Syntax: {Ccast 'ruby skin'    {c<target>{x
+Syntax: {Ccast 'diamondskin'  {c<target>{x
+Group: {GSkins{x
+
+These powerful spells protect the caster by changing his or her skin
+texture to match the chosen material.  Each material offers different
+and varied levels of protection based on the spell cast.
+~
+
+0 SPELL_ICEBOLT SPELL_FIREBOLT SPELL_GASBOLT SPELL_LIGHTNINGBOLT SPELL_ACIDBOLT SPELL_HOLYBOLT~
+Syntax: {Ccast 'icebolt'{x       {c<target>{x
+Syntax: {Ccast 'firebolt'{x      {c<target>{x
+Syntax: {Ccast 'gasbolt'{x       {c<target>{x
+Syntax: {Ccast 'lightningbolt'{x {c<target>{x
+Syntax: {Ccast 'acidbolt'{x      {c<target>{x
+Syntax: {Ccast 'holybolt'{x      {c<target>{x
+
+These are spells that will shoot a bolt of the selected element
+at the target, damaging it.
+~
+
+0 SPELL_HOLY_LIGHT~
+Syntax {Ccast 'holy light'{x
+Group {GHealing{x
+
+This powerfull mass healing spell will allow you to heal all those who
+are wounded and in the room with you.  
+~
+
+0 SPELL_HOLY_ARMOR~
+Syntax {Ccast 'holy armor'{c <target>{x
+Group {GProtective{x
+
+This spell encases the target in a suit of armor comprised entirely out
+of holy energy.
+~
+
+0 SPELL_FIREBLAST SPELL_ICEBLAST SPELL_ELECTRICBLAST SPELL_GASBLAST SPELL_LIGHTNINGBLAST SPELL_HOLYBLAST~
+Syntax: cast {C'fireblast'     {c <target>{x
+Syntax: cast {C'iceblast'      {c <target>{x
+Syntax: cast {C'electricblast' {c <target>{x
+Syntax: cast {C'gasblast'      {c <target>{x
+Syntax: cast {C'lightningblast'{c <target>{x
+Syntax: cast {C'holyblast'     {c <target>{x
+Group {GBolt{x
+
+When this a spell from this group is cast, it creates a blast of magical energy
+that duplicates the damage effects of the either fire, ice, electricity, gas,
+lightning or holy energy.
+~
+
+92 SPELL_THROW_STAR~
+Syntax:	cast {C'throw star' {c<target>{x
+Group {GImmortal Reserved{x
+
+This spell throws a poisonous star at thr target. It will not only poison
+the target, it will allso affect the damage roll of that target.
+~
+
+-1 SKILL_SEARCH SEARCH~
+Syntax: {Csearch{x
+
+The {CSEARCH{x command allows a character to search a room or area that
+he or she is currently in to find things that may have been hidden
+from view.
+~
+
+0 SKILL_BREW BREW~
+Syntax: {Cbrew{x   {c<spell name>{x
+
+{CBREW{x allows you to make potions for use by yourself or others.
+
+When using brew, it takes twice the mana cost of the spell to succesfully
+make a potion of the same type.  Also note, Gold is also required to
+brew each potion.  It is used to pay the cost of materials.
+~
+
+-1 SKILL_SPEAR~
+The spear is a dagger set atop a pole.  It is principally a thursting weapon
+but if a broad blade is attached it can also be used as a cutting weapon.
+~
+
+-1 SKILL_POLEAXE~
+Strictly speaking, a pole axe is nothing more than an axe head of any sort set
+upon a long haft in order to to deliver an earlier and more forceful blow.  It
+can be double bitted, backed by a spike, and or topped off with a dagger point,
+but it is still recognizable as an axe.
+~
+
+-1 SKILL_POLEARM~
+Amaron has various polearm weapons.  Please see the following help files:
+Poleaxe, Lance, Spear, Bardiche, Ranseur, Pike, Volgue, Guisarme, Halberd,
+and Glaive.
+~
+
+0 SPELL_DETECT_EVIL~
+Syntax: {Ccast 'detect evil'
+{wGroup {GDetection{x
+{x 
+This spell enables the caster to detect evil characters, which will
+reveal a characteristic red aura.
+~
+
+0 SPELL_RECHARGE~
+Syntax {Ccast recharge {c<object>{x
+Group {GEnchantment{x
+
+This spells regerates magic that has already been used by a magic
+wand.  The spell can only be used once on a wand.
+~
+
+0 SPELL_SORROW~
+Syntax {Ccast sorrow{c <target>{x
+Group {GForsaken{x
+
+This area affect spell causes you to release your anger from built up
+sorrow.  It unleashes great damage upon your enemy multiple time.  The
+powerful release of energy also causes yourself to take damage.  
+~
+
+0 SPELL_FARSIGHT~
+Syntax {Ccast farsight{x
+Group {GDetection{x
+
+This spell grants you glimps in all directions of the area around you.
+~
+
+0 SPELL_SHIELD~
+Syntax {Ccast shield{c <target>{x
+Group {GProtective{x
+
+This spell creates a powerful force shield that surrounds and protects
+you.  
+~
+
+0 SPELL_HURRICANE~
+Syntax {Ccast hurricane{c <target>{x
+Group {GEthersphere{x
+
+This spells summons the might and fury of nature to strike your enemy
+down.  The storm does great damage to enemies and can also cause them to
+become blind.  
+~
+
+0 SPELL_JUMP~
+Syntax {Ccast jump{x
+Group {GTransportation{x
+
+This spell allows the caster to teleport to random rooms in an area. 
+However what sets this aside from teleport is the caster will stay within
+the area it is cast from.  
+~
+
+0 SPELL_WORD_OF_RECALL~
+Syntax {Ccast 'word of recall'{x
+Group {GTransportation{x
+
+When this spell is successfully cast, the gods themselves intervene and
+pull the castor out of battle and place them at his/her recall point.  
+~
+
+0 SPELL_NULLIFY~
+Syntax: {Ccast nullify {c<target> <spell>{x
+Group {GProtective{x
+
+This spell is a disenchantment.  It harnesses the power to take away the
+affects of any selected spell which may be affecting the caster or someone
+else.  
+~
+
+0 SPELL_LIGHTNING_STRIKE~
+Syntax {Ccast 'lightning strike' {c<target>{x
+Group {GCombat{x, {GWeather{x
+
+This spell allows the caster to summon a small strike of lightning to hit
+a target creature.  This spell is learned early on and never becomes too
+powerful.  
+~
+
+0 EXTRA_REMOVE_INVISIBLE~
+Syntax {Ccast 'remove invis'{c <target>{x
+Group {GBenedictions{x
+
+This spell nullifies a previously cast invisibility spell on an item or
+character.  
+~
+
+-1 SPELL_REMOVE_INVISIBLE~
+{CSyntax: cast 'remove align' {c<item>{x
+Group {GEnchantment{x
+{x
+This spell nullifies invisibilities which items or 
+characters may have on them.
+{w
+Due to the extent of power required for this spell it will now require 
+a spell component to complete its casting.
+~
+
+-1 SPELL_REMOVE_ALIGNMENT~
+{CSyntax: cast 'remove align' {c<item>{x
+{xGroup: {GBenedictions
+{x
+This spell allows a caster to nullify alignment restrictions
+on equipment and weapons.  However the caster can only null alignment
+restrictions which he follows.  Hence, a good aligned cleric can 
+not null anti-evil.
+{w
+Due to the extent of power required for this spell it will now require 
+a spell component to complete its casting.
+~
+
+-1 SPELL_JUMP~
+{CSyntax: cast jump{x
+{x
+This spell allows the caster to teleport to random rooms in an 
+area.  However what sets this aside from teleport is the caster will 
+stay within the area it is cast from.
+~
+
+-1 SPELL_ICE_BOLT~
+{CSyntax: cast 'ice bolt' {c<target>
+{xGroup {GBolt Spells{x
+{x
+This powerful elemental attack is used in the same 
+manor as the blast spells, but is just more powerful.
+~
+
+0 SPELL_NITROGEN_SHOWER~
+Syntax {Ccast 'nitrogen shower'{c <target>{x
+Group {GHydrosphere{x
+
+This spell brings down fury in the form of toxic rain.  The Shower
+consumes your enemy and reeks havoc on its systems causing great damage.  
+~
+
+0 SPELL_FLARE~
+Syntax {Ccast flare{c <target>{x
+Group {GInfernoshere{x
+
+This powerful fire spell engulfs your enemy, burning it from head to toe,
+causing immense damage.  
+~
+
+0 SPELL_SULFUR~
+Syntax {Ccast sulfur{c <target>{x
+Group {GEthersphere{x
+
+Like Nitrogen Shower, this spell uses chemicals to its advantage.  Sulfur
+is hurled at your enemy and causes great burns and great damage.  
+~
+
+0 SPELL_HAIL~
+Syntax {Chail{c <target>{x
+Group {GHydrosphere{x
+
+Casting this spell calls upon the might and fury of the nature to bombard
+the caster with a onslaught of hail from above.  These baseball sized globes
+of solid ice deal massive amounts of damage to the victim.
+~
+
+0 SPELL_THUNDER~
+Syntax {Ccast thunder{c <target>{x
+Group {GEthersphere{x
+
+This spell releases a shockwave in the form of a thunderclap overhead. 
+The resulting sonic attack sends deadly waves through the victim, dealing
+incredible amounts of damage.  
+~
+
+0 SPELL_VAPOUR~
+Syntax {Ccast vapour{x
+Group {GHydrosphere{x
+
+When this spell is cast, it surrounds the caster in a mystical vapour
+which protects the caster from physical harm.  This protective magic can
+only be granted to the caster alone.  
+~
+
+0 SPELL_SMOG~
+Syntax {Ccast smog{x
+Group {GEthersphere{x
+
+When this spell is cast, it engulfs the caster in a thick blanket of
+smog.  This cloud like shield obscures the vision of the caster's enemies
+and affords him or her a defensive advantage in combat.  
+~
+
+0 SPELL_EARTHBIND~
+Syntax {Ccast earthbind{c <target>{x
+Group {GTerrasphere{x
+
+When cast, this spell causes the earth itself to grab hold of your enemy
+and hinder his or her attacks against you.  
+~
+
+0 SPELL_FAITH~
+Syntax {Ccast faith{x
+Group {GBenevolent{x
+
+This spell calls upon the divine favor of your patron deity.  Your faith
+manifiests itself as a physical shield that protects you from the attacks by
+those that would see you brought low.  Have faith my child and nothing shall
+defeat thee.  
+~
+
+0 SPELL_PETRIFY~
+Syntax {Ccast petrify{c <target>{x
+Group {GForsaken{x
+
+This spells causes your enemy to freeze in it's own footsteps.  The main
+objective of casting this spell it to prevent your opponent from having a
+chance to attack you.  
+~
+
+0 SPELL_GEYSER~
+Syntax {Ccast geyser{c <target>{x
+Group {GHydrosphere{x
+
+This spell cause a geyser to errupt from the earth and shower your enemy
+in a spray of magma heated water from deep in the earth.  This titanic blast
+of super heated water instantly burns any exposed skin on the victim.  
+~
+
+0 SPELL_PYRE_STRIKE~
+Syntax {Ccast pyre{c <target>{x
+Group {GInfernosphere{x
+
+This spell ignites the area with an inferno-like blast of fire.  The
+victim suffers serious burns to any and all exposed areas from the intense
+heat and flames.  
+~
+
+0 SPELL_PLASMA_BLAST~
+Syntax {Ccast 'plasma blast'{c <target>{x
+Group {GInfernosphere{x
+
+This spell causes the plasma contained within the blood to ignite in a
+painful erruption of energy.  The victim of this attack suffers in agony as
+his or her own blood boils in their veins.  
+~
+
+0 SPELL_VACUUM~
+Syntax {Ccast vacuum{c <target>{x
+Group {GEthersphere{x
+
+This spell creates a small black hole like nexus adjacent to the target. 
+The nexus pulls at the target and attempts to engulf him or her.  As a
+result of the forces attempting to draw the target to the center, the victim
+is nearly pulled apart by the increased gravity.  
+~
+
+0 SPELL_PARASITE~
+Syntax {Ccast parasite{c <target>{x
+Group {GTerrasphere{x
+
+This spell summons a small parasitic entity from the Abyss.  Upon its
+arrival on the Prime Material Plane, it attacks the victim by draining its
+essence and lifeforce.  
+~
+
+0 SPELL_SANCTIFIED_CLEANSING~
+{wSyntax {Ccast 'holy cleansing' {c<target>{w
+Group {GBenevolent{w
+
+This spell channels the power and might of your patron deity to bring low
+your enemies.  Sanctified Cleansing gets its name from antiquity, when the
+priests and followers of the old gods tried to force many to adhere to their
+corrupt practices and teachings.  
+{w
+~
+
+0 SPELL_FLASH_FLOOD~
+{Ccast 'flash flood'{c <target>{x
+Group {GHydrosphere{x
+
+When this spell is cast, a portal opens to the Elemental Plane of Water. 
+The resulting rush of water floods the area in mere seconds.  The damage
+from this spell can have far reaching affects as it devistates everything in
+the area of the caster.  If the spell is not allowed to discharge all of its
+destructive force, it will rage back towards the caster until all of its
+energy is comsumed.  
+~
+
+0 SPELL_SAND_STORM~
+Syntax {Ccast 'sand storm'{c <target>{x
+Group {GEthersphere{x
+
+When this spell is cast, the area is engulfed in the destructive force of
+a desert sand storm.  Wind blown sand and debris tears at the flesh and
+chokes the victim.  The fury of this spell is so great that it can easily
+destroy large areas of fields, crops and animals.  If for any reason the
+energy of this spell is not allowed to run its course, the sand storm will
+engulf the caster as if s/he were the original target.  
+~
+
+0 SPELL_KINETIC_BLAST~
+Syntax {Ccast 'kinetic blast'{c <target>{x
+Group {GTerrasphere{x
+
+This spell creates a bolt of pure energy that can be hurled by the caster
+and used to strike down an enemy.  The resulting blast releases the stored
+energy in a massive wave of distructive force.  
+~
+
+0 SPELL_CAMOUFLAGE~
+Syntax {Ccast camouflage{x
+Group {GTerrasphere{x
+
+This spell grants the caster the ability to adapt to his or her
+surroundings and camouflage their form and blend in with the area.  The
+camouflage grants the caster a defensive bonus, as s/he is often overlooked
+by attackers.  
+~
+
+0 SPELL_VENGEANCE~
+Syntax {Ccast vengeance{x
+Group {GForsaken{x
+
+When this spell is cast, it draws upon the memory of all of the wrongs
+and injustices that have been committed against the caster.  These memories
+fuel the fire of vengeance in his or her heart and as a result, s/he is
+filled with a wrath so powerful that the caster can withstand even severe
+damage to his or her body.  
+~
+
+0 SPELL_METEOR_SHOWER~
+Syntax {Ccast 'meteor shower'{c <target>{x
+Group {GTerrasphere{x
+
+Upon casting this spell, dozens of meteor fragments rain down from the
+upper atmosphere and plunge towards the earth to the very spot indicated by
+the caster.  The damage caused by this spell has left large craters in the
+ground where the victim of this spell once stood.  
+~
+
+0 SPELL_ABOMINABLE_STRIKE~
+Syntax {Ccast 'abominable strike'{c <target>{x
+Group {GForsaken{x
+
+This deadly spell channels the caster's rage and hatred into a single
+destructive attack.  Considered by some scholars to be excessive due to
+the anount if damage that this spell can cause, it is a favorite among
+those who cast first and ask questions later.
+~
+
+0 SPELL_CELESTIAL_LIGHT~
+Syntax {Ccast 'celestial light'{c <target>{x
+Group {GBenevolent{x
+
+Upon uttering this spell, the caster calls upon the divine energy and
+power of the gods themselves.  Thus the soul of a corrupt enemy is cleansed
+in purifying light of the Immortals.  
+~
+
+0 SPELL_ARCHANGEL~
+Syntax {Ccast archangel{c <target>{x
+Group {GBenevolent{x
+
+This spell opens a portal to the heavens and calls forth the power and
+might of an Archangel to smite your enemy.  These celestial guardians appear
+on the Prime Materal Plane for only a moment, however the fury of their
+attack is often felt long after they have departed.  
+~
+
+0 SPELL_AVALANCHE~
+Syntax {Ccast avalanche{c <target>{x
+Group {GTerrasphere{x
+
+When this spell is cast, the room is engulfed in a torrential downpour of
+snow and ice.  Anyone caught in the area of affect will find themselves
+easily buried under the affects of this deadly spell.  
+~
+
+0 SPELL_SATE~
+Syntax {Ccast sate{c <target>{x
+Group {GNature{x
+
+By means of this spell, the caster is able to temporarily ignore
+the affects of hunger.  Although it does solve the immediate
+requirement for food, it should not be used as a replacement for
+for a good diet.
+~
+
+0 SPELL_QUENCH~
+Syntax {Ccast quench{c <target>{x
+Group {GNature{x
+
+By means of this spell, the caster is able to ignore the affects
+of thirst.  Although this solves the immediate requirement for water,
+it is not intended as a  replacement for your character's need
+to drink.
+~
+
+0 SPELL_SCREEN~
+Syntax {Ccast screen{c <target>{x
+Group {GNature{x
+
+When this spell is cast, it forms a wall of smoke in front of
+the caster that offers defensive protection from attacks.
+~
+
+0 SPELL_STONE_MELD~
+Syntax {Ccast 'meld stone'{c <target>{x
+Group {GNature{x
+
+When this spell is cast, the target partially melds with any stone
+found in the area and in so doing absorbs the defensive strength
+of the said stone.
+
+The defensive bonus gained in this fashion helps the target resist
+physical damage in combat.
+~
+
+0 SPELL_CHILL_TOUCH~
+{wSyntax: {Ccast 'chill touch' {c<victim>{x
+Group {GCombat{x
+{x
+{wThis spell inflicts cold damage on the victim and also reduces the victim's
+strength by one.
+~
+
+0 SPELL_GALE_BLAST~
+Syntax: {Ccast 'gale blast' {c<target>{x
+Group {GEthersphere{x
+
+This spell creates a gale force blast of wind with the strength and
+power to uproot small trees and destroy small structures made of wood.
+
+When cast on a living target, this spell rips at the skin and batters
+the victim against any and all structures still standing.
+~
+
+0 SPELL_DOWNDRAFT~
+Syntax: {Ccast downdraft{c <target>{x
+Group {GEthersphere{x
+
+This spell creates an invisible funnel of air that descends downward and
+traps the victim under its crushing weight.  Once pinned the individual is
+at the mercy of the caster and is an easy target for attacks.  
+
+As a result of the pressure from above, the target's ability to move is
+restricted as if under a {CSLOW SPELL{x and any granted ability to fly
+is nullified while under the affects of the downdraft spell.
+~
+
+0 SPELL_ABLUTION~
+Syntax: {Ccast ablution{c <target>{x
+Group {GBenevolent{x
+
+This spell was used in days of old by the religious orders as part of
+a cleaning ritual to purify the souls of the faithful.  Many followers
+of the old ways have ressurected this ritual for their purposes.
+
+Now, rather then a gentle cleansing, this spell subjects the victim to
+intense pain as part of the conversion and reintergration of the wayward
+worshiper back into the religious community.
+
+Many priests of the "true" gods of GhostMUD discourage the use of this
+spell as a conversion tactic, however a secretive order of wizards and
+priests still practice this forbidden art.
+~
+
+0 SPELL_CATHARSIS~
+Syntax: {Ccast catharsis{c <target>{x
+Group {GBenevolent{x
+
+This spell when cast, subjects the target to his or her own consciousness
+which is given form and attacks the target in attempt to purge the misdeeds
+and sins of the body.  
+~
+
+0 SPELL_AWE~
+Syntax: {Ccast awe {c<target>{x
+Group {GBenevolent{x
+
+By use of this spell, the caster is able to project an aura of power and
+authority directed at the target.  As a result, the victim is overcome with
+a sense of reverent fear and dread of the caster.  
+~
+
+0 SPELL_MYSTIC_ARMOR~
+Syntax: {Ccast 'mystic armor'{c <target>{x
+Group {GSkins{x
+
+Mystic Armor is an ancient spell that invokes the power of the caster's
+spirit to infuse the target with protective magics and ward against
+the destructive effects of physical attacks and combat.
+~
+
+0 SPELL_TYPHOON~
+Syntax: cast typhoon{c <target>{x
+Group {GHydrosphere{x
+
+This spell creates a tropical cyclone that moves towards any single
+target of the caster's choice and obliterates the target due to the
+incredible destructive power of its fury.
+~
+
+0 SPELL_TSUNAMI~
+Syntax: {Ccast tsunami{c <target>{x
+Group {GHydrosphere{x
+
+This spell calls forth a giant sea wave as a result of a explosion deep
+in the earth.  This massive wave can grow hundreds of feet high and wash
+away simple structures and drown humanoids under its crushing weight.  
+~
+
+0 SPELL_WATERLOG~
+Syntax: {Ccast waterlog{c <target>{x
+Group {GHydrosphere{x
+
+This spell calls forth a great deluge of water that completely soaks the
+target and all his or her gear.  The spell penetrates through all of the
+protective layers of clothing and over time can cause deadly illnesses in
+the victim.  
+~
+
+-1 SKILL_DEATHGRIP DEATHGRIP~
+Syntax: {Cdeathgrip{x
+{x
+{x
+Only extremely powerful fighters ever learn to master this skill and even then 
+only a few classes are skillful enough to gain it.  Berserkers and Gladiators are
+the only classes that can gain the knowledge to get their hands to grip their
+weapons in such a way that their offensive blows do more damage and hit more often.
+~
+
+0 SPELL_HIT~
+Syntax: {Ccast hit{x
+Group {GBerserker{x
+
+When this spell is cast, it grants the caster a greater chance to hit a foe
+in combat.  Since the mechanics of the spell depend partly on self confidence,
+this spell can not be cast on another individual or group.
+~
+
+0 SPELL_DAMAGE~
+Syntax: {Ccast damage{x
+Group {GBerserker{x
+
+Use of this spell allows the caster to tap into the hidden reserves of
+power and strength of his or her own body.  Damage done during combat is
+greatly increased however, the strain of casting and using the effects
+of this spell is so great that it lasts for a very short time.
+
+Due to the fact that this spell enhances the casters own ability to damage
+a foe in combat, this spell can not be cast on another individual or group.
+~
+
+0 SPELL_FIGHTING_TRANCE~
+Syntax: {Ccast 'fighting trance' {c<target>{x
+Group {GOpoya{x
+
+When this spell is cast, the target enters a trance like state and calls
+upon his or her subconcious battle skills to aid them in combat.
+
+Several groups throught the ages have practiced and used a meditative
+trance to aid them in daily worship of thier gods and to smite thier
+enemies.  One such group is known as the Whirling Dervishes.
+~
+
+0 SPELL_BLOODY_TEARS~
+Syntax: {Ccast 'bloody tears' {c<target>{x
+Group {GBlood{x
+
+This spell causes the target's eyes to bleed.  
+~
+
+0 SPELL_EGO_WHIP~
+Syntax: {Ccast 'ego whip' {c<target>{x
+Group {GMental Offensive{x
+
+This power assaults the victim's ego, leaving him with feelings of inferiority 
+and worthlessness.
+~
+
+0 SPELL_PSYCHIC_THRUST~
+Syntax: {Ccast 'psychic thrust' {c<target>{x
+Group {GMental Offensive{x
+
+This power is a mental stabbing attack which seeks to "short" the synapses
+of the target.  The effects of this power can be felt for some time, as the
+victim will have a painful headache and possible short term memory loss.
+~
+
+0 SPELL_PSYCHIC_CRUSH~
+Syntax: {Ccast 'psychic crush' {c<target>{x
+Group {GMental Offensive{x
+
+Psychic Crush is a massive assault upon all neurons in the brain, attempting
+to destroy all by a massive overload of signals.
+~
+
+0 SPELL_MIND_BOLT~
+Syntax: {Ccast 'mind bolt' {c<target>{x
+Group {GMental Offensive{x
+
+Use of this mental power causes a bolt of invisible mental energy to surge
+forth from the user and assault the target.  Unlike many other mental attacks,
+this power manifests itself as pure physical damage and does not trick the
+victim's mind into thinking it has been injured.
+~
+
+0 SPELL_MIND_FLAIL~
+Syntax: {Ccast 'mind flail' {c<target>{x
+Group {GMental Offensive{x
+
+When this power is used, it repeatedly attacks the targets mind in a
+devastating flurry of mental energy.  The victim of this attack oftentimes
+is left disoriented and befuddled.
+~
+
+0 SPELL_ROCK_SLIDE~
+Syntax: {Ccast 'rock slide' {c<target>{x
+Group {GTerrasphere{x
+
+When this spell is cast, it allows the caster to duplicate the the power
+and effects of an Earth Elemental's Rock Slide power.
+
+Hundreds of tons of rock and stone from the Elemental Plane of Earth comes
+into being and is sent crashing down upon the target.  Beings crushed under
+this incredible attack rarely survive for long.
+~
+
+0 SPELL_SINK_HOLE~
+Syntax: {Ccast 'sink hole' {c<target>{x
+Group {GTerrasphere{x
+
+When this spell is cast, it opens a giant rift deep in the earth.
+
+The newly forming sink hole rapidly pulls the target and any earth or
+structure that s/he might have been standing on towards the center of the
+rift.  Only those individuals who posses quick reflexes, powerful magics
+or are very lucky ever escape a sink hole alive.
+~
+
+0 SPELL_MAGMA_BLAST~
+Syntax: {Ccast 'magma blast' {c<target>{x
+Group {GInfernosphere{x
+
+Upon casting this spell, a giant crack in Thera's crust is created that
+reaches deep down into the molten core of the planet.
+
+This sudden release of the natural pressure causes a blast of hot magma
+to surge forth and engulf the chosen target.
+~
+
+0 SPELL_IMMOLATION~
+Syntax: {Ccast immolation{c <target>{x
+Group {GInfernosphere{x
+
+When this spell is cast, it causes target to be engulfed in flames.
+
+The damage caused by this deadly spell is twofold: First the target is often
+blinded by the flames and choking smoke.  Also the target suffers horrible
+damage as his or her body is burned by magical fire.
+~
+
+0 SPELL_BACKDRAFT~
+Syntax: {Ccast backdraft {c<target>{x
+Group {GInfernosphere{x
+
+When this spell is cast, it creates a magical wind that blows against
+the target's direction of movement, causing a slowing effect much like
+the {CSLOW SPELL{x.
+~
+
+0 SPELL_SPONT_COMBUSTION~
+{wSyntax: {Cspont_combustion{c <target>{w
+Group {GForsaken{w
+
+When this spell is cast, it forces the target's body to generate and retain
+massive ammounts of internal heat.  This heat is built up until the very
+flesh of the target ignites and burns.
+
+This spell was thought lost hundreds of years ago, however it has since
+resurfaced in the form of scrolls and in very ancient tomes of magic.
+{x
+~
+
+0 SPELL_SURCEASE~
+Syntax: {Ccast surcease {c<target>{x
+Group {GForsaken{x
+
+This spell was designed by an ancient order of monks in an effort to ease
+an individual's death and assist them onward to paradise.  However, it has
+since been twisted from its original intent into something foul and corrupt.
+
+When this spell is cast, it subjects the target's spirit or soul to terrible
+pain and suffering by forcing a connection between the Prime Material Plane
+and the Plane of Entropy.  The longer the connection is maintained by
+repeated casting, the worse the pain becomes.
+
+Those that die while subjected to this spell are said to perish completely
+and only the direct intervention of ones God or Goddess can offer salvation.
+~
+
+0 SPELL_ILL_BEGOTTEN~
+Syntax: {Ccast 'ill begotten' {c<target>{x
+Group {GForsaken{x
+
+When this spell is cast it creates a bolt of negative energy that flies
+from the caster's hand and impacts with deadly force.
+~
+
+0 SPELL_MALFEASANCE~
+Syntax: {Ccast malfeasance{c <target>{x
+Group {GForsaken{x
+
+This spell allows the caster to overwhelm the chosen target's brain with
+thoughts that s/he has or is engaged in evil or wrongful conduct, actions
+or deeds.  In those that hold high morals and ideals, this attack upon
+thier character can subject them to painful convulsions as they struggle
+to overcome waves of guilt and shame.
+
+To those individuals that have less then perfect or questionable morals,
+the pain and suffering can be just as great.  When used upon an evil person,
+it subjects them to feelings of inferiority, worthlessness and doubt.
+The greatest pickpocket is reduced to a convulsing pile of flesh, as his
+ego is crushed, doubts his own skills and selfworth.
+
+Although this spell mirrors several psionic like abilities, it is not
+considered a true psionic power in its own right.
+~
+
+0 SPELL_VIRTUOUS_BLAST~
+Syntax: {Ccast 'virtuous blast' {c<target>{x
+Group {GBenevolent{x
+
+When this spell is cast, an unearthly beam of light errupts from the
+caster's hands and engulfs the target or targets.  This pure blast of
+energy from the Positive Material Plane rips through flesh and bone, often
+leaving nothing but a smoking ruin in its wake.
+
+If this spell is cast and it does not expend the total amount of its
+energy upon the chosen targets, it will arc back and attack the caster
+until its power is spent.
+~
+
+0 SPELL_FEAR~
+Syntax: {Ccast fear{c <target>{x
+
+When this spell is cast, it unlocks the hidden fears that the victim
+keeps locked away in the back of his or her mind.  These fears pour forth
+from where they were held, surfacing to plague the victim as if they
+were subjected to the very stimuli they fear most.
+
+At the very least, these fears prevent the victim from reacting at their
+given best.  At worst this spell could cripple an individual with unrestrained
+emotions of fear and horror.
+~
+
+0 SPELL_VISEGRIP~
+Syntax: {Ccast 'visegrip' {c<target>{x
+
+When this spell is cast, it grants the target an unbreakable grip upon
+his or her weapon for the duration of the spell.  This enhanced grip
+prevents the target from being disarmed or dropping his or her weapon
+against their will while in combat.
+~
+
+0 SPELL_CONFUSION~
+Syntax {Ccast confusion{c <target>{x
+{x
+This spell causes waves of confusion and indecision.  This impaires the
+targets judgement and prevents them from taking effective action.
+~
+
+0 SPELL_REJUVENATION~
+Sytnax: {Ccast rejuvenation{x
+{wGroup {GHealing{x
+{w
+This spell increases the rate at which you heal, meaning you will regain
+hit points at much faster rate of speed.  There are no known side affects of
+this spell.
+~
+
+0 SPELL_Clairvoyance~
+Syntax: {Ccast clairvoyance {c(target){x
+Group {GDetection{x
+{w
+This spell allows the caster to look across the world and peek into a room 
+the target is in, however if the target is nosum this spell will not work.
+~
+
+0 SPELL_PROTECT_NEGATIVE~
+{WSyntax{w: {Ccast 'protect negative'{w
+{WGroup {GDark Rituals{w
+{w 
+This spell protects the caster from all from weapons and spells
+that do negative energy damage.  The damage done by this damage is reduced 
+but the caster is not immune.  This spell may not be cast on others.
+{w
+~
+
+0 SPELL_RESURRECT~
+{WSyntax{w: {Ccast resurrect corpse{w
+{WGroup {GDark Rituals{w
+{w 
+This spell turns corpses into mindless zombies to do the casters commands.
+Necromancers may only control one zombie at any given time.
+{w
+~
+
+0 SPELL_WITHER~
+{WSyntax{w: {Ccast wither {c<{wtarget{c>{x
+{WGroup {GDark Rituals{w
+{w 
+This sinister spell withers and shrinks the body parts of your target causing
+extreme pain and also hinders the target's fighting abilities.
+{w
+~
+
+0 SPELL_CONTROL_UNDEAD~
+{WSyntax{w: {Ccast 'control undead' {c<{wtarget{c>{w
+{WGroup {GDark Rituals{w
+{w 
+This spell is much like charm person but allows Necromancers to control the undead.
+The Undead tend to have no minds to be affected by normal charm.
+{w
+~
+
+0 SPELL_ECLIPSE~
+{WSyntax{w: {Ccast eclipse{c <{wtarget{c>{w
+{WGroup {GDark Rituals{w
+{w 
+The eclipse spell causes a ray of darkness to explode from the 
+casters hand that harms only good creatures.
+{w
+~
+
+0 SPELL_SHADOWSHIELD~
+{WSyntax:{C cast shadowshield {w
+{WGroup{G Dark Rituals{w
+{w
+This spell surrounds the caster with a shield of negative energy.  This shield
+will not only protect the caster, it will also damage an opponent.  This is
+a very powerful spell and is only taught to very high level necromancers. 
+Only they have the affinity for the afterworld and negative energies, that
+mastry of this spell requires.
+{w
+~
+
+0 SKILL_STRIKE~
+{WSyntax{w: {Cstrike {c<{wmobile name{c>{w
+{w
+A weaponless opening round skill, much like backstab, but only one hit. 
+This skill only available to assassin, monk and ninja classes.
+{w
+{wStrike Skill - By Tamarae (tamarae@zdnetonebox.com)
+~
+
+0 spell_inner spell_innerstrength~
+{CSyntax: {w cast 'inner rage'
+{w
+This spell is only known to berserkers.  Upon casting the berserker speeds up 
+his blood pressure, increasing the amount of adrenaline coarsing through
+his body.  The berserker gains great strength and inflicts more damage upon
+his foes.
+~
+
+0 spell_wildrage spell_wild~
+{CSyntax: {w cast 'wild rage'
+ 
+This spell is only known to berserkers.  Upon casting a hormone is released 
+into the berserk's blood stream and then travels to his/her brain.  A wild
+rage will ensue, making the berserker hit his foe at an increased rate.
+~
+
+0 SKILL_INTIMIDATE~
+{WSyntax{w:  {Cintimidate{c <{wmobile name{c>{w
+{w
+This skill allows powerful fighters to brandish their weapon and literally
+frighten their opponent from doing their best in battle.  The skill effectively
+lowers a vitims' hitroll and damroll according to the intimidator's level.
+{w
+This skill only available to berserkers and gladiators.
+{w
+{wIndimidate skill by Tamarae (tamarae@zdnetonebox.com)
+{w
+~
+
+0 SKILL_LUNGE~
+{WSyntax{w:  {Clunge {c<{wmobile name{c>{w
+{w
+{wLunge is a skill that allows a character to do a special attack with 
+certain weapon types.  Only Berserkers and Gladiators may gain this skill.{x
+{w
+~
+
+0 SKILL_LAYHANDS SKILL_LAY_HANDS~
+{WSyntax{w:  {Clay_hands {c<{wname{c>{w
+{w
+{wThis skill draws upon the stamina of the user to impart healing upon a 
+recipient.  It needs no mana, but rather relies on the strength of the 
+user's endurance and stamina. 
+{w
+{wThis skill is for Paladins, Priests, Bishops and Monks only.
+{w
+~
+
+0 SPELL_HARMONY~
+{WSyntax{w:  {Ccast harmony{w
+{w
+This spell uses a magical song to get in harmony with the caster's body
+movements.  This makes the caster a little harder to hit by increasing the
+character's armor class.
+{w
+~
+
+0 SPELL_RHYTHM~
+{WSyntax{w:  {Ccast rhythm{w
+{w
+{wThis spell uses magical song to speed up rhythm and improve concentration.
+This allows the caster to increase their ability to hit a target, their ability
+to damage a target and their own dexterity.  This is a powerful spell and
+has a high mana cost.  It is only available to high level bards.
+{w
+~
+
+0 SPELL_SHOUT~
+{WSyntax{w:  {Ccast shout{c <{wtarget{c>{w
+{w
+{wThis spell allows the caster to amplify their already awesome audio  
+capabilities to hit a target with a burst of intensely painful sound.
+{w
+~
+
+0 SPELL_SUNBURST~
+{WSyntax{w:  {Ccast sunburst{w
+{w
+{wSunburst is an attack spell that does light damage to all enemies in the room.
+It is so powerful it can often render the victim blinded.  It is also seen
+to destroy objects on the ground and in the inventory of the unfortunate
+victim.
+{w
+~
+
+0 SPELL_THUNDERCLAP~
+{WSyntax{w: {Ccast thunderclap {c<{wtarget{c>
+{WGroup{G Weather{w
+{w
+This spell cast a powerful blast of thunder at a target.  In addition to doing
+sound damage, this spell can literally knock a mob right off their feet.  The
+chance of this happening is dependant upon the size difference between caster 
+and target.
+~
+
+0 SKILL_STEAL STEAL~
+Syntax: {CSTEAL coins {c<character>{x
+Syntax: {CSTEAL {c<object> <character>{x
+{x
+{CSTEAL{w attempts to steal coins, or an object, from a character.
+{x
+There are penalties for using {CSTEAL{w on other players.
+{x
+In order to {CSTEAL{w successfully, you must practice the appropriate skill.
+
+Theft is the defining skill of the thief, and is only available to that class.
+It allows items to be stolen from the inventory of monsters and characters,
+and even from shops!  But beware, shop keepers gaurd their merchandise 
+carefully, and attempting to steal from a character earns you a THIEF flag
+if you are caught (making you free game for killing).
+~
+
+0 SKILL_DART DART~
+Syntax:  {Cdart {c<target> <direction>{x
+{x 
+The dart skill is a long distance attack perfected by thieves.  
+Over time thieves learned that their strength was not in magic
+or physical attacks, but in stealth and being able to attack
+from the shadows and at a distance.  The dart skill allows
+a thief to attack a mob in the room, or in the room next to
+him/her.  Some darts are imbued with powerful spells that do
+extra damage.
+~
+
+0 SKILL_ASSASSINATE ASSASSINATE~
+Syntax: {Cassassinate{c <target>{x
+
+The {CASSASSINATE{x command is a favored tactic of assassins and ninja.
+Using stealth and cunning, the attacker sneaks up to his target and
+attempts to deliver a fatal strike and kill his or her victim.
+~
+
+0 SKILL_ENVENOM ENVENOM~
+Syntax: {Cenvenom{c <item>{x
+
+{wThe envenom skill is a cowardly skill practiced only by thieves, designed to
+win a battle through alchemy and treachery rather than skill or strength.
+Or, put another way, it's a skill used by the smart to kill the foolish.
+
+Food, drink, and weapons may be envenomed, with varying effects. Poisoned
+food or drink puts a mild poison spell on the consumer, and is unlikely to
+be more than a minor inconvience (after all, the typical adventurer could
+drink sewer water with only a trace of the runs).  A poisoned weapon, on
+the other hand, can inflict serious damage on an opponent as the poison 
+burns through his bloodstream.  But be careful, blade venom evaporates 
+quickly and is rendered almost powerless by repeated blows in combat.
+~
+
+0 SKILL_BACKSTAB BACKSTAB~
+Syntax: {Cbackstab{c <target>{x
+
+One of most feared skills of the thief or assassin classes is the
+ability to backstab an enemy.
+
+When used, it can inflict various amounts of damage depending on the
+level of skill possessed by the attacker.  Anyone can backstab an
+enemy, however those most likely to score a successful attack are
+trained in its use.
+~
+
+0 MOUNT DISMOUNT SKILL_MOUNT SKILL_DISMOUNT~
+syntax: {Cmount {c<target>{x
+syntax: {Cdismount{x
+ 
+These commands allows you to get on and off your mount.
+Once mounted you can move around as you normally would.
+~
+
+0 SCAVENGE SKILL_SCAVENGE~
+{WSyntax{w: {Cscavenge{w
+{w
+Scavenging, when successful will find either a delicious root, a natural 
+spring or dig up a rock.  If it fails, the character digs up a rock.
+If there is already one root or spring in the room, it returns a faithful rock.
+{x
+~
+
+0 SKILL_PILLIFY~
+{WSyntax{w: {Cpillify {c<{wpowder name{c>{w
+{w
+{wThis skill will take an herbal powder, and form it into a pill.
+{w
+{wSee also {CHELP SKILL_HERBSENSE{w.
+{w
+This is a druid-only skill.
+{w
+~
+
+0 SKILL_GRIND~
+{WSyntax{w: {Chgrind {c<{wherb{c> <{wmortar{c>{w
+ 
+This skill will grind an herb into a powder, preparing it for 
+pillification, or pressing into a tablet to be eaten.
+ 
+{wSee also {CHELP SKILL_HERBSENSE{w.
+{w
+This is a druid-only skill.
+~
+
+0 SKILL_HERBSENSE~
+{WSyntax{w: {Cherbsense {c<{wherb{c>{w
+{C        sense {c<{wherb{c>{w
+{w
+This is an herbal identify skill.  Only druids and rangers may gain this skill, and use of
+{Clore{w or {Cidentify{w will not allow a player to determine the identity of the 
+herb in question.  The name, strength, and color of the herb will be given.  Herbs 
+may be ground into a fine powder with the use of a mortar.  The powder can then be 
+used to make pills. The color of the herb will determine the type of affect the 
+pill will have when eaten.
+{w
+{R     red    {w= vapour
+{Y     yellow {w= detect hidden
+{B     blue   {w= quench
+{R     o{Yr{Ra{Yn{Rg{Ye {w= camoflage
+{M     purple {w= slow
+{y     brown  {w= sate
+{G     green  {w= moss skin
+{w
+~
+
+
+
+
+-1 $~
+
+
+#$
+

@@ -1,0 +1,62 @@
+#HELPS
+0 HALF ORC HALFORC~
+half orcs are of medium stature
+
+EYE: COLOR: varied 
+HAIR: COLOR: varied 
+HEIGHT: 5'3" to 6' 
+WEIGHT: 190lbs average 
+OTHER FEATURES: 
+BUILD: 
+
+HISTORY: 
+Orcs will crossbreed with virtually every humanoid and demihuman species except elves, with whom they 
+cannot. The mongrel offspring of orcs and these other species are known as half-orcs. Orc-goblins, 
+orc-hobgoblins, and orc-humans are the most common. Half-orcs tend to favor the orcish strain heavily, 
+and as such are basically orcs, although 10% of these offspring can pass as ugly humans. 
+
+Half-orcs are distrusted by both human and orc cultures because they remind each of the other's racial 
+stock. Half-orcs advance in orc culture by flaunting their superior ability and in human culture by 
+associating with people who don't care about appearance. Most tend toward neutrality with slight 
+lawful and evil tendencies, but lawful good half-orcs are not unknown. Some half-orcs have split from 
+both cultures to form their own societies in remote areas. These half-orcs worship their own gods and 
+(like most hermits) are extremely suspicious of strangers. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 19 Int 15 Wis 16 Dex 19 Con 20 
+TRAINING POINTS TO START 18
+
+SPECIAL ABILITIES: berserk, second attack
+~
+0 $~
+
+#RACE
+halforc~
+H.Orc~
+5
+150 120 100 100 100 120 
+berserk~
+second attack~
+~
+~
+~
+10 10 10 10 10
+23 17 17 21 22
+2
+11
+10300
+10300
+
+#INFO
+NAME halforc~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM 0
+RES IL
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

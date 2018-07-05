@@ -1,0 +1,68 @@
+#HELPS
+0 HALF ELF HALFELF~
+half elves are of medium stature
+
+EYE: COLOR: Blue, Green, Light Brown 
+HAIR: COLOR: Blond, Light Brown 
+HEIGHT: 5'6 to 6'5 
+WEIGHT: 110lbs average 
+OTHER FEATURES: 
+BUILD: Lean 
+
+HISTORY: 
+Half-elves are the most common mixed-race beings. The relationship between elf, human, and half-elf is 
+defined as follows: 1) Anyone with both elven and human ancestors is either a human or a half-elf 
+(elves have only elven ancestors). 2) If there are more human ancestors than elven, the person is 
+human; if there are equal numbers or more elves, the person is half-elven. 
+
+Half-elves are usually much like their elven parent in appearance. They are handsome folk, with the 
+good features of each of their races. They mingle freely with either race, being only slightly taller 
+than the average elf (5 feet 6 inches on average) and weighing about 150 pounds. They typically live 
+about 160 years. They do not have all the abilities of the elf, nor do they have the flexibility of 
+unlimited level advancement of the human. Finally, in some of the less-civilized nations, half-elves 
+are viewed with suspicion and superstition. 
+
+In general, a half-elf has the curiosity, inventiveness, and ambition of his human ancestors and the 
+refined senses, love of nature, and artistic tastes of his elven ancestors. 
+Half-elves do not form communities among themselves; rather, they can be found living in both elven 
+and human communities. The reactions of humans and elves to half-elves ranges from intrigued 
+fascination to outright bigotry. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 17 Int 20 Wis 18 Dex 20 Con 15 
+TRAINING POINTS TO START 18
+
+SPECIAL ABILITIES: sneak, hide
+~
+0 $~
+
+#RACE
+halfelf~
+H.Elf~
+5
+100 100 100 110 120 120 
+sneak~
+hide~
+~
+~
+~
+10 10 10 10 10
+18 23 23 18 18
+2
+11
+10000
+10000
+
+#INFO
+NAME halfelf~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM 0
+RES BHIL
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

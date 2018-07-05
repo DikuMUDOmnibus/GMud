@@ -1,0 +1,138 @@
+#!/bin/sh
+# Written by Furey.
+# With additions from Tony and Alander.
+# Converted to /bin/sh by Paruda :p
+
+# Set the port number.
+  PORT=5000
+
+  if test "$1" != ""
+  then
+     PORT="$1"
+  fi
+# Change to area directory.
+  cd ../areas
+
+  if test -e shutdown.txt
+  then
+     rm -f shutdown.txt
+  fi
+
+  while true
+  do
+     # If you want to have logs in a different directory,
+     #   change the 'LOGFILE=' line to reflect the directory name.
+     INDEX=1000
+
+     while true
+     do
+        LOGFILE="../log/$INDEX.log"
+        if test ! -e $LOGFILE
+        then
+            break
+        fi
+        INDEX=`expr $INDEX + 1`
+     done
+
+     # Run ghost.
+     ../src/ghost $PORT > $LOGFILE 2>&1
+
+     # Restart, giving old connections a chance to die.
+     if test -e shutdown.txt
+     then
+        rm -f shutdown.txt
+        exit 0
+     fi
+     sleep 15
+  done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

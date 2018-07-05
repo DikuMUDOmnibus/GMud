@@ -1,0 +1,30 @@
+#RACE
+daergar~
+Daer~
+7
+150 175 125 100 100 100 
+berserk~
+~
+~
+~
+~
+10 10 10 10 10
+21 16 21 17 25
+2
+11
+10800
+10800
+
+#INFO
+NAME daergar~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM 0
+RES LQ
+VULN C
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

@@ -1,0 +1,468 @@
+#HELPS
+
+1 CATEGORIES~
+{G               Category: Categories/Main page.{w
+{w
+The following are categories in a tree like structure branching from
+Categories to subcategories and finally to helps.
+All the hi-cyan words are helps, all cyan are helps dependent on what you want.
+IE: The first Category listed is {CCat_Rules{w, so to look at the help simply
+type '{CHelp Cat_Rules{w'.  This will remain consistent through all subtrees.
+ 
+{CCat_Rules
+Cat_Commands
+Cat_Character
+Cat_Building
+Cat_Spells
+Cat_Skills
+Cat_Areas
+GhostMUD  {w: a list of credits.
+{x
+~
+
+1 CAT_RULES~
+{G               Category: Rules{w
+{w
+The following are all the helps you should read and be familiar with
+so you do not violate the rules of GhostMUD!!
+ 
+They are not the funnest of helps, but knowing the rules helps to
+keep it fun for all of us, Players and Imms!
+{C
+Rules
+Multiassisting
+PowerLeveling
+PK
+Kill_Stealing
+{w
+~
+
+1 CAT_COMMANDS~
+{G               Category: Commands{w
+{w
+This listing is all the categories for the command listing.
+{C
+Cat_Automation
+Cat_Building
+Cat_Combat
+Cat_Communication
+Cat_Group
+Cat_Information
+Cat_Movement
+Cat_Objects
+Cat_Other_Commands
+Cat_Paintball
+Cat_Skills
+{x
+~
+
+1 CAT_CHARACTER~
+{G               Category: Character{w
+{w
+These sub-categories will help you find the helps your looking for based
+on what you want to know about.
+{C
+Cat_Class
+Cat_Race
+{x
+~
+
+1 CAT_RACE~
+{G               Category: Race{w
+{w
+This is a list of all the helps pertaining to race except for the
+Specific Races themselves.
+{C
+Race {w(Use this help for a list of all the races, type {CHelp {c<racetype>{w
+{w     from that listing
+{CRaceSkills
+Traits
+Traits_{c<racetype>
+~
+
+1 CAT_CLASS~
+{G               Category: Class{w
+{w
+This help is all about the class... should you be a warrior and bash and
+fight your way through, or pick a mage and be a spellcaster... or something
+inbetween perhaps?
+{C
+Class
+{c<classname>  {wyou can get all the classnames from help class.
+{x
+~
+
+1 CAT_BUILDING~
+{G               Category: Building{w
+{w
+The following helps probably contain more than you ever wanted to know about 
+building, how to become a builder, and how to build once you are.
+{C
+Build
+OLC
+HitDice ManaDice Mob_AC ManaDice
+WDAM WEAPONDAM WEAPON_DAMAGE
+ARMORCLASS ARMORSTATS
+OEdit MEdit REdit 
+Building_Food
+{w
+~
+
+0 CAT_SPELLS~
+{G               Category: Spells{w
+{w
+GhostMUD has a large number of spells, this help is an attempt to break
+it down into smaller chunks.
+The syntax for spell groups and spells are a bit different, but should be
+evident following the same format of the rest of this help tree.
+{C
+Spells
+Cat_Offensive_Spell_Groups
+Cat_Defensive_Spell_Groups
+Cat_Other_Spell_Groups
+{x
+{CNOTE: {cSome spell groups have spells of both an offensive nature
+      and a defensive or other nature, they will be listed in both
+      or all as the case may warrant.{x
+~
+
+0 CAT_SKILLS~
+{G               Category: Skills{w
+{w
+Here, in these subcategories are all the gainable skills combined.
+As with spells... you will not have access to all of them, as they
+are class(es) specific.
+{C
+Skills
+Cat_Offensive_Skills
+Cat_Defensive_Skills
+Cat_Other_Skills
+{x
+~
+
+0 CAT_OFFENSIVE_SPELL_GROUPS~
+{G               Category: Offensive Spell Groups
+{w
+This help outlines all the offensive spell groups.  For individual spells
+the following format must be used... IE the first group is {CHelp {cGroup_Attack
+{wOnce you have the specific spell you need the help for use this format:
+{CHelp Spell_{c<spellname>   {wIE:{CHelp Spell_fireball {wor {CHelp Spell_Acid_Blast{w 
+ 
+Below is the group listing in alphabetical order:
+{C
+GROUP_ATTACK               GROUP_FORSAKEN
+GROUP_BENEDICTIONS         GROUP_HARMFUL
+GROUP_BENEVOLENT           GROUP_HYDROSPHERE 
+GROUP_BERSERKER            GROUP_INFERNOSPHERE
+GROUP_BLOOD                GROUP_MALADICTIONS 
+GROUP_BOLT                 GROUP_MENTAL_OFFENSIVE 
+GROUP_COMBAT               GROUP_RAIN    
+GROUP_DRACONIAN            GROUP_TERRASPHERE 
+GROUP_ENHANCEMENT          GROUP_WEATHER
+GROUP_ETHERSPHERE
+{x
+~
+
+0 CAT_DEFENSIVE_SPELL_GROUPS~
+{G               Category: Defensive Spell Groups
+{w
+This help outlines all the defensive spell groups.  For individual spells
+the following format must be used... IE defensive group is {CHelp Group_Protective{w
+Once you have the specific spell you need the help for use this format:
+Help Spell_<spellname> IE:{CHelp Spell_Armor {wor {CHelp Spell_Protection_Good 
+ 
+{wBelow is the group listing in Alphabetical order.
+{C
+GROUP_CURATIVE
+GROUP_ENHANCEMENT
+GROUP_HEALING
+GROUP_NATURE
+GROUP_PROTECTIVE
+GROUP_SKINS
+{x
+~
+
+0 CAT_OFFENSIVE_SKILLS~
+{G               Category: Offensive Skills.{w
+{w
+Below is a listing of the offensive skills, if a skill has an element of
+both offensive and defensive, it will be listed in both.
+{C
+SKILL_ASSASSINATE      SKILL_ENVENOM 
+SKILL_BACKSTAB         SKILL_HAGGLE
+SKILL_BASH             SKILL_HAND_TO_HAND
+SKILL_BERSERK          SKILL_KICK
+SKILL_CIRCLE           SKILL_RESCUE
+SKILL_COUNTER          SKILL_SECOND_ATTACK
+SKILL_CRITICAL_STRIKE  SKILL_STEAL
+SKILL_DART             SKILL_THIRD_ATTACK
+SKILL_DEATHGRIP        SKILL_TRIP
+SKILL_DIRT_KICKING     WEAPONS 
+SKILL_DISARM 
+SKILL_ENHANCED_DAMAGE
+{w
+~
+
+0 CAT_DEFENSIVE_SKILLS~
+{G           Category: Defensive Skills
+{w
+Below is a listing of Defensive Skills, if a skill is both defensive
+and Offensive/Other, it will be listed in more than one category.
+{C
+SKILL_DISARM 
+SKILL_DODGE
+SKILL_HIDE 
+SKILL_PARRY
+SKILL_PHASE
+SKILL_SHIELD_BLOCK
+SKILL_SNEAK 
+{x
+~
+
+0 CAT_OTHER_SKILLS~
+{G           Category: Other Skills
+{w
+Below is a listing of Other Skills, if a skill is both Other and
+Offensive/Defensive, it will be listed in more than one category.
+{C
+SKILL_BREW
+SKILL_BUTCHER 
+SKILL_ENVENOM 
+SKILL_FAST_HEALING
+SKILL_HAGGLE
+SKILL_HIDE 
+SKILL_LORE
+SKILL_MEDITATION
+SKILL_MOUNT SKILL_DISMOUNT
+SKILL_PEEK
+SKILL_PICK_LOCK
+SKILL_SEARCH
+SKILL_SNEAK 
+SKILL_STEAL 
+{x
+~
+
+0 CAT_GROUP~
+{G            Category: Grouping
+{w
+This help lists all the helps you need to read to find out about grouping.
+{w
+{C
+AutoSplit
+Consent
+Follow
+group
+groups
+Gtell
+nofollow
+noloot
+nosummon
+order
+question
+quiet
+split
+{x
+~
+
+0 Cat_Combat~
+{G            Category: Combat
+{w
+Here is a listing of combat commands.
+{C
+cast
+consider
+disarm
+kill
+spells
+spells
+surrender
+wimpy
+{x
+~
+
+0 Cat_Objects~
+{G            Category: Objects
+{w
+This listing contains all the commands to manipulate objects.
+{C
+           lock
+buy        look
+combine    open
+compact    push
+compare    put
+donate     quaff
+drink      recite
+drop       sacrifice
+eat        sell
+equipment  unlock
+examine    value
+fill       wear
+hold       wield
+knock      zap 
+{x
+~
+
+0 Cat_Communication~
+{G            Category: Communication
+{w
+This listing contains all the commands to Communicate with
+your fellow mudders..
+{C
+answer    note
+auction   pmote
+brief     pose
+bug       read
+channels  reply
+deaf      roleplay_channel
+emote     rp
+osay      say
+          socials
+gossip    spousetalk
+gsoc      tell
+gtell     unread
+ignore
+gratz     yell
+{x
+~
+
+0 Cat_Information~
+{G            Category: Information
+{w
+This listing contains all the commands to gather information
+on your character, the mud, and other characters..
+{C
+affects      password    traits
+ar2          report      tribe
+areas        rules       typo
+areas2       save        version
+attributes   scan        where
+colour       score       who
+credits      scroll      who2
+description  skills      whois
+exits        story       whois2
+gatein       time        whowas
+inventory    title       wizlist
+{x
+~
+
+0 Cat_Automation~
+{G            Category: Automation
+{w
+This listing contains all the commands to make playing easier
+by taking care of the tedious commands automatically...
+{C
+autoall
+autoassist
+autoconsume
+autoexit
+autogold
+autoloot
+autosac
+autosplit
+autotitle
+alias
+commands
+show
+unalias
+{x
+~
+
+0 Cat_Command_Skills~
+{G            Category: Command Skills
+{w
+This listing contains all the skills that show up on the 
+commands listing, these may also be found in {CCat_Skills{w
+in the sub-categories listed there.
+{C
+assassinate  lore
+brew         mount
+butcher      pick
+consume      practice
+dart         scavenge
+deathgrip    Search
+dirt         sneak
+dismount     steal
+envenom      trip
+hide         visible
+{x
+~
+
+0 Cat_Helpfull~
+{G            Category: Helpfull
+{w
+This listing contains some helpful skills that really dont fit
+in the other categories. .
+{C
+delete
+edit
+gain
+info
+heal
+help
+midcall
+outfit
+promote
+quit
+recall
+unremort
+{x
+~
+
+0 Cat_Paintball~
+{G            Category: Paintball
+{w
+This listing contains the commands that enable yout to play paintball..
+{C
+joinpbwar
+pbwarstat
+endpbwar
+reload
+shoot
+{x
+~
+
+0 Cat_Movement~
+{G            Category: Movement
+{w
+This listing contains the commands that lets you move around the mud..
+{C
+down
+east
+north
+rest
+sit
+sleep
+south
+stand
+up 
+wake
+west
+{x
+~
+
+0 Cat_Other_Commands~
+{G               Category: Cat Other Commands
+{x
+{wThis is a list of other, usefull, but not categorized commands.
+{C
+delete
+dice
+edit
+gain
+heal
+help
+midcall
+outfit
+promote
+quit
+recall
+unremort
+{x
+~
+
+
+
+-1 $~
+
+
+#$

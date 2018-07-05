@@ -1,0 +1,518 @@
+#HELPS
+
+0 ELF~
+EYE: COLOR: Light blue/light green/light brown 
+HAIR: COLOR: Blond, light brown 
+HEIGHT: Medium 6'2 to 6'6 
+WEIGHT: 160 lbs average 
+BUILD: Lean 
+BEST SUITED FOR: Mages, Rangers, Druids
+
+{Mhelp RSTAT_ELF for racial stats, help RHISTORY_ELF for history and more{x
+{Mdetails{x
+~
+
+0 ARCHON~
+EYE: COLOR: black 
+HAIR: COLOR: feathers 
+HEIGHT: medium 5'-5'9 
+WEIGHT: 120lbs-180lbs 
+OTHER FEATURES: a sharp beak 
+BUILD: lean 
+BEST SUITED FOR: Paladin, Cleric, Rangers
+
+{Mhelp RSTAT_ARCHON for racial stats, help RHISTORY_ARCHON for history{x
+{Mand more details{x
+~
+
+0 BARBARIAN~
+EYE: COLOR: Varied 
+HAIR: COLOR: Varied 
+HEIGHT: large 6'0" to 7' 
+WEIGHT: 180lbs and up 
+OTHER FEATURES: None 
+BUILD: Tall, muscular 
+BEST SUITED FOR: Warriors
+
+{Mhelp RSTAT_BARBARIAN for racial stats, help RHISTORY_BARBARIAN for history{x
+{Mand more details{x
+~
+
+0 DAERGAR DUERGAR~
+EYE: COLOR: Dark brown or Black 
+HAIR: COLOR: Dark brown or black 
+HEIGHT: 4' to 4'5 
+WEIGHT: Medium 180 lbs to 200 lbs
+OTHER FEATURES: Grey pigment
+BUILD: Stalky
+BEST SUITED FOR: Warrior, Paladins
+
+{Mhelp RSTAT_DUERGAR for racial stats, help RHISTORY_DUERGAR for history{x
+{Mand more details{x
+~
+
+0 DRACON~
+EYE: COLOR: Dark Black some have Grey or steel blue
+HAIR: COLOR: NONE-Scales 
+HEIGHT: large 6' to 7'
+WEIGHT: 200 lbs and over
+OTHER FEATURES: Scales
+BUILD: Stalky, Muscular
+BEST SUITED FOR: Warriors, Mages, Paladin
+
+{Mhelp RSTAT_DRACON for racial stats, help RHISTORY_DRACON for history{x
+{Mand more details{x
+~
+
+0 DROW~
+EYE: COLOR: Dark brown, black 
+HAIR: COLOR: white 
+HEIGHT: medium 5' to 5'6" 
+WEIGHT: 105lbs average 
+OTHER FEATURES: black skin 
+BUILD: Lean 
+BEST SUITED FOR: thief, mage
+
+{Mhelp RSTAT_DROW for racial stats, help RHISTORY_DROW for history{x
+{Mand more details{x
+~
+
+0 DWARF~
+EYE: COLOR: Brown or Black 
+HAIR: COLOR: Brown or Black 
+HEIGHT: medium 4' to 4'5 
+WEIGHT: 130lbs average 
+OTHER FEATURES: Males tend to have large beards. 
+BUILD: Stocky 
+BEST SUITED FOR: Warriors, Paladins
+
+{Mhelp RSTAT_DWARF for racial stats, help RHISTORY_DWARF for history{x
+{Mand more details{x
+~
+
+0 RHISTORY_ELF~
+HISTORY: 
+Elves tend to be somewhat shorter and slimmer than normal humans. Their 
+features are finely chiseled and delicate, and they speak in melodic tones. 
+Although they appear fragile and weak, as a race they are quick and strong. 
+Elves often live to be over 1,200 years old, although long before this time 
+they feel compelled to depart the realms of men and mortals. Where they go 
+is uncertain, but it is an undeniable urge of their race. 
+
+Elves are often considered frivolous and aloof. In fact, they are not, although
+humans often find their personalities impossible to fathom. They concern 
+themselves with natural beauty, dancing and frolicking, playing and singing, 
+unless necessity dictates otherwise. They are not fond of ships or mines, but 
+enjoy growing things and gazing at the open sky. Even though elves tend toward 
+haughtiness and arrogance at times, they regard their friends and associates as 
+equals. They do not make friends easily, but a friend (or enemy) is never 
+forgotten. They prefer to distance themselves from humans, have little love for 
+dwarves, and hate the evil denizens of the woods. 
+
+Their humor is clever, as are their songs and poetry. Elves are brave but never
+foolhardy. They eat sparingly; they drink mead and wine, but seldom to excess. 
+While they find well-wrought jewelry a pleasure to behold, they are not overly 
+interested in money or gain. They find magic and swordplay (or any refined combat 
+art) fascinating. If they have a weakness it lies in these interests. 
+~
+
+0 RSTAT_ELF~
+Elvish stats
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM  STATS:  Str 14 Int 27 Wis 27 Dex 16 Con 16
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: Sneak, Hide 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 RSTAT_INFO~
+Stats can be trained to a maximum of 92 points to all combined stats.
+By totaling your natural STR, INT, WIS, DEX, CON if they total 92 then
+you are at your maximum stats.
+
+35 is the maximum stat attainable through magical items. However 30 is
+the maximum natural stat value. All races 100 possible totals for stats
+leaving room for diversity in characters. All races start with 10 for
+all stats at level 1 and get 11 training points to begin with.
+
+Example of stats maximums is this human can have 20 natural all stats
++2 for class bonus so a human warrior (+2 Str) can have stats of
+Str: 22 Int: 20 Wis 20 Dex 20 Con 20
+but can only train the stat to a total of 92 points so his stats may
+look something like this at full stats.
+Str: 21 Int: 17 Wis: 18 Dex: 17 Con: 19
+Which is added all together totals 92 (21+17+18+17+19) = 92
+
+But can enhance each of those stats by +5 with spells and eq.
+
+Table of stats
+01-04 (You are dead)
+05-08 Poor
+09-13 Below Average
+14-18 Average
+19-22 Above Average
+23-27 Excellent
+28-35 Superior
+36-40 Maximum Mortal
+41+   God Like
+~
+
+0 RHISTORY_ARCHON~
+HISTORY: 
+The archon are a race of intelligent bird-men that live on the peaks of 
+the highest mountains, spending their days soaring on the thermal winds 
+in peace and solitude. 
+
+Aarakocra are about 5 feet tall and have a wing span of 20 feet. About 
+halfway along the edge of each wing is a hand with three human-sized 
+fingers and an opposable thumb. An elongated fourth finger extends the 
+length of the wing and locks in place for flying. Though the wing-hands 
+cannot grasp during flight, they are nearly as useful as human hands 
+when an archon is on the ground and its wings are folded back. The wing 
+muscles anchor in a bony chest plate that provides the archon with extra 
+protection. The powerful legs end in four sharp talons that can unlock 
+and fold back to reveal another pair of functional hands, also with three 
+human-sized fingers and an opposable thumb. The hand bones, like the rest 
+of an archon's skeleton, are hollow and fragile. 
+
+Aarakocra faces resemble crosses between parrots and eagles. They have 
+gray-black beaks, and black eyes set frontally in their heads that provide 
+keen binocular vision. Plumage color varies from tribe to tribe, but generally
+males are red, orange, and yellow while females are brown and gray. Aarakocra 
+have little to do with other species, including neighboring archon tribes, and 
+leave their home territory only in extreme circumstances. They rarely 
+encounter humans except for an occasional foray into a rural community to 
+snatch a stray farm animal; this is not an intentionally malicious act, as 
+archon are unable to distinguish between domestic and wild animals. A human 
+venturing into archon territory may be able to convince one to serve as a 
+guide or a scout in exchange for a shiny jewel or coin. 
+~
+
+0 RSTAT_ARCHON~
+STARTING STATS:  Str 10, Int 10, Wis 10, Dex 10, Con 10 
+MAXIMUM STATS:   Str 15, Int 25, Wis 25, Dex 21, Con 14 
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: None 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 RHISTORY_BARBARIAN~
+HISTORY: 
+Barbarians belong to primitive cultures that possess rudimentary skills such 
+as animal husbandry and simple manufacturing (weaving, carving). They may 
+live in villages of simple buildings or in portable structures like tents, 
+tepees, yurts, or wagons. In aquatic regions, they may live on watercraft 
+like canoes or rafts. 
+
+Barbarians are typically armed with swords, knives, bows, spears, and clubs.
+Armor is limited to shields, helmets, and chestplates. They tend to be 
+hostile toward unfamiliar wizards 
+~
+
+0 RSTAT_BARBARIAN~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 22 Int 15 Wis 21 Dex 20 Con 22 
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: fast healing, second attack 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+
+0 RHISTORY_DUERGAR~
+HISTORY: 
+The duergar are instantly recognizable by the small twisted horns on their 
+heads, and grey skin. Most male duergar are bearded as well. It is not 
+unheard of for female duergar to have beards as well, and most who do are 
+considered among the most attractive women of their kind. Duergar are 
+private peoples preferring to live amongst their own than any other. 
+Occasionally, duergar have been known to live in some of the smaller 
+settlements, but these are only the most gregarious of their kind. 
+
+Duergar have often been labeled "grey-dwarves" due to their close kinship to 
+the dwarves and as a matter of fact are a type dwarf themselves though a
+millennia of separation has given them some unique features like their grey
+pigment. They live in subterranean areas or areas which remain dark most of 
+the time.
+
+Duergar are consummate craftsmen often skilled in stone and metal alchemy. 
+They are extreme perfectionists and would rather start a project anew 
+than produce a flawed work. It is for this quality that duergar craftsmanship 
+is so desired. A duergar who produces faulty workmanship is forever disgraced 
+by the rest of his or her people. Deliberately selling a crafted weapon or 
+tool with an imperfection is the worst offense imaginable to them tantamount 
+to murder. 
+
+In general alchemy is thought to be a natural part of the world within Duergar
+society and it is a means of ranking duergar within their society. Duergar are
+cunning and like their nearest brothers the dwarves are also renowned warriors
+for their ferocity in battle. 
+~
+
+0 RSTAT_DUERGAR~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 21 Int 16 Wis 21 Dex 17 Con 25
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: berserker
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 RHISTORY_DRACON~
+HISTORY: 
+The Dracons are a magical race created by an evil mage in a effort to dominate
+the known world. He used the dracon for a short time until they eventually
+rebelled against his rule. They are now free and still often travel in numbers
+as well as are still considered war like. They strongest rules the clan and 
+has first choice of mates.
+
+The dracon are an organized people with strict rules and edict which must be 
+obeyed. Not doing so could cost you your life.
+~
+
+0 RSTAT_DRACON~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 20 Int 22 Wis 22 Dex 16 Con 20
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: fast, trip
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 RHISTORY_DROW~
+HISTORY: 
+These dreaded, evil creatures were once part of the community of elves that 
+still roam the world's forests. Now these dark elves inhabit black caves and 
+winding tunnels under the earth, where they make dire plans against the 
+races that still walk beneath the sun, on the surface of the green earth. 
+Drow have black skin and pale, usually white hair. They are shorter and more 
+slender than humans, seldom reaching more than 5 feet in height. Male drow 
+weigh between 80 and 110 pounds, and females between 95 and 120 pounds. Drow 
+have finely chiseled features, and their fingers and toes are long and 
+delicate.Like all elves, they have higher Dexterity and lower Constitution 
+than men. 
+
+Drow clothing is usually black, functional, and often possesses special 
+properties, although it does not radiate magic. For example, drow cloaks 
+and boots act as if they are cloaks of and boots of elvenkind, except that 
+the wearer is only 75% likely to remain undetected in shadows or to surprise
+enemies. The material used to make drow cloaks does not cut easily and is 
+fire resistant, giving the cloaks a+6 bonus to saving throws vs. fire. These 
+cloaks and boots fit and function only for those of elven size and build. Any
+attempt to alter a drow cloak has a 75% chance of unraveling the material, 
+making it useless. 
+
+In the centuries they've spent underground, drow have learned the languages 
+of many of the intelligent creatures of the underworld. Besides their own 
+tongue, an exotic variant of elvish, drow speak both common and the 
+subterranean trade language used by many races under the earth. They speak 
+the languages of gnomes and other elves fluently. 
+
+Drow also have their own silent language composed of both signed hand 
+movements and body language. These signs can convey information, but not 
+subtle meaning or emotional content. If within 30 feet of another drow, they 
+can also use complex facial expressions, body movements, and postures to 
+convey meaning. Coupled with their hand signs, these expressions and gestures 
+give the drow's silent language a potential for expression equal to most 
+spoken languages. 
+
+Long ago, dark elves were part of the elven race that roamed the world's 
+forests. Not long after they were created, though, the elves found themselves
+torn into rival factions+one following the tenets of evil, the other owning 
+the ideals of good (or at least neutrality). A great civil war between the 
+elves followed, and the selfish elves who followed the paths of evil and chaos
+were driven into the depths of the earth, into the bleak, lightless caverns 
+and deep tunnels of the underworld. These dark elves became the drow. 
+
+The drow no longer wish to live upon the surface of the earth. In fact, few 
+who live on the surface ever see a drow. But the dark elves resent the elves 
+and faeries who drove them away, and scheme against those that dwell in the 
+sunlight. 
+
+Drow live in magnificently dark, gloomy cities in the underworld that few 
+humans or demihumans ever see. They construct their buildings entirely out 
+of stone and minerals, carved into weird, fantastic shapes. Those few surface 
+creatures that have seen a dark elf city (and returned to tell the tale) 
+report that it is the stuff of which nightmares are made. 
+
+Drow society is fragmented into many opposing noble houses and merchant 
+families, all scrambling for power. In fact, all drow carry brooches 
+inscribed with the symbol of the merchant or noble group they are allied 
+with, though they hide these and do not show them often. The drow believe 
+that the strongest should rule; their rigid class system, with a long and 
+complicated list of titles and prerogatives, is based on the idea. 
+
+They worship a dark goddess, called Lolth by some, and her priestesses hold 
+very high places in society. Since most drow priests are female, women tend 
+to fill nearly all positions of great importance. 
+
+Drow fighters go through rigorous training while they are young. Those who 
+fail the required tests are killed at the program's conclusion. That is why 
+dark elf fighters of less than 2nd level are rarely seen outside a drow city. 
+
+Drow often use giant Dragonkins as pack animals, and frequently take bugbears 
+or troglodytes as servants. Drow cities are havens for evil beings, including 
+mind flayers, and drow are allied with many of the underworld's evil 
+inhabitants. On the other hand, they are constantly at war with many of their 
+neighbors beneath the earth, including dwarves or dark gnomes (svirfneblin) 
+who settle to close to a drow city. Dark elves frequently keep slaves of all 
+types, including past allies who have failed to live up to drow expectations. 
+~
+
+0 RSTAT_DROW~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 14 Int 27 Wis 27 Dex 16 Con 16
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: sneak, hide 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 RHISTORY_DWARF~
+HISTORY: 
+Dwarves are short, stocky fellows, easily identified by their size and shape. 
+They average 4 to 4-? feet tall. They have ruddy cheeks, dark eyes, and dark 
+hair. Dwarves generally live for 350 years. 
+
+Dwarves tend to be dour and taciturn. They are given to hard work and care 
+little for most humor. They are strong and brave. They enjoy beer, ale, mead,
+and even stronger drink. Their chief love, however, is precious metal, 
+particularly gold. They prize gems, of course, especially diamonds and opaque 
+gems (except pearls, which they do not like). 
+
+Dwarves like the earth and dislike the sea. Not overly fond of elves, they 
+have a fierce hatred of orcs and goblins. Their short, stocky builds make them
+ill-suited for riding horses or other large mounts (although ponies present no
+difficulty), so they tend to be a trifle dubious and wary of these creatures.
+They are ill-disposed toward magic and have little talent for it, but revel in 
+fighting, warcraft, and scientific arts such as engineering. 
+
+Though dwarves are suspicious and avaricious, their courage and tenacity more
+than compensate for these shortcomings. 
+
+Dwarves typically dwell in hilly or mountainous regions. They prefer life in 
+the comforting gloom and solidness that is found underground. They have 
+several special abilities that relate to their underground life, and they 
+are noted for being particularly resistant to magics and poisons. 
+~
+
+0 RSTAT_DWARF~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 21 Int 16 Wis 21 Dex 17 Con 25
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: Berserk 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+
+0 DKIN DRAGONKIN~
+EYE: COLOR: 
+HAIR: COLOR: 
+HEIGHT: large
+WEIGHT: Varies
+OTHER FEATURES: Half human/Half Dragon 
+BUILD: Musculine
+
+{Mhelp RSTAT_DKIN for racial stats, help RHISTORY_DKIN for history{x
+{Mand more details{x
+~
+
+0 RHISTORY_DKIN~
+HISTORY:
+Dragon Kin are half dragon/half human beings created by magical spells
+of the highest possible magic. Only the immortals posses this extreme
+magic and few mortals have ever earned the grace of an immortal for this
+race.
+
+Little else is known about these beings except that a meeting with them
+is sure to be fatal.
+~
+
+0 RSTAT_DKIN~
+No stats available for this race.
+
+SPECIAL ABILITIES: haste, hide, sneak, second attack, fast healing
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 HUMAN~
+human are of medium stature 
+
+EYE: COLOR: Any color
+HAIR: COLOR: Any color
+HEIGHT: 5'5 to 6'6 
+WEIGHT: 140lbs average 
+OTHER FEATURES: None 
+BUILD: varied 
+
+{Mhelp RSTAT_HUMAN for racial stats, help RHISTORY_HUMAN for history{x
+{Mand more details{x
+~
+
+0 RHISTORY_HUMAN~
+HISTORY: 
+Humans are the generic race created after years of interbreeding. They
+are a melting pot of all the other races combined. Thier stats and 
+abilities are centerline making them the most adaptable race on all Ea. 
+~
+
+0 RSTAT_HUMAN~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 20 Int 20 Wis 20 Dex 20 Con 20 
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: None 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+0 SYLVAN~
+sylvan are of medium stature 
+
+EYE: COLOR: 
+HAIR: COLOR: 
+HEIGHT: 
+WEIGHT: 
+OTHER FEATURES: 
+BUILD:
+
+{Mhelp RSTAT_SYLVAN for racial stats, help RHISTORY_SYLVAN for history{x
+{Mand more details{x
+~
+
+0 RHISTORY_SYLVAN~
+HISTORY: 
+Sylvan are elves who have adjusted to city living unlike the Elven race
+encountered in the wilds of Ea. These elves are cultured by human standards
+but have lost thier instincts for hunting and foraging as well as some
+of the natural magics found in wood elves.
+
+They are physically stronger than wild elves but posses less mental prowess.
+~
+
+0 RSTAT_SYLVAN~
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS:   Str 15 Int 22 Wis 27 Dex 18 Con 18 
+TRAINING POINTS TO START 11
+
+SPECIAL ABILITIES: 
+
+{Mhelp RSTAT_INFO for information of stats{x
+~
+
+
+
+0 $~
+#$

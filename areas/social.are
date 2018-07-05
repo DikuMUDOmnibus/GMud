@@ -1,0 +1,3098 @@
+#SOCIALS
+
+aargh
+{GAAAAAARRRRRRGGGGGGHHHHHH!!!!!!{x
+{W$n {Gthrows back $s head and {Dhowls {Gin profound {rfrustration{G!{x
+{GYou scream your {rfrustration {Gand grab for $S throat with both hands!{x
+{W$n {Dhowls {Gin {rfrustration{G, and leaps for {W$N{G, trying to {rthrottle {G$M!{x
+{W$n {Ggrabs for your throat with two hands, {Dhowling {Gin {rfrustration{G!{x
+{GYou get even MORE {rfrustrated {Gwhen you can't find anyone to throttle!{x
+{GYou scream in {rfrustration{G at your own stupidity!{x
+{G$n screams in {rfrustration at {G$s own stupidity!{x
+
+accept 0 0
+{GYou accept the proferred apology graciously.{x
+{W$n {Ggraciously accepts the proferred apology.{x
+#
+
+accuse 0 5
+{wAccuse{G who??{x
+{W$n {Gis in an {waccusing{G mood.{x
+{GYou look {waccusingly{G at $M.{x
+{W$n {Glooks {waccusingly{G at {W$N{G.{x
+{W$n {Glooks {waccusingly{G at you.{x
+{wAccuse{G somebody who's not even there ??{x
+{GYou {waccuse{G yourself.{x
+{W$n {Gseems to have a bad conscience.{x
+
+ack 0 0
+{GYou do a Bill the Cat imitation. Oop! Ack!! Phttpht!!{x
+{W$n {Gcontorts $s face and belches 'Oop! Ack!! Phttpht!!!'{x
+{GYou Oop! Ack!! Phttpht in $S face!{x
+{W$n {Gbecomes Bill the Cat for a moment, ooping, acking and phttphting at {W$N{G.{x
+{W$n {Gcontorts $s face ooping, acking, and phttphting your way.{x
+{GYou choke on the hairball when you realize they aren't here.{x
+{GOop! Ack!! Phttpht!!!!!{x
+{W$n {Gcrosses $s eyes and belches - Oop! aCK!! Phttpht!!!!!{x
+
+
+adjust 5 0
+{GYou look around, make sure nobody is watching, and you adjust your "Tool."{x
+{W$n {Glooks around slyly, smiles, then reaches down and "adjusts" $mself...{x
+#
+
+adore 0 0
+{GYou {wadore{G whom?{x
+{W$n {GLooks in a mirror and {wadores{G $s {ytan{G.{x
+{GYou {wadore{G $M.{x
+{W$n {Gis caught {wadoring{G {W$N{G.{x
+{GYou catch {W$n {wadoring {Gyou.{x
+{GYou are adorable.{x
+{GYou {wadore{G who? You {DNarcissist{G!{x
+{W$n {Gis a {DNarcissist{G!{x
+
+
+agree 0 0
+{GYou {wagree{G absolutely.{x
+{W$n {wagrees{G absolutely.{x
+{GYou nod in enthusiastic {wagreement{G with {W$N{G.{x
+{W$n {Gnods in enthusiastic {wagreement{G with {W$N{G.{x
+{W$n {Gnods in enthusiastic {wagreement{G with you.{x
+{GSorry, your target is absent.{x
+{GYou find yourself most {wagreeable{G.{x
+{W$n{G finds $mself the most {wagreeable{G being alive.{x
+
+air 0 0
+{GYou grab your {Wair {Yguitar {Gand play for all you're worth.{x
+{W$n air-guitars{G like a mad man ... {YE{yX{BC{bE{YL{yL{BE{bN{YT{G!!!{x
+{GYou hope $E appreciates your (total lack of) talent.{x
+{W$n {Gis surrounded by air groupies.{x
+{W$n {Gplays a most {Ye{yx{Bc{be{Yl{yl{Bebn{Yt{G tune for you on $s most excellent {Wair guitar{G.{x
+{GAwww... you have no audience!{x
+{GYou play softly to yourself.{x
+#
+
+alone 0 0
+{GSo you want to be alone!{x
+{W$n {Gappears to be upset. Perhaps you should leave $m alone.{x
+{GYou tell {W$N {Gleave me alone!{x
+{W$n {Gtells {W$N{G"Get lost. Leave me alone!"{x
+{W$n {Gtells you. "Get lost. Leave me alone!"{x
+{GYou are alone!{x
+{GYou think "If these voices would just {rstop{G, that'd be great!"{x
+{W$n {Gis caught listening to the voices in $s head.{x
+
+angel 0 0
+{GYou see an {wangel{G appear.{x
+{W$n {Gis seeing things.{x
+{GYou ask $M "Are you an {wangel{G?"{x
+{W$n {Gasks {W$N{G "Are you an {wangel{G?"{x
+{W$n {Gasks you "Are you an {wangel{G?"{x
+{wAngel{G where?{x
+{GYou think i just saw an {wangel{G.{x
+{W$n {Gmurmurs "I just saw an {wangel{G."{x
+
+anticipate 0 0
+{GYou murmur '{RSssssoonnn, my presssssciousssss...{G'{x
+{G$n murmurs '{RSsssssooonnnn, my pressssscioussss...{G'{x
+#
+
+apologize 1 0
+{GYou {wapologize {Guntil you are {bblue{G in the face.{x
+{W$n {wapologizes {Gprofusely.{x
+{GYou might as well {wapologize{G because $E sure as hell won't.{x
+{W$n {wapologizes{G to {W$N{G with a very sincere look on $s face.{x
+{W$n {wapologizes{G to you and begs for forgiveness.{x
+{GWho's that?{x
+#
+
+applaud 0 0
+{GClap, clap, clap.{x
+{W$n{G gives a round of {wapplause{G.{x
+{GYou clap at {W$N{G's actions.{x
+{W$n{G claps at {W$N{G's actions.{x
+{W$n{G gives you a round of {wapplause{G.  You MUST'VE done something good!{x
+{GYou give your imaginary round of {wapplause{G to your imaginary friend.{x
+{GYou {wapplaud{G at yourself.  Boy, are we {rconceited{G!{x
+{W$n {wapplauds{G at $mself.  Boy, are we {rconceited{G!{x
+
+babble 1 0
+{GYou {Mbabble {Gendlessly.{x
+{W$n {Mbabbles {Gendlessly, won't $e EVER {rshut up{G?{x
+{GYou {Mbabble {Gto {W$N {Gfor hours on end.{x
+{G$n {Mbabbles {Gto {W$N {Gfor what seems an eternity, how can {W$N {Gstand it?{x
+{W$n {Mbabbles {Gat you. You nod mechanically, hoping $e will {rshut up {Gsoon.{x
+{GWhom do you wish to annoy with your babble?{x
+{GYou {Mbabble {Gon and on to yourself, FINALLY! Someone who LISTENS!!{x
+{G$n {Mbabbles {Gquietly to $mself.{x
+
+bark 1 0
+{GYou {ybark {Gloudly.{x
+{W$n {ybarks {Glike a dog. GO DAWGS SIC 'EM!!! {yWOOF{G! {yWOOF{G! {yWOOF{G! {yWOOF{G!{x
+{GYou {ybark{G at {W$N{G scaring $M silly -- SHAME ON YOU!!{x
+{W$n {ybarks {Gat {W$N {Gscaring $M senseless.{x
+{W$n {ybarks {Gloudly at you, you back away, because $e might {rbite {Gtoo!!{x
+{GBark at whom?{x
+{GYou {ybark {Gat yourself and jump back in fear.{x
+{W$n {ybarks {Gat $mself and cowers in fear.{x
+
+bask 0 0
+{GYou bask in the {wwarm {Ysun{G!{x
+{W$n {Gis caught basking in the {wwarm {Ysun{G!{x
+{GYou bask in the presence of {W$N{G.{x
+{W$n {Gbasks in the presence of {W$N{G!{x
+{W$n {Gbasks in your presence!{x
+{GBasking? Where?{x
+{GYou bask in the glory that is {wGhost Dancer{G!{x
+{W$n {Gbasks in the glory of this day!{x
+
+bat 0 0
+{GYou bat your long, {Ddark {Glashes and smile {winnocently{G.{x
+{W$n {Gbats $s long, {Ddark {Glashes and smiles {winnocently{G.{x
+{GYou try to play {winnocent {Gto {W$N{G!{x
+{GBatting $s lashes {W$n {Gtries to act {winnocent {Ginfront of {W$N{G!{x
+{W$n {Gbats $s lashes at you and pretends to be {winnocent{G!{x
+#
+
+bbath 0 0
+{GYou run a {Ywarm {wbuble bath{G.{x
+{W$n {Gruns $mself a {Ywarm {wbuble bath{G.{x
+{GYou {Goffer $M a {Ywarm {wbuble bath{G.{x
+{W$n {Goffers {W$N{G a {Ywarm {wbuble bath{G.{x
+{GYou are offered a {Ywarm {wbuble bath{G with {W$n{G.{x
+{GA {wbuble bath{G does sound nice.{x
+#
+
+bcatch 0 0
+{GYou reach out and rescue the bottle from its flight.{x
+{W$n {Greaches out and grabs the bottle of {ybeer{G tossed to $m.{x
+{GYou toss a bottle of {ybeer{G to {W$N{G.{x
+{W$n {Gtosses a bottle of {ybeer{G to {W$N{G.{x
+{GYou catch the bottle of {ybeer{G that {W$n {Gthrew.{x
+{GBe more careful!{x
+{GYou juggle the {ybeer {Gdo not open that!{x
+{W$n juggles bottles of {ybeer{G! Anyone care to open it?{x
+
+beam
+{GYou {Ybeam {Gdelightedly at nothing in particular.{x
+{W$n {Ybeams {Gbroadly at nothing in particular.{x
+{GYou {Ydazzle {W$N {Gwith your smile.{x
+{W$n {Gmust like {W$N {Ga great deal to {Ybeam {Gat $M so broadly!{x
+{W$n {Gmust like you a great deal to {Ybeam {Gat you so broadly!{x
+{GYou look pretty silly {Ybeaming {Gat imaginary friends...{x
+{GWell, aren't you special?{x
+{W$n {Ybeams {Gat $mself, obviously pleased.{x
+
+bearhug 1 0
+{GWhom do you wish to bearhug?{x
+$
+{GYou overwhelm {W$N with a great, big, {chulking {ybearhug{G.{x
+{W$n {Gencompasses {W$N{G in an {cENORMOUS {ybearhug{G!{x
+{W$n {cclutches {Gyou tightly in an overwhelming {ybearhug{G!{x
+{GPerhaps you should shower your affections on someone who is here?{x
+{GYou vainly clutch yourself in a {ybearhug {Gfor consolation.{x
+{W$n {Ghugs $mself as tightly as possible.  Looks like $e could use a hand.{x
+
+beckon 1 0
+{GYou beckon for everyone to follow.{x
+{W$n {Gbeckons for everyone to follow.{x
+{GYou beckon for {W$N {Gto follow -- sure hope they do!{x
+{W$n {Gbeckons {W$N {Gto follow...hmmm what's going on?{x
+{W$n {Gbeckons for you to follow.{x
+{GSo sorry, that person has already left.{x
+{GYou beckon to your {Dshadow {Gto follow.{x
+{W$n {Gbeckons to $s {Dshadow {Gto follow.{x
+
+beer 0 0
+{GYou pull out a six-pack.{x
+{W$n {Gstarts to juggle a six-pack of {ybeer{G.{x
+{GYou toss a bottle of {ybeer {Gat {W$N{G.{x
+{W$n {Gtosses a bottle of {ybeer {Gat {W$N{G ... let's just hope $e'll catch it!{x
+{W$n {Gtossed you a bottle of {ybeer{G... I think $e wants something...{x
+{GThe bottle crashes to the floor and shatters.{x
+{GYou pop off the top and down a {ybeer{G.{x
+{W$n {Gpops the top off a bottle of {ybeer {Gand downs it in one gulp.{x
+
+beg 0 0
+{GYou {Rbeg {Gthe {wgods {Gfor mercy.{x
+{GThe {wgods {Gfall down {Ylaughing {Gat {W$n{G's request for mercy.{x
+{GYou {Rdesperately {Gtry to squeeze a few coins from $M.{x
+{W$n {Rbegs{W $N{G for a dime or two - or twenty !{x
+{W$n {Rbegs {Gyou for money. You graciously let $m peep at your fortune.{x
+{GYour money-lender seems to be out for the moment.{x
+{GBegging yourself for money doesn't help.{x
+{W$n {Rbegs {G$mself for money how lame!{x
+
+bikini 0 0
+{GYou show off your new bikini.{x
+{W$n {Gis going to the beach $e is wearing a new bikini.{x
+#
+
+bird 1 0
+{GYou flick a bird...How obscene!{x
+{W$n {Gflicks a bird at no one in particular.{x
+{GYou shoot a bird at {W$N{G.{x
+{W$n {Ggives {W$N {Gthe bird.{x
+{W$n {Ggives you the bird...What an {rtwit{G!{x
+{GDon't you hate to waste a good obscene gesture like that?{x
+#
+
+bite
+{GYou glare around, muttering "{CBite me...{G" under your breath.{x
+{W$n {Gglares around, muttering "{CBite me...{G" under $s breath.{x
+{GYou {Rbite {W$N {Gon the neck.{x
+{W$n {Rbites {W$N {Gon the neck!{x
+{W$n {Rbites {Gyou on the neck.{x
+{GHungry?  No such luck.{x
+{GYou {Rbite {Gyour knuckle in {Danguish{G.{x
+{W$n {Rbites {G$s knuckle in {Danguish{G...the tragedy!{x
+
+bkiss 0 0
+{GYou blow {Rkisses {Gto the air.{x
+{G$n blows {Rkisses {Gat no one in particular.{x
+{GYou blow a {Rkiss {Gat {W$N {Gand wonder if $E will catch it.{x
+{W$n {Gblows a {Rkiss {Gat {W$N {G... isn't $e so CUTE?{x
+{W$n {Gblows a {Rkiss{G at you and hopes you'll blow one back at $m.{x
+{GYou {Rkiss {Gfalls to the ground with no one to go to.{x
+{GYou blow a {Rkiss {Gto yourself... isn't the world beautiful?{x
+{W$n {Gblows a {Rkiss {Gto $mself, obviously very in {Rlove{G.{x
+
+blankie 0 0
+{GYou want a blankie.{x
+{W$n {Gsucks $s thumb and looks for a blankie.{x
+#
+
+blanket 0 0
+{GYou look for a {Ywarm{G blanket.{x
+{W$n {Glooks for a {Ywarm{G blanket.{x
+{GYou offer $M a {Ywarm{G blanket.{x
+{W$n {Gsees {W$N{G shivering and offers $M a {Ywarm{G blanket.{x
+{W$n {Goffers you a {Ywarm{G blanket.{x
+{GYeah you got one!{x
+{GYou wrap yourself in a {Ywarm{G blanket.{x
+{W$n {Gwraps $mself in a {Ywarm{G blanket.{x
+
+bleat 0 0
+{GBAAAAAAAAAAAAA!{x
+{W$n {Gbleats loudly like an widdle biddy lamb.{x
+{GYou bleat at {W$N {Gdemanding grass.. NOW.{x
+{W$n {Gbleats at {W$N. {GI think $e's hungry.{x
+{W$n {Gbleats at you with big sheepy eyes.. aww give $m grass.. go on.{x
+{GYou bleating fool.. they aren't around.. ARG.. I'm not talking to you.{x
+{GYou bleat happily and jump a fence?{x
+{W$n {Gbleats like a mad sheep and jumps over the nearest fence.{x
+
+
+bleed 1 0
+{GYou {Rbleed {Gprofusely -- making a horrible mess!{x
+{W$n {Gweakly {Rbleeds {Gall over the floor.{x
+{GYou {Rbleed {Gon {W$N {G-- {Rewww{G!{x
+{W$n {Rbleeds {Gon {W$N{G.  Watch out, YOU might be next!{x
+{W$n {Rbleeds {Gon you -- {Rewww{G!  Get away!!{x
+{RBleed {Gon whom?{x
+{GYou {Rbleed {Gall over yourself.{x
+{W$n {Rbleeds {Gprofusely all over $mself.{x
+
+blink 1 0
+{GYou bat your eyelashes.{x
+{W$n {z{Gblinks{x {winnocently{G.{x
+{GYou {zblink{x {winnocently{G at {W$N{G.{x
+{W$n {z{Gblinks{x {winnocently{G at {W$N{G.{x
+{W$n {z{Gblinks{x {winnocently{G at you.{x
+{GFeign {winnocence{G for whom?{x
+{GYou try to convince yourself of your {winnocence{G.{x
+{W$n {z{Gblinks{x {Gslowly pondering $s {winnocence{G.{x
+
+blowe 0 0
+{GYou blow in whos ear?{x
+$
+{GYou blow in $M ear.{x
+{W$n {Gblows in {W$N{G's ear.{x
+{W$n {Gjust blew in your ear.{x
+{GWhat!{x
+{GYou blow in your own ear?!?!?{x
+{W$n {Gtries to blow in $s own ear? How is that done!?{x
+
+blush 0 0
+{GYour cheeks are {Rburning{G.{x
+{W$n {Rblushes{G.{x
+{GYou get all {Rflustered {Gup seeing $M.{x
+{W$n {Rblushes {Gas $e sees {W$N {Ghere.{x
+{W$n {Rblushes {Gas $e sees you here.  Such an effect on people!{x
+{GYou {Rblush {Gas you notice that person isn't here.{x
+{GYou {Rblush {Gat your own folly.{x
+{W$n {Rblushes {Gas $e notices $s boo-boo.{x
+
+boast 1 0
+{GYou boast loudly of all your {wamazing {Gaccomplishments.{x
+{W$n {Gboasts loudly in a {wpigheaded {Gfashion.{x
+{GYou boast to {W$N {Gof all your great deeds.{x
+{W$n {Gboasts to {W$N{G.{x
+{GOnce again, {W$n {Gboasts to you, what a {wbloated{G ego!{x
+{GYour ego takes a blow.  They've already left.{x
+{GYou boast to yourself of all your great feats!  Your own biggest fan.{x
+{W$n {Gboasts to $mself -- what an ego!{x
+
+boggle 1 0
+{GYou {Yb{Bo{Dg{Wg{Gl{Re {Gat the concept.{x
+{W$n {YB{Bo{Dg{Wg{Gl{Re{Ms {Gat the concept.{x
+{GYou {YB{Bo{Dg{Wg{Gl{Re {Gat {W$N{G.{x
+{W$n {YB{Bo{Dg{Wg{Gl{Re{Ms at {W$N{G.{x.
+{W$n {YB{Bo{Dg{Wg{Gl{Re{Ms {Gat you.{x
+{YB{Bo{Dg{Wg{Gl{Re {Gaway.  They've left.{x
+{GYou {YB{Bo{Dg{Wg{Gl{Re {Gat yourself.  Hmmm...intriguing.{x
+{W$n {YB{Bo{Dg{Wg{Gl{Re{Ms {Gquietly to $mself.{x
+
+bonk 1 0
+{R***BONK!!!***{x
+$
+{GYou {bbonk {W$N {Gon the head for being such a moron.{x
+{W$n {bbonks {W$N {Gon the head for being such an UTTER moron.{x
+{W$n {bbonks {Gyou on the head for being so foolish.{x
+{R***BONK*** {Gthey left...{x
+{GYou {bbonk {Gyourself, fool that you are.{x
+{W$n {bbonks {G$mself and grimaces in {Dpain{G.{x
+
+bottle 0 0
+{GYou open a bottle of your best wine.{x
+{W$n {Gopens a vintage bottle of wine.{x
+{GYou ask {W$N{G "Do you care to fight?" As you {rbreak {Ga bottle on the counter!{x
+{W$n {rbreaks {Ga bottle on the bar, {rscreaming {Gat {W$N{G "Let's {RR-U-M-B-L-E{G!"{x
+{W$n {rbreaks {Ga bottle on the bar and {Yyells {Gat you "Let's {RR-U-M-B-L-E{G!"{x
+{GRUMBLE?{x
+{GYou drink to yourself.{x
+{W$n {Gtakes a long swig from a bottle and says "here's to me!"{x
+
+bounce 0 0
+{GBOIINNNNNNGG!{x
+{W$n {mbounces {Garound with a happy smile.{x
+{GYou {mbounce {Gonto $S lap and wiggle about.{x
+{W$n {mbounces {Gonto {W$N{G's lap and wiggles about.{x
+{W$n {mbounces {Gonto your lap and wiggles about.{x
+{GYou don't see your plaything.{x
+{GYou {mbounce {Gyour head like a basketball.{x
+{W$n {Gplays basketball with $s head.{x
+
+bow 0 5
+{GYou bow deeply.{x
+{W$n {Gbows deeply.{x
+{GYou bow before $M.{x
+{W$n {Gbows before {W$N{G.{x
+{W$n {Gbows before you.{x
+{GWho's that?{x
+{GYou {Rkiss {Gyour toes.{x
+{W$n {Gfolds up like a jacknife and {Rkisses {G$s own toes.{x
+
+brag 0 0
+{GYou brag!{x
+{W$n {Gsays "I am the greatest!"{x
+{GYou brag to {W$N{G.{x
+{W$n {Gbrags to {W$N{G about $s great deeds!{x
+{W$n {Gbrags to you {Gabout $s great deeds!{x
+{GBrag to who?{x
+{GYou brag to yourself!{x
+{W$n {Gbrags to $mself, unaware you are even here!{x
+
+brb 1 0
+{GHope to see you soon!{x
+{W$n {Gwill be right back!{x
+#
+
+bring 0 0
+{GYou want someone to fight!{x
+{W$n {Gprays for a {RWAR{G!{x
+{GYou {Yyell {Gat {W$N {G"{BBring {Gon the {Rnoise{G!"{x
+{W$n {Yyells {Gat {W$N {G"{BBring {Gon the {Rnoise{G!"{x
+{W$n {Yyells {Gat you! {G"{BBring {Gon the {Rnoise{G!"{x
+{GBring it on!{x
+{GYou look for a victim!{x
+{W$n {Glooks around for something to {Rkill{G!{x
+
+buff 0 0
+{GYou {Ybuff {Gyour nails on your cloak.{x
+{W$n {Ybuffs {G$s nails on $s cloak.{x
+{GYou tell {W$N {c"{GI am so darn {Ybuff{c"{G!{x
+{W$n {Gtells {W$N {c"{GI am so darn {Ybuff{c"{G!{x
+{W$n {Gtells you {c"{GI am so darn {Ybuff{c"{G!{x
+{GWho is buff?{x
+{GYou really think you're something special don't you?{x
+{W$n {Gthink $e is so {Ybuff{G. What a joke!{x
+
+burp 0 0
+{GYou burp loudly.{x
+{W$n {Gburps loudly.{x
+{GYou burp loudly to $M in response.{x
+{W$n {Gburps loudly in response to {W$N{G's remark.{x
+{W$n {Gburps loudly in response to your remark.{x
+{GYou can't find your victim.{x
+{GYou burp at yourself.{x
+{W$n {Gburps at $mself.  What a sick sight.{x
+
+butter 0 0
+{GYou slice through the {wair{G like {Ybutter{G!{x
+{W$n {Gslices through the {wair{G like {Ybutter{G!{x
+{GYou tell {W$N {G"I could cut through your lilly butt like {Ybutter{G!".{x
+{W$n {Gtells {W$N {G"I could cut through your lilly butt like {Ybutter{G!".{x
+{W$n {Gtells you "I could cut through your lilly butt like {Ybutter{G!".{x
+{GWHAT!{x
+{GYou spead {Ybutter{G on some {ytoast{G.{x
+{W$n {Gspeads {Ybutter{G on some {ytoast{G.{x
+
+cackle 0 0
+{GYou {Dcackle {Ygleefully{G.{x
+{W$n {Gthrows back $s head and {Dcackles {Gwith {rinsane {Yglee{G!{x
+{GYou {Dcackle {Ygleefully {Gat {W$N{G.{x
+{W$n {Dcackles {Ygleefully {Gat {W$N{G.{x
+{W$n {Dcackles {Ygleefully {Gat you.  Better keep your distance from $m.{x
+{GYou can't find a friend to {Dcackle {Gwith.{x
+{GYou {Dcackle {Gat yourself.  Now, THAT'S strange!{x
+{W$n {Gis really crazy now!  $e {Dcackles {Gat $mself.{x
+
+cadet 0 0
+{GYou dream of space.{x
+{W$n {Gsays "Space the final frontier..."{x
+{GYou think {W$N {Gis a space cadet!{x
+{W$n {Gthinks {W$N {Gis a space cadet!{x
+{W$n {Gsays "You are a space cadet!"{x
+{GYou join the space corps.{x
+{GYou slap yourself, what a space case you are.{x
+{W$n {Rslaps {G$mself and mutters "That was dumb." You think "What a space cadet."{x
+
+camel 0 0
+{GYou pretend you are a {ycamel{G.{x
+{W$n {Gpretends to be a {ycamel{G.{x
+{GYou {Ylight {Ga {yCame{wl c{Wigarette {Gfor $M.{x
+{W$n {Ylights {Ga {yCame{wl c{Wigarette {Gfor {W$N{G.{x
+{W$n {Ylights {Ga {yCame{wl c{Wigarette {Gfor you.{x
+{GYou don't see that personhere.{x
+{GYou {Ylight {Ga {yCame{wl c{Wigarette {Gand inhale sharply.{x
+{W$n {Ylights {Ga {yCame{wl c{Wigarette {Gand inhales sharply.{x
+
+caress 1 0
+{GWho do you wish to caress?{x
+{W$n {Glooks for someone to caress.{x
+{GYou tenderly caress $M.{x
+{W$n {Gtenderly caresses $N.{x
+{W$n {Gtenderly caresses your body.{x
+{GYou're S.O.L., buddy.{x
+#
+
+censor 0 0
+{GYou censor yourself.{x
+{W$n {Gthinks $e is a perfect censor.{x
+{GYou think {W$N {Gneeds to be censored.{x
+{W$n {Gcensors {W$N{G.{x
+{W$n {Gcensors you.{x
+{GYou censor the world.{x
+{GYou have been censored!{x
+{W$n {Gwashes $s own mouth out with soap!{x
+
+chair 0 0
+{GYou take a seat.{x
+{W$n {Gsits down in a comfortable chair.{x
+#
+
+charge 0 0
+{GYou {rcharge {Ginto the fray!{x
+{W$n {rcharges {Ginto the fray!  All {Rguts{G, no {Dbrains{G.{x
+{GWith surprising dexterity, you head-butt {W$N{G!{x
+{W$n {Gducks down low, {rcharges{G forward, and head-butts {W$N{G!{x
+{ROOF!  {W$n {Grammed $s head into your stomach!  That {RHURT{G.{x
+{GNobody 'round with that name, Mister!{x
+{GYou run your head into a brick wall.  {ROUCH{G!{x
+{W$n {rcharges {Ginto a brick wall. Now that {RHURT{G!{x
+
+cheer 0 0
+{GYou {ccheer{G and dance as the joy within you bursts forth!{x
+{W$n {ccheers{G and sings... $e is just {RBURSTING{G with joy!{x
+{GYou {ccheer {W$N{G on and wish $M good luck!{x
+{Y*Yay!* {G Go {W$N{G!!!  {W$n {ccheers {G$M on.{x
+{GYou are {ccheered{W on by {W$n{G... you feel so loved!{x
+{GWho? Huh? Where?  They're not here, that's for sure{x
+{GYou {ccheer{G silently for yourself since nobody else will{x
+{W$n {Gresorts to {ccheering{G for $mself... how {rsad{G.{x
+
+chew 0 0
+{GRemember to chew your food 10 times.{x
+{W$n {Gcounts as $e chews.{x
+{GYou chew {W$N {Gout for $S actions!{x
+{W$n {Gchews out {W$N {Gfor earlier actions!{x
+{W$n {Gchews you out for something you must have done earlier!{x
+{GChew what?{x
+{GYou chew yourself out? Are you alright?{x
+{W$n {Gchews $mself out. Hmmmmmmm, is $e alright?{x
+
+choke 0 0
+{GYou are {Dchoking{G!{x
+{W$n {Gis {Dchoking{G! Somebody help $m!{x
+{GYou {Dchoke{G $M {rviciously{G!{x
+{W$n {Gis {Dchoking{G {W$N{G to {Ddeath{G!{x
+{W$n {Dchokes{G you! You gasp for {wair{G!{x
+{GYou what to {Dchoke{G then do not chew.{x
+{GYou {Dchoke{G yourself?{x
+{W$n {Dchokes{G $mself? Whant to join the fun?!?!{x
+
+chortle
+{GHeh.{x
+{W$n {Gchortles mischievously.{x
+{GYou chortle mischievously at {W$N{G.{x
+{GW$n {Gchortles mischievously at {W$N{G.{x
+{W$n {Gchortles mischievously at you.{x
+{GTook you a while to get that....they aren't here.{x
+{GYou chortle at your own joke.{x
+{W$n {Gchortles at $s own joke.  Don't bother.{x
+
+chuckle 0 0
+{GYou chuckle.{x
+{W$n {Gchuckles.{x
+{GYou chuckle at $S joke.{x
+{W$n {Gchuckles at {W$N{G's joke.{x
+{W$n {Gchuckles at your joke.{x
+{GYou can't find a friend to chuckle with.{x
+{GYou chuckle at your own joke, since no one else would.{x
+{W$n {Gchuckles at $s own joke, since none of you would.{x
+
+clap 0 0
+{GYou clap your hands together.{x
+{W$n {Gshows $s approval by clapping $s hands together.{x
+{GYou clap at $S performance.{x
+{W$n {Gclaps at {W$N{G's performance.{x
+{W$n {Gclaps at your performance.{x
+{GYou clap for nothing.{x
+{GYou clap at your own performance.{x
+{W$n {Gclaps at $s own performance.{x
+
+claw 0 0
+{GYou tighten your hands into a fist.{x
+{W$n {Gclenches $s fists until {rblood{G drips from them...{x
+{GYou claw $S eyes out... {RGROSS{G!{x
+{W$n {Dburies {G$s nails in {W$N{G's eyes ... OH GOD, THE {rBLOOD{G!{x
+{W$n {Dburies {G$s nails in your eyes and you are blinded by your own {rblood{G!{x
+{GThey aren't here to claw.{x
+{GYou claw yourself to shreds!{x
+{W$n {Rrips {G$mself to shreds with $s fingernails!{x
+
+ckiss 0 0
+{GYou {Rkiss{G whos cheek?{x
+?
+{GYou {Rkiss{G $S cheek.{x
+{W$n {Rkisses{G {W$N{G's cheek.{x
+{W$n {Rkisses{G your cheek.{x
+{GWHAT!{x
+{GThat can not be done!{x
+{W$n {Gattempts the impossible!{x
+
+collapse 1 0
+{GYou collapse on the floor from exhaustion.{x
+{W$n {Gdramatically collapses to the floor from exhaustion.{x
+{GYou collapse right into {W$N{G's arms.{x
+{W$n {Gcollapses right into {W$N{G's arms.{x
+{GSuddenly, {W$n {Gcollapses into your arms from exhaustion.{x
+{GThey've already left, just collapse on the floor.{x
+#
+
+comfort 0 5
+{GDo you feel uncomfortable?{x
+{W$n {Gdoes not know who to comfort,{x
+{GYou comfort $M.{x
+{W$n{G comforts {W$N{G.{x
+{W$n{G comforts you.{x
+{GComfort who?{x
+{GYou make a vain attempt to comfort yourself.{x
+{W$n {Ghas no one to comfort $m but $mself{x
+
+confused
+{GYour confusion is showing.{x
+{W$n{G blinks slowly...{x
+{GYou blink slowly, trying to decipher $S comment.{x
+{W$n{G blinks slowly.  Maybe {W$N{G left a word out of $S sentence...{x
+{W$n{G blinks slowly.  Maybe you left a word out of your sentence?{x
+{GNo wonder you're confused.{x
+#
+
+conspire 0 0
+{GYou wink conspiratorily, waiting for the countersign.{x
+{W$n{G winks conspiratorily, waiting for the countersign.{x
+{GYou induct $S into your private conspiracy with a wink.{x
+{W$n{G winks conspiratorily at {W$N{G.  You wonder what this can mean.{x
+{W$n{G inducts you into $m private conspiracy with a wink.{x
+{GEven you conspire against yourself.{x
+{W$n{G is paranoid enough to distrust even $mself.{x
+{W$n{G is paranoid enough to distrust even $mself.{x
+
+contemplate 0 0
+{GYou bite your {Rlip{G contemplatively.{x
+{W$n{G bites $s {Rlip{G contemplatively.{x
+#
+
+cough 0 0
+{GYuck, try to cover your mouth next time!{x
+{W$n{G coughs loudly.{x
+#
+
+cover 0 0
+{GYou cover your ears to protect them from the noise.{x
+{W$n{G covers $s ears to protect them from all the noise.{x
+{GYou glare at {W$N{G and cover your ears.{x
+{W$n{G glares at {W$N{G and covers $s ears.{x
+{W$n{G covers $s ears because of you... you are {YTOO {RLOUD{G!{x
+{GThey aren't here right now.{x
+{GNo... I don't think so.{x
+{W$n{G covers $s ears because the voices in $s head will not quiet down!{x
+
+covert 0 0
+{GYou try and be covert.{x
+{W$n {Gscans the room suspiciously.{x
+{GYou tell {W$N {G"Try and be less obvious."{x
+{W$n {Gtells {W$N{G "Try and be less obvious."{x
+{W$n {Gtells you. "Try and be less obvious."{x
+{GYou are covert.{x
+{GYou think "Man i am stealthy."{x
+{W$n {Gsneaks around you.{x
+
+cower 0 0
+{GYou cower in a corner.{x
+{W$n{G cowers in a corner and whimpers softly.{x
+{GYou cower away from {W$N{G and $S harsh words.{x
+{W$n{G cowers in a corner, terrified that {W$N{G will come after $m.{x
+{GYou scared poor {W$n{G!  Now $S is cowering in a corner, afraid for $s life.{x
+{GThat person is AWOL at the moment.{x
+{GYou are afraid of your own {Dshadow{G!{x
+{W$n{G cowers in the corner afraid of $s own {Dshadow{G!{x
+
+cramp 0 0
+{GYou gasp and clutch your abdomen, wheezing with the {rpain{G.{x
+{W$n{G gasps and clutches $m abdomen in {ragony{G.{x
+{GYou hammerlock $M, screaming, "{rAAAAARRRRRGH{G!! I HAVE A CRAMP!!!"{x
+{W$n{G hammerlocks {W$N{G, screaming, "{rAAAAARRRRRGH{G!! I HAVE A CRAMP!!!".{x
+{W$n{G hammerlocks you, screaming "{rAAAAARRRRRGH{G!! I HAVE A CRAMP!!!"{x
+{GSuffering as you are, you didn't see that person slip out.{x
+#
+
+cringe 1 0
+{GYou cringe in {rterror{G.{x
+{W$n{G cringes in {rterror{G!{x
+{GYou cringe away from $M.{x
+{W$n{G cringes away from {W$N{G in mortal {rterror{G.{x
+{W$n{G cringes away from you.{x
+{GI don't see anyone by that name here.. what are you afraid of?{x
+{GI beg your pardon?{x
+{W$n{G makes $mself cringe. Must be the mirror $e saw.{x
+
+criticize 0 0
+{GYes, but who?{x
+$
+{GYou criticize $M with all the warmth of a snake.{x
+{GWith a nasty grin, {W$n{G rips apart {W$N{G's efforts.{x
+{W$n{G informs you that your attempts need some MAJOR adjustments.{x
+{GWhere oh where has my victim gone, oh where oh where...{x
+{GYou criticize yourself profusely.{x
+{W$n{G {rtears{G $mself apart, cursing $s own stupidity.{x
+
+cry 0 5
+{YWaa{Waa{wah{G..{x
+{W$n{G {rbursts{G into tears.{x
+{GYou {Yc{Wr{wy{G on $S shoulder.{x
+{W$n {Yc{Wri{wes{G on {W$N{G's shoulder.{x
+{W$n {Yc{Wri{wes{G on your shoulder.{x
+{GWho's that?{x
+{GYou {Yc{Wr{wy to yourself.{x
+{W$n{G sobs quietly to $mself.{x
+
+cuddle 1 5
+{GWho do you feel like {Ycuddling{G today?{x
+$
+{GYou {Ycuddle{G $M.{x
+{W$n{G {Ycuddles{G {W$N{G.{x
+{W$n{G {Ycuddles{G you.{x
+{GThey aren't here.{x
+{GYou must feel very {Ycuddly{G indeed ... :){x
+{W$n{G {Ycuddles{G up to $s {Dshadow{G.  What a sorry sight.{x
+
+curse 0 0
+{GYou {rswear{G loudly for a long time.{x
+{W$n{G swears : {r#@*"*&^*#%@*&{G! !!!!!{x
+{GYou {rswear{G at $M.{x
+{W$n{G {rswears{G at {W$N{G.{x
+{W$n{G {rswears{G at you!  Where are the manners?{x
+{GYou can't find the victim of your frustrations.{x
+{GYou {rswear{G at your own mistakes.{x
+{W$n{G starts {rswearing{G at $mself.  Why don't you help?{x
+
+curtsey 0 0
+{GYou curtsey to your audience.{x
+{W$n{G curtseys gracefully.{x
+{GYou curtsey to $M.{x
+{W$n{G curtseys gracefully to {W$N{G.{x
+{W$n{G curtseys gracefully for you.{x
+{GYou curtsey to no one in particular.{x
+{GYou curtsey to your audience (yourself).{x
+{W$n{G curtseys to $mself, since no one is paying attention to $m.{x
+
+dance 1 8
+{GFeels silly, doesn't it?{x
+{W$n {mdances{G wildly before you!{x
+{GYou lead $M to the {mdancefloor{G.{x
+{W$n{G sends {W$N{G across the {mdancefloor{G.{x
+{W$n{G sends you across the {mdancefloor{G.{x
+{GEh, WHO?{x
+{GYou skip and {mdance{G around by yourself.{x
+{W$n{G skips a {Wlight {mFandango{G.{x
+
+daydream 1 0
+{GYou dream of better times.{x
+{W$n{G looks absent-minded, his eyes staring into {Dspace{G.{x
+#
+
+dirty 0 0
+{GYou think {Ddirty {Gthoughts.{x
+{W$n{G appears to be thinking {Ddirty {Gthoughts.{x
+{GYou think {Ddirty {Gthoughts as you {Yglare {Gat {W$N{G.{x
+{W$n{G glares at {W$N{G {Gwith a {Ddirty {Ggrin.{x
+{W$n{G glares at you thinking {Ddirty {Gthoughts.{x
+{DDirty {Gthoughts? Me? Never!{x
+{GYou think {Ddirty {Gthoughts to yourself.{x
+{W$n{G seems to be thinking {Ddirty {Gthoughts.{x
+
+discodance
+{MG{Br{Yo{Co{Gv{Ry{G!{x
+{W$n{G discos wildly!{x
+{GYou grab {W$N{G and disco wildly!  {MG{Br{Yo{Co{Gv{Ry{G!{x
+{W$n{G grabs {W$N{G and does $m best Travolta!{x
+{W$n{G grabs you and does $m best Travolta!{x
+{GIt's okay, you can disco solo too.{x
+#
+
+drift 0 0
+{GYou let your mind {Mdrift{G.{x
+{W$n{G appears to have let $s mind {Mdrift{G.{x
+{GYour mind {Mdrifts {Gand thoughts of {W$N{G fill your head.{x
+{GIn a dreamy voice {W$n{G {Gmutters {W$N{G.{x
+{W$n{G stares into {Dspace {Gand mutters your name.{x
+{GYour mind {Mdrifts{G. Hey what mind!{x
+{GYour mind {Mdrifts {Gas a blank stare fills your face and your eyes {Yglaze {Gover.{x
+{W$n{G allows $s mind to {Mdrift{G.{x
+
+drool 1 0
+{GYou drool down the front of your shirt.{x
+{W$n{G drools all over $mself -- making a TERRIBLE mess!{x
+{GYou drool messily on {W$N{G.{x
+{W$n{G drools upon {W$N{G.{x
+{W$n{G looks at you lustily and drools.{x
+{GOh fine, make a pool of slobber -- they aren't even here!{x
+{GYou drool down the front of your shirt.{x
+{W$n{G drools all over $mself -- making a TERRIBLE mess!{x
+
+duck 1 0
+{GDUCK!!!!{x
+{W$n{G ducks defensively.{x
+{GYou duck defensively, anticipating the oncoming swipe from {W$N{G.{x
+{W$n{G ducks, anticipating {W$N{G's reaction.{x
+{W$n{G ducks, please oh please don't hit $m!{x
+$
+{GA little nervous are we?{x
+{W$n{G is awful nervous as $e ducks and scans the room!{x
+
+eak 0 0
+{YEeeeeeaaak{G!{x
+{W$n {Gscreams! "{YEeeeeeaaak{G!"{x
+#
+
+ears 0 0
+{GYou cover your ears.{x
+{W$n {Gcovers $s ears.{x
+{GYou cover your ears to avoid what {W$N {Ghas to say.{x
+{W$n {Gcovers $s ears to avoid what {W$N {Ghas to say.{x
+{W$n {Gcovers $s ears so $e doesn't have to hear what you have to say.{x
+{GWhy do that? You can't hear them anyway.{x
+{GYou deny {REVERYTHING{G!!!! You cover your ears and start to sing loudly.{x
+{G'LALALALALALALALA', {W$n {Gis singing with $s fingers in $s ears again.{x
+
+egrin 0 0
+{GYou grin {Revilly{G.{x
+{W$n{G grins {Revilly{G.{x
+{GYou grin {Revilly{G at {W$N{G.{x
+{W$n{G grins {Revilly{G at {W$N{G.{x
+{W$n{G grins {Revilly{G at you.{x
+{GGrin {Revilly{G at who?{x
+{GYou grin {Revilly{G at your own thoughts.{x
+{W$n{G grins {Revilly{G at thier own thoughts.{x
+
+embrace 1 0
+{GWho would you like to embrace?{x
+$
+{GYou wrap your arms around {W$N{G in a {wwarm{G and {Rloving{G embrace.{x
+{W$n{G wraps $s arms around {W$N{G in a {wwarm{G and {Rloving{G embrace.{x
+{W$n{G takes you in $s arms in a {wwarm{G and {Rloving{G embrace.{x
+{GYour {rheart breaks{G as you realize you are alone.{x
+{GYou try to console yourself with a {Rloving{G embrace.{x
+{W$n{G tries to console $mself by wrapping $s arms around $mself.{x
+
+errors 0 0
+{GToo err is human!{x
+{W$n{G says "Too err is human!"{x
+{GYou tell {W$N{G "Too err is human what's your excuse!"{x
+{W$n{G tells {W$N{G "Too err is human what's your excuse!"{x
+{W$n{G tells you "Too err is human what's your excuse!"{x
+{GToo forgive is devive!{x
+{GYou a upset at the number of errors you make!{x
+{W$n{G makes far too many tpyos!{x
+
+evil 0 0
+{GYou think how {Revil {Gyou are.{x
+{W$n{G boasts about $s {Revil {Gdeeds.{x
+{GYou want to do {Revil {Gthings to $M.{x
+{W$n{G speaks of doing {Revil {Gthings to {W$N{G.{x
+{W$n{G is going to do {Revil {Gthings to you.{x
+{GNow that is {REvil{G!{x
+{GYou are so {Revil{G!{x
+{W$n{G is so {Revil {G$e even thinks {Revil {Gof $Mself!{x
+
+explode 0 0
+{GYou feel the {rblood{G boiling in your veins!{x
+{W$n{G turns a deep {rred{G, fighting to contain $s {rtemper{G...{x
+{GYou feel your rage {rexplode{G deep in the pit of your stomach...{x
+{W$n{G {rburns{G holes through {W$N{G with $s {rexplosive{G anger!{x
+{W$n{G is {rANGRY{G with you... I'd run if I were you!!!{x
+{GTemper Temper... they left.{x
+{GYour soul {rburns{G brightly then fades to nothing.{x
+{W$n{G {rimplodes{G!!!  Only a {Dgrease{G spot remains where $e once stood.{x
+
+eyebrow 1 0
+{GYou raise an eyebrow at the notion.{x
+{W$n{G raises an eyebrow.{x
+{GYou raise your eyebrow at {W$N{G.{x
+{W$n{G raises an eyebrow at {W$N{G's weird actions.{x
+{W$n{G raises an eyebrow at you.{x
+{GForget it.  They aren't here.{x
+#
+
+faint 1 0
+{GYou faint.{x
+{W$n{G faints.{x
+{GYou faint into $S arms.{x
+{W$n{G faints into {W$N{G's open arms.{x
+{W$n{G just fainted into YOUR arms.{x
+{GYou fall on the floor and look stupid--really suave.{x
+#
+
+fart 0 0
+{GWhere are your manners ?{x
+{W$n{G lets off a real rip-roarer ... a {ggreenish {wcloud {Genvelops {W$n{G!{x
+{GYou {yfart{G at $M.  Boy, you are sick.{x
+{W$n{G {yfarts{G in the direction of {W$N{G.  Better flee before $e turns to you!{x
+{W$n{G {yfarts{G in your direction.  You gasp for air.{x
+{GYou can't hold it that long!{x
+{GYou {yfart{G at yourself.  You deserve it.{x
+{W$n{G {yfarts{G at $mself.  Better $m than you.{x
+
+fatality 0 0
+$
+$
+{GYou intone, '{W$N{G wins.  Fatality.'{x
+{W$n{G intones, '{W$N{G wins.  Fatality.'{x
+{W$n{G intones, '{W$N{G wins.  Fatality.'{x
+#
+
+flare 0 0
+{GYou flare your nostrils disdainfully.{x
+{W$n{G flares $s nostrils disdainfully.{x
+{GYou flare your nostrils disdainfully at {W$N{G... HOW RUDE!{x
+{W$n{G flares $s nostrils disdainfully at {W$N{G and turns up $s snobbish nose.{x
+{W$n{G flares $s nostrils disdainfully at you... what'd you DO???{x
+{GFlare if you wish, but that person isn't here to see it.{x
+{Y*Sniff*  {GBut you should {RLOVE{G yourself!{x
+#
+
+flash 0 0
+{GYou grin and strut as you open your coat and show what you've got!{x
+{W$n{G rips $s clothes off and parades naked around the room!{x
+{GSwiftly you jerk open your jacket, trying to get $M to notice you.{x
+{GCover your eyes, {W$n{G is exposing $mself to {W$n{G!  EWWWW!{x
+{GYou gasp!  {W$n{G has just revealed $s "equipment" to you!{x
+{GExhibitionist, that person isn't here!{x
+{GThat's sick.{x
+{YPERVERT PRESENT!{G  {W$n{G is trying to flash $mself!{x
+
+flex 1 0
+{GYou {Yf{yle{Yx {Gyour muscles proudly!{x
+{W$n{G {Yf{ylexe{Ys {G$s muscles proudly!{x
+{GYou show off to {W$N{G, {Yf{ylexin{Yg{G your muscles proudly.{x
+{W$n{G {Yf{ylexe{Ys{G $s muscles, in a vain attempt to impress {W$N{G.{x
+{W$n{G {Yf{ylexe{Ys{G $s muscles in a vain attempt to show off to you.{x
+#
+
+flinch 0 0
+{REEEK{G... You flinch in obvious {rpain{G.{x
+{W$n{G flinches in obvious {rpain{G... you wonder what $e did THIS time.{x
+{GDon't you wish you could just crawl under a rock and die?{x
+{W$n{G sneaks a glance at {W$N{G and flinches.{x
+{W$n{G flinches in response to your cold rebuke.{x
+{GRelax, $E is gone.{x
+{GYou can't belive what you've done...{x
+{W$n{G twitches violently, {Yshocked{G at $s own behavior.{x
+
+flip 0 0
+{GYou flip head over heels.{x
+{W$n{G flips head over heels.{x
+{GYou flip $M over your shoulder.{x
+{W$n{G flips {W$N{G over $s shoulder.{x
+{W$n{G flips you over $s shoulder.  Hmmmm.{x
+{GYou can't find the person.{x
+{GYou tumble all over the room.{x
+{W$n{G does some nice tumbling and gymnastics.{x
+
+flirt 1 0
+{GYou {Wf{wl{Di{wr{Wt{G outrageously.{x
+{W$n{G is an outrageous {Wf{wl{Di{wr{Wt{G.{x
+{GYou {Wf{wl{Di{wr{Wt{G with {W$N{G trying to get $S attention.{x
+{W$n f{wl{Di{wr{Wts{G with {W$N{G, hmmm wonder what $e wants? *wink*{x
+{W$n f{wl{Di{wr{Wts{G with you.{x
+{GSorry no one here to {Wf{wl{Di{wr{Wt{G with. :({x
+{GYou {Wf{wl{Di{wr{Wt{G with yourself -- what ARE you trying to gain!?!?!?{x
+{W$n f{wl{Di{wr{Wts{G with $mself, wonder what $e is trying to accomplish?{x
+
+flutter 1 0
+{GYou {wf{Cl{wu{Ct{wt{Ce{wr{G your eyelashes seductively.{x
+{W$n{G {wf{Cl{wu{Ct{wt{Ce{wr{Cs{G $s eyelashes seductively.{x
+{GYou {wf{Cl{wu{Ct{wt{Ce{wr{G your eyelashes at {W$N{G, trying to be seductive.{x
+{W$n{G flirts with {W$N{G, {wf{Cl{wu{Ct{wt{Ce{wr{Cs{G $s eyelashes at $M.{x
+{W$n{G {wf{Cl{wu{Ct{wt{Ce{wr{Cs{G $s eyelashes at you coyly.{x
+{GEH? Can't see them here.{x
+#
+
+fondle 0 5
+{GWho needs to be fondled ?{x
+$
+{GYou fondly fondle $M.{x
+{W$n{G fondly fondles {W$N{G.{x
+{W$n{G fondly fondles you.{x
+{GYou fondly try to fondle someone not in the room, but who cares.{x
+{GYou fondly fondle yourself, feels funny doesn't it?{x
+{W$n{G fondly fondles $mself - this is going too far!!{x
+
+foot 0 0
+{GYou kick high into the air.{x
+{GYou watch as {W$n{G practices karate.{x
+{GYou kick {W$N{G right in the tush.{x
+{W$n{G kicks {W$N {Gright in the tush.{x
+{W$n{G kicks you in the tush.{x
+{GKick who?{x
+{GYou try to kick yourself. Man is that lame.{x
+{GYou watch as {W$n {Gtries to kick $mself. {YFunny{G hehehe!{x
+
+forgive 0 0
+{GYou forgive yourself!{x
+{W$n{G forgives $mself for being such a twerp!{x
+{GYou forgive $M for past transgressions!{x
+{W$n{G forgives {W$N{G for $S mistakes!{x
+{GAll is forgiven by {W$n{G.{x
+{GForgive what?{x
+{GYou forgive yourself!{x
+{W$n{G forgives $mself for being such a twerp!{x
+
+french 0 0
+{RKiss{G whom?{x
+$
+{GYou give {W$N{G a long and passionate {Rkiss{G, it seems to last forever...{x
+{W$n {Rkisses{G {W$N{G passionately.{x
+{W$n{G gives you a long and passionate {Rkiss{G, it seems to last forever...{x
+{GYour {rheart{G is filled with despair as that person is not here.{x
+{GYou gather yourself in your arms and try to {Rkiss{G yourself.{x
+{W$n{G makes an attempt at {Rkissing{G $mself. What a strange person.{x
+
+frown 0 0
+{GYou {Df{yrow{Dn{G.{x
+{W$n {Df{yrown{Ds{G.{x
+{GYou {Df{yrow{Dn{G at $M.{x
+{W$n {Df{yrown{Ds{G at {W$N{G.{x
+{W$n {Df{yrown{Ds{G at you.{x
+{GYou don't see any reason to {Df{yrow{Dn{G.{x
+{GYou {Df{yrow{Dn{G at yourself.  Poor baby.{x
+{W$n {Df{yrown{Ds{G at $mself.  What a {Rsad{G puppy....{x
+
+fume 1 5
+{GTake it easy now! count to ten, very slowly.{x
+{W$n{G grits $s teeth and {rfumes{G with {rrage{G.{x
+{GYou stare at $M, {rfuming{G.{x
+{W$n{G stares at {W$N{G, {rfuming{G with {rrage{G.{x
+{W$n{G stares at you, {rfuming{G with {rrage{G!{x
+{GFume away... they ain't here.{x
+{GThat's right - {rhate{G yourself!{x
+{W$n{G clenches $s fists and stomps his feet, {rfuming{G with {ranger{G.{x
+
+gack
+{GGaaack!{x
+{W$n{G gacks with dismay!{x
+{GAppalled, you gack at {W$N{G.{x
+{W$n{G gacks expressively, shooting {W$N{G a dismayed look.{x
+{W$n{G gacks, and looks your way, dismayed.{x
+{GThat person isn't here.{x
+{G*GACK!*{x
+{GAppalled, {W$n{G gacks $self!{x
+
+gasp 0 0
+{GYou gasp in astonishment.{x
+{W$n{G gasps in astonishment.{x
+{GYou gasp as you realize what $E did.{x
+{W$n{G gasps as $e realizes what {W$N{G did.{x
+{W$n{G gasps as $e realizes what you did.{x
+{GYou need to panic.{x
+{GYou look at yourself and gasp!{x
+{W$n{G takes one look at $mself and gasps in astonisment!{x
+
+giggle 0 0
+{GYou {Ygi{Wgg{Yle{G.{x
+{W$n {Ygi{Wgg{Yles{G.{x
+{GYou {Ygi{Wgg{Yle{G in $S presence.{x
+{W$n {Ygi{Wgg{Yles{G at {W$N{G's actions.{x
+{W$n {Ygi{Wgg{Yles{G at you.  Hope it's not contagious!{x
+{GYou {Ygi{Wgg{Yle{G by yourself, since you can't find a partner to giggle with.{x
+{GYou {Ygi{Wgg{Yle{G at yourself, which makes you giggle at yourself, which makes you ...{x
+{W$n {Ygi{Wgg{Yles{G at $mself.  $e must be nervous or something.{x
+
+glare 0 5
+{GYou {Yglare{G at nothing in particular.{x
+{W$n {Yglares{G around $m.{x
+{GYou {Yglare {wicily{G at $M.{x
+{W$n {Yglares{G at {W$N{G.{x
+{W$n {Yglares {wicily{G at you, you feel {Ccold{G to your bones.{x
+{GYou try to {Yglare{G at somebody who is not present.{x
+{GYou {Yglare {wicily{G at your feet, they are suddenly very cold.{x
+{W$n {Yglares{G at $s feet, what is bothering $m?{x
+
+glue 0 0
+{GYou accedentally {wGlue {Gyourself to a chair!{x
+{W$n {Gappears to be attached to $s chair.{x
+{W$N {Ghas been {wglued {Gto $S chair and you look guilty.{x
+{W$n {Ghas {wglued {W$N {Gto $s chair.{x
+{W$n {Glooks guilty as you realize you are {wglued {Gto your chair!{x
+{GGlue what?{x
+{GYou are strange! {wGlue {Gyourself to the chair?{x
+{W$n {Ghas {wglued {G$eself to $s chair! Now you know that is wierd!{x
+
+goose 1 0
+{GWho would you like to goose?{x
+$
+{GYou quickly goose {W$N{G on the tush.{x
+{W$n{G reaches around {W$N{G's backside and gooses $M.{x
+{W$n{G gooses you!{x
+{GYou should go hunting for another victim, they left.{x
+{GYou pinch yourself on the rear, you must be desperate.{x
+{W$n{G pinches $mself on the rear.{x
+
+grimace 1 0
+{GYou grimace {rpainfully{G at the thought.{x
+{W$n{G grimaces {rpainfully{G at the thought.{x
+{GYou grimace at {W$N{G.{x
+{W$n{G grimaces at {W$n{G.{x
+{W$n{G grimaces at you. What could be wrong?{x
+{GYou grimace at no one in particular.{x
+{GYou grimace {rpainfully{G at your thoughts.{x
+{W$n{G grimaces {rpainfully{G to $mself.{x
+
+grin 0 0
+{GYou grin.{x
+{W$n{G grins.{x
+{GYou grin at $M.{x
+{W$n{G grins at {W$N{G.{x
+{W$n{G grins at you.  {YHmmm{G.  What are they thinking?{x
+{GYou must be delirious.{x
+{GYou grin at youself.  You must be getting very {Rbad{G thoughts.{x
+{W$n{G grins at $mself.  You must wonder what's in $s mind.{x
+
+groan 0 0
+{GYou groan loudly.{x
+{W$n{G groans loudly.{x
+{GYou groan at the sight of $M.{x
+{W$n{G groans at the sight of {W$N{G.{x
+{W$n{G groans at the sight of you.{x
+{GYou see no reason to groan.{x
+{GYou groan as you realize what you have done.{x
+{W$n{G groans as $e realizes what $e has done.{x
+
+grope 0 5
+{GWhom do you wish to grope ??{x
+$
+{GWell, what sort of noise do you expect here?{x
+{W$n{G gropes {W$N{G.{x
+{W$n{G gropes you.{x
+{GTry someone who's here.{x
+{GYou grope yourself - {RYUCK{G.{x
+{W$n{G gropes $mself - {RYUCK{G.{x
+
+grovel 1 0
+{GYou {cgrovel{G in the dirt.{x
+{W$n{c grovels{G in the dirt.{x
+{GYou {cgrovel{G before $M{x
+{W$n{c grovels{G in the dirt before {W$N{G.{x
+{W$n{c grovels{G in the dirt before you.{x
+{GWho?{x
+{GThat seems a little silly to me.{x
+#
+
+growl 0 0
+{RGrrrrrrrrrr{G...{x
+{W$n{G {Rgrowls{G.{x
+{RGrrrrrrrrrr{G....take that, {W$N{G!!!{x
+{W$n{G {Rgrowls{G at {W$N{G.  Better leave the room before the fighting starts.{x
+{W$n{G {Rgrowls{G at you.  Hey, two can play it that way!{x
+{GNo one can see you {Rgrowl{G that far.{x
+{GYou {Rgrowl{G at yourself.  Boy, do you feel bitter!{x
+{W$n{G {Rgrowls{G at $mself.  This could get interesting...{x
+
+grumble 0 0
+{GYou grumble distractedly to yourself{x
+{W$n{G grumbles and growls. You wonder what's wrong...{x
+{GYou grumble at {W$N{G, disgusted with their presence.{x
+{W$n{G seems to be a grumpy bear... $e is grumbling at poor {W$N{G.{x
+{W$n{G is grumbling at you... what'd you do?{x
+{GThat person is presently AWOL.{x
+{GWhy bother?{x
+{W$n{G is upset with $mself!{x
+
+gulp 0 0
+{GYou gulp.{x
+{W$n {Ggulps.{x
+{GYou gulp nervously as you look at {W$N{G.{x
+{W$n {Ggulps nervously at {W$N{G.{x
+{W$n {Ggulps nervously at you.{x
+{GGulp?{x
+{GYou gulp loudly.{x
+{W$n {Ggulps loudly for no apparent reason.{x
+
+hail 0 0
+{GYou hail a {Ycab{G?{x
+$
+{GYou hail your friend "Greeting and well met {W$N{G!"{x
+{W$n {Ghails "Greeting and well met {W$N{G!"{x
+{W$n {Ghails you "Greeting and well met {W$N{G!"{x
+{Ghail!{x
+{GYou hail a {YYellow cab{G!{x
+{W$n {Ghails a {YYellow cab{G!{x
+
+halo 0 0
+{GA {Yhalo {Gappears over your head.{x
+{GA {Yhalo {Gappears over {W$n's{G head.{x
+{GYou place a {Yhalo {Gover {W$N's {Ghead, attempting to make $M look innocent.{x
+{W$n {Gplaces a {Yhalo {Gover {W$N's {Ghead, attempting to make $M look innocent.{x
+{W$n {Gplaces a {Yhalo {Gover your head, attempting to make you look innocent.{x
+{GWho's REALLY innocent here?{x
+{GThe {Yhalo {Gover your head melts as you think of evil things to do.{x
+{GThe {Yhalo {Gover {W$n's {Ghead melts, wonder why.{x
+
+hand 0 0
+{RKiss{G whose hand?{x
+{W$n{G {Rkisses{G $s own hand.{x
+{GYou {Rkiss{G $S hand.{x
+{W$n{G {Rkisses{G {W$N{G's hand.  How continental!{x
+{W$n{G {Rkisses{G your hand.  How continental!{x
+{GYou can't find a lady in THIS group.{x
+{GYou {Rkiss{G your own hand.{x
+{W$n{G {Rkisses{G $s own hand.{x
+
+head 0 0
+{GYou toss your head haughtily.{x
+{W$n{G tosses $s head haughtily.{x
+{GYou toss your head haughtily at {W$N{G.{x
+{W$n{G tosses her head haughtily at {W$N{G... what an ATTITUDE!{x
+{W$n{G tossed $s head haughtily at you... :({x
+{GThat person is AWOL.{x
+{GWhy would you do that?{x
+#
+
+heatup 0 0
+{GYou want someone to turn up the {rheat{G!{x
+{W$n {Gsays "Would someone just {rkill{G somebody already!"{x
+{GYou {Yyell {Gat {W$N {G"Turn up the {rheat {Gor get out of the {ykitchen{G!"{x
+{W$n {Yyells {Gat {W$N {G"Turn up the {rheat {Gor get out of the {ykitchen{G!"{x
+{W$n {Yyells {Gat you! {G"Turn up the {rheat {Gor get out of the {ykitchen{G!"{x
+{GTurn it up and bring it on!{x
+{GYou look fulshed in the face!{x
+{W$n {Glooks flushed in the face!{x
+
+helpme 0 0
+{GYou need help.{x
+{W$n {Glooks around confused.{x
+{GYou think {W$N {Gis in need of help.{x
+{W$n {Goffers {W$N{G a helping hand.{x
+{W$n {Gasks "Do you need help?"{x
+{GYou are in need of serious help.{x
+{GYou need some real help!{x
+{W$n {Gasks "Will you help me?"{x
+
+herald 0 0
+{GYou herald his name.{x
+{W$n {Gheralds gods name.{x
+{GYou herald $S name!{x
+{W$n {Gheralds {W$N{G name!{x
+{W$n {Gheralds your name!{x
+{GWhom do you wish to herald?{x
+{GYou think that highly of yourself Eh?{x
+{W$n {Gthinks $e IS god as $e heralds $mself!{x
+
+hfart 0 0
+{GYou {rclench {Gyour chest and say OH MY {RHEART{G!{x
+{W$n {Gneeds CPR! {RHURRY{G get help!{x
+#
+
+hiccup 0 0
+{M*HIC*{x
+{W$n {Mhiccups{G.{x
+#
+
+highfive 1 0
+{GYou jump in the air and give a BIG high five to...umm...absolutely nothing.{x
+{W$n{G wildly high fives the air, looking very foolish -- very foolish indeed.{x
+{GYou jump in the air and give a BIG high five to {W$N{G!{x
+{W$n{G enthusiastically high-five's {W$N{G!{x
+{W$n{G gives you a BIG high five!  Way to go!!{x
+{GSorry, they have already left.{x
+{GYou try to give yourself a high five.  What ARE you thinking?{x
+{W$n{G tries to high five $mself, but ends up looking foolish instead.{x
+
+hmm 0 0
+{GHmmmmm...{x
+{W$n {Gbegins to think. Whoa! Check out that {Dsmoke{G!{x
+{GYou ponder {W$N's {Gquestion. Don't think too hard now.{x
+{W$n {Gconsiders {W$N's {Gthoughts.{x
+{W$n {Gconsiders your thoughts.{x
+{GYou ponder thier existance, then decide, nope, they don't exist.{x
+{GYou hmmm to yourself. {RWierdo{G!{x
+{W$n {Gis hmmming to $mself again. {RWierdo{G!{x
+
+hobble 0 0
+{GYou hobbble about.{x
+{W$n {Ghobbles about the room.{x
+#
+
+homeis 0 0
+{GAhhhhh home is where the heart is.{x
+{W$n {Gthinks $e is home!{x
+{GYou tell {W$N {G"Home is where the {rheart {Gis. I'll just take yours!"{x
+{W$n {Gtells {W$N {G"Home is where the {rheart {Gis. I'll just take yours!"{x
+{W$n {Gtells you {G"Home is where the {rheart {Gis. I'll just take yours!"{x
+{GAwwww have a heart.{x
+{GYou think "Home at last."{x
+{W$n {GSays "Ahhh it's good to be home!"{x
+
+homework
+{GYour suddenly remember that you have to defend your thesis today...{x
+{W$n{G looks stricken.  Could $e have blown off some important homework?{x
+{GYou tell {W$N{G "I have homework to do see you around!"{x
+{W$n{G tells {W$N{G "I have homework to do see you around!"{x
+{W$n{G tells you "I have homework to do see you around!"{x
+{GHo,ework?{x
+{GYou forgot your homework! Man you are screwed!{x
+{W$n{G knows $e is in trouble, Gremlin expected that homework yesterday!{x
+
+hop 0 0
+{GYou hop around like a little kid.{x
+{W$n{G hops around like a little kid.{x
+{GYou have to share the news with {W$N{G.{x
+{W$n {Gtells {W$N{G why $E is so happy!{x
+{W$n {Gtells you why $e hopping around!{x
+{GWhat are you a rabbit?{x
+#
+
+howl 1 0
+{GYou {Dh{wow{Wl{G at the {Ymoon{G.{x
+{W$n{G {Dh{wow{Wls{G at the {Ymoon{G.{x
+{GYou {Dh{wow{Wl{G soulfully at {W$N{G.{x
+{W$n{G {Dh{wow{Wls{G at {W$N{G.{x
+{W$n{G {Dh{wow{Wls{G soulfully at you.{x
+{GWho? What? Where?{x
+#
+
+hsh 0 0
+{GAhhhhh, {Ghome sweet home.{x
+{W$n {Gmouths "home sweet home."{x
+{GYou tell {W$N{G "Isn't {wGhost Dancer {Ggreat!"{x
+{W$n {Gtells {W$N{G "Isn't {wGhost Dancer {Ggreat!"{x
+{W$n {Gtells you "Isn't {wGhost Dancer {Ggreat!"{x
+{GGhost Dancer is truely a great place.{x
+{GYou sing "Oh {wGhost Dancer{G, Oh {wGhost Dancer{G how beautiful..."{x
+{W$n {Ybursts {Ginto song "Oh {wGhost Dancer{G, Oh {wGhost Dancer{G how beautiful..."{x
+
+hug 1 5
+{GHug who?{x
+$
+{GYou hug $M.{x
+{W$n{G hugs {W$N{G.{x
+{W$n{G hugs you.{x
+{GSorry, friend, I can't see that person here.{x
+{GYou hug yourself.{x
+{W$n{G hugs $mself in a vain attempt to get friendship.{x
+
+humor 0 0
+{GYou try to be funny!{x
+{W$n {Gis trying $s hand at humor!{x
+#
+
+hush 1 0
+{DSHHHHHHHHHHHHHHHHHHHHHH{x
+{W$n{G requests everyone quiet down.  {DShhhhhhhhhhh{G...{x
+{GYou nicely ask {W$N{G to be more {Dquiet{G.{x
+{W$n{G nicely asks {W$N{G to be more {Dquiet{G.{x
+{W$n{G kindly requests that you please {Dquiet{G down.{x
+{GWho needs to be silenced?{x
+{GYou realize you are loud and obnoxious and try to {Dsilence{G yourself.{x
+{W$n{G covers $s mouth in an attempt to {Dsilence{G $mself.{x
+
+infect 0 0
+{GYou are {Rinfected{G with the {RFlu{G!{x
+{W$n {Ghas the {RFlu{G, Stay away!{x
+{GYou try to {Rinfect {W$N {Gwith the {RFlu{G.{x
+{W$n {Gcoughes on {W$N{G.{x
+{W$n {Rinfects {Gyou with the {RFlu{G.{x
+{GYou want the flu?{x
+{GYou like being sick?{x
+{W$n {Gmust be strange, $e just {Rinfected {G$mself with the {RFlu{G.{x
+
+innocent 1 0
+{GYou innocently whistle a tune.{x
+{W$n{G looks around and whistles innocently.{x
+{GYou look at {W$N{G and bat your eyelashes -- the picture of innocence!{x
+{W$n{G bats $s eyelashes innocently at {W$N{G.{x
+{W$n{G looks at you and innocently bats $s eyelashes.{x
+{GDon't even TRY -- they've already left.{x
+{GEven you are unsure of your innocence?{x
+{W$n{G wrestles with $s innocence!{x
+
+insane 0 0
+{GYou feel your sanity slipping away...{x
+{GBefore your eyes, {W$n{G's sanity is slipping away...{x
+#
+
+insect 0 0
+{GYou swat at the annoying flies.{x
+{W$n {Gappars to be swatting flies.{x
+{GYou see a fly on {W$N's {Gforehead and you {Rswat {Git.{x
+{W$n {Rhits {W$N {Gright between the eyes and says "Didn't you see the fly?"{x
+{W$n {Gjust {Rhit {Gyou between the eyes and says "Didn't you see the fly?"{x
+{GSwat that fly but it is 20 feet tall.{x
+{GYou spray on the insect repellant.{x
+{W$n {Gapplies a liberal amount of insect repellant.{x
+
+inspect 0 0
+{GYou inspect your new found treasure!{x
+{W$n {Ginspects a piece of gear $e found!{x
+{GYou tell {W$N{G "This needs a trained eye."{x
+{W$n {Gasks {W$N{G "Will you take a look at this for me?"{x
+{W$n {Gasks you "Will you inspect this thing for me?"{x
+{GInspect sand?{x
+{GYou inspect yourself for flaws!{x
+{W$n {Ginspects $s gear for {Dwear {Gand {rtear{G.{x
+
+isp 0 0
+{GYou kick your ISP around the world for knocking you offline {RAGAIN!!!!{x
+{W$n {Gkicks $s ISP around the world for knocking $m offline {RAGAIN!!!!!{x
+#
+
+jello 0 0
+{GYou say {YJ{yE{RL{GL{CO{G anyone?{x
+{W$n {Gsays {YJ{yE{RL{GL{CO{G anyone?{x
+{GYou {Goffer {W$N{G some {YJ{yE{RL{GL{CO{G.{x
+{W$n {Goffers {W$N{G some {YJ{yE{RL{GL{CO{G.{x
+{W$n {Goffers you some {YJ{yE{RL{GL{CO{G.{x
+{G{YJ{yE{RL{GL{CO{G?{x
+{GYou eat your {YJ{yE{RL{GL{CO{G pudding pop.{x
+{W$n {Geats $s {YJ{yE{RL{GL{CO{G pudding pop.{x
+
+judge 0 0
+{GYes, but who?{x
+$
+{GYou judge $M on a scale of 1 to 10.{x
+{GOn a scale from 1 to 10, {W$n{G thinks {W$N{G is a complete ZERO!!!{x
+{W$n{G judges your actions on a scale of 1 to 10 and comes up with ZERO!!!{x
+{GThey aren't here right now.{x
+{GYou think wow i am great!{x
+{W$n{G says "I am a perfect {z{W10{x{G"{x
+
+kiss 0 0
+{GIsn't there someone you want to {Rkiss{G?{x
+$
+{GYou {Rkiss{G $M.{x
+{W$n {Rkisses {W$N{G.{x
+{W$n {Rkisses{G you.{x
+{GNever around when required.{x
+{GAll the lonely people :({x
+{W$n{G {Rkisses{G a mirror! How {rsad{G.{x
+
+knee 1 8
+{GYou raise one knee, preparing to do justice...{x
+{W$n{G cocks one knee threateningly.{x
+{GYou knee $M hard in the groin.{x
+{W$N{G doubles over in {rpain{G as {W$n{G knees $M in the groin!{x
+{W$n{G suddenly knees you in the groin!  You fall to your knees in {ragony{G.{x
+{GWhom do you wish to render impotent?{x
+{GWhat ARE you thinking !?!??!?!?!?!{x
+#
+
+kneel 0 0
+{GYou kneel and lift your hands in {Dprayer{G.{x
+{W$n {Gkneels and lifts $s hands in {Dprayer{G.{x
+{GYou kneel before {W$N{G.{x
+{W$n {Gkneels out of respect before {W$N{G.{x
+{W$n {Gkneels before you in respect.{x
+{GKneel are you serious?{x
+{GYou fall to your knees.{x
+{W$n {Gfalls to $s knees.{x
+
+knod 0 0
+{GYou nod knowingly. Admit it, you don't {RREALLY {Ghave a clue, do you?{x
+{W$n {Gnods knowingly.  Somehow, you doubt $n knows what's really going on.{x
+{GYou don't know what $E is talking about, but you nod knowingly at {W$N's {Gstory.{x
+{GYou try not to laugh as you watch {W$n {Gnod UNknowingly at {W$N's {Gstory.{x
+{W$n {Gnods knowingly at your story.{x
+{GYup, you {RKNOW {Gthey aren't here.{x
+{GYou nod knowingly.{x
+{W$n {Gnods knowingly to $mself.{x
+
+laces
+{GWhose laces?{x
+$
+{GWith the greatest of stealth, you tie $S shoelaces together.{x
+{W$n{G sneaks up to {W$N{G and ties $S shoelaces together.{x
+{GYou try to take a step, and you hit the world facedown!  Someone must have tied your shoelaces together!{x
+{GWhose laces?{x
+{GYou tie your own shoelaces together, try to walk, and promptly fall.{x
+{W$n{G cleverly ties $s own shoelaces together, tries to walk, and sprawls flat on the floor.{x
+
+lag
+{GYes, yes.{x
+{W$n{G is   m o v i n g      v  e    ry  sl  o w   l   y ...{x
+
+#
+
+laugh 0 0
+{GYou {Ylaugh{G out loud.{x
+{W$n{Y laughs{G out loud.{x
+{GYou {Ylaugh{G at {W$N{G hysterically.{x
+{W$n{Y laughs{G at {W$N{G hysterically.{x
+{W$n{Y laughs{G at you hysterically.{x
+{GYou can't find the butt of your joke.{x
+{GYou {Ylaugh{G at yourself.  I would, too.{x
+{W$n{Y laughs{G at $mself.  Let's all join in!!!{x
+
+leer 0 0
+{GYou peer around the room, {Mle{meri{Mng{G like the pervert you are!{x
+{W$n{G peers about, {Mle{meri{Mng{G like a filthy pervert!{x
+{GYou {Ml{mee{Mr at {W$N{G like the pervert you are.{x
+{W$n{G eyes {W$N{G up and down, {Mle{meri{Mng{G like a filthy pervert!{x
+{W$n{G eyes you up and down, {Mle{meri{Mng{G like a filthy pervert!{x
+{GYou'll have to settle for memories -- that person isn't here.{x
+{GDesperation has reached new heights, hasn't it?{x
+{W$n{G {Ml{meer{Ms at $mself shamelessly.{x
+
+lick 0 0
+{GYou lick your {Rlips{G and smile.{x
+{W$n{G licks $s {Rlips{G and smiles.{x
+{GYou lick {W$N{G's jawline delicately.{x
+{W$n{G licks {W$N{G's jawline delicately.{x
+{W$n{G licks your jawline delicately.{x
+{GLick away, nobody's here with that name.{x
+{GYou lick your own eyebrows.{x
+{W$n{G licks $s own eyebrows.{x
+
+life 0 0
+{GYou try to get a life, and fail.{x
+{W$n{G tries to get a life, and fails.{x
+{W$N{G needs to get a life!{x
+{W$N{G needs to get a life!{x
+{GYou need to get a life!{x
+{GWho needs a life?{x
+{GBut you have none to give!{x
+{W$n{G attempts to give $mself a life, but has none to spare.{x
+
+lightbulb
+{Y*Ding!*{G  Inspiration!{x
+{GA {Wlight {Gbulb appears above {W$n{G's head!{x
+#
+
+liver 0 0
+{GYou look {rangrily{G for someone to {cdisembowel{G.{x
+{W$n{G {rangrily{G looks for someone to {cdisembowel{G.{x
+{GYou {rrip{G out $S {yliver{G and eat it.{x
+{W$n{G {rrips{G out {W$N{G's {yliver{G and eats it.{x
+{W$n{G {rrips{G out your {yliver{g and eats it.{x
+{GThe object of your wrath is absent.{x
+#
+
+lookear 0 0
+{GYou try to look in your own ear.{x
+{W$n {Gis pulling at $s ear. How strange.{x
+{GYou look into {W$N's {Gear and see.....{BThe bright blue {Bsky{G!{x
+{W$n {Glooks into {W$N's {Gear and sees....{BThe bright blue {Bsky{G!{x
+{W$n {Gpulls at your ear and falls to the ground laughing.{x
+{GWho's Ear{x
+{GYou pull at your own ear. How strange!{x
+{W$n {Gis trying to look in $s own ear? {RThat has to hurt{G!{x
+
+love 0 0
+{GYou {Rlove{G the whole of {wGhost Dancer{G.{x
+{W$n{G {Rloves{G everybody in {wGhost Dancer{G.{x
+{GYou tell your true feelings to {W$N{G.{x
+{W$n{G whispers softly to {W$N{G.{x
+{W$n{G whispers to you sweet words of {Rlove{G.{x
+{GAlas, your {Rlove{G is not present...{x
+{GWell, we already know you {Rlove{G yourself (lucky someone does !){x
+{W$n{G {Rloves{G $mself, can you believe it ?{x
+
+lust 1 0
+{GYour hormones begin to {rrage{G.{x
+{W$n{G has that look of {rlust{G in $s eyes --- Get away QUICK!{x
+{GYou have {rlust{G after {W$N{G.{x
+{W$n{G looks {rlustily{G at {W$N{G.{x
+{W$n {rlusts{G after your delectable body.{x
+{G{GWhom are you trying to {rlust{G after?{x
+{GOh, please! You aren't THAT great...{x
+{W$n{G {rlusts{G after $mself, lonely eh?{x
+
+make 0 0
+{GYou breathe heavily and wetly.{x
+{W$n{G breathes heavily and wetly.{x
+{GYou steam up the windows with $M.{x
+{W$n{G and {W$N{G start steaming up the windows.{x
+{W$n{G starts steaming up the windows with you.{x
+{GSorry, friend, I can't see that person here.{x
+#
+
+massage 0 0
+{GMassage what?  Thin air?{x
+$
+{GYou gently massage {W$N{G's shoulders.{x
+{W$n{G massages {W$N{G's shoulders.{x
+{W$n{G gently massages your shoulders - Ahhhhhhhhhh...{x
+{GYou can only massage someone in the same room as you.{x
+{GYou practice yoga as you try to massage yourself.{x
+{W$n{G gives a show on yoga-positions, trying to massage $mself.{x
+
+medicate 0 0
+{GYou need you medication!{x
+{W$n {Gneeds $s medication!{x
+{GYou {Gglances at $M and wonder, if $E forgot $S medication today!{x{x
+{W$n {Gglances at {W$N{G and wonders, if $E forgot $S medication today!{x{x
+{W$n {Gglances at you and wonders, have you forgotten your medication today!{x
+{GWHAT!{x
+{GYou medicate yourself!{x
+{W$n {Gmedicates $mself! Aren't we all relived now!{x
+
+meditate 0 0
+{GYou assume a very comfortable position and begin to meditate.{x
+{W$n{G rests and begins to meditate... $e chants softly to $mself.{x
+#
+
+mischievous 0 0
+{GYou give a {Bmi{bsch{cie{Cvo{wus{G smile at the trouble you have in mind.{x
+{W$n{G grins {Bmi{bsch{cie{Cvo{wus{Wly{G at a nasty idea.{x
+{GYou grin {Bmi{bsch{cie{Cvo{wus{Wly{G at $M, thinking an evil thought.{x
+{W$n{G grins {Bmi{bsch{cie{Cvo{wus{Wly{G at {W$N{G.  $m must be thinking something evil.{x
+{W$n{G grins {Bmi{bsch{cie{Cvo{wus{Wly{G at you.  You inch toward the door.{x
+{GYou must be delirious.{x
+{GYou grin {Bmi{bsch{cie{Cvo{wus{Wly{G to yourself.{x
+{W$n{G grins {Bmi{bsch{cie{Cvo{wus{Wly{G to $mself.{x
+
+moan 0 0
+{GYou start to moan.{x
+{W$n{G starts moaning.{x
+{GYou moan for the loss of $M.{x
+{W$n{G moans for the loss of {W$N{G.{x
+{W$n{G moans at the sight of you.  Hmmmm.{x
+{GYou see no cause to moan.{x
+{GYou moan at yourself.{x
+{W$n{G makes $mself moan.{x
+
+mock 0 0
+{GYou mock who?{x
+{W$n {Gthinks $e is a mocking bird?{x
+{GYou mock $M {G"Nah Nah Nah."{x
+{W$n {Gmocks {W$N{G "Nah Nah Nah."{x
+{W$n {Gmocks you. "Nah Nah Nah."{x
+{GYou are wierd.{x
+{GYou mock yourself? How {rlame{G!{x
+{W$n {Gmocks $mself? How {rlame{G is that?{x
+
+moo
+{GYou chew your cud and moo plaintively.  Muh-OOOOO!{x
+{W$n{G turns cowlike eyes on you, chews $s cud, and moos plaintively.{x
+{GYou focus all your bovine Zen on {W$N{G, and speak your thoughts.  Muh-OOOOO!{x
+{GSlowly, {W$n{G looks at {W$N{G, chews $s cud, and muh-OOOOs!{x
+{W$n{G moos at you.  What could that possibly mean?{x
+{GYou'd better find someone else to moo at.{x
+{GYou settle down into the center of your bovine Zen; the foolish world thinks you're just mooing.{x
+{W$n{G is mooing at $mself again...  You look for an exit...{x
+
+moon 1 0
+{GYou drop your drawers and {Ymoon{G everyone in the room!{x
+{W$n{G drops $s pants and gives you the vertical smile!{x
+{GYou bend over and {Ymoon{G {W$N{G.{x
+{W$n{G drops $s pants and rudely {Ymoons{G {W$N{G!{x
+{W$n{G bends over and gives you the vertical smile!{x
+{GYou stand, with your pants around your ankles, looking VERY silly!{x
+{GYou try to {Ymoon{G yourself, but you can't see your butt that well.{x
+{W$n{G nearly goes into convulsions while trying to {Ymoon{G $mself.{x
+
+mosh 8 0
+{GYou mosh insanely around the room!{x
+{W$n{G moshes insanely around the room!{x
+{GYou mosh sadistically against {W$N{G ... you WILL be punished.{x
+{W$n{G bounces off of {W$N{G in a vain attempt to mosh... what a {RLOSER{G.{x
+{W$n{G slams into you, moshing painfully against you.  That REALLY {Rhurts{G!{x
+{GHmmm...  your victim found a new dance partner.{x
+{RMasochist!{x
+{W$n{G throws $mself on the floor, grinding $mself into a {rbloody{G pulp!{x
+
+mull 0 0
+{GYou {Dmull{G over the idea at hand, asking for patience.{x
+{W$n{D mulls{G over the idea at hand.  Please be patient.{x
+#
+
+mutter 1 0
+{GYou {Dm{cutte{Dr{G quietly to yourself.{x
+{W$n {Dm{cutte{Dr{G something quietly to $mself.{x
+{GYou {Dm{cutte{Dr{G something to {W$N{G.{x
+{W$n{G looks at {W$N{G and {Dm{cutter{Ds{G something nasty under $s breath.{x
+{W$n{G looks at you and {Dm{cutter{Ds{G something nasty under $s breath.{x
+{GThere's nothing left for you to say, they've left!{x
+{GYou {Dm{cutte{Dr{G quietly to yourself.{x
+{W$n{G {Dm{cutter{Ds{G something quietly to $mself.{x
+
+nibble 0 0
+{GNibble on who ?{x
+$
+{GYou nibble on {W$N{G's ear.{x
+{W$n{G nibbles on {W$N{G's ear.{x
+{W$n{G nibbles on your ear.{x
+{GSorry, not present.{x
+{GYou nibble on your OWN ear ???????????????????{x
+{W$n{G nibbles on $s OWN ear (I wonder how it is done !!).{x
+
+nod 1 0
+{GYou nod.{x
+{W$n{G nods.{x
+{GYou nod at {W$N{G.{x
+{W$n{G nods at {W$N{G.{x
+{W$n{G nods at you in agreement.{x
+{GNod your head off -- they aren't here.{x
+{GYou attempt to nod at yourself and get dizzy instead.{x
+{W$n{G nods quietly to $mself.  What a wacko.{x
+
+noogie 5 0
+{GYou can't noogie the AIR!  It has no head.{x
+$
+{GYou grab {W$N{G, get $M in a head lock and NOOGIE $M!{x
+{W$n{G grabs {W$N{G in a head lock and NOOGIES $M... {rARGH{G!!!{x
+{GOh NO, {W$n{G grabs you, throws you in a head lock and NOOGIES you!{x
+{GThat person has gone off to other lands...{x
+{GYou rub your head and create a static charge...{x
+{W$n{G rubs $s OWN head and creates a static charge... {Y*ZAP*{x
+
+nudge 0 0
+{cNudge {Gwhom?{x
+$
+{GYou {cnudge{G $M.{x
+{W$n{G {cnudges{G {W$N{G.{x
+{W$n{G {cnudges{G you.{x
+{GWho?{x
+{GYou {cnudge{G yourself, for some strange reason.{x
+{W$n{c nudges{G $mself, to keep $mself awake.{x
+
+nuffin 0 0
+{GThey'll never catch you, after all, they think you didn't do nuffin, don't they.{x
+{W$n {Gdidn't do nuffin.{x
+{GYou tell {W$N {Gthat you didn't do nuffin.  Of COURSE $E'll believe you.{x
+{GYou laugh as {W$n {Gtries to get {W$N {Gto buy $s story.{x
+{W$n {Gtells you that $e didn't do nuffin.  Why don't you believe $m?{x
+{GHow could you? They aren't even here.{x
+{GOf COURSE you didn't.{x
+{W$n {Gmumbles about getting away with something. Wonder what $e's up to THIS time.{x
+
+nuzzle 1 5
+{MNuzzle{G who??{x
+$
+{GYou {Mnuzzle{G $S neck softly.{x
+{W$n{G softly {Mnuzzles {W$N{G's neck.{x
+{W$n{G softly {Mnuzzles{G your neck.{x
+{GNo.. they aren't here..{x
+{GI'm sorry, friend, but that's impossible.{x
+#
+
+offer 0 0
+{GCheap aren't we?{x
+{W$n {Goffers nothing to the gods of Ghost Dancer.{x
+{GYou offer to send {W$N's {Gsoul to {Wheaven{G.{x
+{W$n {Gmade the offer to end {W$N's {Glife.{x
+{W$n {Gjust offered you to the gods of {wGhost Dancer{G.{x
+{GOffer what? Are you crazy?{x
+{GYou offer yourself in place of world hunger! How noble.{x
+{W$n {Goffers $mself in place of world hunger.{x
+
+ogg
+{DO{wgg who?{x
+$
+{YEngage!{x
+{W$n{D o{wggs {W$N{G's head with {Yphoton {rtorpedos{G!  {W$N{G reels.{x
+{W$n{D o{wggs{G your head with {Yphoton{r torpedos{G!  You are reeling.{x
+{GYou can't find your target.{x
+{GIf you do that, the universe will {rexplode{G.{x
+{W$n{G almost {Do{wggs{G $mself, but wisely reconsiders.{x
+
+ouch 0 0
+{ROooooooUuuuuCcccchhhhhH{G!{x
+{W$n {Gscreams! "{ROooooooUuuuuCcccchhhhhH{G!"{x
+#
+
+pant 1 0
+{GYou pant like a dog.{x
+{W$n{G pants like a dog.{x
+{GYou pant {rlustily{G at $M.{x
+{W$n{G looks at {W$N{G and pants {rlustily{G.{x
+{W$n{G looks at you and pants {rlustily{G...{x
+#
+
+passout 5 0
+{GYou belch and pass out.{x
+{W$n{G is OBVIOUSLY intoxicated... $e {yburps{G loudly and passes out!{x
+#
+
+pat 0 0
+{CPat{G who?{x
+$
+{GYou {Cpat {W$N{G on $S head.{x
+{W$n{C pats {W$N{G on $S head.{x
+{W$n{C pats{G you on your head.{x
+{GWho, where, what?{x
+{GYou {Cpat{G yourself on your head, very reassuring.{x
+{W$n{C pats{G $mself on the head.{x
+
+peck 5 0
+{GWouldn't you like to do that to a person, or do you prefer air?{x
+$
+{GRisking a slap to the face, you give {W$N{G a {Rpeck{G on the cheek.{x
+{W$n{G smiles and gives {W$N{G a chaste {Rpeck{G on the cheek.{x
+{W$n{G {Rpecks{G you on the cheek, how sweet!{x
+{GI guess you scared them away...{x
+{GYou must REALLY like yourself.{x
+{W$n{G tries in vain to wrap $s {Rlips{G around $s cheeks.{x
+
+peer 1 0
+{GYou {Yp{yee{Yr{G around yourself intently.{x
+{W$n {Yp{yeer{Ys{G around $mself intently.{x
+{GYou {Yp{yee{Yr{G intently at {W$N{G.{x
+{W$n {Yp{yeer{Ys{G intently at {W$N{G.{x
+{W$n {Yp{yeer{Ys{G at you intently.{x
+{GThey aren't here.{x
+{GYou get a little cross-eyed with your attempts to stare yourself down.{x
+{W$n {Yp{yeer{Ys{G at $mself, crossing $s eyes in the process.{x
+
+pie 0 0
+{GYou pick up a {YP{Bi{Re{G and toss it around for a bit.{x
+{W$n{G picks up a {YP{Bi{Re{G and tosses it around for a bit.{x
+{GYou toss a {YP{Bi{Re{G at {W$N{G and hit $M right in the {wFACE{G!{x
+{W$n{G tosses a {YP{Bi{Re{G at {W$N{G and hits $m right in the {wFACE{G!{x
+{W$n{G tossed a {YP{Bi{Re{G in your face... and now you are all covered in {wGOO{G!{x
+{GThat person isn't here...{x
+{GYou bury your face in the {YP{Bi{Re{G... {Yyummmmm{G!!! :){x
+{W$n{G buries $s face in the {YP{Bi{Re{G, licking the pan clean.{x
+
+pilfer 0 0
+{GYou are caught {rstealing{G!{x
+{GYou just caught {W$n {rstealing{G!{x
+{GYou {rsteal{G a few coins from {W$N{G.{x
+{W$n {rsteals{G a few coins from {W$N{G!{x
+{W$n {Ghas been caught {rstealing{G from you!{x
+{rstealing?{x
+{GYou {rsteal{G from yourself?{x
+{W$n {Gis caught {rstealing{G from $mself!{x
+
+pinch 1 0
+{GYou say, 'A pinch of this, and a dab of that.'{x
+{W$n{G says, 'A pinch of this and a dab of that.'{x
+{GYou {Rpinch{G $S bottom and grin.{x
+{W$n{G {Rpinches{G {W$N{G's bottom and grins.{x
+{W$n{G {Rpinches{G your bottom and grins.{x
+{GYou'd like to, wouldn't you?{x
+{GYou {Rpinch{G yourself to see if you are {wdreaming{G!{x
+{W$n{G {Rpinches{G $mself to see if $e is {wdreaming{G!{x
+
+ping 0 0
+{GYou {Yping{G the room for life.{x
+{W$n {Gis {Ypinging{G the room for any sign of life.{x
+{GYou tell {W$N {G"{Y* PING *{G"{x
+{W$n {YPings {W$N{G!{x
+{W$n {YPings {Gyou. Are you alive?{x
+{Y* PING *{G{x
+{GYou {Y* Ping * {Gyourself. Yeap you're brain dead!{x
+{W$n {Y* Pings *{G $mself and learns what we already know $e is brain dead!{x
+
+pissed 5 0
+{GYou are {RPISSED{G!{x
+{W$n{G is {RPISSED{G so watch out!{x
+{GYou turn a {Dstoney{G gaze toward {W$N{G... you are SOOO {Rpissed{G at {W$N{G!{x
+{W$n{G {Yglares{G at {W$n{G.... {W$n{G is SOOO {RPISSED{G at $m!{x
+{W$n{G is {Rpissed{G at you now... What do you think $e'll DO?{x
+{GThat person is not here...{x
+{GYou are {RPISSED{G at yourself!{x
+{W$n{G is so {Rpissed{G at $mself.  How could $e be so {rstupid{G???{x
+
+pity 0 0
+{GYou pity this place!{x
+{W$n {Ghas pity for all creation.{x
+{GYou {Gpity {G$M.{x
+{W$n {Gpities {W$N{G!{x
+{W$n {Gpities you and thinks what a sad sack!{x
+{GPity is for the weak.{x
+{GYou {Gpity yourself. There, there stop crying.{x
+{W$n {Gpities $mself! What a sad sack.{x
+
+plead 0 0
+{GYou beg and plead to anyone who will listen.{x
+{W$n{G pleads $s case to anyone who will listen... You ALMOST feel sorry for $s.{x
+#
+
+point 1 0
+{GYou point excitedly in every direction.{x
+{W$n{G points excitedly!{x
+{GYou point excitedly at {W$N{G.{x
+{W$n{G points excitedly at {W$N{G!{x
+{W$n{G points at you.  How rude!{x
+{GYou point at no one in particular.{x
+{GYou point at yourself, obviously very confused.{x
+{W$n{G points at $mself, obviously very confused.{x
+
+poke 0 0
+{RP{rok{Re{G who??{x
+$
+{GYou {Rp{rok{Re{G $M in the ribs.{x
+{W$n {Rp{roke{Rs{G {W$N{G in the ribs.{x
+{W$n {Rp{roke{Rs{G you in the ribs.{x
+{GYou can't poke someone who's not here!.{x
+{GYou {Rp{rok{Re{G yourself in the ribs, feeling very silly.{x
+{W$n {Rp{roke{Rs{G $mself in the ribs, looking very sheepish.{x
+
+polite 0 0
+{GYou give a polite little chuckle.{x
+{W$n{G gives a polite little chuckle.{x
+{GYou indicate your underappreciation of $S joke.{x
+{W$n{G gives a polite little chuckle to {W$N{G's joke.{x
+{W$n{G gives a politle but unappreciative chuckle to your joke.{x
+{GYou can't find a friend to chuckle with.{x
+{GYou chuckle at your own joke, since no one else would.{x
+{W$n{G chuckles at $s own joke, since none of you would.{x
+
+ponder 0 0
+{GYou ponder the question.{x
+{W$n{G sits down and thinks deeply.{x
+#
+
+potato 0 0
+{GYou are a couch potato.{x
+{W$n {Gis a couch potato.{x
+{GYou {Gthink {W$N{G is a couch potato.{x
+{W$n {Gthinks {W$N{G is a couch potato.{x
+{W$n {Gthinks you are a couch potato!{x
+{GA spud eh?{x
+{GYou say i am a married spud.{x
+{W$n {Gchants repeatedly I am a married SPUD!{x
+
+pounce 0 0
+{GYou pounce on thin {wair{G!{x
+{W$n {Gpounces on thin {wair{G?{x
+{GYou pounce on $M.{x
+{W$n {Gpounces on {W$N{G.{x
+{W$n {Gpounces on you!{x
+{GYou are pouncing.{x
+{GYou pounce youself?! How odd!{x
+{W$n {Gpounces $mself..,,You take a few steps back!{x
+
+pound 0 0
+{GYou make vague pounding motions with your fist at the thought.{x
+{W$n{G makes vague pounding motions with $m fist at the thought.{x
+{GYou pound $M into a {rbloody{G mass.{x
+{W$n{G pounds {W$N{G into a {rbloody{G mass.{x
+{W$n{G pounds you into a {rbloody{G mass.{x
+{GSorry, friend, I can't see that person here.{x
+#
+
+pout 0 0
+{GAh, don't take it so hard.{x
+{W$n{G pouts.{x
+#
+
+powertrip 0 0
+{GYou scream 'The {RPP{rpppp{RPOOOO{rooo{RWWW{rwww{RE{rrr{RRRR{G!' and writhe.{x
+{W$n{G writhes, screaming 'The {RPP{rpppp{RPOOOO{rooo{RWWW{rwww{RE{rrr{RRRR{G!'{x
+#
+
+prance 0 0
+{GYou prance about like a showpony.{x
+{W$n{G prances about like a showpony.{x
+{GYou and {W$n{G prance about the room completely naked.{x
+{GYou and {W$N{G prance about the room completely naked.{x
+{W$n and {W$N{G prance about the room completely naked.{x
+{GYou'll have to solo this one.{x
+{GYou prace about the place naked.{x
+{W$n{G prances about the place naked.{x
+
+pray 0 0
+{GYou feel righteous, and maybe a little foolish.{x
+{W$n{G begs and grovels to the powers that be.{x
+{GYou crawl in the dust before $M.{x
+{W$n{G falls down and grovels in the dirt before {W$N{G.{x
+{W$n{G kisses the dirt at your feet.{x
+{GNo such person around; your prayers vanish into the endless voids.{x
+{GTalk about narcissism...{x
+{W$n{G performs some strange yoga-exercises and mumbles a prayer to $mself.{x
+
+propose 1 0
+{GYou propose to everyone in the room.{x
+{W$n{G proposes to everyone in the room.  Very odd.{x
+{GYou kneel and romantically propose to {W$N{G.{x
+{W$n{G gets on one knee and proposes to {W$N{G.{x
+{W$n{G gets down on one knee and romantically proposes to you.{x
+{GYou must be lonely.  They aren't here.{x
+{GYou are SO full of yourself!{x
+{W$n{G proposes to $mself -- how narcissistic!{x
+
+puff
+{GYou mimic Puff at her most annoying.{x
+{W$n{G begins to sing, "Puff the Magic Dragon."{x
+#
+
+puke 0 0
+{GYou {ypuke{G...chunks everywhere!!! YUK!{x
+{W$n{G {ypukes{G.{x
+{GYou {ypuke{G on $M.{x
+{W$n{G {ypukes{G on {W$N{G.{x
+{W$n{G spews {Yvomit{G and {ypukes{G all over your clothing!{x
+{GOnce again?{x
+{GYou {ypuke{G on yourself.{x
+{W$n {ypukes{G on $s clothes.{x
+
+punch 0 0
+{GPunch whom?{x
+$
+{GYou punch $M playfully.{x
+{W$n{G punches {W$N{G playfully.{x
+{W$n{G punches you playfully.  {ROUCH{G!{x
+{GYou can't find your boxing partner.{x
+{GYou punch yourself and knock yourself silly.{x
+{W$n{G punches $mself.  Ah, {Dshadow{G boxing....and the {Dshadow{G's winning!{x
+
+puppyeyes 0 0
+{GYou make {ypuppy eyes {Gin a mirror.{x
+{W$n {Gstares at $sself in a mirror making {ypuppy eyes{G.{x
+{GYou make {ypuppy eyes {Gat {W$N{G.{x
+{W$n {Gmakes {ypuppy eyes {Gat {W$N{G.{x
+{W$n {Gmakes {ypuppy eyes {Gat you.{x
+{GYou want {ypuppy eyes{G?{x
+{GMaking {ypuppy eyes {Gat yourself? How strange!{x
+{W$n {Gmust be strange, making {ypuppy eyes {Gat $mself.{x
+
+purr 1 0
+{YPPPPPPPPPPUURRRRRRRRRR{G.........{x
+{W$n{G {Ypurrs{G contentedly.{x
+{GYou rub up against {W$N{G and {Ypurr{G contentedly.{x
+{W$n{G rubs against {W$N{G and {Ypurrs{G contentedly.{x
+{W$n{G rubs up against you and {Ypurrs{G contentedly.{x
+{GYou silly cat!  They aren't here.{x
+{GYou {Ypurr{G quietly to yourself.{x
+{W$n{G {Ypurrs{G contentedly to $mself.{x
+
+puter 0 0
+{GYou throw your computer around the room for crashing on you {RAGAIN!!!!{x
+{W$n {Gthrows $s computer around the room for crashing on $m {RAGAIN!!!!{x
+#
+
+putup 0 0
+{GYou think Yeah, Yeah, Yeah.{x
+{W$n {Gmotions for you to be gone.{x
+{GYou say to {W$N {G"{wPut up {Gor {rShut up{G.{x
+{W$n {Gsays to {W$N {G"{wPut up {Gor {rShut up{G.{x
+{W$n {Gsays to you {G"{wPut up {Gor {rShut up{G.{x
+{GGulp?{x
+{GYou tell yourself ok put up or shut up?{x
+{W$n {Gconsider the challenge at hand!{x
+
+ramble 1 0
+{GYou ramble on and on.{x
+{W$n{G rambles on about a boring exploit.{x
+{GYou ramble on to {W$N{G about your past adventures.{x
+{W$n{G blithers on and on to {W$N{G about something.{x
+{W$n{G tells you a rather boring tale, you feign interest.{x
+{G??EH??{x
+#
+
+rant 0 0
+{GYou rant and rave at noone inparticular.{x
+{W$n {Gis ranting and raving.{x
+{GYou {Grant at $M for hours.{x
+{W$n {Grants at {W$N{G for hours!{x
+{W$n {Grants at you for hours. Won't $e ever {RShut up{G!{x
+{GTwist what?{x
+{GYou {Grants at $mself.{x
+{W$n {Grants at $mself? How strange $e must have done something {Rdumb{G!{x
+
+raspberry 4 0
+{GYou stick your tongue out at ... well, no one.{x
+{W$n{G sticks $s tongue out, catching a few flies in the process.{x
+{GYou give {W$N{G the {Rraspberry{G... and spit all over yourself.{x
+{W$n{G gives {W$N{G the {Rraspberry{G... PHBT!  What a mess... {WSpit{G EVERYWHERE!{x
+{GYou are splattered with {Wsaliva{G as {W$n{G gives you the {Rraspberry{G... HOW RUDE!{x
+{GHang your tongue out if you like, $e isn't here.{x
+{GYou try to stick your tongue out at yourself... somehow, it isn't the same.{x
+#
+
+reality 0 0
+{GYou think "This is a weird reality."{x
+{W$n {Glooks lost in another dimension.{x
+{GYou check {W$N's {Greality.{x
+{W$n {Gthinks $e and {W$N {Gare living in different worlds!{x
+{W$n {Gthinks "Any connection between your reality and mine is purely coincidental."{x
+{GDefine real.{x
+{GYou check your own reality. {RPinch, {Gyeap you're awake.{x
+{RPinching {G$mself {W$n {Gdoes a reality check. Makes you wonder doesn't it?{x
+
+right 0 0
+{GYou think to yourself RrriigghhttT!{x
+{W$n {Gsays RrriigghhttT!{x
+{GYou tell {W$N {GRrriigghhttT!.{x
+{W$n {Gtells {W$N{G RrriigghhttT!.{x
+{W$n {Gtells you RrriigghhttT!.{x
+{GWHAT!{x
+{GYou {Dm{cutte{Dr {Gto yourself RrriigghhttT!{x
+{W$n {Dm{cutter{Ds {Gto $mself RrriigghhttT!{x
+
+rocket 0 0
+{GYou dream of {Dspace{G.{x
+{W$n {Gappears to be lost in {Dspace{G.{x
+{GYou wish {W$N {Gwould go home on $S rocket ship.{x
+{W$n {Gsays to {W$N{G"Go home {Dspace-man{G!"{x
+{W$n {Gtells you. "Get back in your rocket and go home."{x
+{GYou are alone!{x
+{GYou think "If i only had a rocketship."{x
+{W$n {Gis caught looking into {Dspace{G.{x
+
+rofl 1 0
+{GYou roll on the floor, laughing hysterically.{x
+{W$n{G falls to the ground and rolls around laughing hysterically.{x
+{GYou fall to the floor laughing at {W$N{G's remark.{x
+{W$n{G rolls on the floor laughing at {W$N{G's antics!{x
+{W$n{G rolls on the floor laughing at your antics!{x
+#
+
+roll 1 0
+{GYou roll your eyes in disgust.{x
+{W$n{G rolls $s eyes, disgusted.{x
+{GYou look at {W$N{G and roll your eyes in disgust.{x
+{W$n{G rolls $s eyes in disgust at {W$N{G.{x
+{W$n{G rolls $s eyes at you.{x
+{GYou should be disgusted with yourself because you look so foolish.{x
+{GAt whom do you wish to roll your eyes?{x
+#
+
+romeo 0 0
+{GYou {Ylight{G up a Romeo y Julietta {wcigar{G and {Dpuff{G contentedly.{x
+{W$n{Y lights{G up a Romeo y Julietta {wcigar{G and {Dpuffs{G contentedly.{x
+#
+
+rose 0 0
+{GWho would you like to give it to?{x
+$
+{GYou give $M a pretty {Rrose{G.{x
+{W$n{G hands {W$N{G a beautiful {Rrose{G.{x
+{W$n{G hands you a beautiful ---{y'{G---{y,{G--{R{{@{x
+{GThey seem to have left.{x
+{GYou give yourself a {Rrose{G and feel a little sad...{x
+{W$n{G gives $mself a {Rrose{G, dont you feel sorry for $m?{x
+
+rub 1 0
+{GYou {rrub{G your hands together in greedy anticipation.{x
+{W$n{r rubs{G $s hands together in greedy anticipation.{x
+{GYou give {W$N{G a nice, long, kinky {rrubdown{G.{x
+{W$n{G gives {W$N{G a nice long {rrubdown{G.{x
+{W$n{G gives you a {rrubdown{G, running $s hands over your tense shoulders...Mmmm...{x
+{GShame to waste those talented hands, but they've already left.{x
+{GYou {rrub{G yourself...lingering a little too long in some places.{x
+{W$n{r rubs{G $mself...what a creep!{x
+
+ruffle 0 0
+{GYou've got to ruffle SOMEONE.{x
+$
+{GYou ruffle {W$N{G's hair playfully.{x
+{W$n{G ruffles {W$N{G's hair playfully.{x
+{W$n{G ruffles your hair playfully.{x
+{GMight be a bit difficult.{x
+{GYou ruffle your hair, wondering how far you can go before the rest think you're crazy.{x
+{W$n{G ruffles $s hair - weirdo!{x
+
+run 0 0
+{GYou run away in terror and horror!{x
+{W$n{G runs away in utter terror!{x
+{GYou run away from {W$N{G in complete terror!{x
+{W$n{G runs away from {W$N{G in utter terror and horror!{x
+{W$n{G runs from you, fearing for $s life!{x
+{GNo reason to be afraid, they aren't here.{x
+{GAre you THAT ugly?{x
+{W$n{G looks in the mirror, sees $s face, and runs away terrified!{x
+
+rust 0 0
+{GYour weapons {yrust {Gfrom misuse.{x
+{W$n {Gis upset $s weapons are {yrusting{G.{x
+{GYou {Gwish {W$N{G would just {yrust{G.{x
+{W$n {Gspills {Bwater{G on {W$N{G hoping $E will {yrust{G!{x
+{W$n {Gspills {Bwater{G on you in hopes you will {yrust{G!{x
+{yRust{G what?{x
+#
+
+sage 0 0
+{GYou nod sagely.{x
+{W$n{G nods sagely.{x
+#
+
+scoff 0 0
+{GYou scoff at everyone!{x
+{W$n {Gscoffs at you and everyone else for that matter!{x
+{GYou {Gscoff at {G$M.{x
+{W$n {Gscoffs{G at {W$N{G!{x
+{W$n {Gscoffs at you with distain!{x
+{GScoff scoff scoff.{x
+{GYou {Gscoff at yourself? How odd!{x
+{W$n {Gscoffs $mself! Can we say $e was weaned to young?{x
+
+scorn 0 0
+{GYou {rscorn{G the world!{x
+{W$n {rhates {Gthe world and curses $s own birth into it!{x
+{GYou {rscorn {G$M.{x
+{W$n {rscorns{G {W$N{G!{x
+{W$n {Ghas {rscorned{G you!{x
+{rAwww we can do better than that.{x
+{GYou {rscorn{G your existance.{x
+{W$n {rscorns{G $mself! Should $e be a case for natural selection?{x
+
+scratch 5 0
+{GYou scratch yourself contentedly.{x
+{W$n{G reaches down and scratches $mself...  Now $e looks VERY happy.{x
+#
+
+scream 0 0
+{RARRRRRRRRRRGH{G!!!!!{x
+{W$n {Rscreams{G loudly!{x
+{RARRRRRRRRRRGH{G!!!!!  Yes, it MUST have been $S fault!!!{x
+{W$n {Rscreams{G loudly at {W$N{G.  Better leave before {W$n{G blames you, too!!!{x
+{W$n {Rscreams{G at you!  That's not nice!  {M*sniff*{x
+{GYour lungs can't reach that far!{x
+{GYou {Rscream{G at yourself.  Yes, that's ONE way of relieving tension!{x
+{W$n{G {Rscreams{G loudly at $mself!  Is there a full {Ymoon{G up?{x
+
+scuff
+{GYou scuff your foot {wsheepishly{G.{x
+{W$n{G scuffs $s foot in the {Ddirt{G, looking very {wsheepish{G.{x
+{GYou scuff your foot, avoiding {W$N{G's {Ygaze{G.{x
+{W$n{G scuffs $s foot and shyly avoids {W$N{G's {Ygaze{G.{x
+{W$n{G scuffs $s foot and shyly avoids your {Ygaze{G.{x
+{GThey aren't here.{x
+#
+
+serenade 1 0
+{GYou raise your voice in a loud serenade to your invisible love.{x
+{W$n{G raises $s voice to serenade the world.{x
+{GYou raise your voice in a loving serenade to {W$N{G.{x
+{W$n{G raises $s voice in a loving serenade to {W$N{G.{x
+{W$n{G serenades you, you are swept away by $s voice.{x
+{GThe one that you wish to serenade has left you to sing to yourself.{x
+{GYou sing a loud serenade to yourself.  What type of person are you?!{x
+{W$n{G serenades $mself.  What an ego!{x
+
+shake 0 5
+{GYou shake your head.{x
+{W$n{G shakes $s head.{x
+{GYou shake $S hand.{x
+{W$n{G shakes {W$N{G's hand.{x
+{W$n{G shakes your hand.{x
+{GSorry good buddy, but that person doesn't seem to be here.{x
+{GYou shake yourself.{x
+{W$n{G shakes and quivers like a bowl full of jelly.{x
+
+shave 0 0
+{GYou think to yourself, "I could use a shave."{x
+{W$n {Glooks unshaven.{x
+{GYou get out the razor and {wshaving cream {Gand {Rglare {Gat {W$N{G.{x
+{W$n {Gmust think {W$N{G needs a shave.{x
+{W$n {Rglares {Gat you with a {Ygleaming {Grazor in hand.{x
+{GDo not think about it!{x
+{GYou feel unshaven, it must be time to shave.{x
+{W$n {Gappears to want to shave.{x
+
+shiver 0 0
+{BBrrrrrrrrr{G.{x
+{W$n{G {Bshivers{G uncomfortably.{x
+{GYou {Bshiver{G at the thought of fighting $M.{x
+{W$n {Bshivers{G at the thought of fighting {W$N{G.{x
+{W$n {Bshivers{G at the {rsuicidal{G thought of fighting you.{x
+{GYou don't see any reason to shiver.{x
+{GYou {Bshiver{G to yourself?{x
+{W$n{G {rscares{G $mself to {Bshivers{G.{x
+
+shrug 0 0
+{GYou {mshrug{G.{x
+{W$n {mshrugs{G helplessly.{x
+{GYou {mshrug{G in response to $S question.{x
+{W$n{m shrugs{G in response to {W$N{G's question.{x
+{W$n{m shrugs{G in response to your question.{x
+{GYou {mshrug{G to no one in particular.{x
+{GYou {mshrug{G to yourself.{x
+{W$n{m shrugs{G to $mself.  What a strange person.{x
+
+shudder 0 0
+{GYou {cs{bh{cu{bd{cd{be{cr{G at the {Dhorror{G and repress tears.{x
+{W$n {cs{bh{cu{bd{cd{be{cr{bs{G at the {Dhorror{G and represses tears.{x
+{W$N {cs{bh{cu{bd{cd{be{cr{bs{G at your {Ygaze{G!{x
+{W$N {cs{bh{cu{bd{cd{be{cr{bs{G uncontrolably as {W$n{Y gazes{G upon $M.{x
+{GYou {cs{bh{cu{bd{cd{be{cr{G as {W$N {Ygazes {Gupon you!{x
+{cs{bh{cu{bd{cd{be{cr{G why?{x
+#
+
+sigh 0 0
+{GYou sigh.{x
+{W$n{G sighs.{x
+{GYou sigh as you think of $M.{x
+{W$n{G sighs at the sight of {W$N{G.{x
+{W$n{G sighs as $e thinks of you.  Touching, huh?{x
+{GYou really sigh, since you don't see your friend.{x
+{GYou sigh at yourself.  You MUST be lonely.{x
+{W$n{G sighs at $mself.  What a sorry sight.{x
+
+silly 0 0
+{GYou do the silly walk all around the room.{x
+{W$n{G does the silly walk all around the room.  $e *is* silly.{x
+{GYou tell $M how silly $E is.{x
+{W$n {Gtells {W$N{G how silly $e thinks he is.{x
+{W$n{G tells you how silly $e thinks you are.{x
+{GSilly who?{x
+#
+
+sing 0 0
+{GYou raise your clear (?) voice towards the sky.{x
+{W$n{G begins to {Msing{G, "OH, WHAT A BEAUTIFUL MORNING!"{x
+{GYou {Msing{G a ballad to $M.{x
+{W$n{M sings{G a ballad to {W$N{G.{x
+{W$n{M sings{G a ballad to you!  How sweet!{x
+{GYou see no one to {Msing{G to.{x
+{GYou {Msing{G a little ditty to yourself.{x
+{W$n{M sings{G a little ditty to $mself.{x
+
+skip
+{GYou gasp as your {Rheart {Gskips a beat.{x
+{W$n {Ggrabs $s chest as $s {Rheart {Gskips a beat.{x
+{GYour {Rheart {Gskips a beat as you see $M.{x
+{W$n {Ghas taken a fancy for {W$N{G.{x
+{W$n {Ggrabs $s chest at the sight of you.{x
+{GYou skip what a nerd!{x
+{GYou skip around carefree.{x
+{W$n {Gseems to be carefree as $e skip about.{x
+
+slap 0 0
+{GWhat is the sound of one hand slapping?{x
+$
+{R*thwack!* {GYou slap {W$N{G ringingly.{x
+{R*thwack!* {W$n{G slaps {W$N{G!{x
+{W$n{G slaps you stingingly. {R*thwack!*{x
+{GHow about slapping someone in the same room as you ??{x
+{GYou slap yourself, {R*thwack!* {Gsilly you.{x
+{W$n{G slaps $mself, {R*thwack!* {Greally strange ...{x
+
+slobber 1 0
+{GYou slobber down your front.{x
+{W$n{G slobbers all over $mself.{x
+{GYou slobber on {W$N{G.{x
+{W$n{G slobbers on {W$N{G.  {Y**Yuck**{x
+{W$n{G slobbers disgustingly on you.{x
+{GSlobber on WHOM?{x
+#
+
+smackdown 0 0
+{GYou want to lay the smackdown!{x
+{W$n {Gis looking for someone to lay the smackdown on!{x
+{GYou tell {W$N {G"Time for the smackdown."{x
+{W$n {Gthreatens {W$N{G saying "I will lay the smackdown on your behind!"{x
+{W$n {Gthreatens you. saying "I will lay the smackdown on your behind!"{x
+{GKeep dreaming pal.{x
+{GYou Yell {RSMACKDOWN BABY!{x
+{W$n {Gwants to bring the smackdown on $mself.{x
+
+smile 1 0
+{GYou {wsmile{G happily.{x
+{W$n{w smiles{G happily.{x
+{GYou {wsmile{G at $M.{x
+{W$n{Y beams{G a {wsmile{G at {W$N{G.{x
+{W$n{w smiles{G at you.{x
+{GThere's no one by that name around.{x
+{GYou {wsmile{G at yourself.{x
+{W$n{w smiles{G at $mself.{x
+
+smirk 0 0
+{GYou smirk.{x
+{W$n{G smirks.{x
+{GYou smirk at $S saying.{x
+{W$n{G smirks at {W$N{G's saying.{x
+{W$n{G smirks at your saying.{x
+{GYou want to smirk to whom?{x
+{GYou smirk at yourself.  Okay.....{x
+{W$n{G smirks at $s own 'wisdom'.{x
+
+smurf 0 0
+{GYou turn {BBLUE{G how {Bsmurfy{G!{x
+{W$n {Gturns {BBLUE{G how {Bsmurfy{G!{x
+#
+
+snap 0 0
+{REureka{G!  You snap your fingers.{x
+{W$n{G snaps $s fingers.{x
+{GYou snap back at $M.{x
+{W$n{G snaps back at {W$N{G.{x
+{W$n{G snaps back at you!{x
+{GYou must be very agitated.{x
+{GYou snap yourself to attention.{x
+{W$n{G snaps $mself to attention.{x
+
+snarl 0 0
+{GYou grizzle your {wteeth{G and look mean.{x
+{W$n{G {rsnarls{G angrily.{x
+{GYou {rsnarl{G at $M.{x
+{W$n {rsnarls{G at {W$N{G.{x
+{W$n {rsnarls{G at you, for some reason.{x
+{GNo need to {rsnarl{G!{x
+{GYou {rsnarl{g at yourself.{x
+{W$n {rsnarls{G at $mself.{x
+
+sneeze 0 0
+{GGesundheit !{x
+{W$n{G sneezes.{x
+#
+
+snicker 0 0
+{GYou {Ysn{Cic{Wker{G softly.{x
+{W$n {Ysn{Cick{Wers{G softly.{x
+{GYou {Ysn{Cic{Wker{G with $M about your shared secret.{x
+{W$n {Ysn{Cick{Wers{G with {W$N{G about their shared secret.{x
+{W$n {Ysn{Cick{Wers{G with you about your shared secret.{x
+{GHuh?{x
+{GYou {Ysn{Cic{Wker{G at your own evil thoughts.{x
+{W$n {Ysn{Cick{Wers{G at $s own evil thoughts.{x
+
+sniff 0 0
+{GYou sniff sadly. {Y*SNIFF*{x
+{W$n{G sniffs sadly.{x
+{GYou sniff sadly at the way $E is treating you.{x
+{W$n{G sniffs sadly at the way {W$N{G is treating $m.{x
+{W$n{G sniffs sadly at the way you are treating $m.{x
+{GYou see no reason to sniff.{x
+{GYou sniff sadly at your lost opportunities.{x
+{W$n{G sniffs sadly at $mself.  Something MUST be bothering $m.{x
+
+snod 0 0
+{GYou nod solemnly.{x
+{W$n {Gnods solemnly.{x
+{GYou now solemnly in response to {W$N's {Ginquiry.{x
+{W$n {Gnods solemnly in response to {W$N's {Ginquiry.{x
+{W$n {Gnods solemnly in response to your inquiry.{x
+{GYou solemnly nod at the fact that they are not here.{x
+{GYou nod solemnly at your own thoughts.{x
+{W$n {Gnods solemnly at $s own thoughts.{x
+
+snore 0 0
+{GZzzzzzzzzzzzzzzzz.{x
+{W$n{G snores loudly.{x
+#
+
+snort 1 0
+{GYou snort derisively.{x
+{W$n{G snorts derisively.{x
+{GYou snort derisively at {W$N{G.{x
+{W$n{G snorts derisively at {W$N{G.{x
+{W$n{G snorts at you.{x
+{GSnort at whom?{x
+{GYou snort derisively at yourself.{x
+{W$n{G snorts derisively at $sself.{x
+
+snowball 0 0
+{GWho do you want to throw a {Wsnowball{G at?{x
+$
+{GYou throw a {Wsnowball{G in {W$N{G's face.{x
+{W$n{G conjures a {Wsnowball{G from the thin air and throws it at {W$N{G.{x
+{W$n{G conjures a {Wsnowball{G from the thin air and throws it at you.{x
+{GYou stand with the {Wsnowball{G in your hand because your victim is not here.{x
+{GYou conjure a {Wsnowball{G from the thin air and throw it at yourself.{x
+{W$n{G conjures a {Wsnowball{G out of the thin air and throws it at $mself.{x
+
+snuggle 1 5
+{GWho?{x
+$
+{GYou {Msnuggle{G $M.{x
+{W$n{M snuggles{G up to {W$N{G.{x
+{W$n{M snuggles{G up to you.{x
+{GThey aren't here.{x
+{GYou {Msnuggle{G up, getting ready to sleep.{x
+{W$n{M snuggles{G up, getting ready to sleep.{x
+
+sob 1 0
+{GYou sob quietly to yourself.{x
+{W$n{G sobs in misery.{x
+{GYou sob quietly to yourself because {W$N{G has hurt your feelings so badly.{x
+{W$n{G sobs quietly to $mself because {W$N{G was a jerk!{x
+{GYou feel like a cad because you've made {W$n{G sob.{x
+#
+
+spam 1 0
+{GYou mutter, '{wspam{G' quietly to yourself again and again.{x
+{W$n{G rests in a corner and mutters '{wspam{G' quietly to $mself.{x
+{GYou {wSPAM{G {W$N{G mercilessly!{x
+{W$n{w spams{G {W$N{G!{x
+{GYou've been {wSPAMMED{G by {W$n{G!{x
+{wSpam{G away -- they've left.{x
+#
+
+spank 0 0
+{GSpank whom?{x
+$
+{GYou spank $M.{x
+{W$n{G spanks {W$N{G.{x
+{W$n{G spanks you.  OUCH!{x
+{GYour hand can't find your victim!{x
+{GYou spank yourself....HMMMMMMM...{x
+{W$n{G spanks $mself....HMMMMMMM...{x
+
+spit 1 0
+{GYou spit in utter disgust.{x
+{W$n{G spits in utter disgust!{x
+{GYou spit on {W$N{G...you're gross!{x
+{W$n{G spits on {W$N{G.{x
+{W$n{G spits on you -- how gross!{x
+{GYour victim isn't here.{x
+{GYou spit on yourself, pretty nasty eh?{x
+{W$n{G spits on $mself...what a sicko!{x
+
+spock 0 0
+{GYou try to find a logical solution to the problem at hand.{x
+{W$n{G tries to find a logical solution to the problem at hand.{x
+{GYou begin to explain to {W$N{G how $S existance simply is not logical.{x
+{W$n{G begins to explain to {W$N{G how $S existance is simply not logical.{x
+{GYou fall asleep listening to {W$n{G's logic.{x
+{GIt appears they do not want to listen.{x
+{GWho cares?{x
+{W$n{G is debating with $mself again.{x
+
+squeal 1 0
+{GYou {Ysqueal{G with delight!{x
+{W$n{G lets out a sudden {Ysqueal{G of delight!{x
+{GYou look at {W$N{G and {Ysqueal{G with delight!{x
+{W$n{Y squeals{G with delight at {W$N{G.{x
+{W$n{G looks at you and {Ysqueals{G with delight!{x
+#
+
+squeeze 0 0
+{GYou are squeezing {W$N{G{x
+$
+{GYou squeeze $M fondly.{x
+{W$n{G squeezes {W$N{G fondly.{x
+{W$n{G squeezes you fondly.{x
+{GWhere, what, how, WHO ???{x
+{GYou squeeze yourself - try to relax a little!{x
+{W$n{G squeezes $mself.{x
+
+squint 0 0
+{GYou squint and look into the {Ysun{G.{x
+{W$n {Gsquints and looks into the {Ysun{G.{x
+{GYou {Gsquint at {W$N{G what is wrong now.{x
+{W$n {Gsquints at {W$N{G what is wrong with $m.{x
+{W$n {Gsquints at you intently!{x
+{GSquint? What's that?{x
+{GYou squint for no reason.{x
+{W$n {Gsquints for no reason what so ever.{x
+
+squirm 1 0
+{GYou squirm uncontrollably in your consternation.{x
+{W$n{G squirms uncontrollably, suddenly looking very uncomfortable.{x
+{GYou look at {W$N{G and squirm with delight.{x
+{W$n{G looks at {W$N{G and squirms with delight.{x
+{W$n{G looks at you and squirms with delight.{x
+#
+
+stagger 1 8
+{GYou stagger around the room.{x
+{W$n{G staggers around the room.{x
+{GYou stagger toward {W$N{G as the room begins to spin.{x
+{W$n{G staggers into {W$N{G.{x
+{W$n{G staggers into you.{x
+{GStagger into whom!?!?{x
+#
+
+staple 0 0
+{GYou are clumsy with a staple gun!{x
+{W$n {Ghas managed to put a staple in $s hand! {RI bet that hurt{G!{x
+{GYou point and staple {W$N {Gto the wall! {ROUCH{G!{x
+{W$n {Rshoots {Gstaples at {W$N{G.{x
+{W$n {Gtries to staple you to the wall. {RBANG{G!{x
+{GStaple who?{x
+{GPinning your hand to the wall you staple it there! {RBANG{G!{x
+{GTalk about problems, {W$n {Gjust stapled $mself to he wall!{x
+
+stretch 1 0
+{GYou lean back and streeeeeettch your arms and legs.{x
+{W$n{G stretches luxuriously.  Kinda makes you want to doesn't it?{x
+#
+
+strip 0 0
+{GYou do a slow strip tease for the people...{x
+{W$n{G begins a slow, erotic strip-tease act...{x
+{GYou start to undress {W$N{G ... one piece of clothing at a time...{x
+{W$n{G runs $s hands over {W$N{Gs body, slowly stripping away the clothing...{x
+{W$n{G has started to strip you... woah BABY!{x
+{GYour toy doesn't seem to be here...{x
+{GYou can't DO that in public!{x
+#
+
+stroke 1 0
+{GYou stroke the air vaguely.{x
+{W$n{G makes vague stroking motions. What are they doing?{x
+{GYou gently stroke $S inner thigh.  {W$N{G inhales sharply.{x
+{W$N{G exhales sharply and suddenly.{x
+{W$n{G gently strokes your inner thigh.  You inhale sharply.{x
+{GMaybe you should practice on yourself first.{x
+{GYou are about to do something you'd rather not be caught doing.{x
+#
+
+strut 0 0
+{GStrut your stuff.{x
+{W$n{G struts proudly.{x
+{GYou strut to get $S attention.{x
+{W$n{G struts, hoping to get {W$N{G's attention.{x
+{W$n{G struts, hoping to get your attention.{x
+{GYou don't see an audience.{x
+{GYou strut to yourself, lost in your own world.{x
+{W$n{G struts to $mself, lost in $s own world.{x
+
+stupid 0 0
+{GYou think that was stupid.{x
+{W$n {Gappears to be upset with something.{x
+{GYou wonder how {W$N {Gmade it to adulthood.{x
+{W$n {Gwonders about {W$N{G.{x
+{W$n {Gasks "Do you believe in natural selection?".{x
+{GYou are stupid aren't you.{x
+{GYou say aloud "Now that was dumb" and bonk yourself!{x
+{W$n {Gbonks $mself and says aloud "That was stupid!"{x
+
+sulk 1 0
+{GYou sulk.{x
+{W$n{G sulks in the corner.{x
+{GYou ask why $E is sulking.{x
+{W$n{G asks why {W$N{G is sulking.{x
+{W$n{G asks you "Why are you sulking?"{x
+{Gask what?{x
+#
+
+support 0 0
+{GYou fully support the plan.{x
+{W$n{G fully supports the plan.{x
+{GYou hug $M supportively and smile.{x
+{W$n{G hugs {W$N{G supportively and smiles.{x
+{W$n{G hugs you supportively and smiles.{x
+{GSorry, friend, I can't see that person here.{x
+{GYou hug yourself sadly.{x
+{W$n{G hugs $mself sadly.  Perhaps you could help?{x
+
+sweep 0 0
+{GYou look at your empty arms and sigh.{x
+{W$n{G looks at $s empty arms and sighs.{x
+{GYou sweep $M into your arms and kiss $M long and deeply.{x
+{W$n{G sweeps {W$N{G into $s arms and kisses $M long and deeply.{x
+{W$n{G sweeps you into $s arms and kisses you long and deeply.{x
+{GThe object of your kiss is absent.{x
+#
+
+swoon 1 0
+{GYou swoon.{x
+{W$n{G swoons in absolute ecstasy.{x
+{GYou look at {W$N{G and swoon in ecstasy.{x
+{W$n{G looks at {W$N{G and swoons in ecstasy.{x
+{W$n{G looks at you and swoons in ecstasy.{x
+{GWho?{x
+#
+
+tackle 1 0
+{GYou're going to tackle everyone in the room?!{x
+$
+{GYou tackle {W$N{G playfully.{x
+{W$n{G playfully tackles {W$N{G.{x
+{W$n{G brings you down in a playful tackle!{x
+#
+
+tag
+{GTag whom?{x
+{W$n{G casts about for someone to tag.{x
+{GFrom nowhere, you pounce on {W$N{G and TAG $M remorselessly!  BWAHAHA!!!{x
+{W$n{G dives from the shadows and TAGS {W$N{G.  {W$N{G IS IT!{x
+{W$n{G pounces on you and >>> TAGS <<< you!  You're IT!{x
+{GWho were you going to tag, then?{x
+{GUnable to catch anyone else, you do the intelligent thing and tag yourself. You're still IT!{x
+{GUnable to catch anyone else, {W$n{G tags $mself.  Are you impressed?{x
+
+tank
+{GYou boldly offer to tank for your everyone else.  Are you sure you know what you're getting into?{x
+{W$n{G offers to tank!{x
+{GYou offer to tank for {W$N{G.{x
+{W$n{G offers to tank for {W$N{G.{x
+{W$n{G offers to tank for you!{x
+{GTank for whom?{x
+{GNo one will tank for you, eh?!? WELL, YOU'LL SHOW THEM!  (right?){x
+{GIn dazzling chivalry, {W$n{G offers to tank-- for $mself!{x
+
+teach 0 0
+{GIf only you could find a teacher.{x
+{W$n {Glooks around for a teacher.{x
+{GYou try and teach {W$N {Gthe lesson of the day.{x
+{W$n {Gis trying to teach {W$N {Gthe lesson of the day.{x
+{GYou are being taught the lesson of the day by {W$n {G!{x
+{GYou can not teach old dogs.{x
+{GYou lecture yourself.{x
+{W$n {Glectures $mself! That's truly sad.{x
+
+tease 1 0
+{GWhat a tease.   SHEESH.{x
+{W$n{G looks around for someone to tease.{x
+{GYou tease {W$N{G in a playful way.{x
+{W$n{G sticks $s tongue out at {W$N{G.{x
+{W$n{G sticks $s tongue out at you, what a DORK!!{x
+{GTease whom?{x
+{GYou tease yourself. NYAH NYAH NYAH.{x
+{W$n{G teases $mself.{x
+
+tender 0 0
+{GYou sing "{RLove {Gme tender, {RLove {Gme true....."{x
+{W$n {Gsings "{RLove {Gme tender, {RLove {Gme true....."{x
+{GYou place a tender {Rkiss{G on $s forehead.{x
+{W$n {Gplaces a tender {Rkiss{G on {W$N{G's forehead.{x
+{W$n {Gplaces a tender {Rkiss{G on $S forehead.{x
+{GYou want to tenderize something?{x
+{GYou complain that last battle left you tender.{x
+{W$n {Gcomplains how tender $e is after that last battle.{x
+
+tenfeet 0 0
+{GYou feel {C10 {Gfeet tall!{x
+{W$n {Gacts like $e is {C10 {Gfeet tall!{x
+{GYou tell {W$N{G "I am {Cten {Gfeet tall."{x
+{W$n {Gtells {W$N{G "I am {Cten {Gfeet tall!"{x
+{W$n {Gtells you "I am {Cten {Gfeet tall!"{x
+{GWho are you tring to impress?{x
+{GYou scream "I am {Cten {Gfeet tall!" Do i sense some insecurity?{x
+{W$n {Gscreams "I am {Cten {Gfeet tall!" How {rlame{G!{x
+
+tforce 0 0
+{GSo you think you're a {CJedi{G?{x
+{W$n {Gthinks $e is a {CJedi Knight{G!{x
+{GYou tell {W$N {Gmay the {CForce {Gbe with you.{x
+{W$n {Ggives the power of the {CForce {Gto {W$N{G.{x
+{W$n {Gtells you. "May the {CForce {Gbe with you."{x
+{GYou use the force.{x
+{GYou think "May the force be with me."{x
+{W$n {Gtries to use the {Cforce{G and fails.{x
+
+thank 0 5
+{GThank you too.{x
+$
+{GYou thank {W$N{G heartily.{x
+{W$n{G thanks {W$N{G heartily.{x
+{W$n{G thanks you heartily.{x
+{GNo one answers to that name here.{x
+{GYou thank yourself since nobody else wants to !{x
+{W$n{G thanks $mself since you won't.{x
+
+threaten 1 8
+{GYou threaten everyone with your overwhelming presence.{x
+{GYou feel threatened in the presence of the great {W$n{G.{x
+{GYou stand tall as you threaten {W$N{G.{x
+{W$n{G threatens {W$N{G forcefully.{x
+{W$n{G threatens you...oooooooh scary *laugh*{x
+{GWhom do you wish to intimidate?{x
+#
+
+tickle 0 0
+{GWhom do you want to tickle?{x
+$
+{GYou tickle {W$N{G.{x
+{W$n{G tickles {W$N{G.{x
+{W$n{G tickles you - ho ho ho.{x
+{GYou're trying to tickle thin air!{x
+{GYou tickle yourself, how funny!{x
+{W$n{G tickles $mself.{x
+
+tie 0 0
+{GYou toy with a pair of handcuffs suggestively.{x
+{W$n{G toys suggestively with a pair of handcuffs.{x
+{GYou grab {W$N{G and tie $M to the bedposts.{x
+{W$n{G grabs {W$N{G and ties $M to a four poster bed.{x
+{W$n{G grabs you and ties you securely to a four poster bed.{x
+{GSorry, friend, I can't see that person here.{x
+#
+
+tight 0 0
+$
+$
+{GYou hold $M tightly in your arms.{x
+{W$n{G holds {W$N{G tightly in $s arms.{x
+{W$n{G holds you in $s arms.{x
+{GSorry, friend, I can't see that person here.{x
+#
+
+tip 1 0
+{GYou tip your hat gallantly.{x
+{W$n{G gallantly tips $s hat.{x
+{GYou tip your hat to {W$N{G.{x
+{W$n{G gallantly tips $s hat to {W$N{G.{x
+{W$n{G gallantly tips $s hat to you.{x
+{GBut there is no one here to impress?!?!{x
+#
+
+tmi 0 0
+{GYou say "Too Much information!"{x
+{W$n {Gsays "Too Much information!"{x
+#
+
+toast 0 0
+{GYou raise a glass of champagne in a toast.{x
+{W$n{G raises $s glass of champagne in a toast.{x
+{GYou raise your glass of champagne to $S.{x
+{W$n{G silently toasts {W$N{G.{x
+{W$n{G silently toasts you.{x
+{GYour object of praise is absent.{x
+{GYou grin evilly and toast yourself.{x
+{W$n{G grins evilly and toasts $mself.{x
+
+tongue 0 0
+{GYou slowly give your tongue a nice workout.{x
+$
+{GMmmm... you give {W$N{G a good working over with your tongue...{x
+{W$n{G slides $s tongue over {W$N{G's body...{x
+{W$n{G wraps $s tongue around you, moving it across your young, nubile flesh...{x
+{GNever around when required...{x
+{GYou slowly tongue yourself.{x
+{W$n{G slowly tongues $mself... ICK.{x
+
+tweak 0 0
+{GTweak who?{x
+$
+{GYou gently tweak $S cheek.  Isn't $E so CUTE?{x
+{W$n{G tweaked {W$N{G's cheek... don't they look so adorable together?{x
+{W$n{G lovingly tweaks your cheek.  It reminds you of Grandma... sniff...{x
+{G*Sniff*  That cheek seems to be missing.{x
+{GYou can't DO that.{x
+#
+
+twiddle 0 0
+{GYou patiently twiddle your thumbs.{x
+{W$n{G patiently twiddles $s thumbs.{x
+{GYou twiddle $S ears.{x
+{W$n{G twiddles {W$N{G's ears.{x
+{W$n{G twiddles your ears.{x
+{GYou don't see the person here.{x
+{GYou twiddle your ears like Dumbo.{x
+{W$n{G twiddles $s own ears like Dumbo.{x
+
+twitch 0 0
+{GYou twitch nervously.{x
+{W$n{G twitches nervously.{x
+{GYou twitch involuntarily at {W$N{G's presence.{x
+{W$N{G must really be getting to {W$n{G...{x
+{W$n{G notices you and twitches.{x
+{GNervous? They aren't even here.{x
+#
+
+twist 0 0
+{GYou twist your hair thoughtfully.{x
+{W$n {Gtwist $s hair thoughtfully.{x
+{GYou {Gplay with your hair and think of {G$M.{x
+{W$n {Gtwists $s hair and thinks of {W$N{G!{x
+{W$n {Gtwists $s hair while gazing at you.{x
+{GTwist what?{x
+{GYou {Gtwirl your hair and look into space.{x
+{W$n {Gappears to be lost as $e twirls $s hair and stares into {Dspace{G.{x
+
+type 1 0
+{GYou can't type for crap tonight!  You give up in frustration!{x
+{W$n{G throws $s hands up in disgust at $s lousy typing skills!{x
+#
+
+undress 0 0
+{GYou start to undress in the {Dshadows{G, waiting for someone to notice.{x
+{W$n{G begins to undress... $e is VERY sexy... {R*Pant*{x
+{GYou undress $M with your eyes... Kinky.{x
+{GYou feel the temperature of the room rise as {W$n{G lusts on {W$N{G...{x
+{GFeeling exposed, you sense {W$n{G undressing you with $s eyes...{x
+{GThey are not here...{x
+{GA mirror would work better...{x
+#
+
+vanish 0 0
+{GYou slip into the {Dshadows{G to avoid being {Rdetected{G.{x
+{W$n {Gslips into the {Dshadows{G...trying {Rdesperately{G to avoid detection.{x
+#
+
+view 0 0
+{GYou sit back and watch the world go by.{x
+{W$n{G kicks back and enjoys the view.{x
+#
+
+voodoo
+{GBad juju like this has to be directed at a person.{x
+{W$n{G looks hostile for a moment.{x
+{GYou stare daggers at {W$N{G, jabbing pins into $S effigy.{x
+{W$n{G glares balefully at {W$N{G while {rstabbing{G a pin into a voodoo doll.{x
+{GYour heart lurches in your chest, and fiery {rpain{G stabs through your skull!{x
+{GYour hatred finds no such target.{x
+{GYou stab a pin into your own voodoo doll!  {rAgony{G!{x
+{W$n{G jabs a pin into $s own voodoo doll, and twitches in {ragony{G!{x
+
+wait 0 0
+{GYou wait patiently.{x
+{W$n{G waits patiently.{x
+#
+
+wave 0 0
+{GYou {Bwave{G.{x
+{W$n{B waves{G happily.{x
+{GYou {Bwave{G to {W$N{G.{x
+{W$n{B waves{G to {W$N{G.{x
+{W$n{B waves{G to you.{x
+{GThey didn't wait for you to {Bwave{G goodbye.{x
+{GAre you going on adventures as well??{x
+{W$n{B waves{G to $mself.{x
+
+wchair 0 0
+{GYou need a wheel chair.{x
+{W$n {Gneeds a wheel chair.{x
+{GYou wounder if $E needs a wheel chair!{x
+{W$n {Gwounders if {W$N{G needs a wheel chair!{x
+{W$n {Gwounders if you need a wheel chair!{x
+{Ga wheel chair? No there is an idea.{x
+{GYou need a wheel chair. I guess you are OLD!{x
+{W$n {Gis so {Dold {G$e needs a wheel chair!{x
+
+wcream 0 0
+{GYou spray some {wwhipped cream{G into your mouth. Yumm.{x
+{W$n{G sprays some {wwhipped cream{G into $s mouth.{x
+{W$n{G sprays some {wwhipped cream{G all over your nubile body and proceeds to lick it off.{x
+{GYou spray some {wwhipped cream{G all over {W$N{G's nubile body and begin to lick it off.{x
+{W$n{G sprays {W$N{G's body down with {wwhipped cream{G and starts to lick it off.{x
+{GYou spray some {wwhipped cream{G up into the air.{x
+{GYou spray some {wwhipped cream{G all over your body and look for someone to lick it off.{x
+{W$n{G sprays {wwhipped cream{G all over $s body and looks around eagerly for someone to lick it off.{x
+
+wedgie 0 0
+{YWedgie{G!!!{x
+{W$n {Gappears to have a {YWedgie{G.{x
+{GYou give $M a {YWedgie{G!{x
+{W$n {Ggives {W$N{G a {YWedgie{G!{x
+{W$n {Ggives you a power {YWedgie{G!{x
+{GYou are strange!{x
+{GYou reach behind yourself and.....{YWedgie{G!! Get some help please.{x
+{W$n {Gjust showed how strange $e is by giving $mself a {YWedgie{G!{x
+
+whap
+{GWhap who?{x
+$
+{GYou {Rwhap{G {W$N{G with a fluffy pillow.{x
+{GWith a resounding {RWHAP{G!, {W$n{R hits {W$N{G with a fluffy pillow.  PILLOW FIGHT!{x
+{GHEY!  {W$n{G {Rwhaps{G you with a fluffy pillow.{x
+{GWhiff...{x
+{GOw! You give yourself a resounding {Rwhap{G with a fluffy pillow.{x
+{GBiff!  {W$n{G {Rwhaps{G $mself with a fluffy pillow.{x
+
+whine 1 0
+{GYou whine to anyone who will listen to you.{x
+{W$n{G whines pathetically to anyone who will listen.{x
+{GYou whine to $M, hoping desperately that at least $E will give a damn.{x
+{W$n{G whines pathetically to {W$N{G.{x
+{W$n{G whines pathetically to you.  What a loser!{x
+{GThey really don't care.{x
+{GYou whine to yourself, probably the only one who will listen.{x
+{W$n{G whines to $mself.  At least $e isn't bitching to YOU.{x
+
+whip 0 0
+{GYou crack your {Dbull{rwhip{G menacingly.{x
+{W$n{G cracks a {Dbull{rwhip{G menacingly.{x
+{GYou flick your {Rwhip{G across $M bare back.{x
+{W$n{G flicks $s {Rwhip{G across {W$N{G's bare back.{x
+{W$n{G flicks a {Rwhip{G across your back... the pain.. the pleasure..{x
+{GSorry, friend, I can't see that person here.{x
+{GYou {Rwhip{G yourself into a frenzy.{x
+{W$n{R whips{G $mself into a frenzy.{x
+
+whistle 0 0
+{GYou whistle a merry tune.{x
+{W$n{G whistles a merry tune.{x
+{GYou whistle at the sight of $M.{x
+{W$n{G whistles at the sight of {W$N{G.{x
+{W$n{G whistles at the sight of you.{x
+{GYou don't see nothing special to whistle at.{x
+{GYou whistle a little tune to yourself.{x
+{W$n{G whistles a little tune to $mself.{x
+
+wiggle 0 0
+{GYour wiggle your hips.{x
+{W$n{G wiggles $s hips.{x
+{GYou wiggle your bottom toward $M.{x
+{W$n{G wiggles $s bottom toward {W$N{G.{x
+{W$n{G wiggles $s bottom toward you.{x
+{GYou must be alone.{x
+{GYou wiggle about like a fish.{x
+{W$n{G wiggles about like a fish.{x
+
+wince 1 0
+{GYou wince in agony.{x
+{W$n{G winces in agony.{x
+{GYou look at {W$N{G and wince at $S remark.{x
+{W$n{G winces at {W$N{G's remark.{x
+{W$n{G winces at your remark.{x
+#
+
+wink 0 5
+{GHave you got something in your eye?{x
+{W$n{G winks. Must be something in $s eye.{x
+{GYou wink at {W$N{G.{x
+{W$n{G winks at {W$N{G.{x
+{W$n{G winks at you.{x
+{GNo one with that name is present.{x
+{GYou wink at yourself ?? - what are you up to?{x
+{W$n{G winks at $mself - something strange is going on...{x
+
+wjello 0 0
+{GYou say {YJ{yE{RL{GL{CO{G wrestling anyone?{x
+{W$n {Gsays {YJ{yE{RL{GL{CO{G wrestling anyone?{x
+{GYou {Goffer to pin {W$N{G in some {YJ{yE{RL{GL{CO{G.{x
+{W$n {Goffers to pin {W$N{G in some {YJ{yE{RL{GL{CO{G.{x
+{W$n {Goffers to pin you in some {YJ{yE{RL{GL{CO{G.{x
+{G{YJ{yE{RL{GL{CO{G wrestling?{x
+{GYou eat {YJ{yE{RL{GL{CO{G as you throw yourself into it.{x
+{W$n {Geats {YJ{yE{RL{GL{CO{G as $e throws $mself into it.{x
+
+wonder 1 0
+{GYou wonder about any number of things.{x{x
+{W$n{G gets a blank stare on $s face.  What could $e be wondering about?{x
+{GYou look at {W$N{G and wonder what will happen.{x
+{W$n{G looks at {W$N{G and wonders....{x
+{W$n{G looks at you quizzically.{x
+{GYou wonder what would have happened had they been here.{x
+{GYou wonder about yourself and your purpose here.{x
+{GA blank stare crosses {W$n{G's face.  What could $e be wondering about?{x
+
+worry 1 0
+{GYou worry about what's going to happen.{x
+{GA troubled look suddenly crosses {W$n{G's face.  Wonder what's wrong?{x
+{GYou look at {W$N{G worriedly.{x
+{W$n{G looks at {W$N{G with a troubled gaze.{x
+{W$n{G looks at you worriedly.{x
+{Gll they obviously aren't worried -- they left!{x
+{Gu worry about what's going to happen.{x
+{Gtroubled look suddenly crosses {W$n{G's face.  Wonder what's wrong?{x
+
+worship 1 0
+{GYou prostrate yourself and worship the gods!{x
+{W$n{G prostrates $mself and worships the gods!{x
+{GYou fall on your knees and worship {W$N{G.{x
+{W$n{G falls on $s knees and worships {W$N{G.{x
+{W$n{G falls to the ground and worships you.{x
+{GYou can't worship someone who isn't here.{x
+{GYou worship yourself.{x
+{W$n{G worships $mself.{x
+
+worthy 0 0
+{GWe are not WORTHY!{x
+{W$n {Gdrops to the ground and screams "We are not Worthy!"{x
+{GYou are not worthy of $M.{x
+{W$n {Gis not worthy of {W$N{G{x
+{W$n {Gbegs for assurance $e is NOT worthy of you!{x
+{GYou are worthy.{x
+{GYou think I am not worthy!{x
+{W$n {Ggrovels "I am NOT worthy!"{x
+
+wrestle 0 0
+$
+$
+{GYou wrestle $M to the floor and pin $M there.{x
+{W$n{G wrestles {W$N{G to the floor, pinning $M there.{x
+{W$n{G wrestles you to the floor and pins you.{x
+{GSorry, friend, I can't see that person here.{x
+{GYou wrestle with your conscience.{x
+{W$n{G wrestles with $m conscience.{x
+
+wrinkle 0 0
+{GYou wrinkle your nose.{x
+{W$n{G wrinkles $s nose.{x
+{W$n{G wrinkles $s nose at your actions.{x
+{GYou wrinkle your nose at {W$N{G's actions.{x
+{W$n{G wrinkles $s nose at {W$N{G's actions.{x
+{GDoes your nose itch?{x
+{GYou wrinkle your nose at your own thoughts.{x
+{W$n{G wrinkles $s nose at $mself. Maybe $e forgot to bathe.{x
+
+wrist 0 0
+{GYou hold out out a wrist for a slap.{x
+{W$n{G holds out a wrist for a slap.{x
+{GYou slap $M wrist sharply.{x
+{W$n{G slaps {W$N{G's wrist sharply.{x
+{W$n{G slaps your wrist sharply.{x
+{GSorry, friend, I can't see that person here.{x
+{GYou slap your own wrist.{x
+{W$n{G slaps $m own wrist.{x
+
+yae
+{GYou sigh, burdened with Yet Another Eeediot.{x
+{W$n{G sighs, burdened with Yet Another Eeediot.{x
+{GThere's Yet Another Eeediot in the room, and you're looking right at $M.{x
+{W$n{G clearly believes that {W$N{G is an Eeediot!{x
+{W$n{G glares at you, obviously not impressed with your intelligence.{x
+{GThere are plenty of Eeediots, but that one doesn't seem to be present.{x
+{GYou bonk yourself for the Eeediot you are!{x
+{W$n{G bonks $mself, HARD, and curses $mself for the Eeediot $e is!{x
+
+yawn 0 0
+{GYou must be tired.{x
+{W$n{G yawns.{x
+#
+
+yeehaw 5 0
+{GYou mount your pony(?) and shout {YY{REEEEEEE{CH{MAAAAAAA{WW{G!{x
+{W$n{G bounces up and down screaming {YY{REEEEEEE{CH{MAAAAAAA{WW{G!{x
+#
+
+yodel 1 0
+{GYou open your mouth...YODEL LAY HE HU! You hear rumbling far away.{x
+{W$n{G begins to yodel. You can hear an avalanche rumbling far away.{x
+{W$N{G covers $S ears as you begin to yodel.{x
+{W$n{G yodels to {W$N{G. YODEL LAY HE HU....{x
+{W$n{G yodels to you...you cringe and turn away.{x
+{GThat person just escaped!{x
+{GWell, it's up to you if you want to damage your hearing.{x
+{W$n{G yodels to $mself.  What a sado-masochist.{x
+
+yowl 0 0
+{GYou yowl in frustration.{x
+{W$n{G yowls in frustration!{x
+#
+
+zerbert
+{GGotta zerbert SOMEBODY.{x
+$
+{GYou lift {W$N{G's shirt and blow loudly into $S navel!{x
+{W$n{G lifts {W$N{G's shirt and blows loudly into $S navel!{x
+{GYeek!  {W$n{G lifts your shirt and blows loudly into your navel!{x
+{GYou missed.{x
+{GCareful, people are staring...{x
+{W$n{G looks around furtively, and then bends over and blows loudly into $s own navel!{x
+
+
+
+#0
+#$

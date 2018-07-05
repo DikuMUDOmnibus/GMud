@@ -1,0 +1,68 @@
+#HELPS
+0 GOBLIN~
+goblin are of small statue
+
+EYE: COLOR: Red, Yellow 
+HAIR: COLOR: 
+HEIGHT: 3'6" to 4'2" 
+WEIGHT: 80lbs average 
+OTHER FEATURES: Skincolor ranges from Yellow to Red 
+BUILD: stocky 
+
+HISTORY: 
+Goblins have flat faces, broad noses, pointed ears, wide mouths and small, sharp fangs. Their 
+foreheads slope back, and their eyes are usually dull and glazed. They always walk upright, but their 
+arms hang down almost to their knees. Their skin colors range from yellow through any shade of orange 
+to a deep red. Usually a single tribe has members all of about the same color skin. Their eyes vary 
+from bright red to a gleaming lemon yellow. They wear clothing of dark leather, tending toward dull 
+soiled-looking colors. 
+
+Humans would consider the caves and underground dwellings of goblins to be dank and dismal. Those few 
+tribes that live above ground are found in ruins, and are only active at night or on very dark, cloudy 
+days. They use no form of sanitation, and their lairs have a foul stench. Goblins seem to be somewhat 
+resistant to the diseases that breed in such filth. 
+
+They live a communal life, sharing large common areas for eating and sleeping. Only leaders have 
+separate living spaces. All their possessions are carried with them. Property of the tribe is kept 
+with the chief and sub-chiefs. Most of their goods are stolen, although they do manufacture their own 
+garments and leather goods. The concept of privacy is largely foreign to goblins. 
+
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 18 Int 15 Wis 16 Dex 19 Con 17
+TRAINING POINTS TO START 12
+
+SPECIAL ABILITIES: hide
+~
+0 $~
+
+#RACE
+goblin~
+Gob~
+6
+170 150 100 100 120 150 
+hide~
+~
+~
+~
+~
+10 10 10 10 10
+17 16 22 22 23
+1
+11
+11000
+11000
+
+#INFO
+NAME goblin~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM 0
+RES Q
+VULN C
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

@@ -1,0 +1,31 @@
+
+#RACE
+barbarian~
+Bar~
+4
+200 200 200 100 150 200 
+fast healing~
+second attack~
+~
+~
+~
+10 10 10 10 10
+22 15 21 20 22
+3
+11
+10100
+10100
+
+#INFO
+NAME barbarian~
+PCRACE 1
+ACT 0
+AFF aa
+OFF 0
+IMM 0
+RES EHI
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

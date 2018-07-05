@@ -1,0 +1,40 @@
+===================================
+Mud Crashed.: Wed Nov 19 23:49:46 2003
+
+Last Command: 
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+------------------------------------------------------------------------------------------------------
+
+===================================
+Players online:
+
+===================================
+Memory Report:
+Affects        32    mem     768
+Areas           2    mem     128
+ExDes         100    mem    1600
+Exits         291    mem    8148
+Helps         316    mem    6320
+Socials       336    mem   17472
+Spells        198    mem   27720
+Skills         45    mem    6300
+Mobs           42    mem    7392
+Mobs newfmt    42    mem    7392
+(in use)       33    mem    5808
+Objs          134    mem   15008
+Objs newfmt   134    mem   15008
+Resets        123    mem    2952
+Rooms         145    mem   15660
+Shops          10    mem     280
+Objects       134    mem   15008
+
+Total                mem  124756
+
+Strings  4048 strings of  332468 bytes (max 1413120).
+Perms    2308 blocks  of  280944 bytes.
+===================================
+<<<<<<<<<< END OF REPORT >>>>>>>>>>
+===================================

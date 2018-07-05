@@ -1,0 +1,98 @@
+#PLAYER
+Name Ghostgod~
+Id   973175883
+LogO 976915517
+Vers 5
+Prom <%hhp %mm %vmv> ~
+Race giant~
+Sex  1
+Cla  3
+Levl 120
+Sec  0
+Plyd 668
+Not  0 0 0 0 0
+RNot 0
+Scro 22
+HRec 3001
+Kill 5 0
+Deat 0 0
+Xcry 0 0
+Slay 0
+Room 1212
+HMV  31 31 102 102 106 106
+Gold 0
+Silv 30
+Exp  2725
+Act  CDEFGHIQT
+Comm NO
+Pos  8
+Prac 1
+Trai 1
+Save  -6
+Alig  0
+Hit   6
+ACs 80 80 80 80
+Attr 22 11 13 11 14
+AMod 0 0 0 0 0
+Pass ghostmud~
+Titl  the NEWBIE~
+Pnts 46
+TSex 1
+Balance     0
+Balance2    0
+DLimit      0
+NoShare	  4
+Shares      0 0 0 0
+HostN	javascript-of-unknown-origin.netscape.com~
+Spouse ~
+LLev 0
+HMVP 31 102 106
+Cnd  0 0 34 20
+Coloura     007 013 005 001 013
+Colourb     013 003 002 006 003
+Colourc     113 002 002 002 001
+Colourd     006 007 002 006 006
+Coloure     011 002 003 001 017
+Colourf     002 002 012 012 012
+Colourg     017 015 011 017 017
+Incr 1
+Hist (null)~
+Sk 1 'axe'
+Sk 1 'dagger'
+Sk 1 'flail'
+Sk 1 'mace'
+Sk 1 'polearm'
+Sk 1 'shield block'
+Sk 1 'spear'
+Sk 75 'sword'
+Sk 1 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 7 'enhanced damage'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'second attack'
+Sk 1 'third attack'
+Sk 1 'fast healing'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 1 'wands'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'weaponsmaster'
+Affc 'bless'   0  48  49   6  18          0
+Affc 'bless'   0  49  49  -6  24          0
+Affc 'armor'   0  48  21 -20  17          0
+End
+
+#O
+Vnum 30
+Nest 0
+Cond 0
+Wear 5
+Cost 0
+End
+
+#END

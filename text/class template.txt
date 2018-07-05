@@ -1,0 +1,38 @@
+#HELPS
+0 CLASS~
+Text
+
+Primary Attribute
+Secondary Attribute
+
+Base ThacO
+
+Special skills
+Default groups
+~
+0 $~
+
+#CLASS
+NUMBR 0
+NAME ~
+WHON ~
+PATTR 0
+SATTR 0
+FWEAPON 0
+GUILD# 0 0
+ADEPT 75
+THAC0 0
+THAC32 0
+HPMIN 0
+HPMAX 0
+MANAG 0
+MNMIN 0
+MNMAX 0
+MVMIN 0
+MVMAX 0
+BASEG ~
+DFLTG ~
+REMORTL 0
+CLASST 0
+#$
+

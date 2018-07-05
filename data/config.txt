@@ -1,0 +1,196 @@
+* Config File by Taka for GhostMUD code bases V3.2 and later~
+* (c) Taka 2001 a_ghost_dancer@excite.com~
+* ~
+* Be sure to terminate comments like this one with the string ending tilde~
+* ~
+* Mobiles to load!!~
+MOB_VNUM_FIDO           	21
+MOB_VNUM_CITYGUARD      	20
+MOB_VNUM_VAMPIRE        	22
+MOB_VNUM_PATROLMAN      	24
+MOB_VNUM_GGOLEM             	26
+* ~
+* Groups to load!!~
+GROUP_VNUM_TROLLS       	23
+GROUP_VNUM_OGRES        	25
+* ~
+* Objects to load!!~
+OBJ_VNUM_SILVER_ONE	    	20
+OBJ_VNUM_GOLD_ONE	    	21
+OBJ_VNUM_GOLD_SOME	    	22
+OBJ_VNUM_SILVER_SOME        	23
+OBJ_VNUM_COINS		    	24
+OBJ_VNUM_CORPSE_NPC	    	25
+OBJ_VNUM_CORPSE_PC	    	26
+OBJ_VNUM_SEVERED_HEAD		27
+OBJ_VNUM_TORN_HEART	    	28
+OBJ_VNUM_SLICED_ARM	    	29
+OBJ_VNUM_SLICED_LEG	    	30
+OBJ_VNUM_GUTS		    	31
+OBJ_VNUM_BRAINS		    	32
+OBJ_VNUM_MUSHROOM	    	33
+OBJ_VNUM_LIGHT_BALL	    	34
+OBJ_VNUM_SPRING		    	35
+OBJ_VNUM_DISC		    	36
+OBJ_VNUM_PORTAL		    	37
+OBJ_VNUM_ROSE			38
+OBJ_VNUM_PIT            	52
+* map is newbie guide ~
+OBJ_VNUM_MAP            	14
+OBJ_VNUM_WHISTLE        	53
+OBJ_VNUM_STEAK			54
+OBJ_VNUM_PILL			55
+OBJ_VNUM_POTION			56
+OBJ_VNUM_DUMMY           	63
+OBJ_VNUM_DIAMOND_RING    	64
+* ~
+* School Objects to load!!~
+OBJ_VNUM_SCHOOL_MACE    	39
+OBJ_VNUM_SCHOOL_DAGGER  	40
+OBJ_VNUM_SCHOOL_SWORD   	41
+OBJ_VNUM_SCHOOL_SPEAR   	45
+OBJ_VNUM_SCHOOL_STAFF   	46
+OBJ_VNUM_SCHOOL_AXE     	47
+OBJ_VNUM_SCHOOL_FLAIL   	48
+OBJ_VNUM_SCHOOL_WHIP    	49
+OBJ_VNUM_SCHOOL_POLEARM 	50
+OBJ_VNUM_SCHOOL_VEST    	42
+OBJ_VNUM_SCHOOL_SHIELD  	43
+OBJ_VNUM_SCHOOL_BANNER  	44
+OBJ_VNUM_NEWBIE			14
+* ~
+* Rooms to load!!~
+ROOM_VNUM_LIMBO        		92
+ROOM_VNUM_CHAT         		94
+ROOM_VNUM_TEMPLE       			40100
+ROOM_VNUM_ALTAR           		40100
+ROOM_VNUM_SCHOOL       			40100
+ROOM_VNUM_BALANCE       		40100
+ROOM_VNUM_CIRCLE       			40100
+ROOM_VNUM_DEMISE       			40100
+ROOM_VNUM_HONOR           		40100
+ROOM_VNUM_RTD		   	93
+* ~
+* Morge settings~
+* Use Morge Code is if the mud will allow morges at all~
+* 1 = Yes allow, 0 - No do not allow~
+* Character body to morge means 1=on death the character and corpse~
+* will be moved to the morge. Else the character ends up at the temple~
+* while his/her body at the morge.~
+* Morge is allowed to a maximum level of the Morge to level flag~
+* Anything above this level is S.O.L.~
+* What is the Morge VNUM (The place the corpses will go to at time of death)~
+* NOTE: Corpses only go there if they are below the morge level~
+* use race morges found in the race files (upto race morge level)~
+* use newbie morge (upto newbie morge level)~
+* ~
+* newbie morge then race morge then normal morge~
+* ~
+USE_MORGE_CODE			    1
+CHAR_BODY_TO_MORGE		    1
+MORGE_TO_LEVEL			   50
+ROOM_VNUM_MORGE			40102
+USE_RACE_MORGE			    0
+USE_NEWBIE_MORGE		    0
+NEWBIE_MORGE_VNUM		40102
+NEWBIE_MORGE_LEVEL		    3
+RACE_MORGE_LEVEL		   13
+* ~
+* Use home recall yes or no~
+* this option lets the player set a custom recall point known as home recall~
+* Minimum home level is used to restrict home recalls use on the mud to characters~
+* of atleast this minimum level~
+* race recall yes/no and max level~
+USE_HOME_RECALL			    1
+MIN_HOME_LEVEL			   20
+USE_RACE_RECALL			    1
+USE_RACE_RECALL_LEVEL		   10
+USE_NEWBIE_RECALL		    1
+NEWBIE_RECALL_VNUM		40101
+* ~
+* Use marry allows mortals to marry~
+* minimum level to marry sets a minimum level for mortals to be inorder to marry~
+USE_MARRY			    1
+MIN_LEVEL_MARRY			   15
+* ~
+* Default Wizi makes immortals wizi at the minimum wizi level unless~
+* they specify to be wizi at a higher level~
+USE_DEFAULT_WIZI		    1
+* ~
+* Mud uses remorts means will remort command be made available to legends~
+MUD_USES_REMORTS		    1
+* ~
+* Allow immortals to create a title inplace of race/class/level~
+USE_IMMORTAL_CUSTOM_TITLES	    1
+* ~
+* Allow multi slay is used in do_slay to validate you allow multiple slay types~
+* allow custom slay is used in do_editslay to validate creating custom slays~
+* custom slay level is used in do_editslay to valid the imm is high enough level~
+* to create a custom slay type~
+* custom slay count will limit the number fo custom slays each immortal can have~
+* allow share custom slays is if someone creates a custom me only type slay~
+* other imms can not use that slay~
+ALLOW_MULTI_SLAY		    1 
+ALLOW_CUSTOM_SLAY		    1 
+CUSTOM_SLAY_COUNT		    5 
+CUSTOM_SLAY_LEVEL		  118 
+ALLOW_SHARE_CUSTOM		    0 
+* ~
+* Allow PB war - will the mud allow immortals to start PB wars?~
+* PB join ticks - how many ticks after the war is declared before it starts~
+*               - this is the time people may join~
+* reload option - force players to reload after so many shoots are fired~
+* no shoots - number of shoots before a reload is required~
+* pct hit shoot - percent change to hit the target per shoot~
+* champ msg - display who won on open channel (Not implemented till V1.1~
+* reload lag - lag time after a reload (time it takes to reload the weapon)~
+ALLOW_PB_WARS			    1
+PB_JOIN_TICKS			    3
+RELOAD_OPTION_ON		    1
+NO_SHOOTS			    8
+PCT_HIT_SHOOT			   50
+CHAMP_MSG			    1
+RELOAD_LAG			    2
+* ~
+* Mud code base is GhostMUD V3.4~
+* Mud name is your muds name.~
+MUD_CODE_BASE	GhostMUD V3.4~
+MUD_NAME	Ghost Dancer~
+AUTHOR_CODEBASE {WTaka {Ctaka@ghostmud.com{x~
+GREET_MESSAGE	{WGhost Dancer {Gwelcomes {Y%s {Gto our world!{x~
+LEAVE_MESSAGE	{WHave a safe trip home {Y%s!{x~
+GRATS_MESSAGE	{wThe immortals {Gof {wGhost Dancer {Gcongratulate {Y%s {Gon level {Y%d{G!{x~
+SAVE_MESSAGE	{RSaving. {GYour progress on {wGhost Dancer {Gwas saved successfully.{x~
+RESTRICTED_SAVE {GYou must be at least level {Y2{G to save!{x~
+* ~
+* show race list 1=rom standard display, 2=ghost standard display~
+* show class list 1=rom, 2=ghost~
+RACE_SHOW_LIST	2
+CLASS_SHOW_LIST	2
+* ~
+* Experience adjuster~
+* Allow this command on your mud Adjust Exp~
+* Minimum exp allowed 100 = normal exp, 0 = none, 200 = 2x normal~
+* maximum exp bonus allowed~
+* defualt timer when a time is not entered~
+* maximum timer allowed~
+ALLOW_EXP 		  1
+MIN_EXP			  0
+MAX_EXP			500
+DEFAULT_EXP_TIMER	 10
+MAX_EXP_TIMER		 99
+* Hunger Options~
+* 1) Allow hunger damages at what level~
+* 2) Hunger damages Hit Points By # Per tick~
+* 3) Hunger damages Mana Points By # Per tick~
+* 4) Hunger damages Movement Points by # Per tick~
+* 5) Hunger can kill~
+* 6) Number of ticks to allow before damage starts~
+*    Use -1 for hunger ticks to disallow hunger damages~
+HUNGER_LEVEL		 15
+HUNGER_SUB_HP		 10
+HUNGER_SUB_MANA		  0
+HUNGER_SUB_MOVE		 10
+HUNGER_KILL		  1
+HUNGER_TICKS		  3
+$

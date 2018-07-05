@@ -1,0 +1,71 @@
+#HELPS
+0 ORC~
+orcs are of medium stature
+
+EYE: COLOR: varied 
+HAIR: COLOR: varied 
+HEIGHT: 5'3" to 6' 
+WEIGHT: 190lbs average 
+OTHER FEATURES: 
+BUILD: muscular
+
+HISTORY: 
+Orcs are a species of aggressive mammalian carnivores that band together in tribes and survive by 
+hunting and raiding. Orcs believe that in order to survive they must expand their territory, and so 
+they are constantly involved in wars against many enemies: humans, elves, dwarves, goblins, and other 
+orc tribes. 
+
+Orcs vary widely in appearance, as they frequently crossbreed with other species. In general, they 
+resemble primitive humans with grey-green skin covered with coarse hair. Orcs have a slightly stooped 
+posture, a low jutting forehead, and a snout instead of a nose, though comparisons between this facial 
+feature and those of pigs are exaggerated and perhaps unfair. Orcs have well-developed canine teeth 
+for eating meat and short pointed ears that resemble those of a wolf. Orcish snouts and ears have a 
+slightly pink tinge. Their eyes are human, with a reddish tint that sometimes makes them appear to 
+glow red when they reflect dim light sources in near darkness. This is actually part of their optical 
+system, a pigment which gives them infravision. Male orcs are about 5? to 6 feet tall. Females average 
+6 inches shorter than males. Orcs prefer to wear colors that most humans think unpleasant: blood red, 
+rust red, mustard yellow, yellow green, moss green, greenish purple, and blackish brown. Their armor 
+is unattractive besides -- dirty and often a bit rusty. Orcs speak Orcish, a language derived from 
+older human and elvish languages. There is no common standard of Orcish, so the language has many 
+dialects which vary from tribe to tribe. Orcs have also learned to speak local common tongues, but are 
+not comfortable with them. Some orcs have a limited vocabulary in goblin, hobgoblin, and ogre 
+dialects. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 20 Int 14 Wis 15 Dex 19 Con 21 
+TRAINING POINTS TO START 18
+
+SPECIAL ABILITIES: berserk, second attack 
+~
+0 $~
+
+#RACE
+orc~
+Orc~
+6
+200 200 110 100 110 200 
+berserk~
+second attack~
+~
+~
+~
+10 10 10 10 10
+25 14 15 23 23
+2
+11
+10100
+10100
+
+#INFO
+NAME orc~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM 0
+RES Q
+VULN S
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

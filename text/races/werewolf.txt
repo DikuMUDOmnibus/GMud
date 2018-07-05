@@ -1,0 +1,77 @@
+#HELPS
+0 WEREWOLF~
+Werewolves are of medium stature
+
+EYE: COLOR: brown, green 
+HAIR: COLOR: brown, silvergrey 
+HEIGHT:  5'5 to 6'6 (add 1' for lupine form) 
+WEIGHT: 140lbs average 
+OTHER FEATURES: As human form, no distinguishable features, as wolf form, varying wolflike features. 
+BUILD: muscled 
+
+HISTORY: 
+Werewolves are the most feared of the lycanthropes, men who can transform into wolflike beasts. They 
+should not be confused with wolfweres (q.v.) -- wolves who turn into men. Great enmity exists between 
+werewolves and wolfweres. 
+
+The human forms of werewolves have no distinguishing traits. The werewolf form is equally varied. Many 
+have a bipedal form that is a hybrid of human and lupine features. These creatures are about 1-foot 
+taller and stronger than their human forms. The bodies are fur-covered and have short tails, wolflike 
+legs, and heads that are combinations in varying degrees of human and lupine features. 
+A second form of hybrid is more wolflike, and may be mistaken for a large wolf when it runs on all 
+four legs. This hybrid can also walk erect and has humanlike hands. 
+
+Another type of werewolf (about 20%) looks exactly like a large wolf about the size of a bear. This 
+creature has no human features, although the eyes may glow red in the dark. 
+
+Werewolf packs roam the wilderness in search of human or other prey. True werewolves tend to be 
+nomadic, although infected werewolves often continue to live the life to which they were accustomed. 
+Werewolves retreat to their dens during the winter months or the years when the females are raising 
+the helpless cubs. As humans, werewolves do not build homes, although they may take over existing 
+dwellings, sometimes the home of past victims. Caves and burrows are the dens most commonly used in 
+the wild. These sparsely furnished retreats are used mostly as a sleeping area and a place to store 
+their human possessions. Many werewolf families roam the countryside in wagons, much like gypsies. In 
+fact, this has caused many gypsies to be accused of being werewolves. 
+
+Werewolves live in packs, generally related by bloodlines. Werewolf packs of five to eight individuals 
+are single family groups consisting of a male, female, and three to six cubs, six to nine years old. 
+Cubs under six years old are kept in secluded dens and never encountered by hostile humans. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 20 Int 16 Wis 19 Dex 18 Con 19 
+TRAINING POINTS TO START 19
+
+SPECIAL ABILITIES: bash, fast healing,second attack, sneak
+~
+0 $~
+
+#RACE
+werewolf~
+WWolf~
+7
+200 200 200 100 100 200 
+bash~
+fast healing~
+second attack~
+sneak~
+~
+10 10 10 10 10
+22 18 18 22 20
+2
+11
+10100
+10100
+
+#INFO
+NAME werewolf~
+PCRACE 1
+ACT 0
+AFF 0
+OFF 0
+IMM BL
+RES I
+VULN NY
+FORM BHIMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

@@ -1,0 +1,82 @@
+#HELPS
+0 OYATE~
+oyate are of medium stature
+
+EYE: COLOR: Black, dark brown 
+HAIR: COLOR: Black 
+HEIGHT: 5'9" to 6' 
+WEIGHT: 100lbs average 
+OTHER FEATURES: Reddish skintone 
+BUILD: Lean 
+
+HISTORY: 
+These are the native People of Ghost Dancer. They are reclusive people 
+preferring to hunt and fish in small family groups known as tribes. The 
+Oyate stand about 5'9" to 6' and resemble elves in many features. They 
+are skilled hunters and trackers (scouts) and can be fearsome warriors. 
+They have a reddish appearance to their skin, which protects them from 
+the bright Ghost Dancer sun. They can be found in even the harshest of 
+climates. 
+
+Little else is known about the Oyate except that when provoked the 
+outcome is almost always fatal. 
+
+The Oyate were here before any other race and Ghost Dancer was 
+beautiful. They were the first new race introduced to Ghost Dancer the 
+most beautiful of all the worlds the gods had created. This is why they 
+choose Ghost Dancer to become mortals on. With the introduction of the 
+gods came the introduction or the other races (elves, humans, dwarves), 
+the Oyate fled to solitude leaving a great mystery as to who they are 
+and what they believe. However two of the immortals befriended the Oyate 
+and learned their culture. Impressed by their simple life one of these 
+immortals took an Oyate name Cormac (Cor ha mac "Eternal Life" God of 
+the after Life) he is their god and his mate also Oyate Taka is 
+their goddess. They have adopted Taka to mean (Tha-cka "sweet 
+life" God of Life) and pray regularly to them. The only other god in 
+their religious system is Makoce (mah-koh-chay "Mother Earth"). They are 
+highly spiritual and social having a language known as Lakota. After the 
+arrival of the other races the Oyate retreated into the depths of the 
+wilderness and few have ever been spotted. To this day the Oyate are 
+more a myth than a reality. But as of late the myth has emerged into the 
+public view more and more as Oyate have been spotted in increasing numbers 
+around larger cities and roads throughout the whole of Ghost Dancer. 
+Is this a new trend? 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 18 Int 18 Wis 19 Dex 21 Con 19 
+TRAINING POINTS TO START 20
+
+SPECIAL ABILITIES: 
+~
+0 $~
+
+#RACE
+oyate~
+Oyate~
+0
+100 100 100 100 100 100 
+~
+~
+~
+~
+~
+10 10 10 10 10
+20 18 22 20 20
+2
+11
+11000
+11000
+
+#INFO
+NAME oyate~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM Q
+RES BHIL
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

@@ -1,0 +1,14 @@
+00 God~     Any~
+01 Elathan~ Good~
+02 Miriel~  Good~
+03 Narok~   Evil~
+04 Yatai~   Neutral~
+05 Anval~   Lawful Good~
+06 Kiana~   Chaotic Evil~
+07 Vilya~   Lawful Neutral~
+08 Ormal~   Chaotic Neutral~
+09 Fentia~  Chaotic Good~
+10 Glok~    Neutral Good~
+11 Bodan~   Neutral Evil~
+12 Marth~   Lawful Evil~
+$

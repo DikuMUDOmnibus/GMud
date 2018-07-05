@@ -1,0 +1,794 @@
+#AREADATA
+Name Mahpiya - Heaven~
+Builders Taka~
+VNUMs 1 99
+Credits {G{{  ALL  } {WTaka        {GMahpiya - Heaven~
+Security 0
+End
+
+#HELPS
+120 VNUMS~
+MOBS 20-26 are reserved for programming reasons
+OBJS 14 Newbie Guide
+OBJS 20-64 are reserved for programming reasons
+ROOM 92 Void
+ROOM 93 RTD
+ROOM 94 Chat Room
+~
+0 $~
+
+#MOBILES
+#20
+cityguard guard~
+the cityguard~
+A cityguard stands here.
+~
+A big, strong, helpful, trustworthy guard.
+~
+human~
+ACGT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand either 150
+0 0 medium 0
+#21
+kitten cat pet~
+the kitten~
+A small loyal kitten is here.
+~
+The kitten looks like a cute, little, fierce fighter.
+~
+cat~
+ABU 0 400 0
+1 2 2d6+11 1d1+99 1d4+0 scratch
+8 8 8 10
+0 0 C 0
+stand stand either 0
+0 0 tiny 0
+#22
+oldstyle undead guardian vampire~
+The guardian vampire~
+A vampire is here hiding his face from your light source.
+~
+The guardian vampire looks quite EVIL.  Just by looking at him the hair on your
+arms raises. He looks mighty tough to be just a minor minion.
+~
+human~
+ABF DF -1000 0
+28 0 6d12+703 14d9+100 5d4+8 none
+-8 -8 -8 6
+EFNU 0 0 0
+stand stand male 750
+0 0 medium 0
+#23
+troll gang member~
+a troll gang member~
+A member of the Trolls wanders about here.
+~
+He's lived a life of violence ever since he was little.
+~
+human~
+ACEG 0 -100 2100
+5 0 2d6+60 1d1+99 1d6+1 punch
+5 5 5 9
+DFNU 0 0 0
+stand stand male 10
+0 0 medium 0
+#24
+patrolman patrol man~
+a patrolman~
+A patrolman is trying to keep the peace.
+~
+He'd rather be at the local pub then out here with these nasty kids.
+~
+human~
+AGT 0 700 0
+8 0 2d7+115 1d1+99 1d7+2 punch
+3 3 3 9
+CKLU 0 0 0
+stand stand male 350
+0 0 medium 0
+#25
+troll gang member~
+a troll gang member~
+A member of the Trolls wanders about here.
+~
+He's lived a life of violence ever since he was little.
+~
+human~
+ACEG 0 -100 2100
+5 0 2d6+60 1d1+99 1d6+1 punch
+5 5 5 9
+DFNU 0 0 0
+stand stand male 10
+0 0 medium 0
+#26
+golem greater~
+a greater golem~
+A greater golem stands here looking very dangerous.
+~
+It looks strong and durable, but somewhat un-intelligent.
+~
+golem~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand 0 0
+0 0 large 0
+#0
+
+
+
+#OBJECTS
+#14
+newbie guide~
+Newbie Guide~
+This is your newbie guide examine CONTENTS~
+~
+map 0 A
+0 0 0 0 0 
+1 10 0 P
+E
+contents~
+Please examine page number or area 
+Page ONE - Newbie school
+Page TWO - About stats and stuff 
+Page THREE - Remorting and other useful things 
+Page FOUR - Map of Mareal 
+CREDITS 
+~
+E
+one~
+Page ONE - Newbie school
+
+Read everything in the Newbie school and follow the directions
+in each room. You should stay there till you are ready.
+~
+E
+two~
+Page TWO - About stats and stuff
+
+Remember to train your stats you can do this at mobiles marked as trainers.
+You can train any of these.
+STR - Strength     - It affects how hard and how well you hit as well as
+                   - how much you can carry.
+INT - Intelligence - It affects how quickly you learn skills and spells.
+WIS - Wisdom       - It affects how much you can learn with each level.
+                   - IE: The number of practice you gain each level
+DEX - Dexterity    - It affects how well you dodge and how hard it is to
+                   - strike you.
+CON - COnstitution - It affects your health and the number of hit points
+                   - you will gain with each level.
+HP  - Hit Points   - Adds 10 hit points permanently to you
+MANA- Mana         - Adds 10 Mana points permanently to you
+MOVE- Movement     - Adds 10 movement points permanently to you
+
+At trainers you can TRAIN stats or PRACTICE skills and spells as well as
+GAIN groups of spells or a skill that you do not currently have.
+
+Type PRACTICE to see your spells and skills you can practice.
+At a trainer type GAIN and it will show you help for gaining new stuff.
+
+SPELL ALL - will show a list of all spells you have selected
+SKILL ALL - will show a list of all skills you have selected~
+E
+three~
+Page THREE - Remorting and other useful things
+
+REMORT
+The term remort is used for those who reach level 101 and wish to begin
+anew with a stronger more powerful character. Remorts get more classes 
+and more races to choose from and also get a few more hit points, mana
+points, movement points, trains and practice than normal players.
+
+COMMANDS
+COLOR - is used to toggle color on and off
+SCORE - shows you your characters score sheet
+WHO   - shows you people online
+WHOIS - show you information about another player
+AFF   - shows you spell affects currently affecting you
+CHANN - shows you all channels that you can communicate on
+LOOK  - looks arround or at something
+~
+E
+four~
+Page FOUR - Map of Mareal
+
+City Mareal
+.
+ 
+The City of Mareal-
+
+      Western             |
+      Mareal -------------|---OMedical Circle Shops
+                          |                                 ---Lost Souls Lane-
+                          Northern Way      Bone            |
+                          |                 Yard            |
+                          |----Park Ave---------------------|
+                 Grocer---|                                 |
+                          |    CITY PARK                    |
+Guilds     Bank           |             (City hall plaza)   |
+  |         |             |            /                    |
+---------Temple Street----------Park Street----------------------
+  |                       |                 |      |        |
+Temple                    Merchant Lane    Maps  Bakery     |Park Road
+   \                      |                                 |
+    \             Armor   |   Jewelry                       |
+    Morgue        Shop ---|---Emporium                      |
+                          |                                 |
+                          |                                 |
+                 Weapon   |   Weapon                        |
+                 Castle---|---Smithing                      |
+                          |                                 |
+                          |                                 |
+                 Pierce   |---ATM                           |
+      Alchemist  Shop     |                                 |
+         |       |        |   Weapon                        |
+  Import ----Exotic Blvd------Palace                        |
+  Shop   |                |              Blakes             |
+       Magic              |              Tavern             |
+       Shop               |                 |               |
+                          |_____Great Southern Wall Road____|__
+         
+
+
+~
+E
+credits~
+This newbie guide is brought to you by Taka and the team.
+It has been our goal to make this an informative guide to our
+world. Please feel free to add suggestions with a simple note to
+immortal. HELP NOTE will teach you how to read/create/delete notes.
+
+Thanks for playing
+-Taka~
+#20
+coin silver gcash~
+a silver coin~
+One miserable silver coin.~
+silver~
+money 0 A
+1 0 0 0 0
+0 10 0 P
+#21
+coin gold gcash~
+a gold coin~
+One valuable gold coin.~
+gold~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#22
+coins gold gcash~
+%d gold coins~
+A pile of gold coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#23
+coins silver gcash~
+%d silver coins~
+A pile of silver coins.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#24
+coins silver gold gcash~
+%d silver coins and %d gold coins~
+A pile of coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#25
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+npc_corpse 0 A
+0 0 0 1 0
+0 1000 0 P
+#26
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+pc_corpse O A
+0 0 0 1 0
+0 1000 0 P
+#27
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+trash 0 A
+0 0 0 0 0
+0 50 0 P
+#28
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+food 0 A
+16 16 0 0 0
+0 20 0 P
+#29
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 P
+#30
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 P
+#31
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+food 0 A
+5 5 0 1 0
+0 20 0 P
+#32
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 P
+#33
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.~
+food~
+food 0 A
+8 8 0 0 0
+0 10 0 P
+#34
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light A A
+0 0 -1 0 0
+0 0 0 P
+#35
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#36
+disc disk floating black~
+a floating disc~
+A floating black disc hangs in the air.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 0
+0 0 0 P
+#37
+gate portal~
+a shimmering gate~
+A shimmering black gate rises from the ground, leading to parts unknown.~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#38
+rose~
+a red rose~
+A red rose is lying on the ground.~
+oldstyle~
+treasure 0 AE
+6 0 0 0 0
+0 80 0 P
+E
+rose~
+It's a beautiful red rose, with a soft and romantic fragrance.
+~
+#39
+mace sub merc~
+a sub issue mace~
+You see a sub issue mace here.~
+bronze~
+weapon U AN
+mace 1 6 pound 0
+1 60 250 P
+A
+18 1
+E
+mace~
+You see a mace of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#40
+dagger sub merc~
+a sub issue dagger~
+You see a sub issue dagger here.~
+bronze~
+weapon U AN
+dagger 1 4 pierce 0
+0 10 210 P
+A
+18 1
+E
+dagger~
+You see a dagger of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#41
+sword sub merc~
+a sub issue sword~
+You see a sub issue sword here.~
+bronze~
+weapon U AN
+sword 1 6 slash 0
+1 30 360 P
+A
+18 1
+E
+sword~
+You see a sword of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#42
+vest sub merc~
+a sub issue vest~
+You see a sub issue vest here.~
+leather~
+armor U AD
+1 1 1 0 0
+0 50 144 P
+E
+vest~
+You see a vest of great but cheap craftsmanship.  Stamped on the side is:
+Merc Industries
+~
+#43
+shield sub merc~
+a sub issue shield~
+You see a sub issue shield here.~
+wood~
+armor U AJ
+1 1 1 0 0
+0 30 108 P
+E
+shield~
+You see a shield of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#44
+banner war merc~
+a war banner~
+A war banner is on the floor here.~
+cloth~
+light AG A
+0 0 200 0 0
+0 20 380 P
+A
+17 -1
+A
+20 -1
+E
+banner~
+This is the official Merc war banner to see you through the darkest realm!
+~
+#45
+spear sub merc~
+a sub issue spear~
+You see a sub issue spear here.~
+wood~
+weapon U AN
+staff 1 6 thrust 0
+1 50 111 P
+A
+18 1
+E
+spear~
+You see a spear of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#46
+staff sub merc~
+a sub issue staff~
+You see a sub issue staff here.~
+wood~
+weapon U AN
+staff 1 5 pound F
+1 40 290 P
+A
+18 2
+A
+19 1
+E
+staff~
+You see a staff of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#47
+axe sub merc~
+a sub issue axe~
+You see a sub issue axe here.~
+bronze~
+weapon U AN
+axe 1 6 chop 0
+1 50 350 P
+A
+18 1
+E
+axe~
+You see an axe of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#48
+flail sub merc~
+a sub issue flail~
+You see a sub issue flail here.~
+bronze~
+weapon U AN
+flail 1 5 crush 0
+1 50 310 P
+A
+19 1
+E
+flail~
+You see a flail of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#49
+whip sub merc~
+a sub issue whip~
+You see a sub issue whip here.~
+leather~
+weapon U AN
+whip 2 2 whip 0
+1 20 330 P
+A
+18 2
+E
+whip~
+You see a whip of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#50
+glaive sub merc~
+a sub issue glaive~
+You see a sub issue glaive here.~
+wood~
+weapon U AN
+polearm 1 7 slash F
+1 80 183 P
+A
+19 1
+E
+glaive~
+You see a glaive of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#51
+map of the city~
+a map of the city of X~
+A rolled up map is here.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 500 P
+E
+map city~
+.
+          North      
+            |   /Up  
+            | /      
+     West---+---East 
+          / |        
+    Down/   |        
+          South      
+~
+#52
+pit~
+the donation pit~
+A pit for sacrifices is in front of the altar.~
+~
+container O 0
+10000 0 0 1000 100
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Doz expand this shrine and
+convert more people to the belief of Mota, lord of the gods.
+~
+#53
+whistle steel police~
+a police whistle~
+You spot a steel whistle on a fine silver chain here.~
+steel~
+clothing 0 AC
+0 0 0 0 0
+0 2 100 P
+#54
+meat steak~
+a juicy steak~
+A juicy steak sits on a plate here.~
+meat~
+food 0 A
+25 25 0 0 0
+0 20 0 P
+#55
+pill~
+a pill~
+A white chalky pill.~
+pill~
+pill 0 A
+0 '' '' '' ''
+0 0 0 P
+#56
+bottle vial~
+an empty potion bottle~
+An empty potion bottle rests here.~
+glass~
+potion 0 AO
+0 '' '' '' ''
+1 10 200 P
+#57
+Bottle Mountain Dew~
+a Bottle of Mountain Dew~
+A large bottle of mountain dew.~
+plastic~
+drink 0 A
+30 30 'mountain dew' 0 0
+0 20 1 P
+#58
+parchment~
+a clean parchment~
+A parchment used for writing spells has been left here.~
+parchment~
+scroll 0 AO
+0 '' '' '' ''
+1 10 200 P
+#59
+ink~
+a small bottle of ink~
+A small bottle of ink has been left here.~
+glass~
+ink 0 A
+0 0 0 0 0
+1 10 100 P
+#60
+quill~
+a quill~
+A quill used for writing spells has been left here.~
+feather~
+quill 0 A
+0 0 0 0 0
+1 10 50 P
+#61
+minor potion mana~
+a potion of minor restore mana~
+A small blue potion.~
+glass~
+potion G AO
+10 'minor restore m' '' '' ''
+3 10 450 P
+E
+minor potion mana~
+{wThe potion has a small label 'Restores Mana Points'.{x
+~
+#62
+warp stone~
+a beautiful white warp stone~
+A white warp stone pulses with magical energy.~
+oldstyle~
+warp_stone T AO
+0 0 0 0 0
+0 10 1000 P
+#63
+dummy object~
+a dummy object~
+Dummy object is used for loading non-existent objects~
+~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#64
+A diamond wedding band~
+A white gold diamond inlaid wedding band~
+A white gold diamond inlaid wedding band~
+gold~
+jewelry W AB
+0 0 0 0 0
+0 10 0 P
+#0
+
+
+#ROOMS
+#92
+Empty Spirit Realm~
+This is a place devoid of spirit and life. You are floating in complete
+nothingness. No light and no life exist in this realm! 
+~
+0 0 0
+S
+#93
+{RHELL!{x~
+For a million miles all you see is empty wasteland! From here there is no
+escape, no peace. All that awaits you here is pain, fear and a life of
+eternal torment! {1If you find yourself here it must be a very BAD thing.
+What have you done to deserve this? 
+~
+0 792077 0
+D0
+
+~
+~
+0 0 93
+D1
+
+~
+~
+0 0 93
+D2
+
+~
+~
+0 0 93
+D3
+
+~
+~
+0 0 93
+D4
+
+~
+~
+0 0 93
+D5
+
+~
+~
+0 0 93
+S
+#94
+The immortal chat room.~
+Welcome to the chat room. You have been summoned here for a purpose
+although not nessicarily a bad purpose. Please make yourself as
+comforterable as possible. 
+~
+0 787468 0
+S
+#0
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#MOBPROGS
+#0
+
+#RESETS
+S
+
+
+
+#$

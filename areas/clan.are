@@ -1,0 +1,240 @@
+#HELPS
+
+-1 CLAN GUILD~
+A clan is a group of players who have banded together for some greater
+common goal. They may share things like alingment all being goodie-goodie
+or all the darkest or dark. Or they may just be thieves, or rangers. 
+Whatever the common link these brothers and sisters are banded together
+with a single belief. 
+
+You may start a clan if one that shares your views is not already present.
+However you must have atleast 3 members wishing admittance. Any clan which
+falls below this minimum may find itself disolved.
+
+LEADER    - Sets and removes clan leaders
+CWHO      - Views clan vitial information
+CLEADER   - Shows the leaders of a clan
+CRULES    - Shows the clan rules for admittance
+CTALK     - Clan talk
+
+For joining a clan
+PETITION  - Petition for admitance
+CACCEPT   - Accept a new pledge
+CDECLINE  - Decline an application
+CPLIST    - list all the pledge applications
+~
+
+112 CLANCLOSE CLOSE CLANOPEN CCLOSE COPEN OPEN~
+CCLOSE
+Clan close will close a clan to new members! This immortal command should
+be used only when a clan is being disputed. If an immortal was witness to
+clan activity which we see as wrong we may close the clan to new members
+pending review of the activities.
+
+COPEN
+Clan open will open the previously closed clan to accepting new members
+once more into its folds.
+~
+
+119 CLANMAKE CMAKE~
+CMAKE
+Clan make allows the immortal to make a new clan on the spot. Allowing
+for the addition of a new clan as one is requested.
+
+CMAKE START
+The first command used to start the process
+CMAKE NAME <one word name>
+The name the clan will be known as. Example Magi
+CMAKE LONG <long name>
+The long name of the clan. Exapmle The Magi of Krillian
+CMAKE DISPLAY <name>
+The name that will be displayed on the who command
+CMAKE SHOW
+This command validates the CMAKE commands and the process of the creation
+of a new clan. If all fields are filled appropriately you will be allowed
+to now create the new clan with CMAKE END.
+CMAKE ABORT
+Aborts the clan being created
+CMAKE END
+Provided you have filled in all the parameters this will create the clan
+record. CMAKE SHOW must be used prior to CMAKE END
+~
+
+119 CSET CLANSET~
+CSET <clan name> <field> <value1> <value2>
+
+<fields>
+LEADER	<value1 = leader number>
+
+Type CSET <clan name> for more information.
+~
+
+-1 CLEADER LEADER~
+The clan leaders are the persons who can accept or decline new members requests. 
+They also have advance options to advance a clan member in ranks.
+
+CADVANCE
+~
+
+-1 CPLIST PETITION LIST CACCEPT CDECLINE~
+CPLIST
+CPLIST all
+PETITION <name> <message to the clan leader>
+CACCEPT  <name> <message>
+CDECLINE <name> <message>
+
+{WCPLIST{x
+Lists the clan status for each player who has requested clan status.
+Status 0 is listed with cplist no arguments. Status 0 means the person
+has applied for clan invitation and has not yet been accepted of declined.
+
+using argument all will list all statuses.
+0-open
+1-Accepted but has not yet signed on to become a member
+2-Declined but has not yet signed on to get the bad news
+4-Has recieved the news and is already a member or declined.
+
+{WPETITION, CACCEPT, CDECLINE{x
+These three commands can be used at anytime since they are stored in a file
+for later review. The clan leaders and prospective members do not have to be
+signed on for these commands to work. However the flip side is you are at the
+mercy of timing. It may take several days for a clan leader to review and 
+approve or disapprove of a new member. Also it may take several days for the
+prospective new member to sign on after a determination has been made as to
+his or her application to a clan.
+
+You can only petition one clan at any one time.
+Here's an example of the way it works:
+
+1)Player name Xyz petitions clan Abc like so
+{WPETITION ABC{x
+
+2)The leader Def signs on and uses CPLIST he sees Xyz requesting to 
+be a member. And decides to decline him.
+{WCDECLINE Xyz Sorry rangers do not really count as healers thanks for{x 
+{Wyou interest.{x
+
+3)Next time Xyz signs on he/she will see
+{WLeader Def of clan Abc has denied your request to join the clan{x
+{WSorry rangers do not really count as healers thanks for you interest.{x
+
+Had the leader accepted it would say
+{WLeader Def welcomes you to clan Abc{x
+{W(optional message here){x
+~
+
+-1 CADVANCE CLEADER~
+CADVANCE <name> <rank #> <message>
+LEADER <name> <message>
+
+Cadvance can be used to advance players in rank, whether they are online or not.
+
+The leader command does not work yet. Stay tuned for updates.
+~
+
+-1 CTALK CLANTALK~
+CLAN <text>
+
+This is the channel which every member of the clan and nobody else can see.
+It works in the same way as all the other channels, and the same rules apply to it.
+~
+
+-1 CWHO~
+
+CWHO - lists basic clan information
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - -- - - - -
+Name          Open PK Hall Store  Kills/Deaths MBR:cur/most  founded
+               Y   N   N     N        0/0            0/0     Mon Dec 11 13:54:48 2000
+  Ghost_Gods   Y   N   N     N        0/0            0/0     Mon Dec 11 13:54:48 2000
+   Eclipse     Y   Y   N     N        0/0            0/0     Wed Jan  3 08:41:57 2001
+
+The following things are shown, from left to right:
+- clan name
+- is it open to new members 
+- is it aplayer killing clan 
+- does it have a clan hall 
+- does it have a clan store 
+- player killing record 
+- number of members, both current and most ever 
+- the date it was founded
+~
+
+-1 CRULES~
+CRULES - lists the rules of that clan
+
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - -- - - - -
+               - - -  ALIGN  - - -    Min   - - REMORT - -  No.
+Name            min./Max. enforced PK Lvl   Exempt  Only   Ranks
+               -1000/1000    N     N    1     N      N       1
+  Ghost_Gods   -1000/1000    Y     N  102     N      N       9
+   Eclipse     -1000/-100    Y     Y   15     Y      N      10
+
+
+Shows alignment restrictions and if the alignment is enforced or 
+not..if the alignment is enforced and you fall outside the 
+requirements your player is placed in a probation status for clan 
+review. Also again is the clan player killing or not and minimum 
+level to join. Remort Exempt means are remorts exempt from the level 
+restriction and remort only means the clan will not accept non-remort 
+characters. The number of ranks are configurable per clan.
+~
+
+-1 CLEADERS~
+CLEADERS - lists the clan leaders
+
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - -- - - - -
+Name          Leaders
+                   
+  Ghost_Gods   Taka Cormac Vincent Diana
+   Eclipse     Rahvin    
+
+All clan leaders are shown.
+~
+
+112 CWORTH~
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+Name          Gold      Silver    Share1    Share2    Share3    Share4
+                       0         0         0         0         0          0 
+  Ghost_Gods      100000    100000    100000    100000    100000          5 
+   Eclipse             0         0         0         0         0          0
+
+This command will show the worth of the clans.
+~
+
+-1 CRANKS~
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+Name          Ranks
+               None                                                              
+                                                                      
+  Ghost_Gods   Pledge     Member     Saint      Minor Ange Angel      Arch-Angel 
+               Deity      Demi-God   God        Imp             
+   Eclipse     apostle    kensai     dark bisho dark monk  dark cleri aes-sedai  
+               archmage   Sorcerer   Wizard     Warlock 
+
+This command shows the ranks you can attain in the different clans.
+~
+
+-1 CNAMES~
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+    - - N a m e s - - - - - - - - - - - - - - - - - - - - 
+No. Short        Long                      Display        Diety
+  0 Null                                                  None         
+  1 Immortals    The immortals of Ghost Da   Ghost_Gods   None         
+  2 Eclipse      Dark Magic.                  Eclipse     None         
+
+This command shows you the different names for the clans.
+
+Diety is inprocess and will be the god that the clan prays to if any.
+
+NOTE: Immortals will also see the vnum of the clan recall location in this
+      command to the right of the diety.
+~
+
+112 IMMCLAN~
+IMMCLAN 
+Allows an immortal to clan/declan, make leaders and promote mortals into
+and within the various clans. Try it you may like it.
+~
+
+0 $~
+#$

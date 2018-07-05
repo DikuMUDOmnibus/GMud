@@ -1,0 +1,116 @@
+#include <stdio.h>
+
+/* definitions */
+/*#define TEST(field, value)	\
+		field += value;		
+*/
+
+/* prototypes */
+int do_get();
+
+/* data */
+long number0;	
+long number1;
+long number2;
+
+struct ext_type
+{
+    long 	*no;
+};
+
+struct	ext_type	ext_table[3] = 
+{
+	{ &number0 },
+	{ &number1 }, 
+	{ &number2 }
+};
+
+/* functions */
+void main()
+{
+	int value;
+
+	while (value != 99)
+	{
+		value = do_get();
+	}
+
+}
+
+int do_get()
+{
+	int val;
+
+	scanf("%d", &val);
+
+	if (val != 99)
+	{
+		(*ext_table[val].no) += 1;
+		printf("one: %d two: %d Value: %d", number1, number2, val);
+	}
+
+	return val;
+}
+
+
+
+
+{ number, dice1, dice2, &ch->whatever, message }
+
+fight.c
+
+
+struct bonus_type
+{
+	int	roll_low;
+	int	roll_high;
+	int	dice1;
+	int	dice2;
+	long	*value;
+	long	*value2;
+	char 	*msg;
+};
+
+struct	bonus_type	bonus_table[10] = 
+{
+	{98, 98, 02, 02, &ch->pcdata->xcarry,	&nullvalue, 
+		"{wYou have gained the ability to carry {c%d{w more items{x\n\r" 	},
+	{99, 99, 10, 10, &ch->pcdata->xweight,	&nullvalue,
+		"{wYou have gained the ability to carry {c%ld{wlbs more weight{x\n\r" 	},
+	{97, 97, 02, 03, &ch->practice, 	&nullvalue,
+		"{wYou have gained {c%d{w practice sessions{x\n\r" 			},
+	{96, 96, 01, 02, &ch->train, 		&nullvalue,
+		"{wYou have gained {c%d{w training sessions{x\n\r" 			},
+	{76, 80, 01, 30, &ch->hit, 		&nullvalue,
+		"{wYou have gained {c%d{w hit points{x\n\r" 				},
+	{81, 85, 01, 30, &ch->mana, 		&nullvalue,
+		"{wYou have gained {c%d{w mana points{x\n\r" 				},
+	{86, 90, 01, 30, &ch->move, 		&nullvalue,
+		"{wYou have gained {c%d{w movement points{x\n\r" 			},
+	{91, 91, 01, 01, &ch->pcdata->perm_hit, &ch->max_hit, 
+		"{wYou have gained {c%d{w permanent hit point{x\n\r" 			},
+	{93, 93, 01, 01, &ch->pcdata->perm_mana, &ch->max_mana, 
+		"{wYou have gained {c%d{w permanent mana point{x\n\r" 			},
+	{94, 94, 01, 01, &ch->pcdata->perm_move, &ch->max_move,
+		"{wYou have gained {c%d{w permanent movement point{x\n\r" 		}
+};
+
+long nullvalue = 0, found = 0;
+
+
+for(i = 0; i >= 10; i++)
+{
+	if(test_sac >= bonus_table[i].roll_low 
+		&& test_sac <= bonus_table[i].roll_high
+		&& found == 0)
+	{
+		test_sac = dice( bonus_table[i].dice1, bonus_table[i].dice2 );
+		printf_to_char(ch, bonus_table[i].msg, test_sac);
+		(*bonus_table[i].value) += test_sac;
+		(*bonus_table[i].value2) += test_sac;
+		found = 1;
+	}
+}
+
+if(found == 0)
+{ rest of silver here

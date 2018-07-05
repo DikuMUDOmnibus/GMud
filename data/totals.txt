@@ -1,0 +1,26 @@
+* ~
+* Totals information file by Taka~
+* ~
+* total newbies created~
+TOTAL_NEWBIE 3
+* total max on who list ever~
+TOTAL_MAXWHO 2
+* total signons~
+TOTAL_SIGNON 13
+* total levels~
+TOTAL_LEVELS 408
+* total characters who deleted~
+TOTAL_DELETES 1
+* deaths of PCs by a mob~
+TOTAL_DEATHSM 0
+* Deaths of PCs by PCs~
+TOTAL_DEATHSP 0
+* Mobs killed by PCs~
+TOTAL_KILLSPC 0
+* number of slays since mud went active~
+TOTAL_SLAYS 0
+* ~
+* 1=reboot 2=shutdown, 3=crash~
+* ~
+TOTAL_LASTDOWN 3
+$

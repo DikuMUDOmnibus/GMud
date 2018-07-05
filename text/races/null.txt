@@ -1,0 +1,35 @@
+#HELPS
+110 NULL~
+Null Race pointer~
+0 $~
+
+#RACE
+null~
+null~
+9
+0 1 2 3 4 5 
+~
+~
+~
+~
+~
+13 13 13 13 13
+18 18 18 18 18
+2
+0
+0
+0
+
+#INFO
+NAME unique~
+PCRACE 0
+ACT 0
+AFF 0
+OFF 0
+IMM 0
+RES 0
+VULN 0
+FORM 0
+PARTS 0
+REML 0
+#$

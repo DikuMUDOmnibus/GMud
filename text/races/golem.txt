@@ -1,0 +1,21 @@
+#HELPS
+0 GOLEM~
+golem are of medium stature 
+
+SPECIAL ABILITIES: Magical in nature 
+~
+0 $~
+
+#INFO
+NAME golem~
+PCRACE 0
+ACT 0
+AFF 0
+OFF 0
+IMM 0
+RES 0
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

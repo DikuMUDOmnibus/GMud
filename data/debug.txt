@@ -1,0 +1,18 @@
+* Debug Information 110403~
+* -Taka~
+* SHOW_RACE - lists the races as they are loaded and shows the table~
+* SHOW_AREA - list the area file as it is loaded~
+* SHOW_AREAD - lists area sections as they are read into the game~
+* SHOW_CLASS - lists the classes as they are loaded~
+* SHOW_CLAN - Shows clan debug information~
+* SHOW_CSAVES - Show clan saves~
+* SHOW_CONFL - Show configuration File Load~
+* ~
+SRace N
+SArea N
+SRead N
+SClas Y
+SClan Y
+SCSav Y
+SConf N
+End

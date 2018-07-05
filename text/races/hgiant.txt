@@ -1,0 +1,51 @@
+#HELPS
+0 HALF GIANT HALFGIANT~
+half giants are of medium stature
+
+EYE: COLOR: 
+HAIR: COLOR: 
+HEIGHT: 
+WEIGHT: 
+OTHER FEATURES: 
+BUILD: 
+
+HISTORY: 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 20 Int 16 Wis 19 Dex 15 Con 20 
+TRAINING POINTS TO START 18
+
+SPECIAL ABILITIES: bash, fast healing
+~
+0 $~
+
+#RACE
+halfgiant~
+H.Gia~
+6
+200 200 200 100 150 200 
+bash~
+fast healing~
+~
+~
+~
+10 10 10 10 10
+25 15 18 22 20
+2
+11
+10800
+10800
+
+#INFO
+NAME halfgiant~
+PCRACE 1
+ACT 0
+AFF 0
+OFF 0
+IMM 0
+RES HI
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

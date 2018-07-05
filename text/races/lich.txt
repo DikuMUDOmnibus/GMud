@@ -1,0 +1,80 @@
+#HELPS
+0 LICH~
+Lich are of medium stature
+
+EYE: COLOR: None 
+HAIR: COLOR: None 
+HEIGHT: 5'6 to 6'6 
+WEIGHT: average 100lbs 
+OTHER FEATURES: Pinpoints of light where eyes should be. 
+BUILD: Skeletal 
+
+HISTORY: 
+The lich is, perhaps, the single most powerful form of undead known to exist. They seek to further 
+their own power at all costs and have little or no interest in the affairs of the living, except where 
+those affairs interfere with their own. 
+
+A lich greatly resembles a wight or mummy, being gaunt and skeletal in form. The creature's eye 
+sockets are black and empty save for the fierce pinpoints of light which serve the lich as eyes 
+Liches are usually solitary creatures. They have cast aside their places as living beings by choice 
+and now want as little to do with the world of men as possible. From time to time, however, a lich's 
+interest in the world at large may be reawakened by some great event of personal importance. 
+A lich will make its home in some ominous fortified area, often a strong keep or vast subterranean 
+crypt. 
+
+When a lich does decide to become involved with the world beyond its lair, its keen intelligence makes 
+it a dangerous adversary. In some cases, a lich will depend on its magical powers to accomplish its 
+goals. If this is not sufficient, however, the lich is quite capable of animating a force of undead 
+troops to act on its behalf. If such is the case, the lich's endless patience and cunning more than 
+make up for the inherent disadvantages of the lesser forms of undead which it commands. 
+Although the lich has no interest in good or evil as we understand it, the creature will do whatever 
+it must to further its own causes. Since it feels that the living are of little importance, the lich 
+is often viewed as evil by those who encounter it. In rare cases, liches of a most unusual nature can 
+be found which are of any alignment. 
+
+The lich can exist for centuries without change. Its will drives it onward to master new magics and 
+harness mystical powers not available to it in its previous life. So obsessed does the monster become 
+with its quest for power that it often forgets its former existence utterly. Few liches call 
+themselves by their old names when the years have drained the last vestiges of their humanity from 
+them. Instead, they often adopt pseudonyms like ``the Black Hand'' or ``the Forgotten King.'' Learning 
+the true name of a lich is rumored to confer power over the creature. 
+
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 20 Int 20 Wis 20 Dex 20 Con 20 
+TRAINING POINTS TO START 19
+
+SPECIAL ABILITIES: bash, fast healing,second attack, sneak, fly
+~
+0 $~
+
+#RACE
+lich~
+Lich~
+9
+100 100 100 100 100 100 
+bash~
+fast healing~
+second attack~
+sneak~
+fly~
+10 10 10 10 10
+20 20 20 20 20 
+2
+11
+10900
+10900
+
+#INFO
+NAME lich~
+PCRACE 1
+ACT 0
+AFF 0
+OFF 0
+IMM BCL
+RES I
+VULN DN
+FORM BHIMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

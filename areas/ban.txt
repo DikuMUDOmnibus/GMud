@@ -1,0 +1,4 @@
+207-172-255-106.s1122.apx1.sbo.ma.dialup.rcn.com 120 DF
+.rcn.com             120 BDF
+217.28.207.96        120 DF
+linux1.gl.umbc.edu   120 DF

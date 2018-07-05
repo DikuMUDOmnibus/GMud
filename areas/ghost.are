@@ -1,0 +1,1103 @@
+#HELPS
+-1 NEWBIE INFO~
+Ah! Another mortal, seeking adventure.  You should go through mudschool first,
+to gain experience to face the trials outside.  Be sure to practice a weapon
+in the guild room, or your stay with us shall be very short indeed.  Type
+'equipment' to see what your are wielding, 'spells' to see your spells,
+'skills' to see your skills, and 'commands' for a list of commands. Help is
+available on most commands and abilities.
+
+Please type 'help rules' to see the Rules of ROM.
+~
+
+-1 LAG~
+Twas dial-up, and the failing mudders did toil and struggle in the fray
+All checksummed were the compressed files
+And the man pages, outdate
+Beware the Internet my son,
+The noise that hangs, the lag that kills
+Beware the Usenet news, and shun the frivolous mud with frills
+So took his his mudding client in hand
+Longtime the virtual foe he sought
+So rested he by the T1s three and paused a while in swap
+And as in disk-drive swap he stayed,
+The Internet, with lags of fame
+Came packetwise through the T1 line
+And error-checked as it came
+One two one two and through and through, the mudding client went kill -9
+He left it dead and with it's core he went a tracing back
+And hath thou slain the Internet?
+Come to my arms my disk-based bot!
+Oh lag-free day, callooh callay, he chortled in his joy
+Twas dial-up, and the failing mudders did toil and struggle in the fray
+All checksummed were the compressed files
+And the man pages, outdate.
+~
+-1 WIZLIST~
+{wGhost Dancer Immortal Team{x
+Level   Name(jobs)
+120     Phantom     LadyFox     Taka        Cormac
+119     Vincent     Cormorant   Eanlaar
+118     Allestreia
+117
+116
+115
+114
+113
+112
+
+{MPlayer  Testers{x
+Pyrox       Raziel      Odium       Codabo      Cedrick
+	
+help WIZJOBS for more info.
+help WIZRETIRED for retired immortals.
+
+Thanks for prior sevice to:
+Diana, myndzi, Leesy, Alander(Russ Taylor), 
+Erchamion, Shelly
+
+~
+-1 WIZJOBS~
+Immortals
+Phantom   - Head Coder
+Taka      - Coder/Builder/Web design
+Cormac    - Builder/Immortal relations
+LadyFox   - Immortal Coordinator
+Vincent   - Builder/Help files maintenance
+Eanlaar   - spells/skills/race/class balancing
+Cormorant - Head Builder
+Alander   - Russ Taylor himself (So he may check in on us from time
+            to time.)
+Allestreia- Graphics design
+
+Players
+Pyrox     - Lead play tester/Ideas GOD
+Nyancia   - Builder
+
+Semi-Retired
+Shelly    - Builder
+Erchamion - Builder
+~
+-1 WIZRETIRED~
+Diana, myndzi, Leesy, Allestreia, Alander(Russ Taylor), 
+Erchamion, Shelly
+~
+
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Athen, the sequel to the ROM code. It can
+be found on Rehobaom's Legacy, at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+    ALL NEW SOCIALS Taka
+    adore       angel       bbath       bikini      blankie     blanket     
+    blowe       chair       choke       eak         hail        herald      
+    hfart       hobble      humor       mock        ouch        tender      
+    wchair      wedgie      worthy      forgive	    kneel       skip
+    dirty       evil        drift       lookear     glue        staple
+    foot        shave       offer       insect      reality     teach
+    chew        cadet       puppyeyes   infect      tforce      alone
+    rocket      stupid      helpme      censor      hsh         homeis
+    bring       heatup      errors      brag        bask        tenfeet
+    inspect     bottle      gulp        putup       covert      smackdown 
+    ping        pilfer      scorn       scoff       pity        twist   
+    rant        jello	    wjello      rust        potato      smurf 
+    squint      tmi
+** The socials list has also been colorize and alphabetized by Taka
+   Extensive fixes and corrections/additions have been made to the original
+   socials file. -Taka
+
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bugs reports
+    and suggestions, saving a lot of headaches
+
+Bug reports --
+    Thanks to Shad Muegge, Jerome Despret, Phoenix, Will Hongach,
+    Erwin S. Andreasen, Adam Debus and especially Gary Turkington
+    (author of the ROM FAQ) for help spotting bugs
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used.  Portions of Rusty's work on
+Moosehead also remain.
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle Taylor and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+
+Extensive mods have been done to this mud i now call it GhostMUD 
+For latest version or the version release this mud is on type VERSION
+For more help type help GHOST.
+~
+
+-1 IMMORTAL IMMORT GOD WIZARD WIZ~
+'Immortal' (often, simply, 'immort') refers to players who have reached
+the highest attainable levels in the game.  Here, anyone of level 52
+or higher is an 'immortal.'  Immortals are capable of exceeding the
+usual game rules, in more drastic and pervasive ways as levels increase;
+examples range from teleportation and invisibility to mortal sight to
+creation of objects, removal of a player's privileges (channels,
+ability to move, or even ability to log in), and ability to promote
+players to immortality.
+
+Since immortals can wreak havoc with game balance, they are (ideally)
+a carefully-chosen and policed group.  An absolute rule of immortal
+behavior is that no immortal can aid or assist any player without
+explicit permission from the higher ranks; in other words, please
+don't ask an immortal to help you kill a mob, gather EQ, etc, or
+you'll likely be either politely or rudely refused, or referred to
+this file.
+
+The duties of immortals, and even the very reasons for their existence,
+are topics of continual and heated debate in various MUD forums, and are
+fraught with misconceptions, poor examples, and outrageous hypocrisies. :)
+~
+
+-1 SOCIALS~
+ 
+Just type social for a list in alphabetical order of all the socials
+for this mud.
+~
+
+-1 MERC~
+This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_21.tar.gz from ftp.tcp.com and 
+ftp.math.okstate.edu.
+E-mail to 'majordomo@webnexus.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+Also see "help ROM" for information about the Rivers of Mud code base.
+~
+-1 MAP MAPS~
+Thanks to Ezra for drawing the originals of several maps on ROM.
+~
+
+-1 GREETING~
+{D88888888888888888888888888888888888888888888888888888888888888888888888{x
+{D88{R.._|      | `-.  | `.  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..{D88{x
+{D88{R   `-.._  |    |`!  |`.  -_ -__ -_ _- _-_-  .'  |.;'   |   _.!-'|  {D88{x
+{D88{R      | `-!._  |  `;!  ;.{y _______________ {R,'| .-' |   _!.i'     |  {D88{x
+{D88{R..__  |     |`-!._ | `.| {y|_______________|{R|."'|  _!.;'   |     _|..{D88{x
+{D88{R   |``"..__ |    |`";.| i{y|_|           {y|_|{R'| _!-|   |   _|..-|'    {D88{x
+{D88{R   |      |``--..|_ | `;!{y|l|           {y|1|{R.'j   |_..!-'|     |     {D88{x
+{D88{R   |      |    |   |`-,!_{y|_|  {MWelcome  {y|_|{R|.!-;'  |    |     |     {D88{x
+{D88{R___|______|____!.,.!,.!,!{y|d|    {Mto     {y|p|{R,!,.!.,.!..__|_____|_____{D88{x
+{D88{R      |     |    |  |  | {y|_|           {y|_|{R| |   |   |    |      |  {D88{x
+{D88{R      |     |    |..!-;'i{y|r|           {y|r|{R |`-..|   |    |      |  {D88{x
+{D88{R      |    _!.-j'  | _!,"{y|_|   {wGhost   {y|_|{R|!._|  `i-!.._ |      |  {D88{x
+{D88{R     _!.-'|    | _."|  !;{y|1|   {wDancer  {y|l|{R`.| `-._|    |``-.._  |  {D88{x
+{D88{R..-i'     |  _.''|  !-| !{y|_|    {YMUD    {y|_|{R.|`-. | ``._ |     |``"..{D88{x
+{D88{R   |      |.|    |.|  !| {y|u|  {YProject  {y|n|{R|`. |`!   | `".    |     {D88{x
+{D88{R   |  _.-'  |  .'  |.' |/{y|_|           {y|_|{R! |`!  `,.|    |-._|     {D88{x
+{D88{R  _!"'|     !.'|  .'| .'|{D[@]           {D[@]{R \|  `. | `._  |   `-._  {D88{x
+{D88{R-'    |   .'   |.|  |/| /                 \|`.  |`!    |.|      |`-{D88{x
+{D88{R      |_.'|   .' | .' |/                   \  \ |  `.  | `._    |  {D88{x
+{D88{R     .'   | .'   |/|  /                     \ |`!   |`.|    `.  |  {D88{x
+{D88{R  _.'     !'|   .' | /                       \|  `  |  `.    |`.|  {D88{x
+{D88888888888888888888888888888888888888888888888888888888888888888888888{x
+.
+            {wGhostMud {Gversion 3.4 beta A{x
+     {GOriginal DikuMUD by Hans Staerfeldt, Katja Nyboe,Tom Madsen, {x
+     {GMichael Seifert, and Sebastian Hammer{x
+     {GBased on MERC 2.1 code by Hatchet, Furey, and Kahn{x
+     {GROM 2.4 copyright (c) 1993-1998 Russ Taylor{x
+     {GGhostMud is copyright 1999-2002 TAKA and The GhostMud Project Team{x
+
+{GBy what name do you wish to be known as? {W~
+
+ 
+-1 MOTD~ 
+{W* {GYou are responsible for knowing the rules (type {c'{Crules{c'{G).  
+  {RIgnorance of the rules is no excuse.{x
+{W* {GImportant {ccommands{G: {Chelp{G, {Ccommands{G, {Cnews{G, {Cnotes
+{W* {GUse the {Cdelete {Gcommand to erase unwanted characters
+
+{WGhost Dancer {Gwelcomes {Yyou {Gto our world!{x
+  
+[Hit Return to continue]
+~ 
+
+-1 GREET2~
+                            GhostMud version 3.4 beta A
+
+               Original DikuMUD by Hans Staerfeldt, Katja Nyboe,
+               Tom Madsen, Michael Seifert, and Sebastian Hammer
+               Based on MERC 2.1 code by Hatchet, Furey, and Kahn
+               ROM 2.4 copyright (c) 1993-1998 Russ Taylor
+               
+               This code base is GhostMud 3.x an offical rom 2.4 derivative.
+	       GhostMud is copyright 1999-2002 TAKA
+	       - further copyrighted 1999-2002 The Ghost Dancer MUD Project Team
+
+~
+
+
+-1 GHOST~
+{YWelcome to {WGHOST{x
+
+This is GhostMud Version 3 an offical ROM derivative.
+
+First off let me say thanks to the entire GhostMud team!!!!
+This new codebase is a ROM derivative it started with ROM 2.4b6
+A few snippets have been added and credit remains in the code.
+I also have many unique features added to our mud some of them
+are as follows.
+
+01) long vnums are supported
+02) hit points/mana/movements can be greater than 32K
+03) Lots of coloring and reformating
+04) A new banking and multi stock system - Losely based on Maniacs Banking code
+05) Many New commands/spells/skills
+06) Dribbles REMORT system but greatly improved
+07) Many enhancements to the code
+08) Player history and kill/death counters
+09) Many fixes to existing commands 
+
+{BThe {WGhostMud Team{x
+~
+
+102 IMOTD~
+{GWelcome Immortal!
+
+You are responsible for following the laws of immortal behavior. These can
+be found by typing 'help laws' or 'help commandments'.
+
+{W* {GExcessive loading is not allowed, and is grounds for deletion.
+
+{W* {GAsking for promotion is grounds for instant deletion.
+
+{W* {GType 'help jobs' to get some idea of what you should be doing.{x
+
+ [Hit Return to continue]
+~
+
+102 JOBS~
+This is a partial list of what a god of any given level should be doing. It is
+not complete yet.
+
+Angels:(102-104)
+Angels and higher level gods may not assist mortals directly in any way.  
+An Angel's main job is to help with quests (via switch), or possibly run
+small quest of their own -- but the rewards should be minimal.
+
+Deities:(105-106)
+Deities have two main roles: reimbursement and quest running.  Be skeptical
+on reimburses, don't just hand out every piece of gear.  I suggest limiting
+reimbursements to 10 items at a time, and make sure that you do not load things
+at too high a level (new format items have hard-coded levels, so are not a
+problem).  vnum and stat are useful for this.  You can draft Angels to help you
+run a quest, and please note that quests should NOT have huge rewards -- the
+main point should be to have fun.  Deities have no business trying to enforce
+rules -- the most you should do to a player is a NOCHANNEL or similar light
+punishment.
+
+Gods:(107-109)
+Gods can run quests just like Deities, and it's nice to do reimbursements too.
+However, the main role of a God is keeping the peace.  Gods can enforce (but
+not create rules), using the various NOTELL-class commands, as well as deny,
+purge, freeze, and ban (but be careful with these commands!)  Gods are expected
+to help make the mud run more smoothly, power trips are strictly verbotten.
+
+Not fufilling the roles of your office can result in demotion or deletion.
+~
+
+-1 PKILL PKILLING PKILLER 'PLAYER KILLING' PSTEAL PSTEALING 'PLAYER STEALING'~
+Player killing and player stealing are allowed to all clan members 
+(including loners), provided the victim is is within 8 levels of the
+character and is also in a clan.  This will flag you as a "killer" or
+"thief", allowing any character to attack, and also provoking action
+from the city guard.
+~
+
+102 COMMANDMENTS LAWS 'GOD RULES' GODS~
+.
+                        ************************
+                        ** The Rules of Ghost **
+                        ************************
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+ 
+5)  DO NOT use reboot.  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other.  
+ 
+10) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+~
+
+-1 RULES~
+{GThese are the rules of {wGhost{G.  For other matters, use common sense.{x
+
+{W* {GLimited player stealing or player killing.{x
+
+{W* {GYour presence here is a privilege not a right. Obey any orders from gods, and{x
+  {Gyou will be fine.  Deletion does not require a reason, appeals are to be sent{x
+  {Gto the implementors.{x
+ 
+{W* {GSitting around idle with a client is hazardous to your health. If we catch{x
+  {Gyou doing it, you will lose half your playing time.{x
+
+{W* {GNo multiple logins, multiple playing, or helping your own characters with {x
+  {Gother characters you own -- by any arrangment.{x
+ 
+{W* {GNo kill stealing.  This means you cannot attack a mob someone else is {x
+  {Gfighting, unless they ask you to. Also avoid attacking fleeing mobs.{x
+
+{W* {GCheating will not be tolerated.  This includes accepting favors from gods{x
+  {Gand exploiting bugs. If you find a bug, report it, then do not use it.{x
+
+{W* {GChanges to these rules are at the discretion of the immortals, and may be{x
+  {Gdone without warning, notice, or even evidence of sanity. Walk softly,{x
+  {Gand carry a big stick.{x
+
+{W* {RNO SWEARING {Gover open channels will be accepted!{x
+~
+
+0 SUICIDE DELETE~
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+~
+ 
+0 HEALER~
+The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal <spell>'.
+~ 
+
+
+-1 GAIN~
+The gain command is used to learn new skills, once the proper trainer has 
+been found. (Check New Thalos) The following options can be used with gain:
+
+gain list:    list all groups and skills that can be learned
+gain points:  lower your creation points by 1 (costs two sessions)
+gain <name>:  add a skill or skill group, at the listed cost
+gain convert: turns 10 practices into one training session
+
+Gain uses training sessions, not practices. (see 'help train')
+Gained skills and groups do NOT increase your experience per level or total
+number of creation points. 
+~
+
+105 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone obj x*<object>
+  clone mob x*<mobile>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.  
+Strung extended descriptions on objects are not kept, however.
+~
+
+105 JAIL~
+Syntax:
+  jail <name>
+
+The jail command is used when a player has been overly disrespectful.
+Use it with caution.
+~
+
+102 OMNI~
+omni
+original author: -Prism snazzy@ssnlink.net
+improvements and colored by Taka.
+- list in level order
+- show mortal trust levels
+
+The omni command is for immortals only. It is more detailed than the
+mortal who command. Try it you will like it.
+~
+
+105 FREEVNUMS FVNUM FVNUMS VNUMS~
+Syntax:
+     fvlist obj 
+     	- list all available object vnumbers in the area you are in!
+     fvlist mob 
+     	- list all available mobile vnumbers in the area you are in!
+     fvlist room 
+        - list all available room vnumbers in the area you are in!
+     fvlist rooma 
+        - list all available room vnumbers for all vnums mud wide!
+          when there is a free vnum gap of atleast 50.       
+~
+
+0 SKILLS SPELLS~
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+~
+
+
+0 OUTFIT~
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+
+~
+
+0 AUTO AUTODAMAGE AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST 
+AUTOSPLIT AUTOALL AUTOCONSUME~
+ROM uses varies automatic actions, to ease the boredom of always splitting
+gold and sacrificing corpses.  The commands are as follows:
+
+autolist    : list all automatic actions
+autoloot    : take all equipment from dead mobiles
+autogold    : take all gold from dead mobiles
+autosac     : sacrifice dead monsters (if autoloot is on, only empty corpes)
+autoexit    : display room exits upon entering a room
+autosplit   : split up spoils from combat among your group members
+autoassit   : makes you help group members in combat
+autodamage  : displays the amount of damage in numberic form to your screen
+autoall     : sets on all auto actions
+autoconsume : allows undead to consume the fresh blood of corpses and gain
+              back lost life in the form of mana, hp, and movement poists
+
+Typing a command sets the action , typing it again removes it.
+
+~ 
+-1 CLAN~
+   A Clan is a collection of players, united to  follow and further
+a common cause.   Each clan has rules and  regulations, to find out
+more about clans and their 'beliefs' type "help <clan name>".  Only
+Clan  members can kill or steal from other players.  To join a Clan
+you  must be level 5 or above and level 25 or below.   Speak to the
+Clan Leader about joining.  If you go Loner before level 25 you may 
+join a Clan later.
+   Joining  a  Clan is a dangerous step.   Many adventurers live to 
+kill and torture others and chances are that your paths will cross.
+Remember, attacking or killing fellow clan members *IS* illegal except to 
+mutiny your Clan leader.
+   Existing  Clans may buy  special rooms and  mobiles by acquiring 
+diamonds as payment.   To see room prices, type "help prices".  New
+Clans  may be formed by  petitioning the immortals.   Please  remember that 
+their word is final on all matters not covered by this help.
+~
+-1 PRICES PRICE~
+New Clan Hall Rooms cost 50 diamonds.
+Boosting the mana or healing gains for a room costs 250 diamonds.
+Both in the same room costs double.
+Making the Healer or Store prices lower costs 1,000 diamonds.
+~
+
+-1 BUY SHOPKEEPER~
+All shopkeepers prices are in silver.
+~
+
+-1 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~ 
+ 
+-1 GATE~
+The gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set.  Clan members 
+may not be gated to except by their fellow Clan members.
+~
+
+-1 AFFECTS AFFECT~
+This command is used to show all the spells affecting your character. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+~
+
+-1 COLORS COLOURS ANSI~
+
+Syntax: colour or color    Toggles colour mode on/off
+
+You may also talk in colour. The format is like this:
+Use the left-handed brace { to start, choose the letter of the color
+you wish your message to be in, type your message, close with another
+left-handed brace { followed immediately by an x
+
+      {{r  {rdark red      {{c {cdark cyan
+      {{R  {Rbright red    {{C {Cbright cyan
+      {{G  {Gbright green  {{y {ygold
+      {{D  {Dgrey          {{Y {Ybright yellow
+      {{b  {bdark blue     {{m {mdark magenta
+      {{B  {Bbright blue   {{M {Mbright magenta
+      {{W  {Wbright white  {{w {wmuted white
+      {{z  Blink
+      clear(reset colour)       e.g. brace { letter <message> closing brace {x
+
+When using colour, it looks better if you finish the line with whatever
+colour it would normally be in. A gossip is normally the colour magenta,
+so: {mLope gossips '{Ghello, {Rworld{m'{g  looks better than Lope gossips
+'hello, world'
+
+ColoUr is written by Lope (ant@solace.mh.se)
+
+============================================================
+~
+
+-1 CRITICAL STRIKE CRITICALSTRIKE~
+
+Critical strike is a skill, that when learned, will increase the fighter's
+chance of delivering a death blow to the victim.  This is a straight 2% chance
+of killing the mob in one hit.
+
+If the percent chance fails, critical strike will still increase the amount
+of damage that is dealt from the attack.
+
+Critical strike skill by:
+* Brian Babey (aka Varen)  
+* [bribe@erols.com]  
+~
+
+-1 IMPLEMENTOR OWNER IMP~
+We provide this as a free service to all. We only ask that you
+follow the rules and keep this a nice wholesome family place where all
+are welcome to play.
+
+Please type {Yhelp {Rrules {Gfor the rules of this mud.
+
+{RNO SWEARING {Gis permitted period over any open channels the immortals here
+can and will punish you for your actions if you swear.
+
+Enjoy the world and please send your ideas and suggestions to
+a_ghost_dancer@excite.com
+
+~
+
+-1 VERSION~
+
+GHOST Version 3.0
+
+The following is a list of the snippets we have used.
+Omni command snippet added!
+ Author: -Prism snazzy@ssnlink.net>
+Color snippet added!
+ - Color was added using Lope Color. It is a snippet downloaded from
+   a code code site.
+critical strike snippet added!
+ Author: Brian Babey (aka Varen) [bribe@erols.com]
+New circle snippet added!
+ Author: morning glory <mocat@hooked.net>
+star map snippet added!
+ Author: Nebseni of Clandestine MUD
+battle prompts snippet added
+ Author: Ian McCormick (aka Gothar)  mcco0055@algonquinc.on.ca
+ ** The graphical prompt has been improved but besides that it
+    is 100% stock from his snippet.
+remort snippet added and fixed!
+ Author: ataprocter@mail.coin.missouri.edu --Dribble
+
+Special thanks to
+ROM archives list at http://www.the-infinite.org/lists/romlist/
+ seems to have provided the solution to our delete problem.
+~
+
+-1 TAKA~
+
+{D         _{x
+{D        / \      _-'{x
+{D      _/|  \-''- _ /{x
+{D __-' { |          \{x
+{D     /              \{x
+{D     /       "{Bo{D.  |{Bo{D }{x
+{D     |            \ ;{x
+{D                   ',{x
+{D        \_         __\{x
+{D          ''-_    \.//{x
+{D            / '-____'{x
+{D           /{x
+{D         _'{x
+{D       _-'{x
+
+Taka the wolf is our senior coder and does a lot
+for The Ghost Dancer MUD Project. She is responsible
+for all the code modifications that you currently
+enjoy.
+
+I Taka hand picked this team of people who I believe
+are the best in the MUD business. each one is incredible
+and each one has his or her own specialties. We at Ghost
+are lucky to have them!
+
+Thankyou to my fellow team and thankyou to our players.
+I am proud to say the Ghost MUD code now powers 3 muds
+and we are growing everyday.
+~
+
+-1 PYROX~
+Pyrox is a fountain of ideas and has helped to bring many changes to this mud
+that benefit you and everyone else who will ever play a GHOST based mud. 
+His ideas have been as simple as showing the name of the area in the where
+command to as complex as a fully new backstab system. Both are implemented
+here in GHOST. A full list of his ideas could never do him justice but beware
+you will see his name in many places throughout this help text.
+~
+
+-1 MYNDZI~
+myndzi is another friend i am lucky to have such a skilled bug finder on the
+team. He also comes up with practical and usful ideas many of which are 
+implemented here now. His council has been a god send at times and he is
+talented enough to dabble in all aspects of muds. His assistance with our
+new array based flags is what gives GHOST its unlimited expansion.
+~
+
+-1 VINCENT~
+What can i say I love this guy. He is dedicated, fair and full of good
+oppinions. I seek his council often for practical fair ways to implement
+the plethora of ideas presented to me by this team. Vincent is also one
+of the most talented writters i have had the pleasure of reading. His work
+can be found throughout all of GHOST.
+~
+
+-1 CORMAC~
+Cormac is a builder and heads up immortal relations making him a busy man 
+here. He often gives me peeptalks and keeps me going and maybe the
+very backbone that holds this team together.
+~
+
+-1 CORMORANT~
+Cormorant is the head builder and also busy man here. His input is 
+everywhere you look. His enthusiasm and dedication drive me to continue 
+working here everyday and to give just a little more. I have spent more
+than one blurry eyed night trying to complete something he expects of me.
+Do not mistake that as a complaint since i expect of others what I always
+try to give 100% and nothing less he bring out the best in me, That is
+one reason i call him friend and mentor.
+~
+
+-1 TEAM~
+This team is fiercely loyal and very dedicated. They have been my shining
+light and often are the reason I even work on the project at all. Each one
+of them is special to me. It brings me the greatest pleasure to work with
+such talented people as these. I look forward to a long and pleasant
+development process, one in which I am constantly challenged and just when
+I think it is hopeless, one of this team is always there to point to a path
+I had some how overlooked before.
+
+Thank you each and every one of you for your hard word and dedication as
+well as your loyalty and (at times) brutal but fair honesty.
+-Taka
+~
+
+-1 ROXIE DIANA~
+What can i say. Diana is at times a bit discombobulated and often deep in
+thought. She has a keen mind and a sharp wit. She also has an artistic side
+that can be seen within GHOST. She is always pleasent and always up for
+good conversation. She often makes me laugh and always makes me smile.
+~
+
+-1 LEESY~
+Leesy is the newest member of the GHOST team. She is out to prove herself and 
+look out world I think she will be great!
+~
+
+-1 ALANDER~
+Alander is Russ Taylor creator of ROM the codebase this is started from
+we are pleased he is watching our progress and also pleased he is here to
+insure we stay legal!
+~
+
+-1 PAINTBALL PBWARSTAT WAR JOINPBWAR SHOOT RELOAD EXITPBWAR~
+Paintball has come to Ghost Dancer! Paintball was the brain child of our
+very own Lessy who flushed out the details of the game and its rules. It
+has been coded by Taka.
+
+PBWARSTAT
+This command shows the status of all combatants in the paintball war and it
+lists the kills they have made and the deaths they have suffered.
+
+WAR
+This is the war channel used by combatants and non-combatants alike to request
+a war or better yet roleplay leading to a war.
+Use this exactliy like you would gossip: WAR <message>
+
+JOINPBWAR
+This command allows you to join an existing paintball war while it is in the
+join phase. This is a 3 tick period just before the war begins. After these
+3 ticks are over noone may join a paintball game.
+
+SHOOT 
+Shoot is used to shoot at a victim. You have a chance at hitting them with
+your paintball. 
+use it like kill: SHOOT <victim>
+
+RELOAD
+You only get so many shoots before you are out of ammo. When this happens use
+reload to "reload" your ammo.
+
+EXITPBWAR
+Allows the character to exit a paintball war already in progress.
+
+In the game of paintball you will be the hunted and the hunter. If you shoot
+someone they cannot shoot you nor can you shoot them again. You can kill as
+many people playing as there are, but you can only kill each person once.
+But beware they could kill you first!
+~
+
+102 STRPBWAR ENDPBWAR~
+STRPBWAR
+Use this to start a paintball war. You can name the number of ticks or let it
+default to the preset number for the mud. So to start a paintball war that
+will last 10 ticks you would type this: STRPBWAR 10
+
+ENDPBWAR
+This command ends immediately the paintball war inprogress.
+~
+
+0 MODES PLAYMODE~
+On GhostMUDs there are now three modes of play. I will try and explain them
+here breifly.
+
+{Y1{R. {GNormal Mode    {M- {GWhen you die your corpse is sent to the morge and you to{x
+                    {Gthe temple. You can easily recover your possessions then.{x
+{Y2{R. {GAdvanced Mode  {M- {GWhen you die your corpse remains on the battle field and{x
+                    {Gyou goto the temple.{x
+{Y3{R. {GNightmare Mode {M- {GWhen you die you have to start over at level 1 the corpse {x
+                    {Gis destroyed and you are reset to level 1. {x
+                    
+{CPlease pick {Y1{C, {Y2{C, or {Y3{x
+~
+
+0 REBIRTH REMORT~
+Another remort option is rebirth. In rebirth you are reset to level 2 yet
+retain your skills and spells as well as stats like str/int/wis/dex/con.
+Your hit points will be reset to 40, mana to 200 and move to 200. The 
+advantage to rebirth is you retain all skills you at one time know and can
+now gain the ones you do not. Your skills also remain trained at the same
+level they were IE: If i knew magic missle at 93% then when i rebirth i
+will still have magic missle at 93%. You will also be allowed to carry
+an extra 50 items and 100 lbs.
+
+Rebirth is only available at level 101 or above.
+It is irriversable!
+~
+
+0 BUILDING BUILDERS~ 
+If you feel you'd like to build on Ghost Dancer, please contact Cormorant, 
+Head Builder, by a note here giving your E-mail address.  We certainly need 
+a few good builders to join our team and help in the exciting job of 
+creating our huge new world. 
+
+We want 
+
+1. Writers with imagination and preferably some experience in writing good 
+English.  Experience of building code will be great, but we are willing 
+to give maximum help to anyone who can promise the dedication necessary to 
+complete an area and have the time available.   A small and simple area well 
+produced is much more useful to us than a huge project which gets nowhere 
+and joins many like it! 
+
+2. Players must have reached level 20 on the new world, read the history and 
+studied the maps.  This is to ensure that the area contributed will not 
+stray too far from our central theme, though of course we welcome a variety 
+of styles.  It will also demonstrate our use of mobprogs (or mobs who talk 
+and react) and the quests which most areas will have (though not all). 
+
+3. If you want to press on, Cormorant will answer any questions and provide 
+what you will need, including manuals and a location on our maps for any 
+agreed area and a set of the vnums (necessary code numbers) for it. 
+~
+
+-1 CLAN GUILD~
+A clan is a group of players who have banded together for some greater
+common goal. They may share things like alingment all being goodie-goodie
+or all the darkest or dark. Or they may just be thieves, or rangers. 
+Whatever the common link these brothers and sisters are banded together
+with a single belief. 
+
+You may start a clan if one that shares your views is not already present.
+However you must have atleast 3 members wishing admittance. Any clan which
+falls below this minimum may find itself disolved.
+
+LEADER    - Sets and removes clan leaders
+CWHO      - Views clan vitial information
+CLEADER   - Shows the leaders of a clan
+CRULES    - Shows the clan rules for admittance
+CTALK     - Clan talk
+
+For joining a clan
+PETITION  - Petition for admitance
+CACCEPT   - Accept a new pledge
+CDECLINE  - Decline an application
+CPLIST    - list all the pledge applications
+~
+
+112 CLANCLOSE CLOSE CLANOPEN CCLOSE COPEN OPEN~
+CCLOSE
+Clan close will close a clan to new members! This immortal command should
+be used only when a clan is being disputed. If an immortal was witness to
+clan activity which we see as wrong we may close the clan to new members
+pending review of the activities.
+
+COPEN
+Clan open will open the previously closed clan to accepting new members
+once more into its folds.
+~
+
+119 CLANMAKE CMAKE~
+CMAKE
+Clan make allows the immortal to make a new clan on the spot. Allowing
+for the addition of a new clan as one is requested.
+
+CMAKE START
+The first command used to start the process
+CMAKE NAME <one word name>
+The name the clan will be known as. Example Magi
+CMAKE LONG <long name>
+The long name of the clan. Exapmle The Magi of Krillian
+CMAKE DISPLAY <name>
+The name that will be displayed on the who command
+CMAKE SHOW
+This command validates the CMAKE commands and the process of the creation
+of a new clan. If all fields are filled appropriately you will be allowed
+to now create the new clan with CMAKE END.
+CMAKE ABORT
+Aborts the clan being created
+CMAKE END
+Provided you have filled in all the parameters this will create the clan
+record. CMAKE SHOW must be used prior to CMAKE END
+~
+
+119 CSET CLANSET~
+CSET <clan name> <field> <value1> <value2>
+
+<fields>
+LEADER	<value1 = leader number>
+
+Type CSET <clan name> for more information.
+~
+
+-1 CLEADER LEADER~
+The clan leaders are the persons who can accept or decline new members requests. 
+They also have advance options to advance a clan member in ranks.
+
+CADVANCE
+~
+
+-1 CPLIST PETITION LIST CACCEPT CDECLINE~
+CPLIST
+CPLIST all
+PETITION <name> <message to the clan leader>
+CACCEPT  <name> <message>
+CDECLINE <name> <message>
+
+{WCPLIST{x
+Lists the clan status for each player who has requested clan status.
+Status 0 is listed with cplist no arguments. Status 0 means the person
+has applied for clan invitation and has not yet been accepted of declined.
+
+using argument all will list all statuses.
+0-open
+1-Accepted but has not yet signed on to become a member
+2-Declined but has not yet signed on to get the bad news
+4-Has recieved the news and is already a member or declined.
+
+{WPETITION, CACCEPT, CDECLINE{x
+These three commands can be used at anytime since they are stored in a file
+for later review. The clan leaders and prospective members do not have to be
+signed on for these commands to work. However the flip side is you are at the
+mercy of timing. It may take several days for a clan leader to review and 
+approve or disapprove of a new member. Also it may take several days for the
+prospective new member to sign on after a determination has been made as to
+his or her application to a clan.
+
+You can only petition one clan at any one time.
+Here's an example of the way it works:
+
+1)Player name Xyz petitions clan Abc like so
+{WPETITION ABC{x
+
+2)The leader Def signs on and uses CPLIST he sees Xyz requesting to 
+be a member. And decides to decline him.
+{WCDECLINE Xyz Sorry rangers do not really count as healers thanks for{x 
+{Wyou interest.{x
+
+3)Next time Xyz signs on he/she will see
+{WLeader Def of clan Abc has denied your request to join the clan{x
+{WSorry rangers do not really count as healers thanks for you interest.{x
+
+Had the leader accepted it would say
+{WLeader Def welcomes you to clan Abc{x
+{W(optional message here){x
+~
+
+-1 CADVANCE CLEADER~
+CADVANCE <name> <rank #> <message>
+LEADER <name> <message>
+
+Cadvance can be used to advance players in rank, whether they are online or not.
+
+The leader command does not work yet. Stay tuned for updates.
+~
+
+-1 CTALK CLANTALK~
+CLAN <text>
+
+This is the channel which every member of the clan and nobody else can see.
+It works in the same way as all the other channels, and the same rules apply to it.
+~
+
+-1 CWHO~
+
+CWHO - lists basic clan information
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - -- - - - -
+Name          Open PK Hall Store  Kills/Deaths MBR:cur/most  founded
+               Y   N   N     N        0/0            0/0     Mon Dec 11 13:54:48 2000
+  Ghost_Gods   Y   N   N     N        0/0            0/0     Mon Dec 11 13:54:48 2000
+   Eclipse     Y   Y   N     N        0/0            0/0     Wed Jan  3 08:41:57 2001
+
+The following things are shown, from left to right:
+- clan name
+- is it open to new members 
+- is it aplayer killing clan 
+- does it have a clan hall 
+- does it have a clan store 
+- player killing record 
+- number of members, both current and most ever 
+- the date it was founded
+~
+
+-1 CRULES~
+CRULES - lists the rules of that clan
+
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - -- - - - -
+               - - -  ALIGN  - - -    Min   - - REMORT - -  No.
+Name            min./Max. enforced PK Lvl   Exempt  Only   Ranks
+               -1000/1000    N     N    1     N      N       1
+  Ghost_Gods   -1000/1000    Y     N  102     N      N       9
+   Eclipse     -1000/-100    Y     Y   15     Y      N      10
+
+
+Shows alignment restrictions and if the alignment is enforced or 
+not..if the alignment is enforced and you fall outside the 
+requirements your player is placed in a probation status for clan 
+review. Also again is the clan player killing or not and minimum 
+level to join. Remort Exempt means are remorts exempt from the level 
+restriction and remort only means the clan will not accept non-remort 
+characters. The number of ranks are configurable per clan.
+~
+
+-1 CLEADERS~
+CLEADERS - lists the clan leaders
+
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - -- - - - -
+Name          Leaders
+                   
+  Ghost_Gods   Taka Cormac Vincent Diana
+   Eclipse     Rahvin    
+
+All clan leaders are shown.
+~
+
+112 CWORTH~
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+Name          Gold      Silver    Share1    Share2    Share3    Share4
+                       0         0         0         0         0          0 
+  Ghost_Gods      100000    100000    100000    100000    100000          5 
+   Eclipse             0         0         0         0         0          0
+
+This command will show the worth of the clans.
+~
+
+-1 CRANKS~
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+Name          Ranks
+               None                                                              
+                                                                      
+  Ghost_Gods   Pledge     Member     Saint      Minor Ange Angel      Arch-Angel 
+               Deity      Demi-God   God        Imp             
+   Eclipse     apostle    kensai     dark bisho dark monk  dark cleri aes-sedai  
+               archmage   Sorcerer   Wizard     Warlock 
+
+This command shows the ranks you can attain in the different clans.
+~
+
+-1 CNAMES~
+- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+    - - N a m e s - - - - - - - - - - - - - - - - - - - - 
+No. Short        Long                      Display        Diety
+  0 Null                                                  None         
+  1 Immortals    The immortals of Ghost Da   Ghost_Gods   None         
+  2 Eclipse      Dark Magic.                  Eclipse     None         
+
+This command shows you the different names for the clans.
+
+Diety is inprocess and will be the god that the clan prays to if any.
+
+NOTE: Immortals will also see the vnum of the clan recall location in this
+      command to the right of the diety.
+~
+
+0 $~
+#$
+

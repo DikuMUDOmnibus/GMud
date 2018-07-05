@@ -1,0 +1,2284 @@
+
+*************************************************MERC.H***************************************8
+/** MERC.H CLAN INFO by Fear_Phantom **/
+typedef struct    clan_data        	CLAN_DATA;
+typedef struct    clan_petition        	CLAN_PETITION;
+
+
+/*
+ * Clan definition.
+ * by Fear_Phantom
+ */
+struct    clan_data
+{
+	CLAN_DATA *	CInext;
+	CLAN_DATA *	CIprev;
+    	/*
+    	 * clan name info
+    	 * short name is used for quick refference to the clan name
+    	 * long name is the dynasty full name
+    	 * display name will be used to display in who
+    	 */
+	char *		short_name;
+	char *		long_name;
+	char *		display_name;
+	/*
+	 * clan bragging info
+	 * #mbr is the number of members the clan possesses
+	 * #maxmbr is the maximum number of members ever in the clan
+	 * founded is the date founded
+	 * pk kills is the number of player kills for the clan as a total
+	 * pk deaths is the numer of deaths as a result of player killing
+	 *           for the clan in total
+	 * clan hall is if the clan has a clan hall
+	 * clan store is if the clan has a store for clan members only
+	 */
+	 int 		#mbr;
+	 int		#maxmbr;
+	 long		founded;
+	 long		pk_kills;
+	 long		pk_deaths;
+	 bool		clan_hall;
+	 bool		clan_store;
+	 /*
+	  * clan requirements
+	  * min align is the minimum alignment to enter the clan
+	  * max align is the maximum alignment to enter the clan
+	  * force align is wheather the clan enforces the alignment restrictions
+	  *             from enter clan min/max
+	  * clan pk is the clan a player killing clan
+	  *         if NO then the members can not enter open PK areas
+	  * min level is the minimum level to join the clan
+	  * remort exempt is if remorts are exempt from the level restriction
+	  * remort only is if only remorts can join the clan
+	  */
+	 int		min_align;
+	 int		max_align;
+	 bool		force_align;
+	 bool		clan_pk;
+	 int		min_level;
+	 bool		remort_exempt;
+	 bool		remort_only;
+	 /*
+	  * clan info
+	  * clan recall vnum is the vnum clan members will recall to
+	  * #ranks is the number of ranks within the clan
+	  * rank_name is an array to store the rank designations for the clan
+	  * clan closed is the clan closed to new members
+	  * clan number is a counter for clan tracking
+	  * clan gold is the amount of gold in the clans bank account
+	  * clan silver is the amount of silver in the clans bank account
+	  * clan shares is the amount of shares of each type a clan holds
+	  * clan deity is the deity or god that the clan worships
+	  */
+	 long		clan_recall_vnum;
+	 int		#ranks;
+	 char *	rank_names[MAX_CLAN_RANK];
+	 char *	leader[MAX_CLAN_LEADER];
+	 bool		clan_closed;
+	 int		clan_number;
+	 long		clan_gold;
+	 long		clan_silver;
+	 long		clan_shares[NO_SHARES];
+	 char *	clan_diety;
+};
+
+/*
+ * clan making inprocess
+ */
+extern bool CLAN_INPROCESS;
+
+/*
+ * clan petition routine
+ * by Phantom
+ *
+ * Accept status list
+ * Accept 0 - Petition awaiting answer
+ *        1 - Petition declinded
+ *        2 - Petition Accepted
+ *        4 - Has been Accepted
+ *        5 - Has been Declined
+ *        8 - Made rank leader
+ *        9 - Error in leader assignment
+ *       10 - Make Clan Leader
+ *       11 - Error in Make Clan Leader
+ *       99 - Remove from Clan
+ */
+struct    clan_petition
+{
+    CLAN_PETITION *    CPnext;
+    CLAN_PETITION *    CPprev;
+	char *		Player_Name;
+	char *		Clan_Name;
+	int		Accept;
+	char *		Message;
+	char *		Return_Message;
+	char *		Leader_Name;
+	long		Time_Stamp;
+	int		Rank_Advance;
+};
+
+CLAN_PETITION *CPHead, *CPTail, *CPptr;
+
+#define CP_WAITING		0
+#define CP_DECLINE      	1
+#define CP_ACCEPT		2
+#define CP_ACCEPTED		4
+#define CP_DECLINED		5
+#define CP_LEADER		8
+#define CP_LEADER_ERROR		9
+#define CP_ADV			10
+#define CP_ADV_ERROR		11
+#define CP_REMOVE_MBR		99
+
+/* end of clan petition list */
+
+
+/* clan.c */
+extern void do_copen(CHAR_DATA *ch, char *argument);
+extern void do_cclose(CHAR_DATA *ch, char *argument);
+extern bool update_clan();
+extern bool save_petition();
+extern void check_clan(CHAR_DATA *ch);
+
+
+/* in char_data add this after the GEN_DATA entry */
+	CLAN_DATA *			cid;
+near or below
+    sh_int              clan;
+add this    
+    int			clan_rank;
+
+
+
+
+/****for roleplaying****/
+find 
+#define NOTE_CHANGES 	4
+add
+#define NOTE_RNOTE 	5
+
+find in pc_data
+    time_t              last_penalty;
+    time_t              last_news;
+    time_t              last_changes;
+add
+    time_t              last_rnote;
+
+find
+#define CHANGES_FILE    "chang.not"
+add
+#define RNOTE_FILE      "rnotes.not"
+
+find
+COMM_NOCHANNELS
+add
+#define COMM_RP	        		(bb)
+
+*************************************************ACT_COMM.C***************************************8
+
+/**ACT_COMM.C ROLEPLAY CHANNEL**/
+
+find
+void do_channels( CHAR_DATA *ch, char *argument)
+{
+    char buf[MAX_STRING_LENGTH];
+    
+add this into the code    
+    send_to_char("{GRP{R             ",ch);
+    if (!IS_SET(ch->comm,COMM_RP))
+      send_to_char("ON{x\n\r",ch);
+    else
+      send_to_char("OFF{x\n\r",ch);
+
+/*      -=-=-= NOTICE =-=-=-
+I use my own open channel code you can use it like i do it is a seperate
+snippet from our site. The following is the basic code you can use it
+to combine all your open channels into a single routine. It makes the 
+code easier to read. So to add a channel after the if RP check do if
+GOSSIP or if SHOUT what ever.
+*/
+
+/*
+	open_channel: BY TAKA
+     	replaces repetive code from gossip, auction, music, gratz, quote,
+		Q/A and shout channels...
+ */
+
+void open_channel ( CHAR_DATA *ch, char *argument, char *type, const int bitname)
+{
+   	char *buf2;
+	char buf[MAX_INPUT_LENGTH + 80];
+	DESCRIPTOR_DATA *d;
+
+    if (argument[0] == '\0' )
+    {
+
+      	if (IS_SET(ch->comm,(bitname)))
+      	{
+        	sprintf( buf, "{W%s {Gchannel is now {RON.{x\n\r", type);
+			send_to_char( buf ,ch);
+        	REMOVE_BIT(ch->comm,(bitname));
+      	}
+      	else
+      	{
+        	sprintf( buf, "{W%s {Gchannel is now {ROFF.{x\n\r", type);
+			send_to_char( buf, ch);
+        	SET_BIT(ch->comm,(bitname));
+      	}
+    }
+    else
+    {
+       	if (IS_SET(ch->comm,COMM_QUIET))
+        {
+          	send_to_char("{RYou must turn off quiet mode first.{x\n\r",ch);
+          	return;
+        }
+
+        if (IS_SET(ch->comm,COMM_NOCHANNELS))
+        {
+       		send_to_char("{RThe gods have revoked your channel priviliges.{x\n\r",ch);
+          	return;
+		}
+
+		if (IS_SET(ch->comm,(bitname)))
+		{
+			sprintf(buf, "{RYour {W%s {Rchannel is off you must turn it on first.{x\n\r", type);
+			send_to_char(buf, ch);
+          	return;
+		}
+
+		if(!str_cmp(type, "[RP]"))
+		{
+      			sprintf( buf, "{YRP: '%s'{x\n\r", argument  );
+			send_to_char( buf, ch);
+		}
+
+   		buf2 = buf;
+  		for ( d = descriptor_list; d != NULL; d = d->next )
+	      	{
+	        	CHAR_DATA *victim;
+	         	victim = d->original ? d->original : d->character;
+
+	        	if ( d->connected == CON_PLAYING &&
+				d->character != ch &&
+			        !IS_SET(victim->comm,(bitname)) &&
+            			!IS_SET(victim->comm,COMM_QUIET) )
+	        	{
+				if(!str_cmp(type, "[RP]"))
+				{
+			   		sprintf( buf, "{Y%s {W%s: {Y'%s'{x\n\r", type, PERS(ch,victim), argument  );
+				}
+
+				send_to_char( buf2, d->character);
+			}
+		}
+    }
+}
+
+/* RT RP channel by Taka */
+void do_rplay( CHAR_DATA *ch, char *argument )
+{
+    open_channel( ch, argument, "[RP]", COMM_RP);
+}
+
+
+/*
+	End of open_channel for now i may decide to include all other channels
+	later but for now no! TAKA
+ */
+
+find and remove the old clan talk function
+
+*************************************************ACT_NEWC.C***************************************8
+/**ACT_NEWC.C FUNCTIONS
+ **You may not need this for GhostMUDs 3.1 and higher
+ **If you are not on GhostMUD put this in ACT_INFO.C
+ **/
+
+/*
+ * format a string to a length
+ * by TAKA of GhostMUD project
+ */
+char * format_str_len(char * string, int length)
+{
+    char buf[MSL];
+    char *new_string;
+    char temp;
+    int count = 0;
+    int pos = 0;
+
+    new_string = buf;
+
+	while( *string && count != length )
+    {
+        temp = *string++;
+        buf[pos++] = temp;
+
+		if (temp == '{' )
+        {
+            buf[pos] = *string++;
+
+			if (buf[pos] == '{')
+                count++;
+
+			pos++;
+            continue;
+        }
+        count++;
+    }
+
+	while (count++ < length)
+        buf[pos++] = ' ';
+
+	buf[pos] = '\0';
+
+	return (new_string);
+}
+
+
+*************************************************NOTE.C***************************************8
+/**NOTE.C ROLEPLAY NOTES**/
+find
+NOTE_DATA *changes_list;
+add
+NOTE_DATA *rnote_list;
+
+find in void do_unread(CHAR_DATA *ch)
+    if ((count = count_spool(ch,idea_list)) > 0)
+    {
+	found = TRUE;
+	sprintf(buf,"{GYou have {W%d {Gunread idea%s to peruse.{x\n\r",
+	    count, count > 1 ? "s" : "");
+	send_to_char(buf,ch);
+    }
+add
+    if ((count = count_spool(ch,rnote_list)) > 0)
+    {
+	found = TRUE;
+	sprintf(buf,"{GYou have {W%d {Gunread roleplay note%s to peruse.{x\n\r",
+	    count, count > 1 ? "s" : "");
+	send_to_char(buf,ch);
+    }
+
+add
+void do_rnote(CHAR_DATA *ch,char *argument) 	/* 1116 */
+{						/* 1116 */
+    parse_note(ch,argument,NOTE_RNOTE);		/* 1116 */
+}						/* 1116 */
+
+find in void save_notes(int type)
+	case NOTE_CHANGES:
+	    name = CHANGES_FILE;
+	    pnote = changes_list;
+	    break;
+add
+	case NOTE_RNOTE:
+	    name = RNOTE_FILE;
+	    pnote = rnote_list;
+	    break;
+
+find void load_notes(void)
+add
+    load_thread(RNOTE_FILE,&rnote_list,NOTE_RNOTE, 0);
+    
+find in void append_note(NOTE_DATA *pnote)
+	case NOTE_CHANGES:
+	     name = CHANGES_FILE;
+	     list = &changes_list;
+	     break;
+add
+	case NOTE_RNOTE:
+	     name = RNOTE_FILE;
+	     list = &rnote_list;
+	     break;
+
+find in void note_remove( CHAR_DATA *ch, NOTE_DATA *pnote, bool delete)
+	case NOTE_CHANGES:
+	    list = &changes_list;
+	    break;
+add
+	case NOTE_RNOTE:
+	    list = &rnote_list;
+	    break;
+
+find in bool hide_note (CHAR_DATA *ch, NOTE_DATA *pnote)
+	case NOTE_CHANGES:
+	    last_read = ch->pcdata->last_changes;
+	    break;
+add
+	case NOTE_RNOTE:
+	    last_read = ch->pcdata->last_rnote;
+	    break;
+
+find in void update_read(CHAR_DATA *ch, NOTE_DATA *pnote)
+        case NOTE_CHANGES:
+	    	ch->pcdata->last_changes = UMAX(ch->pcdata->last_changes,stamp);
+            break;
+add
+        case NOTE_RNOTE:
+	    	ch->pcdata->last_rnote = UMAX(ch->pcdata->last_rnote,stamp);
+            break;
+
+find in void parse_note( CHAR_DATA *ch, char *argument, int type )
+        case NOTE_CHANGES:
+            list = &changes_list;
+	    	list_name = "changes";
+            break;
+add
+        case NOTE_RNOTE:
+            list = &rnote_list;
+	    	list_name = "roleplay_notes";
+            break;
+
+find
+		case NOTE_CHANGES:
+		    send_to_char("{YThere are no changes for you.{x\n\r",ch);
+		    break;
+add
+		case NOTE_RNOTE:
+		    send_to_char("{YThere are no roleplaying notes for you.{x\n\r",ch);
+		    break;
+
+find
+	    case NOTE_CHANGES:
+			ch->pcdata->last_changes = current_time;
+			break;
+add
+	    case NOTE_RNOTE:
+			ch->pcdata->last_rnote = current_time;
+			break;
+
+
+
+
+*************************************************VNUM.H***************************************8
+/**VNUM.H CLAN RULES AND FLAGS**/
+/*      -=-=-= NOTICE =-=-=-
+In standard ROM muds add this stuff to the bottom of merc.h
+*/
+
+/* Banking additions for Takas banking code */
+#define CLAN_BANKING		1
+#define CLAN_SHARES		1
+#define NO_SHARES		4
+
+/*
+ * Phantoms Clan system flags
+ * MUD_USES_REMORT does the mud use remort code
+ *                 1=Yes, 0=No
+ * MIN_CLAN_RANK is the minimum ranks any clan can have
+ * MAX_CLAN_RANK is the maximum ranks a clan can have
+ * MAX_CLAN_LEADER is the maximum number of leaders a clan can have
+ * ALLOW_CLAN is a flag if the mud allows clans
+ */
+ 
+#define	MUD_USES_REMORTS	1
+#define MAX_CLAN_RANK		10
+#define MIN_CLAN_RANK		3
+#define MAX_CLAN_LEADER		3
+#define ALLOW_CLAN		1
+
+/*
+ * clan code by Fear_Phantom
+ */
+#define CLAN_LIST	"../text/clan.txt" 	/* List of clans including null */
+#define CLAN_DIR    "../text/clans/"   		/* For all clan files */
+#define CLAN_PETITION_LIST	"../text/petition.txt" 	/* List of petitions to clans */
+
+*************************************************INTERP.C***************************************8
+/**INTERP.C**MORTAL COMMANDS**/
+    { "cwho",		do_clanwho,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "crules",		do_clanrules,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "cleader",	do_clanleaders,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "petition",	do_petition,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "caccept",	do_clanaccept,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "cdecline",	do_clandecline,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "ctalk",		do_clantalk,	POS_RESTING,	 0,  LOG_NORMAL, 0 },
+    { "clantalk",	do_clantalk,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "cadvance",	do_cadvance,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "leader",		do_clanleader,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "rp",		do_rplay,	POS_SLEEPING,	 0,  LOG_NORMAL, 0 },
+    { "rplay",		do_rplay,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
+    { "rnote",		do_rnote,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
+    { "cplist",         do_clanlist,	POS_DEAD,	 0,  LOG_NEVER,	 1 },
+    { "cranks",         do_clanranks,	POS_DEAD,	 0,  LOG_NEVER,	 1 },
+    
+find and remove the old clan talk by commenting like so
+/*    { "clan",		do_clantalk,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 }, */
+
+
+/**INTERP.C**IMMORTAL COMMANDS**/
+    { "copen",		do_clanopen,	POS_RESTING,	 IM,  LOG_NORMAL, 1 },
+    { "cclose",		do_clanclose,	POS_RESTING,	 IM,  LOG_NORMAL, 1 },
+    { "cworth",         do_clanworth,	POS_DEAD,	 IM,  LOG_NEVER,  1 },
+    { "cmake",		do_clanmake,	POS_RESTING,	 ML,  LOG_NORMAL, 1 },
+    { "cset",		do_clanset,	POS_RESTING,	 ML,  LOG_NORMAL, 1 },
+
+*************************************************INTERP.H***************************************8
+/**INTERP.H**/
+DECLARE_DO_FUN( do_cwho		);
+DECLARE_DO_FUN( do_crules	);
+DECLARE_DO_FUN( do_cleader	);
+DECLARE_DO_FUN( do_petition	);
+DECLARE_DO_FUN( do_caccept	);
+DECLARE_DO_FUN( do_cdecline	);
+DECLARE_DO_FUN( do_ctalk	);
+DECLARE_DO_FUN( do_clantalk	);
+DECLARE_DO_FUN( do_cadvance	);
+DECLARE_DO_FUN( do_leader	);
+DECLARE_DO_FUN( do_copen	);
+DECLARE_DO_FUN( do_cclose	);
+DECLARE_DO_FUN( do_cmake	);
+DECLARE_DO_FUN( do_cset		);
+DECLARE_DO_FUN( do_rplay	);
+DECLARE_DO_FUN( do_rnote	); 
+DECLARE_DO_FUN( do_clanlist	);
+DECLARE_DO_FUN( do_clanranks	);
+DECLARE_DO_FUN( do_clanworth	);
+
+
+
+*************************************************LOOKUP.C***************************************8
+/**LOOKUP.C Clan Code by Fear_Phantom**/
+/*
+ * replace clan_lookup with this one 
+ */
+int clan_lookup (const char *name)
+{
+	/* clan data structure pointer */
+	CLAN_DATA *cIndex;
+
+	/* loop through clans */
+	for(cIndex=CIhead; cIndex != NULL; cIndex=cIndex->CInext)
+	{
+		if (LOWER(name[0]) == LOWER(ri->name[0])
+		&&  !str_prefix( name,cIndex->name))
+		    return cIndex->clan_number;
+	}
+
+	/* no clan by that name */
+   	return 0;
+}
+
+
+
+CUT HERE-----------------------------------------------------------------------------SNIP
+/*
+ * CLAN.C
+ * by Phantom of Ghost Dancer all rights reserved!
+ *
+	cwho or clanwho
+	mortal command to display clan information like so
+	         1         2         3         4         5         6         7         8
+	1+++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0
+	- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+	Name          Open PK Hall Store  Kills/Deaths MBR:cur/most  founded
+	survivors      Y    N  Y    Y         0/0           12/12    mm/dd/yy time
+	bashers        N    Y  Y    N         9/100          5/19    mm/dd/yy time
+	deaths angel   Y    Y  Y    Y       100/9           15/21    mm/dd/yy time
+
+	** This helps prospective clan initiates make informed decissions about the clans
+	   on your world and which maybe right for him or her.
+
+	cleader or clanleader
+	mortal command to display clan leader information like so
+	         1         2         3         4         5         6         7         8
+	1+++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0
+	- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+	Name          Leaders
+	susvivors     Brad           Markcus        Lucas          Rattum
+	bashers       David          Starblazer     Eli
+	deaths angel  Reaper
+
+	** This gives a prospective of clan higherarchy. Is the clan a dictatorship or
+	   some other form of basic government.
+
+	crules or clanrules
+	mortal command to display clan leader information like so
+	         1         2         3         4         5         6         7         8
+	1+++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0
+	- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+	              - - -  ALIGN  - - -     Min  - - REMORT - -  No.
+	Name           min./Max. enforced PK Lvl   Exempt  Only   Ranks
+	survivors     -1000/1000    N     N   15     Y      N       5
+	bashers        -750/750     N     Y   12     N      N      10
+	deaths angel  -1000/0       Y     Y   10     N      Y       3
+
+    ** This covers the rules of the clan reqarding membership information.
+  
+	cranks or clanranks
+	mortal command to display clan ranks like so
+	         1         2         3         4         5         6         7         8
+	1+++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0
+	- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+	Name          Ranks
+    surviviors    castaway   survivor 
+    bashers       smasher    crasher    basher
+    deaths angels pledge     reaper     collector  soul snake dark angel stalker
+	              plague     death
+
+    ** This gives people an idea of the clan make up and the ranking system. Lowest
+	   ranks are listed first.
+
+	cworth or clanworth
+	immortal command to display clan worth like so
+	         1         2         3         4         5         6         7         8
+	1+++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0
+    - - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+	Name          Gold      Silver    Share1    Share2    Share3    Share4
+    survivors         12000    542011       112       545        11      1320
+	bashers             504   1000100      1103       987       961       911
+	deaths angels    108900      9088         4        91        19      2414
+
+    ** This gives the immortal an idea of clan wealth or will once clan banking is
+	   inplace.
+    
+	cworth or clanworth
+	immortal command to display clan worth like so
+	         1         2         3         4         5         6         7         8
+	1+++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0++++5++++0
+	- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -
+	    - - N a m e s - - - - - - - - - - - - - - - - - - - - 
+    No. Short        Long                      Display        Diety
+	  1 survivors    The Survivors of Chaos    survivors      Mickeymouse  19001
+      2 bashers      The bashers of Krin       bashers        Toah         21344
+	  3 deathsangel  Deaths Angels of Talen    deaths angels  Grimreaper    9011
+
+    ** The above shows the immortals view which includes to the far right the vnum
+	   of the clan recall location. For mortals they will see all but the vnum.
+	   This command should be used to find the full names of a clan as well as the
+	   religious belief system (diety). Since a diety system is me next project it
+	   is not fully implemented here yet.
+*/
+
+/*DECLARATIONS AND PROTOTYPING*/
+#if defined(macintosh)
+#include <types.h>
+#else
+#include <sys/types.h>
+#include <sys/time.h>
+#endif
+#include <ctype.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include "merc.h"
+#include "recycle.h"
+#include "tables.h"
+#include "magic.h"
+
+/*
+ * define external functions
+ * load_helps from db.c
+ */
+extern void	load_helps	args( ( FILE *fp, char *fname ) );
+extern int clan_lookup (const char *name);
+
+/*
+ * loacals (IMMORTAL COMMANDS)
+ */
+
+/*
+ * locals (MORTAL COMMANDS)
+ */
+void SHOW_CLAN_INFO(CHAR_DATA *ch, int clan_show_type);
+
+/*
+ * locals (Processor commands)
+ */
+void update_clan();
+void fwrite_clan( CLAN_DATA *ch, FILE *fp );
+void load_clans();
+void load_clan args( ( FILE *fp ) );
+void AppendClan	(CLAN_DATA *CLptr);
+void load_petition();
+void save_petition();
+void AppendPetition();
+int is_clan_leader(char *name, CLAN_DATA *cIndex);
+
+/*
+ * define clan list types
+ */
+#define CLAN_WHO	0
+#define CLAN_RULES	1
+#define CLAN_LEADER	2
+#define CLAN_RANKS	3
+#define CLAN_WORTH	4
+#define CLAN_NAMES	5
+
+/*
+ * establish values for use in this program
+ */
+FILE *	fpClan;
+char	strClan[MIL];
+bool	CLAN_INPROCESS = FALSE;
+bool	CLAN_SHOW = FALSE;
+int		CLAN_LAST_NUMBER = 0;
+char *  clan_name;
+char *  clan_long_name;
+char *  clan_display_name;
+
+ /***************************IMMORTAL COMMANDS FOR CLAN CODE**************************/
+ /*
+  * do_copen opens a clan for accepting new members
+  * do_cclose closes a clan from accepting new members
+  * do_clanmake basic clan creation
+  * do_clanset allows you to set nearly any value for a clan
+  * do_cworth allows you to see the amount of money a clan has accummulated
+  */
+
+void do_clanopen(CHAR_DATA *ch, char *argument)
+{
+	char name[MAX_INPUT_LENGTH];
+	/* clan data structure pointer */
+	CLAN_DATA *cIndex;
+
+
+	one_argument(argument,name);
+
+	if ( name[0] == '\0' )
+	{
+		send_to_char("{ROpen which clan?{x\n\r", ch );
+		return;
+	}
+
+	if(!clan_lookup(name))
+	{
+		send_to_char("{RThat is not a clan!{x\n\r", ch);
+		return;
+	}
+
+	/* loop through clans */
+	for(cIndex=CLhead; cIndex != NULL; cIndex=cIndex->CLnext)
+	{
+		if (LOWER(name[0]) == LOWER(cIndex->short_name[0])
+			&&  !str_prefix( name,cIndex->short_name))
+		{
+		    if(cIndex->clan_closed == FALSE)
+		    {
+				printf_to_char(ch, "{GThe clan {W%s is already open for new members.{x\n\r",
+					cIndex->short_name);
+				return;
+			}
+			else
+			{
+		    	cIndex->clan_closed = FALSE;
+		    	printf_to_char(ch, "{W%s {Gis now open to new members.{x\n\r", cIndex->short_name);
+		    	return;
+			}
+		}
+	}
+
+	printf_to_char(ch, "{RSomething is wrong with {W%s {Rplease report it!{x\n\r", name);
+	return;
+}
+
+ /*
+  * do_cclose closes a clan from accepting new members
+  */
+
+void do_clanclose(CHAR_DATA *ch, char *argument)
+{
+	char name[MAX_INPUT_LENGTH];
+	/* clan data structure pointer */
+	CLAN_DATA *cIndex;
+
+	one_argument(argument,name);
+
+	if ( name[0] == '\0' )
+	{
+		send_to_char("{RClose which clan?{x\n\r", ch );
+		return;
+	}
+
+	if(!clan_lookup(name))
+	{
+		send_to_char("{RThat is not a clan!{x\n\r", ch);
+		return;
+	}
+
+	/* loop through clans */
+	for(cIndex=CLhead; cIndex != NULL; cIndex=cIndex->CLnext)
+	{
+		if (LOWER(name[0]) == LOWER(cIndex->short_name[0])
+			&&  !str_prefix( name,cIndex->short_name))
+		{
+		    if(cIndex->clan_closed == TRUE)
+		    {
+				printf_to_char(ch, "{GThe clan {W%s is already closed for new members.{x\n\r",
+					cIndex->short_name);
+				return;
+			}
+			else
+			{
+		    	cIndex->clan_closed = TRUE;
+		    	printf_to_char(ch, "{W%s {Gis now closed to new members.{x\n\r", cIndex->short_name);
+		    	return;
+			}
+		}
+	}
+
+	printf_to_char(ch, "{RSomething is wrong with {W%s {Rplease report it!{x\n\r", name);
+	return;
+}
+
+/*
+ * cmake clan make
+ * cmake start          - is used to start the creation process for a new clan
+ * cmake name    <name> - sets the short name of the clan
+ * cmake long    <name> - sets the long name of the clan
+ * cmake display <name> - sets the display name of the clan
+ * cmake show           - is used to show the immortal the clan make progression
+ * cmake end            - closes the clan and creates the empty record
+ * cmake abort          - aborts the clan currently inprocess of being started
+ */
+
+void do_clanmake(CHAR_DATA *ch, char *argument)
+{
+	CLAN_DATA *CLptr;
+	char arg1[MSL];
+	char arg2[MSL];
+	int Loop;
+	int test_clan;
+
+	/* validate a clan is not in process of being made */
+/*	if(CLAN_INPROCESS)
+	{
+		send_to_char("{RClan already being created!{x\n\r", ch);
+		return;
+	}*/
+
+	argument = one_argument(argument,arg1);
+
+	/* no arugement entered */
+	if ( arg1[0] == '\0' )
+	{
+		send_to_char("{RMake a clan?{x\n\r", ch );
+		send_to_char("{RSyntax: cmake keyword <argument>{x\n\r", ch);
+		send_to_char("{GKEYWORDS:  {Bstart, name, long, display, show, end, abort{x\n\r", ch);
+		send_to_char("{YNOTE:      Use abort to start over!{x\n\r", ch);
+		return;
+	}
+
+	/* start command starts a clan create */
+    if ( !str_prefix( arg1, "start" ) && !CLAN_INPROCESS )
+    {
+		CLAN_INPROCESS = TRUE;
+		return;
+	}
+
+	/* validate start command was used */
+	if(!CLAN_INPROCESS)
+	{
+		send_to_char("{RUse start to start a clan!{x\n\r", ch);
+		return;
+	}
+
+	/* test abort */
+	if ( !str_prefix( arg1, "abort" ) )
+	{
+		CLAN_SHOW = FALSE;
+		CLAN_INPROCESS = FALSE;
+	}
+
+	/* show and verify */
+	if ( !str_prefix( arg1, "show" ) )
+	{
+		printf_to_char(ch, "{GShort Name  : {w%s{x\n\r", clan_name);
+		printf_to_char(ch, "{GLong Name   : {w%s{x\n\r", clan_long_name);
+		printf_to_char(ch, "{GDisplay Name: {w%s{x\n\r", clan_display_name);
+		if (clan_name != ""
+			&& clan_long_name != ""
+			&& clan_display_name != "")
+		{
+			CLAN_SHOW = TRUE;
+			send_to_char("{MIf this is correct use End to write the clan.{x\n\r", ch);
+		}
+		else
+		{
+			send_to_char("{MSome information missing before you can end.{x\n\r", ch);
+			return;
+		}
+	}
+
+	/* end and validate completed */
+	if ( !str_prefix( arg1, "end" ) && CLAN_SHOW)
+	{
+		/*
+		 * Initialize field for clan
+		 * then write and update clan
+		 * use set to set the other flags
+		 */
+		CLptr = malloc(sizeof(struct clan_data));
+		CLptr->short_name = clan_name;
+		CLptr->long_name  = clan_long_name;
+		CLptr->display_name = clan_display_name;
+		CLptr->mbr = 0;
+		CLptr->maxmbr = 0;
+		CLptr->founded = current_time;
+		CLptr->pk_kills = 0;
+		CLptr->pk_deaths = 0;
+		CLptr->clan_hall = 0;
+		CLptr->clan_store = 0;
+		CLptr->min_align = 0;
+		CLptr->max_align = 0;
+		CLptr->force_align = 0;
+		CLptr->clan_pk = 0;
+		CLptr->min_level = 0;
+		CLptr->remort_exempt = 0;
+		CLptr->remort_only = 0;
+		CLptr->clan_recall_vnum = 3001;
+		CLptr->ranks = 0;
+		CLptr->clan_closed = 0;
+		CLAN_LAST_NUMBER += 1;
+		CLptr->clan_number = CLAN_LAST_NUMBER;
+		CLptr->clan_gold = 0;
+		CLptr->clan_silver = 0;
+		CLptr->clan_diety = str_dup( "" );
+		for(Loop = 0; Loop >= MAX_CLAN_RANK; Loop++)
+		{
+			CLptr->rank_names[Loop] = str_dup( "" );
+		}
+
+		for(Loop = 0; Loop >= MAX_CLAN_LEADER; Loop++)
+		{
+			CLptr->leader[Loop] = str_dup( "" );
+		}
+
+		for(Loop = 0; Loop >= NO_SHARES; Loop++)
+		{
+			CLptr->clan_shares[Loop] = 0;
+		}
+
+		/* reset flags and continue */
+		CLAN_SHOW = FALSE;
+		CLAN_INPROCESS = FALSE;
+		/* Add the clan */
+		AppendClan(CLptr);
+		update_clan();
+		return;
+	}
+
+	/* end and unvalidated */
+	if ( !str_prefix( arg1, "end" ) && !CLAN_SHOW)
+	{
+		send_to_char("{MUse show to validate!{x\n\r", ch);
+		return;
+	}
+
+	/* validate argument is not blank */
+	if (argument[0] == '\0')
+	{
+		send_to_char("{RPlease enter waht you like the name to be as well thanks!{x\n\r", ch);
+		return;
+	}
+
+	/* load the names */
+    if ( !str_prefix( arg1, "name" ) )
+    {
+		/* clan name can only be a single word */
+		argument = one_argument(argument,arg2);
+
+		/*
+		 * if the clan name already exists!
+		 */
+		test_clan = clan_lookup (arg2);
+		if (test_clan != 0)
+		{
+			send_to_char("{RThat name already exists!{x\n\r", ch);
+			return;
+		}
+		clan_name = arg2;
+		return;
+	}
+
+    if ( !str_prefix( arg1, "long" ) )
+    {
+		clan_long_name = argument;
+		return;
+	}
+
+    if ( !str_prefix( arg1, "display" ) )
+    {
+		clan_display_name = argument;
+		return;
+	}
+
+}
+
+/*
+ * cset is like the immortal command set except it is used to set information on
+ *      about a clan.
+		cset     pkills    <value>
+		cset     pdeaths   <value>
+		cset     hall      TRUE|FALSE
+		cset     store     TRUE|FALSE
+		cset     align     MIN|MAX     		<value>
+		cset               FORCE			TRUE|FALSE
+		cset     clanpk    TRUE|FALSE
+		cset     minlevel  <value>
+		cset     remort    EXEMPT|ONLY      TRUE|FALSE
+		cset     crecall   <value>
+		cset     ranks     <value>
+		cset     rankname  <rank number>    <name>
+		         NOTE: rank number 1 is the lowest rank
+		cset     gold      <value>
+		cset     silver    <value>
+
+ *
+ */
+
+void do_clanset(CHAR_DATA *ch, char *argument)
+{
+	CLAN_DATA *cIndex;
+	char arg1[MSL];
+	char arg2[MSL];
+	char arg3[MSL];
+	char arg4[MSL];
+	int test_clan;
+	int value;
+
+	/* clan name can only be a single word */
+	argument = one_argument(argument,arg1);
+
+	if(arg1[0] == '\0')
+	{
+		send_to_char("{RYou must name a clan!{x\n\r", ch);
+		return;
+	}
+
+	/*
+	 * if the clan name already exists!
+	 */
+	test_clan = clan_lookup (arg1);
+	if (test_clan == 0)
+	{
+		send_to_char("{RThat is not a clan!{x\n\r", ch);
+		return;
+	}
+
+	argument = one_argument(argument,arg2);
+	argument = one_argument(argument,arg3);
+
+
+	/* may someday plan to allow set leaders and set shares as well as diety */
+	if(arg2[0] == '\0')
+	{
+		send_to_char("cset maxmbr    <value>", ch);
+		send_to_char("     pkills    <value>", ch);
+		send_to_char("     pdeaths   <value>", ch);
+		send_to_char("     hall      TRUE|FALSE", ch);
+		send_to_char("     store     TRUE|FALSE", ch);
+		send_to_char("     align     MIN|MAX     		<value>", ch);
+		send_to_char("               FORCE				TRUE|FALSE", ch);
+		send_to_char("     clanpk    TRUE|FALSE", ch);
+		send_to_char("     minlevel  <value>", ch);
+		send_to_char("     remort    EXEMPT|ONLY        TRUE|FALSE", ch);
+		send_to_char("     crecall   <value>", ch);
+		send_to_char("     ranks     <value>", ch);
+		send_to_char("     rankname  <rank number>      <name>", ch);
+		send_to_char("     NOTE: rank number 1 is the lowest rank", ch);
+		send_to_char("     gold      <value>", ch);
+		send_to_char("     silver    <value>", ch);
+		return;
+	}
+
+	/* loop through clans */
+	for(cIndex=CLhead; cIndex != NULL; cIndex=cIndex->CLnext)
+	{
+		if (LOWER(arg1[0]) == LOWER(cIndex->short_name[0])
+			&&  !str_prefix( arg1 ,cIndex->short_name))
+		{
+			if(arg3[0] == '\0')
+			{
+				send_to_char("{Rvalue required please!{x\n\r", ch);
+				return;
+			}
+
+			/* do sets here */
+			if (!str_prefix( arg2, "maxmbr"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->maxmbr = value;
+			}/* maximum members ever */
+
+			if (!str_prefix( arg2, "pkills"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->pk_kills = value;
+			}/* player kills */
+
+			if (!str_prefix( arg2, "pdeaths"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->pk_deaths = value;
+			}/* player deaths */
+
+			if (!str_prefix( arg2, "hall"))
+			{
+				if(!str_prefix( arg3, "TRUE") || !str_prefix( arg3, "true"))
+					cIndex->clan_hall = TRUE;
+				else
+					cIndex->clan_hall = FALSE;
+			}/* clan has a clan hall */
+
+			if (!str_prefix( arg2, "store"))
+			{
+				if(!str_prefix( arg3, "TRUE") || !str_prefix( arg3, "true"))
+					cIndex->clan_store = TRUE;
+				else
+					cIndex->clan_store = FALSE;
+			}/* clan has a clan store */
+
+			/* alingment agruments */
+			if (!str_prefix( arg2, "alignment"))
+			{
+				one_argument(argument,arg4);
+
+				if(!str_prefix( arg3, "minimum"))
+				{
+					if ( !is_number( arg4 ) )
+					{
+						send_to_char( "{RValue must be numeric.{x\n\r", ch );
+						return;
+					}
+
+					value = atoi(arg4);
+					cIndex->min_align = value;
+				}/* minimum alignment to join */
+				else if(!str_prefix( arg3, "maximum"))
+				{
+					if ( !is_number( arg4 ) )
+					{
+						send_to_char( "{RValue must be numeric.{x\n\r", ch );
+						return;
+					}
+
+					value = atoi(arg4);
+					cIndex->max_align = value;
+				}/* maximum alignment to join */
+				else if(!str_prefix( arg3, "force"))
+				{
+					if(!str_prefix( arg4, "TRUE") || !str_prefix( arg4, "true"))
+						cIndex->force_align = TRUE;
+					else
+						cIndex->force_align = FALSE;
+				}/* does clan force alignment restrictions */
+			}
+
+			if (!str_prefix( arg2, "clanpk"))
+			{
+				if(!str_prefix( arg3, "TRUE") || !str_prefix( arg3, "true"))
+					cIndex->clan_pk = TRUE;
+				else
+					cIndex->clan_pk = FALSE;
+			}/* is clan an open play killing clan */
+
+			if (!str_prefix( arg2, "minlevel"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->min_level = value;
+			}/* minimum level to join */
+
+			/* remort agruments */
+			if (!str_prefix( arg2, "remort"))
+			{
+				one_argument(argument,arg4);
+
+				if(!str_prefix( arg3, "exempt"))
+				{
+					if(!str_prefix( arg4, "TRUE") || !str_prefix( arg4, "true"))
+						cIndex->remort_exempt = TRUE;
+					else
+						cIndex->remort_exempt = FALSE;
+				}/* are remorts exempt from level restrictions */
+
+				if(!str_prefix( arg3, "only"))
+				{
+					if(!str_prefix( arg4, "TRUE") || !str_prefix( arg4, "true"))
+						cIndex->remort_only = TRUE;
+					else
+						cIndex->remort_only = FALSE;
+				}/* remorts only are allowed to join */
+			}
+
+			if (!str_prefix( arg2, "crecall"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->clan_recall_vnum = value;
+			}/* clan_recall to vnum */
+
+			if (!str_prefix( arg2, "ranks"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->ranks = value;
+			}/* player deaths */
+
+			if (!str_prefix( arg2, "rankname"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				if(value <= MAX_CLAN_RANK)
+					cIndex->rank_names[value] = argument;
+				else
+				{
+					printf_to_char(ch, "That is not a valid maximum rank. The current max is %d",
+						MAX_CLAN_RANK);
+					return;
+				}
+			}/* set rank names */
+
+			if (!str_prefix( arg2, "gold"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->clan_gold = value;
+			}/* clan gold coins */
+
+			if (!str_prefix( arg2, "silver"))
+			{
+				if ( !is_number( arg3 ) )
+				{
+					send_to_char( "{RValue must be numeric.{x\n\r", ch );
+					return;
+				}
+
+				value = atoi(arg3);
+				cIndex->clan_silver = value;
+			}/* clan silver coins */
+
+
+			/* update changes to the clan */
+			update_clan();
+			return;
+		}
+	}
+
+	return;
+}
+
+void do_clanworth( CHAR_DATA *ch, char *argument )
+{
+	SHOW_CLAN_INFO( ch, CLAN_WORTH );
+	return;
+}
+
+
+ /***************************MORTAL COMMANDS FOR CLAN CODE**************************/
+ /*
+  * show clan info is to conserve code duplication. i am too lazy to create too
+  * many loops through the index. PHANTOM
+  */
+void SHOW_CLAN_INFO(CHAR_DATA *ch, int clan_show_type)
+{
+ 	int  cLoop;
+ 	CLAN_DATA *cIndex;
+
+	switch(clan_show_type)
+	{
+		case CLAN_WHO:
+			send_to_char("{G- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -{x\n\r", ch);
+			send_to_char("{GName          Open PK Hall Store  Kills/Deaths MBR:cur/most  founded{x\n\r", ch);
+			break;
+		case CLAN_RULES:
+			send_to_char("{G- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -{x\n\r", ch);
+			send_to_char("{G               - - -  ALIGN  - - -    Min   - - REMORT - -  No.{x\n\r", ch);
+			send_to_char("{GName            min./Max. enforced PK Lvl   Exempt  Only   Ranks{x\n\r", ch);
+			break;
+		case CLAN_LEADER:
+			send_to_char("{G- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -{x\n\r", ch);
+			send_to_char("{GName          Leaders{x\n\r", ch);
+			break;
+		case CLAN_RANKS:
+			send_to_char("{G- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -{x\n\r", ch);
+			send_to_char("{GName          Ranks{x\n\r", ch);
+			break;
+		case CLAN_WORTH:
+			send_to_char("{G- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -{x\n\r", ch);
+			send_to_char("{GName          Gold      Silver    Share1    Share2    Share3    Share4{x\n\r", ch);
+			break;
+		case CLAN_NAMES:
+			send_to_char("{G- - - - - - - - - - - - - - - - - C L A N   I N F O - - - - - - - - - - - - - -{x\n\r", ch);
+			send_to_char("{G    - - N a m e s - - - - - - - - - - - - - - - - - - - - {x\n\r", ch);
+			send_to_char("{GNo. Short        Long                      Display        Diety{x\n\r", ch);
+			break;
+		default:
+			send_to_char("{RThat is now a valid selection!{x\n\r", ch);
+			return;
+	}
+
+ 	for(cIndex=CLhead; cIndex != NULL; cIndex=cIndex->CLnext)
+ 	{
+		char const *display_name;
+		char const *rank_name;
+		char const *short_name;
+		char const *long_name;
+		char buf[MSL];
+		char buf1[MSL];
+		char buf2[MSL];
+		char buf3[MSL];
+
+		display_name = format_str_len(cIndex->display_name, 14);
+		strcpy(buf, display_name);
+
+		switch(clan_show_type)
+		{
+			case CLAN_WHO:
+				printf_to_char(ch, "{c%s {M%s   %s   %s     %s    {c%5ld{w/{D%-5ld     {G%4d{w/{G%-4d  {y%s\n\r",
+					buf, !cIndex->clan_closed ? "Y" : "N",
+					!cIndex->clan_pk ? "N" : "Y",
+					!cIndex->clan_hall ? "N" : "Y",
+					!cIndex->clan_store ? "N" : "Y",
+					cIndex->pk_kills, cIndex->pk_deaths, cIndex->mbr,
+					cIndex->maxmbr, (char *) ctime (&cIndex->founded));
+				break;
+			case CLAN_RULES:
+				printf_to_char(ch, "{c%s {D%5d{W/{Y%-5d   {M%s     %s  {m%3d     {M%s      %s     {m%3d\n\r",
+					buf, cIndex->min_align, cIndex->max_align,
+					!cIndex->force_align ? "N" : "Y",
+					!cIndex->clan_pk ? "N" : "Y",
+					cIndex->min_level, !cIndex->remort_exempt ? "N" : "Y",
+					!cIndex->remort_only ? "N" : "Y", cIndex->ranks	);
+				break;
+			case CLAN_LEADER:
+				printf_to_char(ch, "{c%s {x", buf);
+				for(cLoop = 1; cLoop <= MAX_CLAN_LEADER; cLoop++ )
+				{
+					printf_to_char( ch, "{W%s {x", cIndex->leader[cLoop]);
+				}
+				send_to_char("\n\r", ch);
+				break;
+			case CLAN_RANKS:
+				printf_to_char(ch, "{c%s {x", buf);
+				for(cLoop = 0; cLoop <= MAX_CLAN_RANK; cLoop++ )
+				{
+					rank_name = format_str_len(cIndex->rank_names[cLoop], 10);
+					strcpy(buf1, rank_name);
+					
+					printf_to_char( ch, "{c%s {x", buf1);
+
+					if(cLoop == 5)
+						printf_to_char(ch, "\n\r               ");
+				}
+				send_to_char("\n\r", ch);
+				break;
+			case CLAN_WORTH:
+				printf_to_char(ch, "{c%s %9d %9d %9d %9d %9d %9d \n\r",
+					buf, cIndex->clan_gold, cIndex->clan_silver,
+					cIndex->clan_shares[1], cIndex->clan_shares[2],
+					cIndex->clan_shares[3], cIndex->clan_shares[4]);
+				break;
+			case CLAN_NAMES:
+				short_name = format_str_len(cIndex->short_name, 12);
+				strcpy(buf1, short_name);
+				
+				long_name = format_str_len(cIndex->long_name, 25);
+				strcpy(buf2, long_name);
+				
+				rank_name = format_str_len(cIndex->clan_diety, 12);
+				strcpy(buf3, rank_name);
+				
+				if(IS_IMMORTAL(ch))
+				{
+					printf_to_char(ch, "{m%3d {c%s %s %s {D%s {W%5d{x\n\r",
+						cIndex->clan_number, buf1, buf2, buf, buf3,
+						cIndex->clan_recall_vnum);
+				}
+				else
+				{
+					printf_to_char(ch, "{m%3d {c%s %s %s {D%s{x\n\r",
+						cIndex->clan_number, buf1, buf2, buf, buf3);
+				}
+				break;
+			default:
+				send_to_char("That is not a valid selection!", ch);
+				return;
+		}
+
+ 	}
+
+	return;
+}
+
+void do_clanwho( CHAR_DATA *ch, char *argument )
+{
+	SHOW_CLAN_INFO( ch, CLAN_WHO );
+	return;
+}
+
+void do_clanrules( CHAR_DATA *ch, char *argument )
+{
+	SHOW_CLAN_INFO( ch, CLAN_RULES );
+	return;
+}
+
+void do_clanleaders( CHAR_DATA *ch, char *argument )
+{
+	SHOW_CLAN_INFO( ch, CLAN_LEADER );
+	return;
+}
+
+void do_clanranks( CHAR_DATA *ch, char *argument )
+{
+	SHOW_CLAN_INFO( ch, CLAN_RANKS );
+	return;
+}
+
+void do_clannames( CHAR_DATA *ch, char *argument )
+{
+	SHOW_CLAN_INFO( ch, CLAN_NAMES );
+	return;
+}
+
+/* end of clan show commands */
+
+
+/* petition, accept, decline, leader, advance can all be done off line */
+void do_petition( CHAR_DATA *ch, char *argument )
+{
+	char arg[MSL];
+	CLAN_PETITION *cpIndex;
+
+	if(IS_NPC(ch))
+	{
+		send_to_char("{RWhy would a mob petition a clan?{x", ch);
+		return;
+	}
+
+	argument = one_argument( argument, arg );
+
+	if(arg[0] == '\0')
+	{
+		send_to_char("{RPetition what clan for enterance?{x", ch);
+		return;
+	}
+
+	if(!clan_lookup(arg))
+	{
+		send_to_char("{RThat is not a clan!{x", ch);
+		return;
+	}
+
+	for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+	{
+		if(!str_cmp( cpIndex->Player_Name, ch->name))
+		{
+			send_to_char("{RYou have already petitioned a clan!{x", ch);
+			return;
+		}
+	}
+
+	CPptr = malloc(sizeof(struct clan_petition));
+
+	CPptr->Player_Name = ch->name;
+	CPptr->Clan_Name = arg;
+	CPptr->Accept = CP_WAITING;
+	CPptr->Message = argument;
+	CPptr->Return_Message = '\0';
+
+	AppendPetition(CPptr);
+	save_petition();
+
+	return;
+}
+
+void do_clanaccept( CHAR_DATA *ch, char *argument )
+{
+	char arg[MSL];
+	CLAN_PETITION *cpIndex;
+
+	if(IS_NPC(ch))
+	{
+		send_to_char("{RNPC can not accept or decline clan members!{x\n\r", ch);
+		return;
+	}
+
+	if(ch->cid->clan_number == 0)
+	{
+		send_to_char("{RYou are not in a clan{x\n\r", ch);
+		return;
+	}
+	
+	if(!is_clan_leader(ch->name, ch->cid))
+	{
+		send_to_char("{RYou are not the leader of a clan.{x\n\r", ch);
+		return;
+	}
+
+	argument = one_argument( argument, arg );
+	if(arg[0] == '\0')
+	{
+		send_to_char("{RAccept who?{x\n\r", ch);
+		return;
+	}
+
+	for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+	{
+		if(!str_cmp( cpIndex->Player_Name, arg))
+		{
+			if(!str_cmp( cpIndex->Clan_Name, ch->cid->short_name))
+			{
+				send_to_char("{RThey have not requested to join you!{x\n\r", ch);
+				return;
+			}
+			cpIndex->Leader_Name    = ch->name;
+			cpIndex->Time_Stamp     = (int) (current_time);
+			cpIndex->Return_Message = argument;
+			cpIndex->Accept         = CP_ACCEPT;
+			return;
+		}
+	}
+
+	send_to_char("{RThey have not requested to join you!{x\n\r", ch);
+	return;
+}
+
+void do_clandecline( CHAR_DATA *ch, char *argument )
+{
+	char arg[MSL];
+	CLAN_PETITION *cpIndex;
+
+	if(IS_NPC(ch))
+	{
+		send_to_char("{RNPC can not accept or decline clan members!{x\n\r", ch);
+		return;
+	}
+
+	if(ch->cid->clan_number == 0)
+	{
+		send_to_char("{RYou are not in a clan{x\n\r", ch);
+		return;
+	}
+	
+	if(!is_clan_leader(ch->name, ch->cid))
+	{
+		send_to_char("{RYou are not the leader of a clan.{x\n\r", ch);
+		return;
+	}
+
+	argument = one_argument( argument, arg );
+	if(arg[0] == '\0')
+	{
+		send_to_char("{RAccept who?{x\n\r", ch);
+		return;
+	}
+
+	for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+	{
+		if(!str_cmp( cpIndex->Player_Name, arg))
+		{
+			if(!str_cmp( cpIndex->Clan_Name, ch->cid->short_name))
+			{
+				send_to_char("{RThey have not requested to join you!{x\n\r", ch);
+				return;
+			}
+			cpIndex->Leader_Name    = ch->name;
+			cpIndex->Time_Stamp     = (int) (current_time);
+			cpIndex->Return_Message = argument;
+			cpIndex->Accept         = CP_DECLINE;
+			return;
+		}
+	}
+
+	send_to_char("{RThey have not requested to join you!{x\n\r", ch);
+	return;
+}
+
+void do_clantalk( CHAR_DATA *ch, char *argument )
+{
+    DESCRIPTOR_DATA *d;
+
+    if ( argument[0] == '\0' )
+    {
+      if (IS_SET(ch->comm,COMM_NOCLAN))
+      {
+		send_to_char("{wClan {Gchannel is now {RON{x\n\r",ch);
+		REMOVE_BIT(ch->comm,COMM_NOCLAN);
+      }
+      else
+      {
+		send_to_char("{wClan {Gchannel is now {ROFF{x\n\r",ch);
+		SET_BIT(ch->comm,COMM_NOCLAN);
+      }
+      return;
+    }
+
+    REMOVE_BIT(ch->comm,COMM_NOCLAN);
+
+    act_new("{y#{W$n{y#{c: $t{x",ch,argument,NULL,TO_CHAR,POS_DEAD);
+
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+		if ( d->connected == CON_PLAYING &&
+			d->character->clan == ch->clan &&
+            !IS_SET(d->character->comm,COMM_NOCLAN) 
+			&& !IS_NPC(d->character) )
+		{
+		    act_new("{y#{W$n{y#{c: $t{x",ch,argument,d->character,TO_VICT,POS_DEAD);
+		}
+    }
+
+	return;
+}
+
+void do_cadvance( CHAR_DATA *ch, char *argument )
+{
+	char arg[MSL];
+	CLAN_PETITION *cpIndex;
+
+	if(IS_NPC(ch))
+	{
+		send_to_char("{RNPC can not accept or decline clan members!{x\n\r", ch);
+		return;
+	}
+
+	if(ch->cid->clan_number == 0)
+	{
+		send_to_char("{RYou are not in a clan{x\n\r", ch);
+		return;
+	}
+	
+	if(!is_clan_leader(ch->name, ch->cid))
+	{
+		send_to_char("{RYou are not the leader of a clan.{x\n\r", ch);
+		return;
+	}
+
+	argument = one_argument( argument, arg );
+	if(arg[0] == '\0')
+	{
+		send_to_char("{RAdvance who?{x\n\r", ch);
+		return;
+	}
+
+	for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+	{
+	}
+
+	return;
+}
+
+void do_clanleader( CHAR_DATA *ch, char *argument )
+{
+	char arg[MSL];
+	CLAN_PETITION *cpIndex;
+
+	if(IS_NPC(ch))
+	{
+		send_to_char("{RNPC can not accept or decline clan members!{x\n\r", ch);
+		return;
+	}
+
+	if(ch->cid->clan_number == 0)
+	{
+		send_to_char("{RYou are not in a clan{x\n\r", ch);
+		return;
+	}
+	
+	if(!is_clan_leader(ch->name, ch->cid))
+	{
+		send_to_char("{RYou are not the leader of a clan.{x\n\r", ch);
+		return;
+	}
+
+	argument = one_argument( argument, arg );
+	if(arg[0] == '\0')
+	{
+		send_to_char("{RMake who a clan leader?{x\n\r", ch);
+		return;
+	}
+
+	for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+	{
+	}
+		
+	return;
+}
+
+void do_clanlist( CHAR_DATA *ch, char *argument )
+{
+	char arg[MSL];
+	CLAN_PETITION *cpIndex;
+
+	if(IS_NPC(ch))
+	{
+		send_to_char("{RWhy would a mob list petitions to a clan?{x", ch);
+		return;
+	}
+
+	if(ch->cid->clan_number == 0)
+	{
+		send_to_char("{RYou are not in a clan{x", ch);
+		return;
+	}
+	
+	if(!is_clan_leader(ch->name, ch->cid))
+	{
+		send_to_char("{RYou are not the leader of a clan.", ch);
+		return;
+	}
+	
+	argument = one_argument( argument, arg );
+	if(arg[0] == '\0')
+		printf_to_char(ch, "{GPlayer          Message\n\r");
+	else
+		printf_to_char(ch, "{G# Player          Message\n\r");
+	
+	for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+	{
+		char const *IName;
+		char buf[MSL];
+
+		if(ch->cid->short_name == cpIndex->Clan_Name
+			&& cpIndex->Accept == CP_WAITING)
+		{
+			IName = format_str_len( cpIndex->Player_Name, 15 );
+			strcpy( buf, IName );
+
+			if(arg[0] == '\0')
+			{
+				printf_to_char(ch, "%s %s\n\r", buf, cpIndex->Message);
+			}
+			else
+			{
+				printf_to_char(ch, "%1d %s %s\n\r", cpIndex->Accept, buf, cpIndex->Message);
+			}
+		}
+	}
+
+	if(arg[0] == '\0')
+		printf_to_char(ch, "These are the clan petitions still open\n\r");
+	else
+	{
+		printf_to_char(ch, "These are all the clan petitions with status\n\r");
+		printf_to_char(ch, "Status 0-Open (Not confirmed status 1&2) 1-Accepted, 2-Declined\n\r");
+		printf_to_char(ch, "       4-confirmed status\n\r");
+	}
+
+	return;
+}
+
+ /*******************************BACK END FUNCTIONS FOR CLAN***********************/
+ /*
+  * ==CLAN HAANDLING==
+  *
+  * Clans are read into a linked list in this way allowing us to have a more 
+  * flexable clan system than otherwise permitted.
+  *
+  * update_clan    - is used to write the clan info back to the clan file.
+  *                  it will be called with some regularity from the program 
+  *                  itself but is highly recommended to call it when a new
+  *                  clan has been added!
+  * fwrite_clan    - is used to write the clan record
+  * load_clans     - reads the clan list and loads all clans in the list
+  * load_clan      - loads a clan sheet into clan_data index
+  * AppendClan     - adds to the clan index
+  *
+  * ==PETITION==
+  * To handle petitions and leader/advance commands
+  * The petitions system is used so players can be offline and still be accepted
+  * or declined clan membership and has been adapted to allow for clan advance
+  * and clan leader statuses. A leader can also declan or remove a member in the
+  * same offline fashion.
+  *
+  * load_petition  - loads the clan petition file
+  * save_petition  - saves the petition file
+  * AppendPetition - appends to the petition table
+  *
+  * ==UTILITIES==
+  *
+  * is_clan_leader - Is the player a clan leader?
+  */
+void update_clan()
+{
+
+    char clansave[MAX_INPUT_LENGTH];
+    FILE *fp;
+	/* clan data structure pointer */
+	CLAN_DATA *cIndex;
+
+	/* loop through clans save clan list */
+    if ( ( fp = fopen( CLAN_LIST, "w" ) ) == NULL )
+    {
+		bug( "Save_clan_list: fopen", 0 );
+		perror( clansave );
+    }
+    else
+    {
+		for(cIndex=CLhead; cIndex != NULL; cIndex=cIndex->CLnext)
+		{
+			fprintf( fp, "%s.cln\n", cIndex->short_name);
+	    }
+	    fprintf( fp, "$\n");
+
+		fclose( fp );
+		fclose( fpReserve );
+
+	}
+
+	/* loop through clans save each clan */
+	for(cIndex=CLhead; cIndex != NULL; cIndex=cIndex->CLnext)
+	{
+	    sprintf( clansave, "%s%s.cln", CLAN_DIR, capitalize( cIndex->short_name ) );
+
+	    if ( ( fp = fopen( clansave, "w" ) ) == NULL )
+	    {
+			bug( "Save_clan_obj: fopen", 0 );
+			perror( clansave );
+	    }
+	    else
+	    {
+			fwrite_clan( cIndex, fp );
+			fprintf( fp, "#$\n" );
+	    }
+	    fclose( fp );
+	    fclose( fpReserve );
+
+	}
+
+	return;
+}
+
+void fwrite_clan( CLAN_DATA *CLptr, FILE *fp )
+{
+	int Loop;
+
+	fprintf( fp, "#CLAN\n" );
+	fprintf( fp, "SName %s~\n", CLptr->short_name);
+	fprintf( fp, "LName %s~\n", CLptr->long_name);
+	fprintf( fp, "DName %s~\n", CLptr->display_name);
+	fprintf( fp, "NoMbr %d\n", CLptr->mbr);
+	fprintf( fp, "MxMbr %d\n", CLptr->maxmbr);
+
+	if(CLptr->founded == 0)
+		fprintf( fp, "Found %d\n", (int) (current_time));
+	else
+		fprintf( fp, "Found %d\n", (int) CLptr->founded);
+
+	fprintf( fp, "PKill %ld\n", CLptr->pk_kills);
+	fprintf( fp, "PDead %ld\n", CLptr->pk_deaths);
+	fprintf( fp, "CHall %d\n", CLptr->clan_hall);
+	fprintf( fp, "CStor %d\n", CLptr->clan_store);
+	fprintf( fp, "MinAl %d\n", CLptr->min_align);
+	fprintf( fp, "MaxAl %d\n", CLptr->max_align);
+	fprintf( fp, "FrcAl %d\n", CLptr->force_align);
+	fprintf( fp, "ClnPk %d\n", CLptr->clan_pk);
+	fprintf( fp, "MinLv %d\n", CLptr->min_level);
+	fprintf( fp, "RmtEx %d\n", CLptr->remort_exempt);
+	fprintf( fp, "RmtOn %d\n", CLptr->remort_only);
+	fprintf( fp, "CVnum %ld\n", CLptr->clan_recall_vnum);
+	fprintf( fp, "#Rank %d\n", CLptr->ranks);
+
+	fprintf( fp, "RName ");
+	for(Loop = 0; Loop <= MAX_CLAN_RANK; Loop++)
+	{
+		fprintf( fp, "%s~\n", CLptr->rank_names[Loop]);
+	}
+
+	fprintf( fp, "Leadr ");
+	for(Loop = 0; Loop <= MAX_CLAN_LEADER; Loop++)
+	{
+		fprintf( fp, "%s~\n", CLptr->leader[Loop]);
+	}
+
+	fprintf( fp, "CClos %d\n", CLptr->clan_closed);
+	fprintf( fp, "Clan# %d\n", CLptr->clan_number);
+	fprintf( fp, "CGold %ld\n", CLptr->clan_gold);
+	fprintf( fp, "CSilv %ld\n", CLptr->clan_silver);
+
+	fprintf( fp, "CShar");
+	for(Loop = 1; Loop <= NO_SHARES; Loop++)
+	{
+		fprintf( fp, " %ld", CLptr->clan_shares[Loop]);
+	}
+	fprintf( fp, "\n");
+
+	fprintf( fp, "ClGod %s~\n", CLptr->clan_diety);
+
+}
+
+/*
+ * Read in all Clans into Clan Table
+ * load only at startup
+ */
+void load_clans()
+{
+    /*
+     * Read in all the races files.
+     */
+	char buf[MSL];
+	char ClanSave[MSL];
+
+	{
+		FILE *fpList;
+
+		log_string("Loading Clan File");
+		if ( ( fpList = fopen( CLAN_LIST, "r" ) ) == NULL )
+		{
+		    perror( CLAN_LIST );
+		    exit( 1 );
+		}
+
+		/*
+		 * Loop through the race files reading the list of races
+		 */
+		for ( ; ; )
+		{
+		    strcpy( strClan, fread_word( fpList ) );
+		    if ( strClan[0] == '$' )
+				break;
+
+			sprintf(ClanSave, "%s%s",CLAN_DIR, strClan);
+
+			/* 1227 show clan debug */
+			if ((SHOW_CLAN == 'Y') || (SHOW_CLAN == 'y'))
+			{
+				sprintf(buf, "Clan File load for %s file is %s", strClan, ClanSave);
+				log_string( buf );
+			}
+
+		    if ( strClan[0] == '-' )
+		    {
+				fpClan = stdin;
+		    }
+		    else
+		    {
+				if ( ( fpClan = fopen( ClanSave, "r" ) ) == NULL )
+				{
+				    perror( ClanSave );
+				    exit( 1 );
+				}
+			}
+
+			/*
+			 * each clan read through the individual clan files
+			 * CLAN  - contains information pertaining to CLANS
+			 */
+		    for ( ; ; )
+		    {
+			    char *word;
+
+				/*
+				 * unknown section
+				 */
+				if ( fread_letter( fpClan ) != '#' )
+				{
+					sprintf(buf, "Boot_clan: # not found. Letter in error is %s", fread_string(fpClan));
+				    bug( buf, 0 );
+				    exit( 1 );
+				}
+
+				word = fread_word( fpClan );
+
+				     if ( word[0] == '$'               )                 break;
+				else if ( !str_cmp( word, "CLAN"     ) ) load_clan 		(fpClan);
+				else
+				{
+					sprintf(buf, "Boot_clan: bad section name. Word in error is %s", word);
+				    bug( buf, 0 );
+				    exit( 1 );
+				}
+		    }
+
+		    if ( fpClan != stdin )
+				fclose( fpClan );
+
+		    fpClan = NULL;
+		}
+
+		fclose( fpList );
+	}
+	
+	log_string( "Loading Petition File" );
+	load_petition();
+
+    return;
+}
+
+/*
+ * load PC Race information
+ * name, creation points, and class multipliers
+ * skills and stats
+ */
+void load_clan( FILE *fp )
+{
+	char	*word;
+	int		Loop;
+
+	CLptr = malloc(sizeof(struct clan_data));
+
+	word = fread_word( fp );
+	CLptr->short_name = fread_string( fp );
+
+	if (!str_cmp(CLptr->short_name,"Null"))
+		CLnull = CLptr;
+
+	word = fread_word( fp );
+	CLptr->long_name = fread_string( fp );
+
+	word = fread_word( fp );
+	CLptr->display_name = fread_string( fp );
+
+	word = fread_word( fp );
+	CLptr->mbr = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->maxmbr = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->founded = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->pk_kills = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->pk_deaths = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->clan_hall = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->clan_store = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->min_align = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->max_align = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->force_align = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->clan_pk = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->min_level = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->remort_exempt = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->remort_only = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->clan_recall_vnum = fread_long_number( fp );
+
+	word = fread_word( fp );
+	CLptr->ranks = fread_number( fp );
+
+	word = fread_word( fp );
+	for(Loop = 0; Loop <= MAX_CLAN_RANK; Loop++)
+	{
+		CLptr->rank_names[Loop] = fread_string( fp );
+	}
+
+	word = fread_word( fp );
+	for(Loop = 1; Loop <= MAX_CLAN_LEADER; Loop++)
+	{
+		CLptr->leader[Loop] = fread_string( fp );
+	}
+
+	word = fread_word( fp );
+	CLptr->clan_closed = fread_number( fp );
+
+	word = fread_word( fp );
+	CLptr->clan_number = fread_number( fp );
+	CLAN_LAST_NUMBER = CLptr->clan_number;
+
+	word = fread_word( fp );
+	CLptr->clan_gold = fread_long_number( fp );
+
+	word = fread_word( fp );
+	CLptr->clan_silver = fread_long_number( fp );
+
+	word = fread_word( fp );
+	for(Loop = 1; Loop <= NO_SHARES; Loop++)
+	{
+		CLptr->clan_shares[Loop] = fread_long_number( fp );
+	}
+
+	word = fread_word( fp );
+	CLptr->clan_diety = fread_string( fp );
+
+	AppendClan( CLptr);
+
+	return;
+}
+
+/*
+ * Append to Clan Linked List
+ */
+void AppendClan(CLAN_DATA *CLptr)
+{
+
+   if (CLhead == NULL)
+   {
+      CLhead = CLptr;
+      CLptr->CLprev = NULL;
+   }
+   else
+   {
+      CLtail->CLnext = CLptr;
+      CLptr->CLprev = CLtail;
+   }
+
+   CLtail = CLptr;
+   CLptr->CLnext = NULL;
+
+   return;
+}
+
+void load_petition(  )
+{
+	char	*word;
+	FILE	*fp;
+
+	if ( ( fp = fopen( CLAN_PETITION_LIST, "r" ) ) == NULL )
+	{
+	    perror( CLAN_PETITION_LIST );
+	    exit( 1 );
+	}
+
+	for (;;)
+	{
+		word = fread_word( fp );
+		
+		if(word[0] == '$')
+			return;
+	
+		CPptr = malloc(sizeof(struct clan_petition));
+
+		CPptr->Player_Name = fread_string( fp );
+		CPptr->Clan_Name = fread_string( fp );
+		CPptr->Accept = fread_number( fp );
+		CPptr->Message = fread_string( fp );
+		CPptr->Return_Message = fread_string( fp );
+		CPptr->Leader_Name = fread_string( fp );
+		CPptr->Time_Stamp = fread_long_number( fp );
+	
+		AppendPetition( CPptr );
+	}
+
+	return;
+}
+
+/*
+ * Append to Clan Linked List
+ */
+void AppendPetition(CLAN_PETITION *CPptr)
+{
+
+   if (CPHead == NULL)
+   {
+      CPHead = CPptr;
+      CPptr->CPprev = NULL;
+   }
+   else
+   {
+      CPTail->CPnext = CPptr;
+      CPptr->CPprev = CPTail;
+   }
+
+   CPTail = CPptr;
+   CPptr->CPnext = NULL;
+
+   return;
+}
+
+void save_petition()
+{
+
+    FILE *fp;
+	CLAN_PETITION *cpIndex;
+
+	/* loop through clans save clan list */
+    if ( ( fp = fopen( CLAN_PETITION_LIST, "w" ) ) == NULL )
+    {
+		bug( "Save_clan_petition_list: fopen", 0 );
+		perror( CLAN_PETITION_LIST );
+    }
+    else
+    {
+		for(cpIndex=CPHead; cpIndex != NULL; cpIndex=cpIndex->CPnext)
+		{
+			fprintf( fp, "#\n" );
+			fprintf( fp, "%s~\n", cpIndex->Player_Name);
+			fprintf( fp, "%s~\n", cpIndex->Clan_Name);
+			fprintf( fp, "%d\n",  cpIndex->Accept);
+			fprintf( fp, "%s~\n", cpIndex->Message);
+			fprintf( fp, "%s~\n", cpIndex->Return_Message);
+			fprintf( fp, "%s~\n", cpIndex->Leader_Name);
+			fprintf( fp, "%ld\n", cpIndex->Time_Stamp);
+	    }
+	    fprintf( fp, "$\n");
+
+		fclose( fp );
+
+	}
+
+	return;
+}
+
+int is_clan_leader(char *name, CLAN_DATA *cIndex)
+{
+	int Loop;
+	
+	for(Loop = 0; Loop <= MAX_CLAN_LEADER; Loop++)
+	{
+		if(!str_cmp(name, cIndex->leader[Loop]))
+		{
+			return 1;
+		}
+	}
+
+	return 0;
+}

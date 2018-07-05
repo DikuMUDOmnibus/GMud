@@ -1,0 +1,30 @@
+#RACE
+sylvan~
+Sylv~
+5
+100 125 100 150 125 125 
+sneak~
+hide~
+~
+~
+~
+10 10 10 10 10
+15 22 27 18 18
+2
+11
+10300
+10300
+
+#INFO
+NAME sylvan~
+PCRACE 1
+ACT 0
+AFF J
+OFF 0
+IMM 0
+RES B
+VULN 0
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

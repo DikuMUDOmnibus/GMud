@@ -1,0 +1,63 @@
+#HELPS
+0 GNOME~
+gnome is medium in stature
+
+EYE: COLOR: Brown or Black 
+HAIR: COLOR: Brown or Black 
+HEIGHT: 3'6 to 4'3 
+WEIGHT: 72lbs average 
+OTHER FEATURES: 
+BUILD: Short 
+
+HISTORY: 
+Kin to dwarves, gnomes are noticeably smaller than their distant cousins. Gnomes, as they proudly 
+maintain, are also less rotund than dwarves. Their noses, however, are significantly larger. Most 
+gnomes have dark tan or brown skin and white hair. A typical gnome lives for 350 years. 
+Gnomes have lively and sly senses of humor, especially for practical jokes. They have a great love of 
+living things and finely wrought items, particularly gems and jewelry. Gnomes love all sorts of 
+precious stones and are masters of gem polishing and cutting. 
+
+Gnomes prefer to live in areas of rolling, rocky hills, well wooded and uninhabited by humans. Their 
+diminutive stature has made them suspicious of the larger races--humans and elves--although they are 
+not hostile. They are sly and furtive with those they do not know or trust, and somewhat reserved even 
+under the best of circumstances. Dwelling in mines and burrows, they are sympathetic to dwarves, but 
+find their cousins' aversion to surface dwellers foolish. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 17 Int 17 Wis 18 Dex 19 Con 18
+TRAINING POINTS TO START 14
+
+SPECIAL ABILITIES: 
+~
+0 $~
+
+#RACE
+gnome~
+Gnome~
+7
+120 120 100 120 120 120 
+~
+~
+~
+~
+~
+10 10 10 10 10
+17 19 22 18 24
+2
+11
+10700
+10700
+
+#INFO
+NAME gnome~
+PCRACE 1
+ACT 0
+AFF 0
+OFF 0
+IMM 0
+RES L
+VULN C
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

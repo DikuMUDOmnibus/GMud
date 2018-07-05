@@ -1,0 +1,64 @@
+#HELPS
+0 TIGRIAT~
+tigriat are of medium stature
+
+EYE: COLOR:Green, Yellow 
+HAIR: COLOR:  Range from light Yellow to Brownish Red 
+HEIGHT: 5'9" to 6'6" 
+WEIGHT: 160lbs average 
+OTHER FEATURES: Claws, tail 
+BUILD: Lean 
+
+HISTORY: 
+Tigriat have spotted coats ranging in color from light yellow to brownish red. These graceful feline 
+humanoids are tall and slender, with retractable claws, and eyes of green or yellow. 
+
+Tigriat are reclusive and avoid other intelligent beings, even other tabaxi clans. They do not engage 
+in trade, which they consider demeaning, but some few have agents who trade for them. Tigriat speak 
+their own ancient language. Legends tell of a great tabaxi civilization that was supplanted by other 
+races. 
+
+Tigriat have few natural enemies. For food, they prefer the boar-like peccaries and huge rodents 
+called capybaras; only a very degenerate clan attacks members of another intelligent species for food. 
+Tigriat are sometimes hunted for their pelts, worth up to 250 gp each. Their skins and claws are also 
+useful in some types of natural magic. 
+
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 18 Int 18 Wis 16 Dex 21 Con 17 
+TRAINING POINTS TO START 18
+
+SPECIAL ABILITIES: haste
+~
+0 $~
+
+#RACE
+tigriat~
+Tig~
+8
+100 120 100 100 120 110 
+haste~
+~
+~
+~
+~
+10 10 10 10 10
+22 16 16 24 22
+3
+11
+10700
+10700
+
+#INFO
+NAME tigriat~
+PCRACE 1
+ACT 0
+AFF FJ
+OFF FHM
+IMM 0
+RES B
+VULN Y
+FORM AHMV
+PARTS ABCDEFGHIJKQUV
+REML 0
+#$

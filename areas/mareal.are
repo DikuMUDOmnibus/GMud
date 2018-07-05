@@ -1,0 +1,5026 @@
+#AREA
+mareal~
+City of Mareal~
+{G{{  50+  } {WTaka        {GCity of Mareal~
+40100 40399
+
+#HELPS
+0 City Mareal~
+.
+ 
+ The City of Mareal-
+
+      Western             |
+      Mareal -------------|---OMedical Circle Shops
+                          |                                 ---Lost Souls Lane-
+                          Northern Way      Bone            |
+                          |                 Yard            |
+                          |----Park Ave---------------------|
+                 Grocer---|                                 |
+                          |    CITY PARK                    |
+Guilds     Bank           |             (City hall plaza)   |
+  |         |             |            /                    |
+---------Temple Street----------Park Street----------------------
+  |                       |                 |      |        |
+Temple                    Merchant Lane    Maps  Bakery     |Park Road
+   \                      |                                 |
+    \             Armor   |   Jewelry                       |
+    Morgue        Shop ---|---Emporium                      |
+                          |                                 |
+                          |                                 |
+                 Weapon   |   Weapon                        |
+                 Castle---|---Smithing                      |
+                          |                                 |
+                          |                                 |
+                 Pierce   |---ATM                           |
+      Alchemist  Shop     |                                 |
+         |       |        |   Weapon                        |
+  Import ----Exotic Blvd------Palace                        |
+  Shop   |                |              Blakes             |
+       Magic              |              Tavern             |
+       Shop               |                 |               |
+                          |_____Great Southern Wall Road____|__
+         
+
+SEE ALSO HELP 'CITY HALL PLAZA'
+
+By Taka 
+~
+
+0 City hall plaza~
+.
+  The City Hall Plaza of Mareal-
+
+
+                                    Chiefs office
+                                        |
+                                        |
+  --------------------------------------Police ----- Equipment
+  |                             |       Receotion    Room        
+  |                             |       | 
+City hall                       |       |
+Reception (-) mayors            |       Processing
+              office            |       Room ------- Jail
+                                |
+                                |
+Hospital ------------------------                                
+           |
+           |
+           |  Sleeping Quarters
+           | /
+      Fire Station        Store
+      Enterance --------- Room
+          
+By Taka
+~
+
+0 QUEST~
+
+Wizard peak you figure it out
+~
+
+0 $~
+
+
+#MOBILES
+#40100
+rat~
+a rat~
+A large rat scuttles past.
+~
+A large dirty rat with long sharp teeth stands hissing at you in defiance! 
+~
+unique~
+AC X 0 0
+48 0 15d10+1850 0d0+0 4d8+13 bite
+-13 -13 -13 -13
+H Q 0 0
+stand stand none 3
+V ABCDEFKQ tiny unknown
+#40101
+cat~
+a cat~
+A mangy cat jumps down from a wall. 
+~
+A mangy cat hisses at your approach. Its malnourished nature tells you
+that the cat obviously has no one to care for it. It must be a stray and
+therefore maybe rabid. 
+~
+cat~
+A Z 0 0
+49 0 50d10+4000 0d0+0 4d10+18 scratch
+-19 -19 -19 -19
+FH 0 0 0
+stand stand none 4
+AGV ACDEFHJKQUV tiny unknown
+#40102
+dog mongrel~
+a mongrel dog~
+A mongrel dog sniffs about looking for scraps.
+~
+A large dog of mixed breeding that has apparently not eaten in a few days
+bares its teeth and in a low rumble growls at you. Maybe you will make a
+good meal! 
+~
+dog~
+A 0 0 0
+50 0 50d10+4500 0d0+0 5d8+19 bite
+-20 -20 -20 -20
+H 0 0 0
+stand stand none 9
+AGV ACDEFHJKUV tiny unknown
+#40103
+young boy~
+a young boy~
+A young boy plays here.
+~
+A young boy skips along paying you little attention. As you pass he
+glances at you only momentarily and returns to his youthful nonsense. 
+~
+human~
+A 0 1000 0
+52 0 50d10+5500 0d0+0 6d7+20 none
+-22 -22 -22 -22
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK small unknown
+#40104
+young girl~
+a young girl~
+A young girl hops across the paving stones. 
+~
+A young girl plays hopscotch here and barely even recognizes your presence. 
+~
+human~
+A 0 0 0
+51 0 50d10+5000 0d0+0 5d8+20 none
+-21 -21 -21 -21
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK small unknown
+#40105
+methan~
+methan the healer~
+Methan the healer stands watching you gravely. 
+~
+Methan is the healer here in Mareal. He is kind and generous to newcomers.
+Casting many spells for a small fee. Use heal to see a complete list of
+services and the associated pricing. 
+~
+oyate~
+ABGVa J 0 0
+110 0 500d50+5000 500d50+5000 25d25+25 none
+-100 -100 -100 -100
+0 ABCDEKLMNOPQRSTZ BHIL 0
+stand stand male 32000
+AHMV ABCDEFGHIJK medium unknown
+#40106
+maria~
+maria the teller~
+Maria the bank teller looks out from the grilled counter. 
+~
+Maria is a slender woman with striking facial features. Her smile alone
+calms you and even the long lines in the bank seem a distant memory. 
+~
+halfelf~
+ABDc DEFHJ 1000 0
+110 10 100d10+32000 100d10+30000 20d15+55 punch
+-80 -80 -80 -80
+0 ABCD BHIL 0
+stand stand female 32000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40157 100~
+M speech 40158 help~
+M speech 40159 transfer~
+M speech 40160 deposit~
+M speech 40161 withdraw~
+M speech 40162 shares~
+M speech 40163 conversion~
+M speech 40163 convert~
+#40107
+melse~
+melse the baker looks up as you enter.~
+Melse the baker 
+~
+Melse is a plump, happy woman who seems to enjoy her work. In more ways
+than one. You wonder if she eats all her profits but quickly turn your
+attention to the delicious pastries and breads that are everywhere you 
+look.
+~
+human~
+AB 0 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDELMNQR 0 0
+stand stand female 32000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40100 100~
+#40108
+amids~
+amids the armoire~
+Amids the armoire ts straightening a bent shield with a hammer.
+~
+Amids is extremely tall. He looks Oyate but you have never seen one this
+tall before. Contrary to generalizations he is very large framed also. 
+Where most oyate are muscular, they are also generally more slender. This 
+man has aged well but you can tell he must be at least 50. His battle 
+scarred arms and face are a testament that he more than just makes armor 
+but also has practical battle experience in its application. 
+~
+oyate~
+AB J 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDELMNQR BHIL 0
+stand stand male 32000
+AHMV ABCDEFGHIJK large unknown
+M grall 40102 100~
+M speech 40103 buy~
+M speech 40104 sell~
+#40109
+arron~
+arron the jeweler~
+Arron the jeweler is examining a bracelet carefully. 
+~
+Arron the local jeweler has a petite look about him. He is very thin and
+appears frail but by the way he moves he must have training in hand to 
+hand combat skills. He is as graceful as a gazelle and sure footed as a 
+mountain goat. 
+~
+drow~
+AB FJ 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDMNQRTZ 0 0
+stand stand male 32000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40134 100~
+#40110
+alfreda~
+alfreda the smith~
+Alfreda the smith is pumping away at her furnace bellows. 
+~
+Alfreda carries a hammer as if it were part of her hand. She is sure and
+confident and carries herself as would a veteran warrior. Her muscles 
+bulge beneath her apron and you can tell she is as strong as she is 
+talented. She is after all a dwarf and we know how skilled they are at 
+forging powerful weapons. 
+~
+dwarf~
+AB J 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDMNQRTZ LQ R
+stand stand female 32000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40120 100~
+M speech 40121 closed~
+M speech 40121 why~
+#40111
+kalied~
+kalied the weapons dealer~
+Kalied the weapons dealer stands at your service. 
+~
+Kalied is one of two weapons dealers in town. He and his twin brother
+Khalied basically control the influx of weapons into Mareal. 
+~
+human~
+AB 0 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDLMNQRTZ 0 0
+stand stand male 32000
+AHMV ABCDEFGHIJK medium unknown
+M speech 40135 bladed~
+M grall 40136 100~
+M speech 40137 buy~
+#40112
+khalied~
+khalied the weapons dealer~
+Khalied the weapons dealer looks up as you enter. 
+~
+Khalied is one of two weapons dealers in town. He and his twin brother
+Kalied basically control the influx of weapons into Mareal. 
+~
+human~
+AB 0 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDLMNQRTZ 0 0
+stand stand male 32000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40136 100~
+M speech 40137 buy~
+M exall 40138 3~
+#40113
+Miya~
+Miya~
+Miya waits to serve. 
+~
+Miya is a slender woman with midriff visible to show off her pierced
+naval. She also wears earrings, nose ring, and a lip piercing with pride.
+She asks "Looking for anything in particular?" 
+~
+human~
+AB 0 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDLMNQRZ 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+M grall 40148 100~
+M speech 40149 yes~
+M speech 40150 no~
+#40114
+zal~
+zal the importer~
+Zal the importer can just be seen over piles of goods. 
+~
+Zal is a man of average build for a dwarf. Thats right a dwarf! Your mind
+races wondering what would posses a dwarf to go into importing. That 
+would mean lots of travel... BY BOAT! After the initial shock wears off 
+you are struck by the array of items he has for sale. 
+~
+gnome~
+AB J 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDELMNQRTYZ LQ CR
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+M grall 40154 20~
+M grall 40155 100~
+M speech 40156 junk~
+#40115
+adamson~
+adamson the alchemist~
+Adamson the alchemist sends you a piercing glance as you enter. 
+~
+Adamson is the local alchemist and likes his privacy as well as darkness.
+Upon closer inspection you think you see a fang benieth his uneasy smile.
+Even his words seem heartless perhaps it is best you complete your 
+business quickly and make for the door before you become an ingredient 
+he needs! 
+~
+vampire~
+AB JT 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+FH ABCDLMNQRT B HNSY
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+M grall 40151 100~
+#40116
+rethven~
+doctor Rethven~
+Doctor Rethven is hoping you want a major extraction.
+~
+Dressed in his slightly blood stained white coat Dr. Rethven looks quite
+friendly.. *cough NOT*. You are glad you do not have to sit in his 
+dentist chair.. Or do you? 
+~
+human~
+AB 0 -1000 0
+110 0 50d10+9500 0d0+0 8d6+28 slice
+-30 -30 -30 -30
+0 ABCDGLMQRZ 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium unknown
+M act 40116 sits down~
+#40117
+abrahm~
+doctor Abrahm~
+Doctor Abrahm springs up as you enter.
+~
+Doctor Abrahm is an elf who has taken up optometry as a mental pursuit.
+Like most elves Doctor Abrahm prefers a mental challenge to a physical
+one. Although he looks fit enough to practice the arts of war. 
+~
+elf~
+AB J 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDLMNQRYZ B Z
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#40118
+dude~
+Dude the pharmacist~
+Dude the pharmacist is mixing up something bubbly. 
+~
+Dude appears a bit wasted to you, but it is obvious he uses his own
+"medical supplies" and they actually seem to work. 
+~
+human~
+AB 0 -1000 0
+60 0 50d10+9500 0d0+0 8d6+28 pound
+-30 -30 -30 -30
+0 ABCDLNQRYZ 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#40119
+billie~
+Billie the grocer~
+Billie the grocer is dashing about in his store.
+~
+Billie is the town grocer. He is well dressed and obviously takes pride
+in his work. His store is immaculate and you can tell he is generally a
+happy person. After all he is whistling a tune and dancing in place. What
+strikes you as odd is in between whistles he occasionally stops to talk 
+to his fruits? Maybe he is not all there. You ponder this as you look 
+about. 
+~
+dwarf~
+AB J 0 0
+110 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 ABCDLMNQRYZ LQ R
+stand stand male 0
+AHMV ABCDEFGHIJK small unknown
+M grall 40101 100~
+#40120
+GKF trooper~
+the GKF trooper~
+A GKF trooper stands on guard here, watching your every move.
+~
+GKF stands for Greatheart Keeper of the Faith.  He is a big man with 
+a goatee beard, dressed in a tall silver helmet, heavy silver 
+breastplate, doublet and chain hose.  He carries a huge sword, as
+a holy warrior of the loyal order of Greatheart.  You get the distinct 
+impression that it would be better not to mess with him.
+~
+human~
+A 0 -700 0
+52 3 50d10+5500 0d0+0 6d7+20 none
+-22 -22 -22 -22
+0 0 0 0
+stand stand either 400
+0 0 medium unknown
+#40121
+militiaman~
+the militiaman~
+A militiaman slinks along here, looking at you sideways.
+~
+He's a member of the Citizen's Militia, the second force created by 
+Greatheart.  They are here to spy on all citizens and report them for 
+minor offences to a GKF officer for suitable punishment.
+Nasty, mean and sneaky.
+~
+human~
+A 0 -700 0
+51 1 25d20+3800 0d0+0 5d8+20 none
+-21 -21 -21 -21
+0 0 0 0
+stand stand either 400
+0 0 medium unknown
+ 
+ 
+#40127
+blake~
+blake the tavern owner~
+Blake, the proprietor of the tavern, polishes glasses at the bar. 
+~
+Blake is a well muscled man and obviously a seasoned adventurer. He has a
+number of scars that could only be caused by engaging in a battle or two. 
+~
+human~
+AB HOc 0 0
+120 90 50d10+9500 0d0+0 8d6+28 none
+-300 -300 -300 -300
+0 ABCDEHILMNOPQRTXZ 0 0
+stand stand male 20000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40105 100~
+M speech 40106 rumor~
+M speech 40107 drink~
+#40128
+michole~
+old man Michole~
+Old man Michole looks at you and hiccups loudly.
+~
+An older man with long stringy grey hair and a small drinking belly. You
+might assume him to be a vagabond but he is nothing of the sort! He is
+apparently drunk from a night at the tavern. 
+~
+human~
+ARV CDEFGHJNVa 0 0
+60 19 99d10+9500 0d0+9999 10d8+28 none
+-50 -50 -50 -50
+EFHI ABLQ 0 0
+stand stand male 5
+AHMV ABCDEFGHIJK medium unknown
+M grall 40108 100~
+M speech 40109 blake~
+M speech 40110 rumor~
+M bribe 40111 5~
+M speech 40112 hemgen~
+M speech 40112 mage~
+M kill 40113 100~
+M fight 40114 50~
+M death 40115 100~
+#40129
+ATM Machine~
+An ATM Machine~
+An ATM machine is installed here. 
+~
+Just type BANK to see a list of all that you can do here. 
+~
+human~
+ABPc DEFH 1000 0
+120 10 100d10+40250 100d10+30000 20d15+55 punch
+-8000 -8000 -8000 -8000
+0 ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium 0
+#40130
+young woman grety~
+the lovely young woman~
+A lovely young woman waits to serve you. 
+~
+Grety is a pleasent woman who serves her town well as a public servant
+and greets everyone warmly. Her smile is dazzling and wide. 
+~
+human~
+A 0 0 0
+55 0 50d10+7000 0d0+0 10d4+23 none
+-25 -25 -25 -25
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+M grall 40117 100~
+M act 40118 yes~
+M act 40119 no~
+#40131
+sleeping fireman~
+a fireman~
+A fireman is sleeping on a bench, still in full uniform.
+~
+This poor fellow looks exhausted from his days work. He lays here snoring
+away nearly oblivious to you. 
+~
+human~
+AB 0 1000 0
+54 3 50d10+6500 0d0+0 7d6+22 none
+-24 -24 -24 -24
+0 0 H 0
+sleep stand male 0
+AHMV ABCDEFGHIJK tiny unknown
+M grall 40122 100~
+#40132
+fireman~
+a local fireman~
+A local fireman is busy here.
+~
+A local fireman goes about cleaning and maintaining the equipment here.
+He is polishing and sharpening an axe at the moment. 
+~
+human~
+AT HN 1000 0
+55 3 50d10+7000 0d0+0 10d4+23 cleave
+-25 -25 -25 -25
+EFH 0 H 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium unknown
+#40133
+fire chief~
+the fire chief~
+The fire chief sits here studying some fire reports.
+~
+This man holds a role of some importance here as the local
+fire chief. It is his job to protect the people of Mareal from fire. 
+~
+human~
+A 0 0 0
+58 0 50d10+8500 0d0+0 5d10+25 none
+-28 -28 -28 -28
+0 0 H 0
+stand stand male 2000
+AHMV ABCDEFGHIJK medium unknown
+M grall 40123 100~
+M speech 40124 job~
+#40134
+nurse~
+a nurse~
+A very pretty nurse gives you an enquiring smile.
+~
+A petite woman with bright blue eyes and long flowing blonde hair. Her
+smile is disarming and her voice is soft and sweet. Her every movement is
+graceful and exact. 
+~
+human~
+A 0 1000 0
+51 0 50d10+5000 0d0+0 5d8+20 sting
+-21 -21 -21 -21
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+M grall 40125 100~
+#40135
+mayor~
+the mayor of Mareal~
+The mayor of Mareal, Jon Roth, looks up as you enter. 
+~
+Jon Roth is the honorable mayor of Mareal and reports only to Lord 
+Greatheart. He dresses in fine clothing and sports a walking stick. 
+The mayor stares at you with contempt!
+You could hear a pin drop in this silence. 
+~
+human~
+A 0 -1000 0
+75 5 13d10+1700 0d0+0 5d7+11 none
+-11 -11 -11 -11
+0 0 0 0
+stand stand male 30000
+AHMV ABCDEFGHIJK medium unknown
+#40136
+dispatcher~
+the dispatcher~
+The dispatcher is hard at work here. 
+~
+The local police dispatcher is here to take your complaint and to file
+the report. It is not her job to solve or attempt to solve your current
+problem. She seems busy writing a previous report at the moment. 
+~
+human~
+A 0 0 0
+60 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 0 0 0
+stand stand female 10
+AHMV ABCDEFGHIJK medium unknown
+M grall 40129 100~
+#40137
+equipment officer~
+the equipment officer~
+The equipment officer glances in your direction then returns to his work.
+~
+The man here is large. Very large - a real hulk of a man standing with 
+his head nearly touching the ceiling here at 9 feet in height. He looks 
+like someone best left alone. He keeps all the equipment here in top 
+working order. 
+~
+giant~
+A 0 0 0
+60 0 50d10+9500 0d0+0 8d6+28 none
+-30 -30 -30 -30
+0 0 HI JP
+stand stand male 300
+AHMV ABCDEFGHIJK huge unknown
+M grall 40130 100~
+M speech 40131 no~
+M kill 40132 100~
+M fight 40133 25~
+#40138
+tarelyn~
+Tarelyn~
+Tarelyn the druid stands before you. 
+~
+Tarelyn is a lovely woman with strong features. She is clad in tree bark
+and leaves. Her smile can be quite disarming and her movements nearly
+hypnotic. Her voice is soft and sweet as the morning dew. As she gazes 
+upon you a slight warm feeling rushes over you like the waves of the 
+warm salty ocean. 
+~
+kyrie~
+AB T 0 0
+55 9 50d10+7000 0d0+700 10d4+23 none
+-25 -25 -25 -25
+H BILQ L 0
+stand stand female 100
+ABGZ ACDEFHJKQVX medium unknown
+M grall 40139 100~
+M speech 40140 help~
+M speech 40141 woods~
+M speech 40142 harmsway~
+M speech 40143 reward~
+M kill 40144 100~
+M fight 40145 25~
+M fight 40146 10~
+M death 40147 100~
+#40139
+marla~
+Marla~
+Marla the lich is measuring some green liquid in a bottle.
+~
+It is apparent by her sunken eyes and pale complexion that Marla is a
+lich. It is also apparent she is a powerful lich. Her store is filled 
+with her life's work. Potions of every form and type lay about. Some 
+are for sale whilst others are not. 
+~
+lich~
+AB 0 -1000 0
+110 90 50d10+19500 0d0+21000 8d8+28 none
+-300 -300 -300 -300
+0 ABCDEFGHIJKLMNOPQRSTYZ I DN
+stand stand female 20000
+BHIMV ABCDEFGHIJK medium unknown
+M grall 40152 33~
+M grall 40153 100~
+
+#0
+
+
+
+#OBJECTS
+#40100
+stone fountain~
+{WA large {Dstone Fountain{x~
+{WA large {Dstone Fountain{W gushes forth water{x~
+marble~
+fountain 0 P
+-1 0 'water' 0 0 
+0 30000 0 P
+#40101
+flat bread~
+A loaf of flat bread~
+A loaf of flat bread~
+bread~
+food 0 0
+CDEF BC 0 0 0 
+0 1 10 P
+#40102
+puff pastry~
+A puff pastry~
+A puff pastry~
+bread~
+food 0 0
+BEF AB 0 0 0 
+0 1 5 P
+#40103
+yeast bread~
+A loaf of yeast risen bread~
+A loaf of yeast risen bread~
+bread~
+food 0 0
+BEF BD 0 0 0 
+0 1 20 P
+#40104
+whoopee pie~
+A whoopee pie~
+A whoopee pie~
+bread~
+food 0 0
+BEF AC 0 0 0 
+0 1 5 P
+#40105
+turnover~
+A raspberry turnover~
+A raspberry turnover~
+bread~
+food 0 0
+BEF C 0 0 0 
+0 1 5 P
+#40106
+petite anklet~
+A petite {ygolden anklet{x~
+A petite {ygolden anklet{x~
+gold~
+armor 0 AZ
+AB AB AB AB 0 
+45 1 15000 P
+#40107
+diamond ring~
+A .5 cart diamond ring~
+A .5 cart diamond ring~
+diamond~
+armor 0 AB
+C C C C 0 
+52 1 10000 P
+F
+R 0 0 B
+#40108
+thick gold chain~
+A thick {ygolden necklace{x~
+A thick {ygolden necklace{x~
+gold~
+armor 0 AC
+ABD ABD ABD ABD 0 
+20 2 15000 P
+F
+R 0 0 L
+#40109
+ruby band~
+A {Rruby {Ginlaid wrist band{x~
+A {Rruby {Ginlaid wrist band{x~
+metal~
+armor Y AM
+CD CD CD CD 0 
+16 1 15000 P
+#40110
+bedroll~
+A fur bedroll~
+A fur bedroll~
+fur~
+furniture W A
+B EGIJOP 2336 DGH DGH 
+15 20 30000 P
+#40111
+steel pot~
+A steel pot~
+A steel pot~
+steel~
+armor 0 AE
+AC AC AC AC 0 
+6 10 100 P
+#40112
+sandals~
+A pair of sandals~
+A pair of sandals~
+leather~
+armor 0 AG
+B B B B 0 
+20 10 30000 P
+F
+A 0 0 V
+#40113
+backpack~
+A backpack~
+A small leather backpack~
+leather~
+container 0 AW
+2000 A 0 100 0 
+2 0 10 P
+#40115
+dentist chair~
+A Dentist Chair~
+A Reclining Dentist Chair~
+leather~
+furniture 0 0
+A EFIKMNO 2336 0 0 
+0 1000 9000 P
+E
+reclining~
+This chair is made to keep you as comforter able as possible while the
+doctor performs his tasks. 
+~
+#40116
+dentist table~
+A dentist table~
+A square dentist table~
+wood~
+furniture 0 0
+0 0 8192 0 0 
+0 1000 10000 P
+#40117
+assorted tools~
+Assorted dental tools~
+Assorted dental tools~
+metal~
+trash 0 0
+0 0 0 0 0 
+1 10 1 P
+E
+dental~
+Various instruments that look quite painful. Pliers, cutting tools, a
+hand drill and a plethera of other such devices. 
+~
+#40118
+powered donut~
+A powered donut~
+A white powered donut~
+food~
+food 0 A
+AB A 0 0 0 
+1 1 3 P
+#40119
+baklava~
+A piece of baklava~
+A generous piece of baklava~
+food~
+food 0 0
+AC B 0 0 0 
+1 2 7 P
+#40165
+false nails~
+A shinning set of red false nails.~
+A shinning set of red false nails.~
+gold~
+armor 0 AH
+B A A AB 0 
+3 1 200 P
+#40166
+ring gold~
+A ring of pure gold~
+A valuable ring of gold~
+gold~
+jewelry 0 AB
+0 0 0 0 0 
+0 1 600 P
+#40167
+leather armor~
+A piece of studded leather armor~
+A piece of studded leather armor~
+~
+armor 0 AD
+D ABC BD BC 0 
+11 1000 2000 P
+#40168
+steel plate~
+A steel chest plate~
+A steel chest plate~
+steel~
+armor 0 AD
+BCD BD BCD AD 0 
+15 1000 6100 P
+#40169
+steel helm~
+A steel helmet~
+A steel helmet~
+steel~
+armor 0 AE
+BC AB BC ABC 0 
+9 500 900 P
+#40170
+bar~
+A long drift wood bar~
+A long bar appears to be made from drift wood~
+wood~
+trash 0 0
+0 0 0 0 0 
+0 30000 0 P
+#40171
+stool~
+a bar stool~
+A bar stool made of animal bones and padded leather~
+leather~
+furniture 0 0
+0 0 0 0 0 
+0 2000 0 P
+E
+animal bones~
+Polished white and sanded smooth these bones belonged to a rather large
+animal. At first glance you believe these bones to be the leg but on futher
+review you see they are finger or toe bones? Who killed this creature and
+what was it? 
+~
+E
+padded leather~
+A soft plush padded leather seat cover. It looks rather inviting. 
+~
+#40172
+stool~
+a bar stool~
+A bar stool made of animal bones and padded leather~
+leather~
+furniture 0 0
+0 0 0 0 0 
+0 2000 0 P
+E
+animal bones~
+Polished white and sanded smooth these bones belonged to a rather large
+animal. At first glance you believe these bones to be the leg but on futher
+review you see they are finger or toe bones? Who killed this creature and
+what was it? 
+~
+E
+padded leather~
+A soft plush padded leather seat cover. It looks rather inviting. 
+~
+#40173
+agnovian slammer~
+Agnovian slammer special~
+An inconspicuous looking drink {Rspecial{x~
+water~
+drink 0 A
+5 5 'absinthe' 0 0 
+0 1 10 P
+E
+special~
+At first glance, this doesn't look like all that much, but from the evil
+grin on the face of the bartender, you expect not all is what it seems. 
+~
+#40174
+local gutrot~
+A cup of the local specialty "GUTROT"~
+Brewed in the local stills, GUTROT is not a drink for the weak of stomach.~
+water~
+drink 0 A
+10 10 'whisky' 0 0 
+0 2 10 P
+E
+specialty cup~
+This is a sour mash whisky very potent and tastes as bad as its kick. 
+~
+#40175
+bottle gutrot~
+A bottle of the local specialty "GUTROT"~
+Brewed in the local stills, GUTROT is not a drink for the weak of stomach.~
+water~
+drink 0 A
+100 100 'whisky' 0 0 
+0 4 100 P
+E
+specialty bottle~
+This is a sour mash whisky very potent and tastes as bad as its kick. 
+~
+#40176
+table~
+A small round table~
+A small round table~
+wood~
+furniture 0 0
+0 EIJKN 8192 0 0 
+0 10000 1000 P
+E
+small round~
+This table looks like it could seat about 4 comforterably. It appears to
+be hand carved and sanded. The wood has a red polish to it. 
+~
+#40177
+table~
+A small round table~
+A small round table~
+wood~
+furniture 0 0
+0 EIJKN 8192 0 0 
+0 10000 1000 P
+E
+small round~
+This table looks like it could seat about 4 comforterably. It appears to
+be hand carved and sanded. The wood has a red polish to it. 
+~
+#40178
+table~
+A small round table~
+A small round table~
+wood~
+furniture 0 0
+0 EIJKN 8192 0 0 
+0 10000 1000 P
+E
+small round~
+This table looks like it could seat about 4 comforterably. It appears to
+be hand carved and sanded. The wood has a red polish to it. 
+~
+#40179
+chair~
+A wooden chair~
+A wooden chair~
+wood~
+furniture 0 0
+A EFIKMNO 288 0 0 
+0 1000 1000 P
+#40180
+chair~
+A wooden chair~
+A wooden chair~
+wood~
+furniture 0 0
+A EFIKMNO 288 BCEH 0 
+0 1000 1000 P
+#40181
+chair~
+A wooden chair~
+A wooden chair~
+wood~
+furniture 0 0
+A EFIKMNO 288 BCEH 0 
+0 1000 1000 P
+#40182
+chair~
+A wooden chair~
+A wooden chair~
+wood~
+furniture 0 0
+A EFIKMNO 288 BCEH 0 
+0 1000 1000 P
+#40183
+chair~
+A wooden chair~
+A wooden chair~
+wood~
+furniture 0 0
+A EFIKMNO 288 BCEH 0 
+0 1000 1000 P
+#40184
+chair~
+A wooden chair~
+A wooden chair~
+wood~
+furniture 0 0
+A EFIKMNO 288 BCEH 0 
+0 1000 1000 P
+#40185
+select coffee~
+Mareal select coffee~
+Mareal select coffee~
+water~
+drink 0 A
+3 3 'coffee' 0 0 
+0 1 5 P
+#40186
+small window~
+A small window~
+A small window with a {Gview{x~
+glass~
+portal 0 0
+0 0 1 ABDEFGHJKLO 0 
+0 10000 10000 P
+#40187
+boots~
+A pair of sturdy boots~
+A pair of sturdy boots~
+leather~
+armor 0 AG
+AB AC AC AB 0 
+6 30 100 P
+#40188
+leather chapps~
+A pair of leather chapps~
+A pair of leather chapps~
+leather~
+armor 0 AF
+C C AD C 0 
+7 30 150 P
+#40189
+leather wraps~
+A set of wraps for your arms~
+A set of wraps for your arms~
+leather~
+armor 0 AI
+C C ABC C 0 
+7 30 150 P
+#40190
+firemans axe~
+a firemans axe~
+A double edged firemans Axe~
+metal~
+weapon Y AN
+'axe' 5 8 'cleave' DE 
+25 150 150 P
+#40191
+firemans coat~
+a firemans coat~
+A long coat made from a special material~
+leather~
+armor Y AK
+BE BE BE BCE 0 
+20 40 1000 P
+F
+R 0 0 H
+A
+5 1
+E
+material~
+This jacket is made of tightly woven leather strands and appears to have
+extra qualities to it. 
+~
+#40192
+firemans hat~
+a firemans hat~
+A firemans hat~
+plastic~
+armor Y AE
+ACDE CE ACDE ADE 0 
+29 300 1000 P
+F
+A 0 0 N
+#40193
+key~
+a golden key~
+A golden key~
+metal~
+key 0 A
+0 0 0 0 0 
+21 1 1 P
+#40194
+walking stick~
+A fancy walking stick~
+A fancy walking stick~
+wood~
+weapon J AN
+'exotic' 8 8 'beating' C 
+30 100 25000 P
+F
+A 0 0 DGKN
+A
+18 2
+A
+19 4
+E
+fancy walking stick~
+This walking stick has a starp pointed end which faces down. It appears
+to be some form of weapon. The shaft is metalic and painted black with a
+large silver ball near the top and a sharpo silver point at the other end. 
+~
+#40195
+gold bar~
+A bar of {ygold{x~
+A bar of {ygold{x~
+gold~
+treasure 0 A
+0 0 0 0 0 
+0 1000 30000 P
+E
+bar gold~
+This bar of gold is very heavy and probably worth a small fortune. 
+~
+#40196
+white gloves~
+{GA pair of {Wwhite {Gknitted gloves{x~
+{GA pair of {Wwhite {Gknitted gloves{x~
+cotton~
+armor 0 AH
+BD BD BD CE 0 
+19 3 100 P
+E
+white knitted gloves~
+These gloves look very soft. They are form fitting and stretch to meet
+the size of the hands of whomever wears them. 
+~
+#40197
+night stick~
+A policemans night stick~
+A policemans night stick~
+wood~
+weapon 0 AN
+'exotic' 15 15 'beating' 0 
+30 100 100 P
+E
+night stick~
+A very hard wooden stick used to disable the victims of police abuse
+*errr* ? 
+~
+#40198
+potion healing~
+A potion of healing~
+A potion of healing~
+glass~
+potion 0 A
+30 'heal' 'haste' 'frenzy' '' 
+30 1 1000 P
+#40199
+mace steal~
+The mace of steel~
+{GThe mace of {Dsteel{x~
+metal~
+weapon 0 AN
+'mace' 2 6 'crush' 0 
+5 100 100 P
+#40200
+mace strength~
+The mace of strength~
+The mace of strength~
+metal~
+weapon 0 AN
+'mace' 3 8 'crush' 0 
+14 100 500 P
+A
+1 1
+#20401
+morning star glory~
+{GThe {Ymorning {Gglory{x~
+{GThe {Ymorning {Gglory{x~
+metal~
+weapon 0 AN
+'flail' 2 10 'thwack' G 
+10 100 1000 P
+#40202
+lance~
+The warriors lance~
+The warriors lance~
+metal~
+weapon 0 AN
+'polearm' 0 0 '' 0 
+5 190 100 P
+#40403
+holy polearm ~
+A holy polearm~
+A holy polearm~
+metal~
+weapon 0 AN
+'polearm' 5 6 'thrust' E 
+15 200 2000 P
+A
+4 1
+A
+3 1
+#40204
+flail might~
+The flail of might~
+The flail of might~
+metal~
+weapon 0 AN
+'flail' 4 5 'beating' 0 
+14 150 2000 P
+A
+1 1
+#40205
+horse whip~
+A horse whip~
+A horse whip~
+leather~
+weapon 0 AN
+'whip' 3 4 'sting' 0 
+5 80 100 P
+#40206
+flame whip~
+{GThe {Rflaming {Gwhip{x~
+{GThe {Rflaming {Gwhip{x~
+leather~
+weapon 0 AN
+'whip' 5 5 'sting' AD 
+0 0 0 P
+E
+flame flaming whip~
+This whip glows with a flame that appears to burn yet does not burn the
+leather. The tightly wrapped whip is of exceptional quality and
+craftsmanship. 
+~
+#40207
+hammer life~
+The hammer of life~
+The hammer of life~
+wodden~
+weapon 0 AN
+'exotic' 4 4 'crush' 0 
+9 120 100 P
+A
+13 10
+E
+hammer life~
+The hammer of life appears to glow with a faint aura. It radiates a
+brilliance that only something of great value would. You know you just have
+to have it. 
+~
+#40208
+spear death~
+{GThe spear of {Ddeath{x~
+{GThe spear of {Ddeath{x~
+metal~
+weapon 0 AN
+'spear' 4 3 'acbite' CDH 
+11 90 900 P
+E
+spear death~
+This spear eminates DEATH! 
+~
+#40209
+shift axe~
+The swift axe~
+The swift axe~
+wooden~
+weapon 0 AN
+'axe' 2 6 'chop' 0 
+5 80 100 P
+E
+shift axe~
+A one handed weapon which is very proficient at spliting skulls. 
+~
+#40210
+armor forest~
+Armor of the forest~
+Armor of the forest~
+wooden~
+armor IJK AD
+BCDE BCE BCDE BCDE 0 
+25 50 0 P
+F
+A 0 0 H
+E
+armor forest~
+The armor of the forest appears to be a barkskin armor and is quite form
+fitting. It has a slight radiant to it, almost a magical glow. It is strange
+to you near seeing anything like it before. 
+~
+#40211
+vines life~
+{GThe {gvines {Gof {wlife{x~
+{GThe {gvines {Gof {wlife{x~
+wooden~
+weapon JK AN
+'whip' 5 5 'sting' EG 
+25 5 0 P
+A
+2 1
+A
+5 1
+E
+vines life~
+The vines wrap arround the arm of the wielder and look quite treatening
+by their very nature. You bet they could be leathal. 
+~
+#40212
+root extract~
+Some root extract~
+Some root extract~
+wooden~
+pill 0 A
+110 'adrenaline' 'stone meld' 'haste' '' 
+25 1 10 P
+#40213
+ash bark~
+A piece of ash bark~
+A piece of ash bark~
+wooden~
+pill 0 A
+110 'cure critical' 'cure critical' 'cure critical' '' 
+25 1 10 P
+#40214
+tree life~
+The tree of life~
+The tree of life~
+wooden~
+portal 0 0
+0 0 1 CEIJKLO 0 
+25 30000 30000 P
+E
+tree life~
+The tree of life is a large tree reaching more than 40 feet into the sky.
+It towers over any tree found inside the city limits. A few knot holes in
+this tree one looks large enough to enter the tree. 
+~
+#40215
+diamond stud earrings~
+{GA pair of {wdiamond{G stud earrings{x~
+{GA pair of {wdiamond{G stud earrings{x~
+gold~
+armor 0 AV
+AC AC AC AC 0 
+8 1 50 P
+#40216
+belly ring~
+{GA {ygolden {Gbelly ring{x~
+{GA {ygolden {Gbelly ring{x~
+gold~
+armor 0 Ab
+ABCD CD CD ABCD 0 
+14 1 150 P
+#40217
+earring gold hoop~
+{GA pair of {ygold {Ghooped earrings{x~
+{GA pair of {ygold {Ghooped earrings{x~
+gold~
+armor 0 AV
+ABD ABD ABD ABD 0 
+13 1 125 P
+#40218
+golden bar~
+{GA {ygolden {Gbar through the nose{x~
+{GA {ygolden {Gbar through the nose{x~
+gold~
+armor 0 AR
+D C C D 0 
+5 1 70 P
+#40219
+small ring~
+{GA small {yGolden {Gring worn through the nose{x~
+{GA small {yGolden {Gring worn through the nose{x~
+gold~
+armor 0 AR
+D AD AD AD 0 
+15 1 325 P
+A
+12 20
+A
+18 1
+A
+19 1
+#40220
+holy water~
+A potion of holy water~
+A potion of holy water~
+glass~
+potion 0 A
+15 'bless' '' '' '' 
+12 1 30 P
+#40221
+readiness~
+A potion of readiness~
+A potion of readiness~
+glass~
+potion 0 A
+50 'adrenaline' 'screen' 'ruby skin' '' 
+15 1 300 P
+#40222
+cure serious~
+A potion of cure serious wounds~
+A potion of cure serious wounds~
+glass~
+potion 0 A
+50 'cure serious' '' '' '' 
+7 1 1200 P
+#40223
+heal~
+A potion of heal~
+A potion of heal~
+glass~
+potion 0 A
+50 'heal' '' '' '' 
+11 1 2100 P
+#40224
+curing potion~
+A curing potion~
+A curing potion~
+glass~
+potion 0 A
+110 'cure blindness' 'cure poison' 'cure disease' '' 
+7 1 1875 P
+#40225
+armor~
+A potion of armor~
+A potion of armor~
+glass~
+potion 0 A
+110 'armor' '' '' '' 
+2 1 100 P
+#40226
+divine power~
+A potion of divine power~
+A potion of divine power~
+glass~
+potion 0 A
+120 'giant strength' 'haste' 'bless' '' 
+15 1 3500 P
+#40227
+divine protection~
+A potion of divine protection~
+A potion of divine protection~
+glass~
+potion 0 A
+120 'protection evil' 'sanctuary' 'detect evil' '' 
+15 1 3000 P
+#40228
+unholy bliss~
+A potion of unholy bliss~
+A potion of unholy bliss~
+glass~
+potion 0 A
+120 'protection good' 'detect good' 'sanctuary' '' 
+15 1 3000 P
+#40229
+quenching~
+A pill of quenching~
+A pill of quenching~
+pill~
+pill 0 A
+120 'sate' 'quench' '' '' 
+1 1 10 P
+#40230
+natural nature~
+A pill of natural protection~
+A pill of natural protection~
+pill~
+pill 0 A
+110 'bark skin' 'stone meld' 'faerie fog' '' 
+5 1 500 P
+#40231
+refresh~
+A pill of refresh~
+A pill of refresh~
+pill~
+pill 0 A
+120 'refresh' '' '' '' 
+9 1 100 P
+#40232
+super refresh~
+A pill of super refresh~
+A pill of super refresh~
+pill~
+pill 0 A
+120 'refresh' 'refresh' 'refresh' '' 
+15 1 200 P
+#40233
+vitamin~
+A vitamin~
+A vitamin~
+pill~
+pill 0 A
+50 'giant strength' '' '' '' 
+15 1 300 P
+#0
+
+
+
+#ROOMS
+#40100
+Temple Adep~
+A magnificent marble temple surrounds you, standing nearly 80 feet 
+high. It is truly a testament to those who built this place. The 
+walls are sheer and free of imperfections and the floor appears 
+smooth and polished.
+{BMethan {wstands here casting spells and waiting to heal you. A 
+{Ysign{w stands beside {BMethan{w! Down is the morgue. North leaves 
+the temple. 
+~
+0 263180 0
+E
+sign~
+{YAll hail Lord Greatheart! {x 
+~
+D0
+Temple Street 
+~
+~
+0 0 40103
+D5
+The morgue 
+~
+~
+0 0 40101
+S
+#40101
+The morgue below Adep~
+Down is a dark foreboding place where the bodies of the dead lay
+lifeless. It reeks of death and you become nauseous with the thought 
+of continuing down into its depths. Up you can see light filtered 
+through this dark uninviting place though it is of little comfort. {x 
+~
+0 1037 0
+D4
+The temple Adep and fresh air 
+~
+~
+0 0 40100
+D5
+The morgue room and a stench of a thousand years 
+~
+~
+0 0 40102
+S
+#40102
+The morgue~
+{DA stone slab {wstands in the middle of this room. The stench of rotting
+flesh overwhelms your nostrils. You first instinct is to leave this place. A
+{Ysign{w hangs on the wall here! {x 
+~
+0 1036 0
+E
+stone slab~
+This stone slab is cold and made of solid granite. The blood stained
+surface is evidence of the numerous bodies that have laid here in the 
+past. 
+~
+E
+sign~
+{GYou have been killed remember to {W1{c) {Gget all corpse then wear all.
+{MNOTE:{G You may have to wear certain things to increase your strength 
+so you can carry more items. {x 
+~
+D4
+The morgue passage and the only way you want to travel from here! 
+~
+~
+0 0 40101
+S
+#40103
+Temple street~
+Temple street is tiled with dull grey cobble stone. Years of use vary
+visible on this poorly maintained street. To the east is the vast city of
+Mareal, with rows of palm trees framed against its strange tall white 
+buildings. Your shirt is wet from the heavy tropical heat of this city.
+~
+0 0 1
+D1
+Temple street 	 
+~
+~
+0 0 40105
+D2
+The temple Adep 
+~
+~
+0 0 40100
+D3
+Enterance to the newbie school 
+~
+~
+0 0 40104
+S
+#40104
+The West Gate~
+To the west stand the great iron gates which lead out of 
+the city towards the docks of Marealport.  They are open.
+Temple Street, lined with exotic tall palm trees, runs east.
+~
+0 0 1
+D1
+Temple street 
+~
+~
+0 0 40103
+S
+#40105
+Temple street~
+Temple street is tiled with dull grey cobble stone. Years of use are very
+visible on this poorly maintained street. To your North stands a large
+building made of stone with towering pillars and a large {Ysign{w on the
+door. {x 
+~
+0 0 1
+E
+sign~
+The Mareal National Bank & Trust where we made our money the old fashioned
+way "We killed someone you know for it!" 
+~
+D0
+Mareal National Bank 
+~
+~
+0 0 40106
+D1
+Temple street 
+~
+~
+0 0 40107
+D3
+Temple street 
+~
+~
+0 0 40103
+S
+#40106
+Mareal National Bank~
+This is the home of Mareal Banking. In front of you is a large mahogany
+wood counter and behind it is a bank teller who waits to serve you. The
+floors and walls here are made from solid slabs of granite and in the rear
+of the building is a large steel vault where gold and silver deposits are
+stored. There is a {Gleaflet {won the counter. {x 
+~
+0 1032 0
+E
+leaflet~
+{YLord Greatheart has graciously allowed our hours to be from 8am to 5pm
+seven days per week{x {wAll praise the generous Lord Greatheart! Thank you
+-The management. {x 
+~
+D2
+Temple street 
+~
+~
+0 0 40105
+S
+#40107
+Temple street~
+Temple street is tiled with dull grey cobble stone. Years of use are very
+visible on this poorly maintained street. To the East is the Central 
+Square where residents and visitors alike gather and and the Town Crier 
+announces the day's news. On the side of a tall windowless building to 
+the south is mounted a huge picture of Greatheart, a warm and handsome 
+man smiling benevolently over his people.
+~
+0 0 1
+D1
+Central square 
+~
+~
+0 0 40108
+D3
+Temple street 
+~
+~
+0 0 40105
+S
+#40108
+Central square~
+This is the central meeting place where there is much activity. People 
+are busily fussing about, shopping, working and most are in quite a hurry. 
+A large stone fountain is here where the people of Mareal can drink and 
+relax a bit if no militiamen or troopers are around.. North is Northern 
+Way, east is Park Street, south is Merchant Lane and west is Temple 
+Street. 
+~
+0 0 1
+D0
+Northern drive 
+~
+~
+0 0 40126
+D1
+
+~
+~
+0 0 40109
+D2
+
+~
+~
+0 0 40128
+D3
+Temple street 
+~
+~
+0 0 40107
+S
+#40109
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where birds can be heard singing their
+melodic songs in the tropical trees and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red. You can not help but wonder how long
+it will take before the vines take over the wall and completely obsure it
+from sight. 
+~
+D1
+Park Street 
+~
+~
+0 0 40110
+D2
+The Gazebo 
+~
+~
+0 0 40215
+D3
+Central Square 
+~
+~
+0 0 40108
+S
+#40110
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where birds can be heard singing their
+melodic songs in the tropical trees and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red. You can not help but wonder how long
+it will take before the vines take over the wall and completely obsure it
+from sight. 
+~
+D1
+Park Street 
+~
+~
+0 0 40111
+D3
+Park Street 
+~
+~
+0 0 40109
+D4
+City Hall Plaza 
+~
+~
+0 0 40218
+S
+#40111
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where birds can be heard singing their
+melodic songs in the tropical trees and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red. You can not help but wonder how long
+it will take before the vines take over the wall and completely obsure it
+from sight. 
+~
+D1
+Park Street 
+~
+~
+0 0 40112
+D3
+Park Street 
+~
+~
+0 0 40110
+S
+#40112
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where birds can be heard singing their
+melodic songs in the tropical trees and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red. You can not help but wonder how long
+it will take before the vines take over the wall and completely obsure it
+from sight. 
+~
+D1
+Park Street Entrance to the city park 
+~
+~
+0 0 40113
+D3
+Park Street 
+~
+~
+0 0 40111
+S
+#40113
+Park Street Entrance~
+To your North is the Park Street entrance to the {mCity Park{w where the
+citizens of Mareal come to try and escape from the oppression of the 
+authorities. A huge stone arch way opens into the vast tropical
+greenery and wildlife. A small {Ysign {wis attached to the wall here! {x
+{wSouth is the Map Shop{x 
+~
+0 0 1
+E
+sign~
+This park is dedicated to our founder Lord Greatheart founder of Mareal
+and holy guardian of the faith. Without whom this city would not stand
+today. 
+~
+E
+city park~
+City park is a magnificent sight filled with lush rich vegetation and as
+teeming with life as the tropical jungles outside the city walls. This is
+where the citizens of Mareal come to escape the oppression in the city 
+after a long day toiling in their shops and offices. 
+~
+D1
+Park Street 
+~
+~
+0 0 40114
+D2
+Levit Map Shop 
+~
+~
+0 0 40216
+S
+#40114
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where the birds can be heard singing thier
+melodic songs and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped brickes stacked nearly 9 feet high.
+You think to yourself "This must have cost a fortune. "
+~
+E
+green vines~
+The perfect blend of green and red you can not help but wonder how long
+it will take before the vines over take the wall and completely obsure it
+from sight.
+~
+D1
+Park Street 
+~
+~
+0 0 40115
+D3
+Park Street entrance to city park 
+~
+~
+0 0 40113
+S
+#40115
+Park Street before the bakery~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where the birds can be heard singing 
+their melodic songs and wildlife abounds. The smell of fresh bread 
+billows in from the south and you realize the bakery is there filled 
+with sweets and breads.
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red you can not help but wonder how long
+it will take before the vines over take the wall and completely obsure it
+from sight. 
+~
+D1
+Park Street 
+~
+~
+0 0 40116
+D2
+Melse Bakery 
+~
+~
+0 0 40127
+D3
+Park Street 
+~
+~
+0 0 40114
+S
+#40116
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where birds can be heard singing their
+melodic songs in the tropical trees and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red. You can not help but wonder how long
+it will take before the vines take over the wall and completely obsure it
+from sight. 
+~
+D1
+Park Street 
+~
+~
+0 0 40117
+D3
+Park Street 
+~
+~
+0 0 40115
+S
+#40117
+Park Street~
+To your north is large {rred brick {wwall covered in {ggreen vines{w.
+Beyond the wall is the City park where birds can be heard singing their
+melodic songs in the tropical trees and wildlife abounds. 
+~
+0 0 1
+E
+red brick~
+These perfectly formed and shaped bricks stacked nearly 9 feet high. You
+think to yourself "This must have cost a fortune." 
+~
+E
+green vines~
+The perfect blend of green and red. You can not help but wonder how long
+it will take before the vines take over the wall and completely obsure it
+from sight. 
+~
+D1
+Intersection of park street and park road 
+~
+~
+0 0 40118
+D3
+Park Street 
+~
+~
+0 0 40116
+S
+#40118
+Park Street Intersection at Park Road~
+Park Road runs north and south here crossing Park Street which proceeds
+east and west. To the east is the Park Street Exit from the city. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40121
+D1
+Park Street Exit 
+~
+~
+0 0 40119
+D2
+Park Road 
+~
+~
+0 0 40120
+D3
+Park Street 
+~
+~
+0 0 40117
+S
+#40119
+Park Street Exit~
+Before you stands the {yiron gates{w and towering {Dwalls{w that keep
+this city safe from outside forces. It is indeed a marvel of 
+engineering. No walls have ever been seen that rival these anywhere 
+on this world! 
+~
+0 0 1
+E
+iron gates~
+A large iron gate towering more than 20 feet into the sky. You have to
+wonder why they need such large ominous gates to the city. 
+~
+E
+wall~
+A large menacing site to behold it is no wonder this city enjoys such
+prosperity. 
+~
+D3
+Park Street and Park Road Intersection 
+~
+~
+0 0 40118
+S
+#40120
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of thier daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Street and Park Road intersection 
+~
+~
+0 0 40118
+D2
+Park Road 
+~
+~
+0 0 40195
+S
+#40121
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of thier daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40122
+D2
+Park Road 
+~
+~
+0 0 40118
+S
+#40122
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of thier daily regimen to stay in peak physical 
+condition.  
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40123
+D2
+Park Road 
+~
+~
+0 0 40121
+S
+#40123
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of thier daily regimen to stay in peak physical 
+condition.  
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40124
+D2
+Park Road 
+~
+~
+0 0 40122
+S
+#40124
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of thier daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road entrance to the city park 
+~
+~
+0 0 40125
+D2
+Park Road 
+~
+~
+0 0 40123
+S
+#40125
+Park Road Entrance~
+This is the Entrance to the {Mcity park {wfrom Park Road. A beautiful
+lake with ducks lays just beyond the gate. You can hear geese and other
+water fowl and the fragrance of fresh cut grass envelopes you. A small
+{Ysign {wis attached to the wall here! {x 
+~
+0 0 1
+E
+sign~
+This park is dedicated to our founder Lord Greatheart founder of Mareal
+and holy guardian of the faith. Without whom this city would not stand
+today. 
+~
+E
+city park~
+City park is a magnificent sight filled with lush rich vegetation and
+teaming with life. This is where the citizens of Mareal come to play and
+relax after a long day hunting, shopping or toiling in their shops.
+Brilliant purple bougainvillea and hibiscus fill the air with rich scents.
+
+~
+D0
+Park Road 
+~
+~
+0 0 40147
+D2
+Park Road 
+~
+~
+0 0 40124
+S
+#40126
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle 
+villages which lay north of Mareal. To the East is the city park. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40165
+D2
+Central Square 
+~
+~
+0 0 40108
+S
+#40127
+Melse Bakery~
+You have entered Melse Bakery where racks of fresh pastries and breads
+line nearly every inch of space here. Melse looks up from her work and
+greets you warmly with a smile that lights the room. Welcome my child, may
+Lord Greatheart teach us all the path of faith. 
+~
+0 0 0
+D0
+Park Street 
+~
+~
+0 0 40115
+S
+#40128
+Merchant Lane~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. 
+~
+0 0 1
+D0
+Central Square 
+~
+~
+0 0 40108
+D1
+The Gazibo 
+~
+~
+0 0 40215
+D2
+Merchant Lane First Crossing 
+~
+~
+0 0 40129
+S
+#40129
+Merchant Lane~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. To the east is the jeweler and west is the
+Armor shop. 
+~
+0 0 1
+D0
+Merchant Lane 
+~
+~
+0 0 40128
+D1
+Jeweler 
+~
+~
+0 0 40132
+D2
+Merchant Lane 
+~
+~
+0 0 40131
+D3
+Armor Shop 
+~
+~
+0 0 40130
+S
+#40130
+Amids Armor Shop~
+Before you stands a brute of a man nearly 7 feet tall. He is the largest
+Oyate you have ever seen. His face is nearly without expression save for 
+a slight incline on his lips. Is it a smile, a grin, or just a grimace 
+of pain you see. You can see by all the types of armor here that this 
+man knows quality and his business. All the armors have a lustre that 
+almost speaks to your eye. 
+~
+0 0 0
+D1
+Merchant Lane 
+~
+~
+0 0 40129
+S
+#40131
+Merchant Lane~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. 
+~
+0 0 1
+D0
+Merchant Lane 
+~
+~
+0 0 40129
+D2
+Merchant Lane Weapon Crossing 
+~
+~
+0 0 40133
+S
+#40132
+Arrons Jewels and Jewelry Emporium~
+Arrons Jewels and Jewelry emporium is filled with practical Jewelry for
+Ladies and Gentlemen. From the dainty to the bizarre it can be found here! 
+~
+0 0 0
+D3
+Merchant Lane 
+~
+~
+0 0 40129
+S
+#40133
+Merchant Lane~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. This point is known as Weapons Crossing. 
+~
+0 0 1
+D0
+Merchants Lane 
+~
+~
+0 0 40131
+D1
+Weapons Smith 
+~
+~
+0 0 40134
+D2
+Merchants Lane 
+~
+~
+0 0 40136
+D3
+Weapons Shop 
+~
+~
+0 0 40135
+S
+#40134
+Alfredas Weapon smithy~
+Alfreda is a large woman standing near to six feet in height. She is well
+muscled and looks strong as an ox. She is the weaponsmith and as rumor 
+has it the best in town. She can forge your weapons in a number of 
+forges...
+For a price of course. She asks "Do you keep the faith child?" 
+~
+0 0 0
+D3
+Merchant Lane 
+~
+~
+0 0 40133
+S
+#40135
+Kalieds Weapon castle~
+Kalieds weapon castle is home to some exotic weapons. The only thing you
+can see in common is there are no bladed weapons here. 
+~
+0 0 0
+D1
+Merchant Lane 
+~
+~
+0 0 40133
+S
+#40136
+Merchant Lane~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. 
+~
+0 0 1
+D0
+Merchants Lane 
+~
+~
+0 0 40133
+D1
+The ATM 
+~
+~
+0 0 40191
+D2
+Merchants Lane and Exotic Blvd. 
+~
+~
+0 0 40137
+S
+#40137
+Merchant Lane and Exotic Blvd.~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. Exotic Blvd. runs west of here and to the 
+east is Khalieds Weapons Palace. 
+~
+0 0 1
+D0
+
+~
+~
+0 0 40136
+D1
+Khalieds Weapons Palace 
+~
+~
+0 0 40138
+D2
+Merchants Lane 
+~
+~
+0 0 40144
+D3
+Exotic Blvd. 
+~
+~
+0 0 40139
+S
+#40138
+Khalieds weapons palace~
+Khalieds weapons palace specializes in bladed weapons. Nearly everything
+you can image for weaponry is found here... As long as it has a blade. 
+~
+0 0 0
+D3
+Merchant Lane and Exotic Blvd 
+~
+~
+0 0 40137
+S
+#40139
+Exotic Blvd.~
+Exotic Blvd is where you can find pills and elixirs as well as a few
+surprises that you may not have expected. To the north is the Piercing 
+Shop!
+~
+0 0 1
+D0
+Piercing Shop 
+~
+~
+0 0 40140
+D1
+Merchants Lane and Exotic Blvd. 
+~
+~
+0 0 40137
+D3
+
+~
+~
+0 0 40141
+S
+#40140
+Body Piercing-r-us~
+This is the body piercing shop where many accessories can be found for
+your piercings. A small case displays some of the merchandise available 
+here and Miya waits to serve you. 
+~
+0 0 0
+D2
+Exotic Lane 
+~
+~
+0 0 40139
+S
+#40141
+Exotic Blvd.~
+Exotic Blvd is where you can find pills and elixirs as well as a few
+surprises that you may not have expected. To the north is the alchemist 
+shop or south to the magic shop! To the west is the Importers shop where 
+rare goods can be found. 
+~
+0 0 1
+D0
+Alchemist Shop 
+~
+~
+0 0 40143
+D1
+Exotic Blvd 
+~
+~
+0 0 40139
+D2
+Magic shop 
+~
+~
+0 0 40146
+D3
+Importers 
+~
+~
+0 0 40142
+S
+#40142
+Importers Warehouse~
+Zal the importer waits behind a shelf to serve you. As you look around
+many items can be found here that are found nowhere else in this area.
+Indeed he imports things from the world over. 
+~
+0 0 0
+D1
+Exotic Blvd 
+~
+~
+0 0 40141
+S
+#40143
+Adamson Alchemy~
+Potions glisten in the pale light of this room. You have to squint to see
+the owner Adamson. You wonder why this shop is so dark - perhaps the
+proprietor like the peace of darkness? You can still find any item to 
+suit your taste buds here. Every potion you could want.. Well almost 
+every. 
+~
+0 9 0
+D2
+Exotic Blvd 
+~
+~
+0 0 40141
+S
+#40144
+Merchant Lane~
+You can see a myriad of shops as you proceed on Merchants Lane. There is
+no doubt how it got its name. 
+~
+0 0 1
+D0
+Merchants Lane 
+~
+~
+0 0 40137
+D2
+The south Gate 
+~
+~
+0 0 40145
+S
+#40145
+Merchant Lane Exit~
+To the south stands the ironwork and towering walls of the South Gate, 
+which keeps this city safe from outside forces. It is indeed a marvel 
+of engineering. No walls have ever been seen that rival these anywhere 
+on this world!  The iron gates stand open, leading out to a track
+across mangrove swamps.
+~
+0 0 1
+E
+gate~
+A large iron gate towering 20 feet into the sky. 
+~
+E
+wall~
+A large menacing site to behold it is no wonder this city enjoys such
+prosperity. 
+~
+D0
+Merchant Lane 
+~
+~
+0 0 40144
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40202
+S
+#40146
+Magic Shop~
+Marla is here making spells and magic incantations. A small box sits on a
+counter where all Marlas magic is stored. 
+~
+0 0 0
+D0
+Exotic blvd 
+~
+~
+0 0 40141
+S
+#40147
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40148
+D2
+Park Road 
+~
+~
+0 0 40125
+S
+#40148
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40149
+D2
+Park Road 
+~
+~
+0 0 40147
+S
+#40149
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. On the park wall to the west is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40150
+D2
+Park Road 
+~
+~
+0 0 40148
+S
+#40150
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition.
+~
+0 0 1
+D0
+Park Road and Park Ave intersection 
+~
+~
+0 0 40151
+D2
+Park Road 
+~
+~
+0 0 40149
+S
+#40151
+Park Road and Park Ave~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+Running east and west is Park Ave. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40152
+D1
+Park Ave 
+~
+~
+0 0 40154
+D2
+Park Road 
+~
+~
+0 0 40150
+D3
+Park Ave 
+~
+~
+0 0 40155
+S
+#40152
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40153
+D2
+Park Road 
+~
+~
+0 0 40151
+S
+#40153
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition.  
+~
+0 0 1
+D0
+
+~
+~
+0 0 40186
+D2
+Park Road 
+~
+~
+0 0 40152
+S
+#40154
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.  Over in the park, the brilliant purple of bougainvillea 
+and hibiscus fill the air with rich scents.
+~
+0 0 1
+D3
+Park Road and Park Ave intersection 
+~
+~
+0 0 40151
+S
+#40155
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave and Park Road intersection 
+~
+~
+0 0 40151
+D3
+Park Ave 
+~
+~
+0 0 40156
+S
+#40156
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.  On the park wall to the south is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+~
+0 0 1
+D1
+Park Ave 
+~
+~
+0 0 40155
+D3
+Park Ave 
+~
+~
+0 0 40157
+S
+#40157
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave 
+~
+~
+0 0 40156
+D3
+Park Ave 
+~
+~
+0 0 40158
+S
+#40158
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave 
+~
+~
+0 0 40157
+D3
+Park Ave before city park 
+~
+~
+0 0 40159
+S
+#40159
+Park Ave before the city park~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+A small {Ysign {wis attached to the wall here! {x {wTo
+the south is the {mcity park{w with its tropical gardens. A small
+path leads North toward the Mareal {Dcemetery{w. 
+~
+0 0 1
+E
+sign~
+This park is dedicated to our founder Lord Greatheart founder of Mareal
+and holy gaurdian of the faith. Without whom this city would not stand
+today. 
+~
+E
+city park~
+City park is a magnificent sight filled with lush rich vegitation and
+teaming with life. This is where the citizens of Mareal come to play and
+relax after a long day hunting, shopping or toiling in their shops. 
+~
+E
+cemetery~
+A place filled with dead people and much danger! |----------------------|
+| Beware: all ye who | | Enter here! | |----------------------| 
+~
+D0
+
+~
+~
+0 0 40184
+D1
+Park Ave 
+~
+~
+0 0 40158
+D3
+Park Ave 
+~
+~
+0 0 40160
+S
+#40160
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave before the city park entrance 
+~
+~
+0 0 40159
+D3
+Park Ave 
+~
+~
+0 0 40161
+S
+#40161
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave 
+~
+~
+0 0 40160
+D3
+Park Ave 
+~
+~
+0 0 40162
+S
+#40162
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave 
+~
+~
+0 0 40161
+D3
+Park Ave 
+~
+~
+0 0 40163
+S
+#40163
+Park Ave~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Because it is in honour of Lord Greatheart it is a 
+public holiday.
+~
+0 0 1
+D1
+Park Ave 
+~
+~
+0 0 40162
+D3
+Park Ave and Northern Way 
+~
+~
+0 0 40164
+S
+#40164
+intersection of Park Ave and Northern Way~
+This road is known for the elaborate parades that proceed up and down
+this road on holidays. The most famous day here is founders day which has
+the largest parade. Northern way runs North and South from here. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40173
+D1
+Park Ave 
+~
+~
+0 0 40163
+D2
+Northern Way 
+~
+~
+0 0 40172
+S
+#40165
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. On 
+the side of a tall windowless building to the west is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40166
+D2
+Northern Way 
+~
+~
+0 0 40126
+S
+#40166
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40167
+D2
+Northern Way 
+~
+~
+0 0 40165
+S
+#40167
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. 
+~
+0 0 1
+D0
+Northern Way before the park 
+~
+~
+0 0 40168
+D2
+Northern Way 
+~
+~
+0 0 40166
+S
+#40168
+Northern Way before the city park~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the inland villages
+which lay north of Mareal. A small {Ysign {wis attached to the wall here! {x
+{wTo the East is the {Mcity parks{w entrance. 
+~
+0 0 1
+E
+sign~
+This park is dedicated to our founder Lord Greatheart founder of Mareal
+and holy guardian of the faith. Without whom this city would not stand
+today. 
+~
+E
+city park~
+City park is a magnificent sight filled with lush rich vegetation and
+teaming with life. This is where the citizens of Mareal come to play and
+relax after a long day hunting, shopping or toiling in their shops. 
+~
+D0
+Northern Way 
+~
+~
+0 0 40169
+D2
+Northern Way 
+~
+~
+0 0 40167
+S
+#40169
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. 
+Wafting from it, the brilliant purple of bougainvillea 
+and hibiscus fill the air with rich scents.
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40170
+D2
+Northern Way before the city park 
+~
+~
+0 0 40168
+S
+#40170
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. On 
+the side of a tall windowless building to the west is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40171
+D2
+Northern Lane 
+~
+~
+0 0 40169
+S
+#40171
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40172
+D2
+Northern Way 
+~
+~
+0 0 40170
+D3
+
+~
+~
+0 0 40185
+S
+#40172
+Northern Way~
+This road leads south to central square and North out of the city. It
+appears to be a major route for the import of goods to the jungle
+villages which lay north of Mareal. To the East is the city park. 
+~
+0 0 1
+D0
+Northern Way and Park Ave intersection 
+~
+~
+0 0 40164
+D2
+Northern Way 
+~
+~
+0 0 40171
+S
+#40173
+Northern Way~
+In the distance you can see The Great Northern Gate. Its size makes the
+other gates of this city pale in sheer comparison. This road is well
+traveled by merchants, immigrants and adventurers alike. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40174
+D2
+Northern Way and Park Ave Intersection 
+~
+~
+0 0 40164
+S
+#40174
+Northern Way~
+In the distance you can see The Great Northern Gate. Its size makes the
+other gates of this city pale in sheer comparison. This road is well
+traveled by merchants, immigrants and adventurers alike. Your shirt is 
+wet from the heavy tropical heat of this city.
+
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40175
+D2
+Northern Way 
+~
+~
+0 0 40173
+S
+#40175
+Northern Way~
+In the distance you can see The Great Northern Gate. Its size makes the
+other gates of this city pale in sheer comparison. This road is well
+traveled by merchants, immigrants and adventurers alike. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40176
+D2
+Northern Way 
+~
+~
+0 0 40174
+S
+#40176
+Northern Way~
+The Great Northern Gate looms ominously on the near horizon. Its size
+makes the other gates of this city pale in sheer comparison. This road is
+well traveled by merchants, immigrants and adventurers alike. 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40177
+D2
+Northern Way 
+~
+~
+0 0 40175
+S
+#40177
+Northern Way and Medical Circle~
+The Great Northern Gate looms ominously on the near horizon. Its size
+makes the other gates of this city pale in sheer comparison. This road is
+well traveled by merchants, immigrants and adventurers alike. To the east is
+medical circle 
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40178
+D1
+Medical Circle 
+~
+~
+0 0 40180
+D2
+Northern Way 
+~
+~
+0 0 40176
+S
+#40178
+Northern Way~
+The Great Northern Gate looms ominously on the near horizon. Its size
+makes the other gates of this city pale in sheer comparison. This road is
+well traveled by merchants, immigrants and adventurers alike. On 
+the side of a tall windowless building to the west is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+~
+0 0 1
+D0
+Northern Way 
+~
+~
+0 0 40179
+D2
+Northern Way and Medical Circle 
+~
+~
+0 0 40177
+S
+#40179
+The Great Northern Gate~
+This {Dgate{w standing as tall as any building you have ever seen dwarfs
+in comparison the century old {ytrees{w that stand proudly just beyond its
+protection. Why would they build such a gate? For what purpose did the
+builders here find it necessary to erect such a gate or was it simply to
+inspire the exact reaction you are having now? 
+~
+0 0 1
+E
+gate~
+The great northern gate towers nearly 80 feet in high and has thick iron
+bars. It is awe inspiring and frightening at the same time. Whatever is 
+out there must be pretty terrible to erect such an imposing monument. 
+~
+E
+trees~
+Great jungle trees dating back more than 100 years stand beyond this 
+gate. Some of them show signs of the violence that has plagued the 
+recent history of this region. A few are burnt completely to the ground. 
+~
+D2
+Northern Way 
+~
+~
+0 0 40178
+S
+#40180
+Medical Circle~
+A small loop where the physicians of this city can be found. Northern
+edge the Dentist. Southern edge the Optometrist. Eastern edge the
+Pharmacist. 
+~
+0 0 1
+D0
+Dentist 
+~
+~
+0 0 40181
+D1
+Pharmacist 
+~
+~
+0 0 40183
+D2
+Optometrist 
+~
+~
+0 0 40182
+D3
+Northern Way 
+~
+~
+0 0 40177
+S
+#40181
+Dentist~
+Here Dr. Rethven practices dentistry. A comfortable dentist chair with
+a bright lantern is in the center of the room. A small table with various
+instruments stands next to the right of the table. 
+~
+0 0 0
+D2
+Medical Circle 
+~
+~
+0 0 40180
+S
+#40182
+House of Eyes Optometry~
+"Welcome to the house of eyes" bellows Dr. Abrahm. He quickly approaches
+you and shakes your hand. You cannot help but think what a friendly chap 
+he is. "May I show you some fine eye coverings?" Says Dr. Abrahm. 
+~
+0 0 0
+D0
+Medical Circle 
+~
+~
+0 0 40180
+S
+#40183
+Dude pharmaceutical~
+Dude the pharmacists offers to sell you some GoooooD stuff man! He says
+he has remedies for whatever you need. As you gaze arround the room you 
+can see he does indeed have most things you could want. Dude speaks up 
+"I even have a full complement of rheumatism medicines" 
+~
+0 0 0
+D3
+Medical Circle 
+~
+~
+0 0 40180
+S
+#40184
+A small path~
+Short {yiron gates{w now stand before you and you can tell this is a
+grave yard! Should you enter here? An eerie mist seems to coat the ground
+arround your feet and the slight odor of musty ground. Your footing is not
+completely stable due to the moss growing here. A {Ysign{w has been posted
+beside the gate! 
+~
+0 0 1
+E
+iron gates~
+This gate is made of iron and in a horrid state of disrepair. It stands
+about waist high and appears to be unlocked. 
+~
+E
+sign~
+This is the Mareal graveyard where only the dead and willing to die dare
+enter. Mareal Graveyard is by Taka and is level 55-60 proceed with caution. 
+~
+D2
+Park Ave before central park 
+~
+~
+0 0 40159
+S
+#40185
+Grocer~
+Billie the grocer is here making his fruit display look as appealing as
+possible. He is busily washing and stacking the fruits and acknowledges 
+you with little more than a simple hail Lord Greatheart. 
+~
+0 0 0
+D1
+Northern Way 
+~
+~
+0 0 40171
+S
+#40186
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peek physical 
+condition. Over in the park, the brilliant purple of bougainvillea 
+and hibiscus fill the air with rich scents.
+
+~
+0 0 1
+D0
+
+~
+~
+0 0 40187
+D2
+
+~
+~
+0 0 40153
+S
+#40187
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peek physical 
+condition.  
+~
+0 0 1
+D0
+
+~
+~
+0 0 40188
+D2
+
+~
+~
+0 0 40186
+S
+#40188
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peek physical 
+condition. 
+~
+0 0 1
+D1
+
+~
+~
+0 0 40189
+D2
+
+~
+~
+0 0 40187
+S
+#40189
+Eastern Way~
+Leading through the eastern gate toward the great swamps. 
+~
+0 0 1
+D1
+
+~
+~
+0 0 40190
+D3
+
+~
+~
+0 0 40188
+S
+#40190
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peek physical 
+condition. 
+~
+0 0 1
+D3
+
+~
+~
+0 0 40189
+S
+#40191
+An ATM~
+This is an ATM (Automated Teller Mobile) where you can withdraw currency
+or make deposits when the bank is closed. Beware there are limits on
+withdrawals. 
+~
+0 0 0
+D3
+Merchants Lane 
+~
+~
+0 0 40136
+S
+#40195
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition.  
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40120
+D2
+Park Road 
+~
+~
+0 0 40196
+S
+#40196
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40195
+D2
+Park Road 
+~
+~
+0 0 40197
+D3
+Moonlight Inn 
+~
+~
+0 0 40217
+S
+#40197
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. On the park wall to the west is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40196
+D2
+Park Road 
+~
+~
+0 0 40198
+S
+#40198
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. The brilliant purple of bougainvillea and hibiscus fill 
+the air with rich scents.
+
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40197
+D2
+Park Road 
+~
+~
+0 0 40199
+S
+#40199
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40198
+D2
+Park Road 
+~
+~
+0 0 40200
+S
+#40200
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition.  Your shirt is wet from the heavy tropical heat of this city.
+
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40199
+D2
+Park Road 
+~
+~
+0 0 20401
+S
+#20401
+Park Road~
+Park Road is well worn from the daily use it receives not only from
+civilian traffic but military as well! The troops run laps around this 
+huge city as part of their daily regimen to stay in peak physical 
+condition. 
+East is The Great Southern Wall Road. 
+~
+0 0 1
+D0
+Park Road 
+~
+~
+0 0 40200
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40210
+S
+#40202
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40403
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40145
+S
+#40403
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40204
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40202
+S
+#40204
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40205
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40403
+S
+#40205
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40206
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40204
+S
+#40206
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. On the park wall to the north is mounted a huge 
+picture of Greatheart, a warm and handsome man smiling benevolently 
+over his people.
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40207
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40205
+S
+#40207
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D0
+
+~
+~
+0 0 40211
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40208
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40206
+S
+#40208
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40209
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40207
+S
+#40209
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Great Southern Wall Road 
+~
+~
+0 0 40210
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40208
+S
+#40210
+The great Southern Wall Road~
+This road's most notable feature is the very solid {Dgranite wall{w
+extending nearly 20 feet high and 10 feet thick. This imposing wall at 
+one time was home to all the Mareal residents. It served as protection
+and lodging. To this day many soldiers still live and work within these 
+walls. 
+~
+0 0 1
+E
+granite wall~
+Upon closer inspection you discover the wall is more than 20 feet thick
+and it would appear a large portion is buried beneath your very feet. 
+~
+D1
+Park Road 
+~
+~
+0 0 20401
+D3
+Great Southern Wall Road 
+~
+~
+0 0 40209
+S
+#40211
+Blakes Tavern~
+A large open hall with a bar just north and a few tables and chairs
+sitting about. A few patrons are here mingling and socializing. 
+~
+0 0 0
+D0
+The bar 
+~
+~
+0 0 40212
+D1
+Sitting Area 
+~
+~
+0 0 40214
+D2
+
+~
+~
+0 0 40207
+D3
+Sitting Area 
+~
+~
+0 0 40213
+S
+#40212
+The Bar~
+A long bar made of what looks like drift wood with stools made from the
+bones of some strange animal and seats made with padded leather. The bar
+tender {BBlake {wstands behind the bar washing glasses and humming a tune. 
+~
+0 0 0
+E
+blake~
+Blake is a man of means. You can tell he has plenty of cash from years of
+properity. 
+~
+D2
+The tavern enrtance 
+~
+~
+0 0 40211
+S
+#40213
+Blakes Tavern~
+A large open hall with a few tables and chairs sitting about. A few
+patrons are here mingling and socializing. 
+~
+0 0 0
+D1
+The tavern enrtance 
+~
+~
+0 0 40211
+S
+#40214
+Blakes Tavern~
+A large open hall with a few tables and chairs sitting about. A few
+patrons are here mingling and socializing. 
+~
+0 0 0
+D3
+The tavern enrtance 
+~
+~
+0 0 40211
+S
+#40215
+The Gazebo~
+This octagonal structure made from wood has a small roof over the top and
+is the place where the local mayor speaks to the citizens of Mareal. It 
+has a beautiful white platform with no walls, only white pillars holding 
+up the roof. A {Gsign is here{w. {x 
+~
+0 0 0
+E
+sign~
+The mayor and our spiritual leader Lord Greatheart blesses those who are
+the true followers and keepers of the faith. 
+~
+D0
+Park Street 
+~
+~
+0 0 40109
+D3
+Merchants Lane 
+~
+~
+0 0 40128
+S
+#40216
+Levit Maps~
+Levits Map shop is a strange place appearing disorganized and cluttered.
+As you attempt to move something Levit screams at you to leave things in
+place. 
+~
+0 0 0
+D0
+Park Street 
+~
+~
+0 0 40113
+S
+#40217
+The Moonlight Inn~
+The Moonlight Inn is a fanciful place where people come to relax. The
+finest {Rdraperies{w hang over the windows and {Rshag carpeting{w adorns
+the floor. A {rfire place{w crackles and you feel very warm in this 
+tropical city! 
+~
+0 0 0
+E
+draperies~
+Silken drapes red in color hang covering the windows here. 
+~
+E
+shag carpet~
+Thick red shag carpet soft as any you have felt before covers the floor
+here. 
+~
+E
+fire place~
+A crackling fire warms this room and the sound of the logs drying in the
+fire warms your soul and sooths your mind. 
+~
+D0
+Courtyard 
+~
+~
+3 0 40242
+D1
+Park Road 
+~
+~
+0 0 40196
+S
+#40218
+City Hall Plaza Way~
+This is the way to City Hall Plaza which is the home to the mayor and 
+other public service offices here in Mareal. A {Ysign{w
+stands on a metal pole here! 
+~
+0 0 1
+E
+sign~
+This is the City Hall Plaza for the city of Mareal! Level 70+ is
+recommended if you choose to try your luck at levelling here. As always
+proceed with caution. 
+~
+D2
+City Hall Plaza 
+~
+~
+0 0 40220
+D5
+Park Street 
+~
+~
+0 0 40110
+S
+#40219
+Wizards way~
+A small path leads in one direction toward a large round tower which
+stands vertical on the horizon. Large white stones polished and placed in
+perfect circular patterns then stacked one atop the other. You gaze
+momentarily in wonderment and then proceed toward the tower. 
+~
+0 0 0
+S
+#40220
+City Hall Plaza~
+A perfect stone road way cleaned and polished to perfection. You would
+believe by the roads here that they are never used! To the south is the 
+town hall 
+~
+0 0 1
+D0
+City Hall Plaza way 
+~
+~
+0 0 40218
+D1
+City Hall Plaza 
+~
+~
+0 0 40221
+D2
+City Hall 
+~
+~
+0 0 40222
+S
+#40221
+City Hall Plaza~
+A perfect stone road way cleaned and polished to perfection. You would
+believe by the roads here that they are never used! To the east is the
+police station. 
+~
+0 0 1
+D1
+City Hall Plaza 
+~
+~
+0 0 40225
+D3
+City Hall Plaza 
+~
+~
+0 0 40220
+S
+#40222
+City Hall Reception~
+This is the reception center for city hall. A lovely young receptionist
+is here ready to help with your needs. 
+~
+0 0 0
+D0
+City Hall Plaza 
+~
+~
+0 0 40220
+S
+#40223
+Mayors office~
+The mayors office is lavishly adorned with silk and shag carpet. The
+mahogany wood door frames and window framing conbine with the other 
+stylish furnishings here to let you know this man lives in the lap of 
+luxury. 
+~
+0 0 1
+D0
+City Plaza Way 
+~
+~
+0 0 40221
+D2
+City Hall Plaza 
+~
+~
+0 0 40224
+D5
+
+~
+~
+3 40193 40240
+S
+#40224
+City Hall Plaza~
+A perfect stone road way cleaned and polished to perfection. You would
+believe by the roads here that they are never used! To the east is the
+police station, south the fire station and west the hospital. 
+~
+0 0 1
+D1
+City Hall Plaza 
+~
+~
+0 0 40227
+D2
+Fire station 
+~
+~
+0 0 40228
+D3
+Hospital 
+~
+~
+0 0 40230
+S
+#40225
+City Hall Plaza~
+A perfect stone road way cleaned and polished to perfection. You would
+believe by the roads here that they are never used! To the east is the
+police station. 
+~
+0 0 1
+D1
+Police station 
+~
+~
+0 0 40229
+D2
+City Hall Plaza 
+~
+~
+0 0 40226
+D3
+City Hall Plaza 
+~
+~
+0 0 40221
+S
+#40226
+City Hall Plaza~
+A perfect stone road way cleaned and polished to perfection. You would
+believe by the roads here that they are never used! To the east is the
+police station. 
+~
+0 0 1
+D0
+City Hall plaza 
+~
+~
+0 0 40225
+D2
+City Hall plaza 
+~
+~
+0 0 40227
+S
+#40227
+City Hall Plaza~
+A perfect stone road way cleaned and polished to perfection. You would
+believe by the roads here that they are never used! To the east is the
+police station. 
+~
+0 0 1
+D0
+City Hall Plaza 
+~
+~
+0 0 40226
+D3
+City Hall Plaza 
+~
+~
+0 0 40224
+S
+#40228
+Fire station Entrance~
+The Mareal town Fire Station filled with lots of gear for fighting fires. 
+~
+0 0 0
+D0
+City Hall Plaza 
+~
+~
+0 0 40224
+D1
+The fire house store room 
+~
+~
+0 0 40231
+D4
+The fire fighters sleeping quarters 
+~
+~
+0 0 40232
+S
+#40229
+Police station~
+Mareals finest hang out here. The officers of the law not only protect the
+citizens of Mareal from wrongdoers but ensure that every single one of 
+Greatheart's 10,000 laws are strictly obeyed. A fresh box of doughnuts on 
+the desk to keep up their muscle power, and the station appears in good 
+repair. Obviously these policemen take pride in their work and their city. 
+~
+0 0 0
+E
+doughnut~
+These powdered doughnuts are very fresh and look quite tasty. The Police
+who work here seem to especially like this treat. 
+~
+D0
+Chiefs room 
+~
+~
+3 0 40241
+D1
+
+~
+~
+0 0 40239
+D2
+Processing room 
+~
+~
+0 0 40233
+D3
+
+~
+~
+0 0 40225
+S
+#40230
+Hospital~
+The sick of Mareal are brought here for treatment. Many things lie about
+but it is the people busily doing their jobs that interest you. You can 
+tell by the tingling feelings throughout your body that this place has 
+some magical powers which heal and rejuvinate you.  A bed is available 
+if you feel in need of rest.
+~
+0 0 0
+D1
+City Hall Plaza 
+~
+~
+0 0 40224
+M 400 H 400
+S
+#40231
+Fire station store room~
+This is where the equipment is stored. Various pieces of equipment litter
+the floors and hang on the walls here. As you eyes scan the room you are
+amazed at all the stuff they fit into this small room. 
+~
+0 0 0
+D3
+The fire station entrance 
+~
+~
+0 0 40228
+S
+#40232
+The fire fighters sleeping quarters~
+Several beds line the room with a locker at the foot of each bed. This
+must be where the fire fighters sleep. 
+~
+0 0 0
+D5
+Fire station entrance 
+~
+~
+0 0 40228
+S
+#40233
+Police station processing room~
+This is where the Mareal police force processes its victims *errr i mean*
+felons. The equipment here is used to coerce *errr collect* the 
+confessions *errr* statements of these felons. To the east is a jail 
+cell which appears to hold a belligerent drunk. 
+~
+0 0 0
+D0
+Police station entrance 
+~
+~
+0 0 40229
+D1
+The cell 
+~
+~
+1 0 40234
+S
+#40234
+The cell~
+This is part of the large jail cell here. All prisoners share the same
+cell and facilities. There are a few cots spread out about the room and a
+number of prisoners here. Most appear to be simple drunks who are 
+sleeping off their night of partying. 
+~
+0 0 0
+D2
+The cell 
+~
+~
+0 0 40235
+D3
+Processing room 
+~
+~
+1 0 40233
+S
+#40235
+The cell~
+This is part of the large jail cell here. All prisoners share the same
+cell and facilities. There are a few cots spread out about the room and a
+number of prisoners here. Most appear to be simple drunks who are 
+sleeping off their night of partying. 
+~
+0 0 0
+D0
+The cell 
+~
+~
+0 0 40234
+D2
+The cell 
+~
+~
+0 0 40238
+D3
+The cell 
+~
+~
+0 0 40236
+S
+#40236
+The cell~
+This is part of the large jail cell here. All prisoners share the same
+cell and facilities. There are a few cots spread out about the room and a
+number of prisoners here. Most appear to be simple drunks who are 
+sleeping off their night of partying. 
+~
+0 0 0
+D1
+The cell 
+~
+~
+0 0 40235
+D2
+The cell 
+~
+~
+0 0 40237
+S
+#40237
+The cell~
+This is part of the large jail cell here. All prisoners share the same
+cell and facilities. There are a few cots spread out about the room and a
+number of prisoners here. Most appear to be simple drunks who are 
+sleeping off their night of partying. 
+~
+0 0 0
+D0
+The cell 
+~
+~
+0 0 40236
+D1
+The cell 
+~
+~
+0 0 40238
+S
+#40238
+The cell~
+This is part of the large jail cell here. All prisoners share the same
+cell and facilities. There are a few cots spread out about the room and a
+number of prisoners here. Most appear to be simple drunks who are 
+sleeping off their night of partying. 
+~
+0 0 0
+D0
+The cell 
+~
+~
+0 0 40235
+D3
+The cell 
+~
+~
+0 0 40237
+S
+#40239
+the police equipment room~
+This room has lots of equipment stacked neatly about. Night sticks, riot
+gear and other pieces of police gear line the shelves on the walls here. 
+~
+0 0 0
+D3
+Entrance to the police station 
+~
+~
+0 0 40229
+S
+#40240
+The mayors private room~
+This is a secret room the mayor appears to have been stealing from the
+city coffers. He has hidden some nice stuff down here it would seem. 
+~
+0 0 0
+D4
+Mayors office 
+~
+~
+3 0 40223
+S
+#40241
+chiefs office~
+This is where the Mareal chief of police spends his days at the office. It
+is a modest setting with a small desk and a chair for the chief to sit in. A
+{Ysign{w on his desk. 
+~
+0 0 0
+D2
+Entrance to the police station 
+~
+~
+3 0 40229
+S
+#40242
+Courtyard behind the inn~
+The Courtyard behind the in filled with lots of growing things. The
+center of this garden style courtyard is a large tree which the owner 
+calls the {ytree of life{w. 
+~
+0 0 3
+D2
+Inn 
+~
+~
+3 0 40217
+S
+#40243
+Inside the tree of life~
+Standing inside the tree of life you see Teralyn weeping before you. 
+~
+0 0 0
+D5
+The base 
+~
+~
+0 0 40244
+S
+#40244
+The base of the tree of life~
+Looking up you can see some daylight... Or at least a light. Curious? 
+Well, take a look 
+~
+0 0 0
+D4
+Up 
+~
+~
+0 0 40243
+S
+#0
+
+
+
+#SHOPS
+40107 19 0 0 0 0 70 110 0 23
+40108 9 11 0 0 0 100 100 0 23
+40109 33 32 0 0 0 100 100 0 23
+40111 5 0 0 0 0 85 110 8 18
+40112 5 9 0 0 0 80 116 8 18
+40113 32 33 8 0 0 70 110 0 23
+40114 11 15 28 0 0 70 120 12 23
+40115 10 26 0 0 0 70 130 0 23
+40127 17 0 0 0 0 100 100 0 23
+40139 10 38 0 0 0 90 105 0 23
+0
+
+
+
+#SPECIALS
+M 40105 spec_cast_adept
+S
+
+#MOBPROGS
+#40100
+if ispc $n	
+	if sex $n < 2
+		say Welcome sir to my humble shop may Lord Greatheart bless you.
+	else
+		say Welcome miss to my humble shop may Lord Greatheart bless you.
+	endif
+endif~
+#40101
+if ispc $n	
+	if sex $n < 2
+		say Welcome $n. Feel free to look arround sir.
+	else
+		say Welcome $n. Feel free to look arround miss.
+	endif
+endif~
+#40102
+mob echo In a booming voice he says "Can I help you find something? Or  perhaps you have come to sell something?" ~
+#40103
+say "I have the best selection of Armor in town."~
+#40104
+say "I am always willing to see what you may have~
+#40105
+say Welcome to my tavern. It is always a pleasure to greet a fellow adventurer.
+say Have you come to hear the rumors or just to drink and dine?~
+#40106
+say Ah you have to see old man Michole. Tell him Blake sent you.
+echo after a long pause Blake addeds "Of course since he is down on his luck you will have to give him a few coins. You best be good to my dear friend and one of my best customers."~
+#40107
+say Ah I always love a drinker!~
+#40108
+if ispc $n	
+	if sex $n < 2
+		say Good day to thee kind sir.
+	else
+		say Good day to thee kind lady.
+	endif
+endif
+~
+#40109
+emote {Gsays {M*hiccup* {G'Oh yes my good friend Blake {M*hiccup* {Gfrom the {M*hiccup* {Gtavern.'{x
+say {`So..... what has Blake said I can do for you?~
+#40110
+if ispc $n	
+	if sex $n < 2
+		say A rumor kind sir? Ah yes i think it is coming to me.....
+                               emote Holds out his hand.
+	else
+		say A rumor kind lady? Ah yes i think it is coming to me.....
+                               emote Holds out his hand.
+	endif
+endif~
+#40111
+say Yes I remember now. The mage Hemgen was looking for something of great value. He was willing to give some special reward for its return.
+mob teach $n search 100
+~
+#40112
+say Hemgen can be found in the wizards tower but you have to enter the window to get there.~
+#40113
+emote {Rscreams bloody murder!{x~
+#40114
+slap $n
+mob damage $n 5 15 nokill~
+#40115
+mob echo {GThe corpse of {WMichole {REXPLODES {Gthe body parts pummal you!{x
+mob damage $n 50 150 kill~
+#40116
+cackle $n
+emote {Gbegins to {RD{rr{Ri{rl{Rl {Ginto your {wteeth!{x
+mob damage $n 15 15 nokill
+mob echo {RTHAT HURT!!!{x~
+#40117
+say Welcome to Mareal town hall. The mayor is in.
+say Are you here to see the mayor? ~
+#40118
+mob transfer $n 40223~
+#40119
+mob transfer $n 40100~
+#40120
+if ispc $n	
+	if sex $n < 2
+		say I am sorry sir but my shop is under construction at this time. Try back later.
+	else
+		say I am sorry ma'am but my shop is under construction at this time. Try back later.
+	endif
+endif~
+#40121
+say Yes in the future my forge will be finished and i will be able to enhance your weapons.~
+#40122
+mob echo Zzzzz.....Zzzzz.....Zzzzz~
+#40123
+if ispc $n	
+	if sex $n < 2
+		say Have you come for a job? Well there are no openings.
+	else
+		say Ma'am this is no place for a lassy like yourself. You could get hurt.
+	endif
+endif~
+#40124
+if ispc $n	
+	if sex $n < 2
+		say Well perhaps i need to open my can of whoop ass. I already told you there are no jobs available.
+                                say Now buzz off!
+	else
+		say Well missy if you really need a job i have a hose that you can put away.
+		adjust
+                                smirk
+	endif
+endif~
+#40125
+if ispc $n	
+	if sex $n < 2
+		say Welcome sir what plagues you today?
+	                mob echo {GReaches for her needle.{x
+                else
+		say Welcome ma'am what seems to be the matter?
+	                mob echo {GReaches for her needle.{x
+	endif
+endif~
+#40126
+yell help POLICE i am being attacked....HELP POLICE~
+#40127
+mob echo {RSTOP THIS!!!!{x~
+#40128
+mob oload 40193 21 'room'~
+#40129
+say WHAT!?!?~
+#40130
+if ispc $n	
+	if sex $n < 2
+		say GET OUT MISTER!
+	else
+		say GET OUT MISS.
+	endif
+endif~
+#40131
+mob kill $n~
+#40132
+scream
+mob echo {GYou will pay for that you little puke!{`{YThe equipment officer {Ggets a nightstick from the shelf and prepares to administer a beating!{x
+mob oload 40196 30 wear
+mob oload 40197 30 wear
+~
+#40133
+mob oload 40198 30
+mob echo {Wthe equipment officer {GGets a potion from the shelf and quickly drinks it!{x
+quaff heal~
+#40134
+say Welcome, welcome. Please do come in I always so much so enjoy company.
+if ispc $n
+     if race $n 'drow'
+                say A brother drow. Perhaps in time i may have a quest for you.
+     endif
+endif
+~
+#40135
+say See my brother for bladed weapons. He is just down the way.
+~
+#40136
+if ispc $n	
+	if sex $n < 2
+		say A customer! How may i help you honorable sir?
+	else
+		say A customer! How may i help you pretty miss?
+	endif
+endif~
+#40137
+if ispc $n	
+	if sex $n < 2
+		say What can i sell you today?
+	else
+		say But miss these weapons are for warfare, are you sure you will not get hurt with them?
+                                mob echo {Gmuttering something about this new womans movement!{x
+	endif
+endif~
+#40138
+say Thank you for visiting my humble shop. I do hope you also paid my brother Kalied a visit.  ~
+#40139
+if level $n >= 15
+  if ispc $n	
+	if sex $n < 2
+		say Please sir I beg of you to help me.
+	else
+		say Please lady I beg of you to help me.
+	endif
+  endif
+endif~
+#40140
+say Please I beg you my..my brother is lost in the woods
+sob~
+#40141
+say Yes the great forest to the west. I...I..I fear he has come to harmsway...But..but I must know.
+~
+#40142
+say Please hurry there is no time to waste. You must hurry and if you can tell me his fate i will reward you handsomely. Now please go
+cry~
+#40143
+say What are you still doing here?? Hurry, Please!~
+#40144
+eat root
+scream~
+#40145
+if hpcnt < 10
+    eat ash
+endif~
+#40146
+if hpcnt < 5
+   mob transfer $n 40102
+elnif~
+#40147
+mob echo {GThe corpse of {WTeralyn {REXPLODES {Gboiling sap injures you!{x
+mob damage $n 100 500 kill~
+#40148
+if ispc $n	
+	if sex $n < 2
+		say Can I interest the handsome sir in a piercing?
+	else
+		say Want me to help you feel sexy miss?
+	endif
+endif~
+#40149
+if ispc $n	
+	if sex $n < 2
+		say I have the best stock of piercings anywhere.
+	else
+		say I bet you would look lovely with a belly piercing.
+	endif
+endif~
+#40150
+if ispc $n	
+	if sex $n < 2
+		say But I bet sir would look great with a piercing.
+	else
+		say You know how sexy a belly button pierce is?
+	endif
+endif~
+#40151
+if ispc $n	
+	if sex $n < 2
+		say Ahh welcome to my shop. What can i help you find today sir?
+	else
+		say You have such a beautiful neck. What could I help a pretty lady find today?
+                                MOB ECHO {WAnamson {Geyes your neck wantonly!{x
+	endif
+endif~
+#40152
+mob echo {GPotion of mine boil and bubble...bring to me plenty of trouble. Glancing up {WMaria {Gnotices you and quickly moves to the counter.{x~
+#40153
+if ispc $n	
+say Yes yes come in please. Come a little closer so i can see who beckons me.
+say Much better now i can see you. Welcome to my shop.
+endif~
+#40154
+mob echo {RCRASH!!! {GThe sound of metal hitting the cement floors is nearly deafening.{x~
+#40155
+if ispc $n	
+	if sex $n < 2
+		say Hello and good day to thee noble sir.
+	else
+		say Greetings and good day to thee pretty miss.
+	endif
+endif~
+#40156
+scream
+say I do not sell junk!!!!
+mob transport $n 40100~
+#40157
+if ispc $n	
+	if sex $n < 2
+		say Good day sir. For help at anytime type bank or ask me for help.
+	else
+		say Good day maam. For help at anytime type bank or ask me for help.
+	endif
+endif~
+#40158
+say I can help you with shares, transfers, withdrawals, deposits, and converting your money from gold to silver.
+say You can also try help bank.
+~
+#40159
+say To transfer money you have to tell the bank to do it.
+say "bank transfer amount to"
+say the amount must be in your bank account and can not exceed your total worth.
+say the to must be a players name who is playing now and also has an account.
+mob echo {`{`{wTHE HEAVENS THUNDER! {GYou can not transfer your gold to another to hold for you during remort. That is cheating.{x~
+#40160
+say To deposit gold tell the bank how much gold you wish to deposit.
+say "bank deposit amount"
+say To deposit silver do it this way.
+say "bank sdeposit amount"
+mob echo {`The deposit is always in your name. You can not deposit to someone elses account that is a transfer.~
+#40161
+say Withdrawing from the bank is like depositing tell the bank how much you would like to withdraw.
+say "bank withdraw amount"
+say For withdrawing silver
+say "bank swithdraw amount"
+mob echo {``You may only withdraw from your account~
+#40162
+say Buying or selling shares can only be done with money in your bank account and is only done with gold.
+say "bank buy number amount"
+say "bank sell number amount"
+say The number is the share number. We have 4 to choose from here.
+say The amount is the number of shares you wish to purchase.~
+#40163
+say Converting silver to gold is easy here.
+say "bank convert amount"
+say The amount is the number of silver coins to convert to gold.
+mob echo {`{GThe conversion rate is {W100 {Dsilver {Gto {W1 {ygold{G!{x~
+#0
+
+
+#RESETS
+M 0 40105 1 40100 1
+M 0 40100 1 40101 1
+M 0 40100 1 40102 1
+M 0 40106 1 40106 1
+O 0 40100 0 40108
+M 0 40103 1 40108 1
+M 0 40104 1 40112 1
+M 0 40103 1 40118 1
+M 0 40107 1 40127 1
+G 0 40101 1
+G 0 40102 1
+G 0 40105 1
+G 0 40103 1
+G 0 40104 1
+G 0 40119 1
+M 0 40108 1 40130 1
+G 0 40167 1
+G 0 40168 1
+G 0 40169 1
+G 0 40187 1
+G 0 40188 1
+G 0 40189 1
+M 0 40102 1 40131 1
+M 0 40109 1 40132 1
+G 0 40107 1
+G 0 40109 1
+G 0 40106 1
+G 0 40108 1
+G 0 40165 1
+G 0 40166 1
+M 0 40110 1 40134 1
+M 0 40111 1 40135 1
+G 0 40199 1
+G 0 40200 1
+G 0 20401 1
+G 0 40202 1
+G 0 40403 1
+G 0 40204 1
+G 0 40205 1
+G 0 40206 1
+G 0 40208 1
+G 0 40207 1
+M 0 40112 1 40138 1
+G 0 40209 1
+M 0 40113 1 40140 1
+G 0 40215 1
+G 0 40216 1
+G 0 40217 1
+G 0 40218 1
+G 0 40219 1
+M 0 40102 1 40141 1
+M 0 40114 1 40142 1
+G 0 40112 1
+G 0 40111 1
+G 0 40110 1
+G 0 40113 1
+M 0 40115 1 40143 1
+G 0 40229 1
+G 0 40230 1
+G 0 40231 1
+G 0 40232 1
+G 0 40233 1
+M 0 40101 1 40145 1
+M 0 40139 1 40146 1
+G 0 40220 1
+G 0 40221 1
+G 0 40222 1
+G 0 40223 1
+G 0 40224 1
+G 0 40225 1
+G 0 40228 1
+G 0 40226 1
+G 0 40227 1
+M 0 40104 1 40150 1
+M 0 40101 1 40172 1
+O 0 40115 0 40181
+O 0 40116 0 40181
+P 0 40117 1 40116 1
+M 0 40116 1 40181 1
+M 0 40117 1 40182 1
+M 0 40118 1 40183 1
+O 0 40186 0 40183
+M 0 40119 1 40185 1
+M 0 40129 1 40191 1
+O 0 40170 0 40212
+O 0 40171 0 40212
+O 0 40172 0 40212
+M 0 40127 1 40212 1
+G 0 40173 1
+G 0 40174 1
+G 0 40175 1
+O 0 40177 0 40212
+O 0 40181 0 40212
+O 0 40182 0 40212
+G 0 40185 1
+O 0 40178 0 40213
+O 0 40183 0 40213
+O 0 40184 0 40213
+O 0 40176 0 40214
+O 0 40179 0 40214
+O 0 40180 0 40214
+M 0 40128 1 40215 1
+M 0 40130 1 40222 1
+M 0 40135 1 40223 1
+E 0 40194 1 16
+M 0 40132 1 40228 1
+E 0 40190 1 16
+E 0 40191 1 12
+M 0 40136 1 40229 1
+E 0 40196 1 9
+M 0 40134 1 40230 1
+M 0 40133 1 40231 1
+E 0 40190 1 0
+E 0 40191 1 0
+M 0 40131 1 40232 1
+M 0 40137 1 40239 1
+O 0 40195 0 40240
+O 0 40214 0 40242
+M 0 40138 1 40243 1
+E 0 40210 1 5
+E 0 40211 1 16
+G 0 40212 1
+G 0 40213 1
+S
+
+
+
+#$
+

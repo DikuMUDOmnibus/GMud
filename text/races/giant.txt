@@ -1,0 +1,51 @@
+#HELPS
+0 GIANT~
+giant are stature of large
+
+EYE: COLOR: 
+HAIR: COLOR: 
+HEIGHT: 
+WEIGHT: 
+OTHER FEATURES: 
+BUILD: 
+
+HISTORY: 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 22 Int 15 Wis 18 Dex 15 Con 20
+TRAINING POINTS TO START 18
+
+SPECIAL ABILITIES: bash, fast healing
+~
+0 $~
+
+#RACE
+giant~
+Giant~
+6
+200 150 150 100 120 150 
+bash~
+fast healing~
+~
+~
+~
+10 10 10 10 10
+30 10 16 19 25
+3
+11
+10000
+10000
+
+#INFO
+NAME giant~
+PCRACE 1
+ACT 0
+AFF 0
+OFF 0
+IMM 0
+RES HI
+VULN JP
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

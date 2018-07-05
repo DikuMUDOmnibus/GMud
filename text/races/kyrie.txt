@@ -1,0 +1,62 @@
+#HELPS
+0 KYRIE~
+kyrie are of medium stature
+
+EYE: COLOR: Yellow 
+HAIR: COLOR: Feathers, Brown/White 
+HEIGHT:  5' to 7' 
+WEIGHT: 120lbs average 
+OTHER FEATURES: Wings 
+BUILD: Muscular 
+
+HISTORY: 
+The typical kyrie resembles a humanoid hawk wearing human clothing. Kenku have both arms and wings. 
+The wings are usually folded across the back and may be mistaken at a distance for a large backpack. 
+Height ranges from 5 to 7 feet. The feathers are predominantly brown with white underfeathers and face 
+markings. The eyes are a brilliant yellow. 
+
+Kenku are a secretive race that lives among the human and demihuman races without the bulk of the 
+population ever being aware of their presence. 
+
+The actual structure of kyrie society is elusive. The kyrie themselves either refuse to comment or 
+lie. Those kyrie lairs that have been encountered tend to be small underground chambers or cave 
+complexes. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 16 Int 18 Wis 19 Dex 19 Con 17 
+TRAINING POINTS TO START 17
+
+SPECIAL ABILITIES: None 
+~
+0 $~
+
+#RACE
+kyrie~
+Kyrie~
+5
+110 110 100 120 100 100 
+~
+~
+~
+~
+~
+10 10 10 10 10
+18 21 22 21 18
+2
+11
+10600
+10600
+
+#INFO
+NAME kyrie~
+PCRACE 1
+ACT 0
+AFF T
+OFF H
+IMM 0
+RES L
+VULN 0
+FORM ABGZ
+PARTS ACDEFHJKQVX
+REML 0
+#$

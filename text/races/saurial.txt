@@ -1,0 +1,60 @@
+#HELPS
+0 SAURIAL~
+saurial are of medium stature
+
+EYE: COLOR: Green 
+HAIR: COLOR: Green, Brown 
+HEIGHT: 6' to 7' 
+WEIGHT: 200lbs average 
+OTHER FEATURES: Tail 
+BUILD: Muscular 
+
+HISTORY: 
+Adult Saurial stand 6 to 7 feet tall, weighing 200 to 250 pounds. Skin tones range from dark green 
+to gray to brown, and their scales give them a flecked appearance. Their tails average 3 to 4 feet 
+long and are not prehensile. Males are nearly impossible to distinguish from females without close 
+inspection. Saurial garb is limited to strings of bones and other barbaric ornament. 
+
+Saurial are typically found in swamps, marshes, and similar places, often (35%) dwelling totally 
+underwater in air-filled caves. A tribe rarely numbers more than 150 individuals, including females 
+and hatchlings. It is not uncommon for several tribes in an area to forge an informal alliance against 
+outsiders, including other saurial tribes. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 19 Int 19 Wis 18 Dex 14 Con 18 
+TRAINING POINTS TO START 17
+
+SPECIAL ABILITIES: trip
+~
+0 $~
+
+#RACE
+saurial~
+Sau~
+8
+100 100 200 150 120 120 
+trip~
+~
+~
+~
+~
+10 10 10 10 10
+22 22 22 14 20
+2
+11
+10200
+10200
+
+#INFO
+NAME saurial~
+PCRACE 1
+ACT 0
+AFF J
+OFF N
+IMM 0
+RES BI
+VULN L
+FORM ABHMV
+PARTS ABCDEFGHIJKQ
+REML 0
+#$

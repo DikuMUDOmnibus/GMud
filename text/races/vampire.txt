@@ -1,0 +1,97 @@
+#HELPS
+0 VAMPIRE~
+vampire are of medium stature
+
+EYE: COLOR: black 
+HAIR: COLOR: white 
+HEIGHT: 5'5" to 6'4" 
+WEIGHT: 120lbs average 
+OTHER FEATURES: Lack of reflection 
+BUILD: lean 
+
+HISTORY: 
+Of all the chaotic evil undead creatures that stalk the world, none is more dreadful than the vampire. 
+Moving silently through the night, vampires prey upon the living without mercy or compassion. Unless 
+deep underground, they must return to the coffins in which they pass the daylight hours, and even in 
+the former case they must occasionally return to such to rest, for their power is renewed by contact 
+with soil from their graves. 
+
+One aspect that makes the vampire far more fearful than many of its undead kindred is its appearance. 
+Unlike other undead creatures, the vampire can easily pass among normal men without drawing attention 
+to itself for, although its facial features are sharp and feral, they do not seem inhuman. In many 
+cases, a vampire's true nature is revealed only when it attacks. 
+
+There are ways in which a vampire may be detected by the careful observer, however. Vampires cast no 
+reflection in a glass, cast no shadows, and move in complete silence. 
+
+Vampires live in areas of death and desolation where they will not be reminded of the lives they have 
+left behind. Ruined castles or chapels and large cemeteries are popular lairs for them, as are sites 
+of great tragedies or battles. Vampires often feel a strong attachment to specific areas with some 
+morbid significance, like the grave of a suicide or the site of a murder. 
+
+When deciding on a course of action or planning a campaign, vampires move very slowly and 
+meticulously. It is not uncommon for a vampire to undertake some scheme which may take decades or even 
+centuries to reach its conclusion. Because of the curse of immortality that has fallen upon them, they 
+feel that time is always on their side and will often defeat foes who might otherwise overcome them; 
+the vampire can simply go into hiding for a few decades until the passing of the years brings down its 
+enemies. 
+
+Vampires are normally solitary creatures. When they are found in the company of others of their kind, 
+the group will certainly consist of a single vampire lord and a small group of vampires which it has 
+created to do its bidding. In this way, the vampire can exert its power over a greater range without 
+running the risk of exposing itself to attack by would-be heroes. 
+
+In general, vampires feel only contempt for the world and its inhabitants. Denied the pleasures of a 
+true life, they have become dark and twisted creatures bent on revenge and terror. When a vampire 
+creates another of its kind, it considers the new creature a mere tool. The minion will be sent on 
+missions which the vampire feels may be too dangerous or unimportant for its personal attention. If 
+the need arises, these pawns will gladly be sacrificed to protect or further the ends of their master. 
+The vampire has no place in the world of living creatures. It is a thing of darkness that exists only 
+to bring about evil and chaos. Almost without exception, the vampire is feared and hated by those who 
+dwell in the regions in which it chooses to make its home. The vampire's unnatural presence is 
+all-pervasive and will cause dogs and similar animals to raise a cry of alarm at the presence of the 
+creature. 
+
+Vampires sustain themselves by draining the life force from living creatures. Unless they have a 
+specific need to create additional minions, however, they are careful to avoid killing those they 
+attack. In cases where the death of a victim is desired, the vampire will take care to see that the 
+body is destroyed and thus will not rise as an undead. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 19 Int 18 Wis 18 Dex 19 Con 18 
+TRAINING POINTS TO START 23
+
+SPECIAL ABILITIES: 
+~
+0 $~
+
+#RACE
+vampire~
+Vam~
+9
+100 100 100 100 100 100 
+~
+~
+~
+~
+~
+10 10 10 10 10
+20 20 20 20 20
+2
+11
+10900
+10900
+
+#INFO
+NAME vampire~
+PCRACE 1
+ACT 0
+AFF JT
+OFF FH
+IMM Q
+RES B
+VULN HNSY
+FORM AHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

@@ -1,0 +1,73 @@
+#HELPS
+0 TROLL~
+trolls are of medium stature
+
+EYE: COLOR: Brown, black 
+HAIR: COLOR: Brown, black 
+HEIGHT: 8'5" to 9'3" 
+WEIGHT: 250lbs average 
+OTHER FEATURES: Hair covers most of the body, like a furr 
+BUILD: tall, muscular 
+
+HISTORY: 
+Trolls are horrid carnivores found in all climes, from arctic wastelands to tropical jungles. Most 
+creatures avoid these beasts, since trolls know no fear and attack unceasingly when hungry. Their 
+frame appears thin and frail, but trolls possess surprising strength. Their arms and legs are long and 
+ungainly. The legs end in great three-toed feet, the arms in wide, powerful hands with sharpened 
+claws. The trolls' rubbery hide is colored a moss green, mottled green and gray, or putrid gray. A 
+writhing hairlike mass grows out of their skulls and is usually greenish black or iron gray in color. 
+Their dull, sunken black eyes possess 90-foot infravision. Females are easily distinguished from 
+males; they are both larger and more powerful than their male counterparts. 
+
+Trolls walk upright but hunched forward with sagging shoulders. The trolls' gait is uneven and, when 
+running, the arms dangle free and drag along the ground. For all this seeming awkwardness, trolls are 
+very agile. They are masterful climbers and can scale even sheer cliffs with an 80% chance of success. 
+Trolls have a poor hearing, but their sense of smell is superior. 
+
+Trolls have no language of their own, using ``trollspeak'', a guttural mishmash of common, giant, 
+goblin, orc, and hobgoblin. 
+
+Trolls can survive in all climes, but prefer dense forests and subterranean locales, since bright 
+sunlight hurts their eyes; trolls suffer no combat penalties because of this. They usually make their 
+lairs in caves, using great boulders to block the entrances. Inside a troll cave are a number of rough 
+nests made of straw and grass, plus scattered bones and treasure from victims. If there are no caves 
+in an area, trolls dig themselves a trollhole and cover its opening with twigs and leaves. 
+
+STARTING STATS:  Str 10 Int 10 Wis 10 Dex 10 Con 10
+MAXIMUM STATS: Str 21 Int 13 Wis 14 Dex 21 Con 21 
+TRAINING POINTS TO START 19
+
+SPECIAL ABILITIES: berserk, second attack, fast healing 
+~
+0 $~
+
+#RACE
+troll~
+Troll~
+8
+200 200 110 100 110 200 
+berserk~
+second attack~
+fast healing~
+~
+~
+10 10 10 10 10
+28 08 12 22 30
+2
+11
+11000
+11000
+
+#INFO
+NAME troll~
+PCRACE 1
+ACT 0
+AFF FJcc
+OFF D
+IMM 0
+RES BE
+VULN HK
+FORM ABHMV
+PARTS ABCDEFGHIJK
+REML 0
+#$

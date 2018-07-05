@@ -1,0 +1,195 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ghost - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Joe\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /Fp".\Debug/ghost.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"C:\GmudV33\src_linux\act_comm.c"
+"C:\GmudV33\src_linux\act_enter.c"
+"C:\GmudV33\src_linux\act_info.c"
+"C:\GmudV33\src_linux\act_move.c"
+"C:\GmudV33\src_linux\act_newc.c"
+"C:\GmudV33\src_linux\act_obj.c"
+"C:\GmudV33\src_linux\act_wiz.c"
+"C:\GmudV33\src_linux\alias.c"
+"C:\GmudV33\src_linux\ban.c"
+"C:\GmudV33\src_linux\bank.c"
+"C:\GmudV33\src_linux\bit.c"
+"C:\GmudV33\src_linux\clan.c"
+"C:\GmudV33\src_linux\comm.c"
+"C:\GmudV33\src_linux\const.c"
+"C:\GmudV33\src_linux\db.c"
+"C:\GmudV33\src_linux\db2.c"
+"C:\GmudV33\src_linux\effects.c"
+"C:\GmudV33\src_linux\fight.c"
+"C:\GmudV33\src_linux\flags.c"
+"C:\GmudV33\src_linux\handler.c"
+"C:\GmudV33\src_linux\healer.c"
+"C:\GmudV33\src_linux\hedit.c"
+"C:\GmudV33\src_linux\interp.c"
+"C:\GmudV33\src_linux\lookup.c"
+"C:\GmudV33\src_linux\magic.c"
+"C:\GmudV33\src_linux\magic2.c"
+"C:\GmudV33\src_linux\mem.c"
+"C:\GmudV33\src_linux\mob_cmds.c"
+"C:\GmudV33\src_linux\mob_prog.c"
+"C:\GmudV33\src_linux\music.c"
+"C:\GmudV33\src_linux\new_dbx.c"
+"C:\GmudV33\src_linux\NewMagic.c"
+"C:\GmudV33\src_linux\note.c"
+"C:\GmudV33\src_linux\olc.c"
+"C:\GmudV33\src_linux\olc_act.c"
+"C:\GmudV33\src_linux\olc_mpcode.c"
+"C:\GmudV33\src_linux\olc_save.c"
+"C:\GmudV33\src_linux\recycle.c"
+"C:\GmudV33\src_linux\remort.c"
+"C:\GmudV33\src_linux\save.c"
+"C:\GmudV33\src_linux\scan.c"
+"C:\GmudV33\src_linux\skills.c"
+"C:\GmudV33\src_linux\special.c"
+"C:\GmudV33\src_linux\string.c"
+"C:\GmudV33\src_linux\tables.c"
+"C:\GmudV33\src_linux\taka.c"
+"C:\GmudV33\src_linux\update.c"
+"C:\GmudV33\src_linux\web.c"
+"C:\GmudV33\src_linux\wedding.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Joe\LOCALS~1\Temp\RSP52.tmp" 
+Creating temporary file "C:\DOCUME~1\Joe\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:".\Debug/ghost.pdb" /debug /machine:I386 /out:".\Debug/ghost.exe" 
+.\Debug\act_comm.obj
+.\Debug\act_enter.obj
+.\Debug\act_info.obj
+.\Debug\act_move.obj
+.\Debug\act_newc.obj
+.\Debug\act_obj.obj
+.\Debug\act_wiz.obj
+.\Debug\alias.obj
+.\Debug\ban.obj
+.\Debug\bank.obj
+.\Debug\bit.obj
+.\Debug\clan.obj
+.\Debug\comm.obj
+.\Debug\const.obj
+.\Debug\db.obj
+.\Debug\db2.obj
+.\Debug\effects.obj
+.\Debug\fight.obj
+.\Debug\flags.obj
+.\Debug\handler.obj
+.\Debug\healer.obj
+.\Debug\hedit.obj
+.\Debug\interp.obj
+.\Debug\lookup.obj
+.\Debug\magic.obj
+.\Debug\magic2.obj
+.\Debug\mem.obj
+.\Debug\mob_cmds.obj
+.\Debug\mob_prog.obj
+.\Debug\music.obj
+.\Debug\new_dbx.obj
+.\Debug\NewMagic.obj
+.\Debug\note.obj
+.\Debug\olc.obj
+.\Debug\olc_act.obj
+.\Debug\olc_mpcode.obj
+.\Debug\olc_save.obj
+.\Debug\recycle.obj
+.\Debug\remort.obj
+.\Debug\save.obj
+.\Debug\scan.obj
+.\Debug\skills.obj
+.\Debug\special.obj
+.\Debug\string.obj
+.\Debug\tables.obj
+.\Debug\taka.obj
+.\Debug\update.obj
+.\Debug\web.obj
+.\Debug\wedding.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Joe\LOCALS~1\Temp\RSP53.tmp"
+<h3>Output Window</h3>
+Compiling...
+act_comm.c
+act_enter.c
+act_info.c
+act_move.c
+act_newc.c
+act_obj.c
+act_wiz.c
+c:\gmudv33\src_linux\act_wiz.c(4732) : warning C4013: 'strftime' undefined; assuming extern returning int
+c:\gmudv33\src_linux\act_wiz.c(4732) : warning C4013: 'localtime' undefined; assuming extern returning int
+c:\gmudv33\src_linux\act_wiz.c(5141) : warning C4013: 'execl' undefined; assuming extern returning int
+c:\gmudv33\src_linux\act_wiz.c(6251) : warning C4013: 'ctime' undefined; assuming extern returning int
+alias.c
+ban.c
+bank.c
+bit.c
+clan.c
+comm.c
+c:\gmudv33\src_linux\comm.c(65) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+c:\gmudv33\src_linux\comm.c(65) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+c:\gmudv33\src_linux\comm.c(66) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+c:\gmudv33\src_linux\comm.c(66) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+c:\gmudv33\src_linux\comm.c(67) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+c:\gmudv33\src_linux\comm.c(67) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+c:\gmudv33\src_linux\comm.c(824) : warning C4018: '==' : signed/unsigned mismatch
+c:\gmudv33\src_linux\comm.c(825) : warning C4018: '==' : signed/unsigned mismatch
+c:\gmudv33\src_linux\comm.c(844) : warning C4018: '==' : signed/unsigned mismatch
+c:\gmudv33\src_linux\comm.c(1337) : warning C4018: '<' : signed/unsigned mismatch
+c:\gmudv33\src_linux\comm.c(1345) : warning C4018: '<' : signed/unsigned mismatch
+c:\gmudv33\src_linux\comm.c(2763) : warning C4018: '>' : signed/unsigned mismatch
+const.c
+c:\gmudv33\src_linux\comm.c(576) : warning C4761: integral size mismatch in argument; conversion supplied
+db.c
+c:\gmudv33\src_linux\db.c(3356) : warning C4101: 'magic' : unreferenced local variable
+c:\gmudv33\src_linux\db.c(4037) : warning C4013: 'getpid' undefined; assuming extern returning int
+db2.c
+effects.c
+fight.c
+flags.c
+handler.c
+healer.c
+hedit.c
+interp.c
+lookup.c
+magic.c
+magic2.c
+mem.c
+mob_cmds.c
+mob_prog.c
+music.c
+new_dbx.c
+NewMagic.c
+note.c
+olc.c
+olc_act.c
+olc_mpcode.c
+olc_save.c
+recycle.c
+remort.c
+save.c
+scan.c
+skills.c
+special.c
+string.c
+tables.c
+taka.c
+update.c
+web.c
+wedding.c
+Linking...
+
+
+
+<h3>Results</h3>
+ghost.exe - 0 error(s), 19 warning(s)
+</pre>
+</body>
+</html>
